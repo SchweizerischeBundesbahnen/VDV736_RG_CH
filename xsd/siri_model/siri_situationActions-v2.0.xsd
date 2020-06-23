@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  ~ Copyright (C) Schweizerische Bundesbahnen SBB, 2020.
-  -->
-
 <xsd:schema xmlns="http://www.siri.org.uk/siri" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.siri.org.uk/siri" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.0" id="siri_situationActions">
  <!--
 10.01.2018 D. Rubli, Siri_XML-2.0p synchronisation of recommendation with xsd:
@@ -44,7 +40,7 @@
  <xsd:include schemaLocation="siri_feature_support-v2.0.xsd"/>
  <xsd:include schemaLocation="siri_journey-v2.0.xsd"/>
  <xsd:include schemaLocation="../siri_utility/siri_types-v2.0.xsd"/>
- <xsd:include schemaLocation="../siri_utility/siri_location-v2.0.xsd"/>
+ <xsd:include schemaLocation="../siri_utility/siri_location-v2.0.xsd" />
  <xsd:annotation>
   <xsd:appinfo>
    <Metadata xmlns="http://www.govtalk.gov.uk/CM/gms-xs">
