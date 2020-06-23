@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri xsd/siri.xsd">
+ <ServiceDelivery>
+  <ResponseTimestamp>2020-03-08T14:45:40+01:00</ResponseTimestamp>
+  <ProducerRef>fisz-dds-out-sx_test</ProducerRef>
+  <Status>true</Status>
+  <SituationExchangeDelivery version="2.0_VDV1.0">
+   <ResponseTimestamp>2020-03-08T14:45:40+01:00</ResponseTimestamp>
+   <SubscriptionRef>rJZZdSxMB8</SubscriptionRef>
+   <Situations>
+    <PtSituationElement>
+     <CreationTime>2020-03-02T18:08:33+01:00</CreationTime>
+     <CountryRef>ch</CountryRef>
+     <ParticipantRef>fisz-dds-out-sx_test</ParticipantRef>
+     <SituationNumber>ch:1:sstid:100001:000000000001</SituationNumber>
+     <Version>1</Version>
+     <Source>
+      <CountryRef>ch</CountryRef>
+      <SourceType>directReport</SourceType>
+     </Source>
+     <!--VersionedAtTime wäre Pflicht bei einem Update-->
+     <!--weil Progress fehlt, wird default=open angenommen. Eine Meldung wird nur bei Progress=published den Kunden publiziert.-->
+     <Progress>published</Progress>
+     <ValidityPeriod>
+      <StartTime>2020-01-27T08:11:00+01:00</StartTime>
+      <EndTime>2020-04-01T23:59:00+02:00</EndTime>
+     </ValidityPeriod>
+     <AlertCause>constructionWork</AlertCause>
+     <!--wird nicht auswertet-->
+     <ReportType>incident</ReportType>
+     <!--Optional: Planned=true liefern-->
+     <!--Default Priority=3 (normal) wird ausgewertet-->
+     <!--Affects optional hinzufügen: betroffene Haltestelle-->
+     <PublishingActions>
+      <PublishingAction>
+       <PublishAtScope>
+        <ScopeType>stopPoint</ScopeType>
+        <Affects>
+         <Operators>
+          <AffectedOperator>
+           <OperatorRef>85:820</OperatorRef>
+          </AffectedOperator>
+         </Operators>
+         <StopPoints>
+          <AffectedStopPoint>
+           <StopPointRef>858965900</StopPointRef>
+          </AffectedStopPoint>
+          <AffectedStopPoint>
+           <StopPointRef>858965901</StopPointRef>
+          </AffectedStopPoint>
+          <AffectedStopPoint>
+           <StopPointRef>858965902</StopPointRef>
+          </AffectedStopPoint>
+          <AffectedStopPoint>
+           <StopPointRef>858966800</StopPointRef>
+          </AffectedStopPoint>
+          <AffectedStopPoint>
+           <StopPointRef>858966801</StopPointRef>
+          </AffectedStopPoint>
+          <AffectedStopPoint>
+           <StopPointRef>858966802</StopPointRef>
+          </AffectedStopPoint>
+         </StopPoints>
+        </Affects>
+       </PublishAtScope>
+       <PassengerInformationAction>
+        <!--könnte ausgelassen werden, wenn identisch wie ValidityPeriod -->
+        <PublicationWindow>
+         <StartTime>2020-01-27T08:11:00+01:00</StartTime>
+         <EndTime>2020-04-01T23:59:00+02:00</EndTime>
+        </PublicationWindow>
+        <ActionRef>5e2e8d12866cda0c44d93bfe</ActionRef>
+        <RecordedAtTime>2020-03-02T18:08:33+01:00</RecordedAtTime>
+        <Version>1</Version>
+        <SourceRef>fisz-dds-out-sx_test</SourceRef>
+        <!--optional-->
+        <OwnerRef>85:820</OwnerRef>
+        <Perspective>general</Perspective>
+        <Perspective>stopPoint</Perspective>
+        <TextualContent>
+         <SummaryContent>
+          <SummaryText xml:lang="DE">Bauarbeiten Schlösslistrasse Ebikon: Die Haltestelle Gerbe in Fahrtrichtung Unterlöchli kann nicht bedient werden. Bitte Ersatzhaltestellen benutzen.</SummaryText>
+         </SummaryContent>
+         <DescriptionContent>
+          <DescriptionText xml:lang="DE">Bauarbeiten Schlösslistrasse Ebikon: Die Haltestelle Gerbe in Fahrtrichtung Unterlöchli kann nicht bedient werden. Bitte Ersatzhaltestellen benutzen.</DescriptionText>
+         </DescriptionContent>
+        </TextualContent>
+       </PassengerInformationAction>
+      </PublishingAction>
+     </PublishingActions>
+    </PtSituationElement>
+   </Situations>
+  </SituationExchangeDelivery>
+ </ServiceDelivery>
+</Siri>
