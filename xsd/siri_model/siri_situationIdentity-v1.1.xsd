@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  ~ Copyright (C) Schweizerische Bundesbahnen SBB, 2020.
-  -->
-
 <xsd:schema xmlns="http://www.siri.org.uk/siri" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.siri.org.uk/siri" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.1" id="siri_situationIdentity">
  <!--
 12.06.2018 D. Rubli, Siri_XML-2.0p_a0.5:
@@ -122,10 +118,19 @@ Rail transport, Roads and road transport
   </xsd:simpleContent>
  </xsd:complexType>
  <!-- ======================================================================= -->
- <xsd:element name="SituationNumber" type="EntryQualifierStructure">
+ <xsd:element name="SituationNumber">
   <xsd:annotation>
-   <xsd:documentation>Identifier of SITUATION within a Participant. Excldue versionr.</xsd:documentation>
+      <xsd:appinfo>ch20200623-05</xsd:appinfo>
+      <xsd:documentation source="ch-doc">SwissSituationNumber <br/>
+       Format: <br/>
+       ch:1:sstid:[SAID]:[0-9]{12}</xsd:documentation>
+      <xsd:documentation source="ch-example">ch:1:sstid:100633:000000000001</xsd:documentation>
+      <xsd:documentation>Identifier of SITUATION within a Participant. Excldue versionr.</xsd:documentation>
   </xsd:annotation>
+  <xsd:simpleType>
+   <xsd:restriction base="xsd:string">
+   </xsd:restriction>
+  </xsd:simpleType>
  </xsd:element>
  <xsd:complexType name="EntryQualifierStructure">
   <xsd:annotation>
@@ -137,10 +142,13 @@ Rail transport, Roads and road transport
  </xsd:complexType>
  <xsd:complexType name="SituationVersion">
   <xsd:annotation>
+   <xsd:appinfo>ch20200623-06</xsd:appinfo>
    <xsd:documentation>Type for SITUATION version number if entry is update to a previous version. Unique within IncidentNumber. Monotonically increasing within IncidentNumber. Any values for classification, description, affects, effects that are present in an update replace any values on previous incidents and updates with the same identifier. Values that are not updated remain in effect.</xsd:documentation>
   </xsd:annotation>
   <xsd:simpleContent>
-   <xsd:extension base="xsd:integer"/>
+   <xsd:restriction base="xsd:positiveInteger">
+   <xsd:maxInclusive value="1000000" />
+   </xsd:restriction>
   </xsd:simpleContent>
  </xsd:complexType>
  <!-- ======================================================================= -->
@@ -149,13 +157,15 @@ Rail transport, Roads and road transport
    <xsd:documentation>Type for reference to a SITUATION or an update to a SITUATION. Participant ref is optional and may be supplied from context.</xsd:documentation>
   </xsd:annotation>
   <xsd:sequence>
-   <xsd:element name="CountryRef" type="ifopt:CountryRefStructure" minOccurs="0">
+   <xsd:element name="CountryRef" type="ifopt:CountryRefStructure">
     <xsd:annotation>
+     <xsd:appinfo>vdv20200623-01</xsd:appinfo>
      <xsd:documentation>Unique identifier of a Country of a Participant who created SITUATION. Provides namespace for Participant If absent proided from context.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
-   <xsd:element name="ParticipantRef" type="ParticipantRefStructure" minOccurs="0">
+   <xsd:element name="ParticipantRef" type="ParticipantRefStructure">
     <xsd:annotation>
+     <xsd:appinfo>vdv20200623-01</xsd:appinfo>
      <xsd:documentation>Unique identifier of a Participant. Provides namespace for SITUATION. If absent provdied from context.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
@@ -173,11 +183,13 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="UpdateCountryRef" type="ifopt:CountryRefStructure" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Unique identifier of a Country of a Participant who created Update SITUATION element. Provides namespace for VersionParticipant If absent same as.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="UpdateParticipantRef" type="ParticipantRefStructure" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Unique identifier of a Participant. Provides namespace for SITUATION. If absent provdied from context.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
