@@ -24,6 +24,7 @@ Entspricht VDV736 1.0 <br/>
 - vdv20200623-06: Attribut xml:lang als required markiert
 - vdv20200623-07: PriorityEnumeration erstellt
 - vdv20200626-02: StopPlaceRef / StopPlaceName in AffectedStopPointStructure hinzugefügt
+- vdv20200626-03: Not-Values in VehicleModesOfTransportEnumeration auskommentiert
                
 
 Weitere Änderungen seit letzter Schriftpublikation:

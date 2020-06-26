@@ -4,14 +4,12 @@
  <xsd:include schemaLocation="siri_modes-v1.1.xsd"/>
  <xsd:include schemaLocation="siri_situationServiceTypes-v1.0.xsd"/>
  <xsd:include schemaLocation="siri_situationClassifiers-v1.1.xsd"/>
- <xsd:include schemaLocation="../ifopt/ifopt_stop-v0.3.xsd"/>
- <xsd:include schemaLocation="../siri_utility/siri_location-v2.0.xsd"/>
- <xsd:include schemaLocation="../ifopt/ifopt_location-v0.3.xsd"/>
- <xsd:include schemaLocation="../ifopt/ifopt_path-v0.2.xsd"/>
+ <xsd:import namespace="http://www.ifopt.org.uk/ifopt" schemaLocation="../ifopt/ifopt_location-v0.3.xsd"/>
+ <xsd:import namespace="http://www.ifopt.org.uk/ifopt" schemaLocation="../ifopt/ifopt_stop-v0.3.xsd"/>
  <xsd:import namespace="http://www.ifopt.org.uk/ifopt" schemaLocation="../ifopt/ifopt_modes-v0.2.xsd"/>
  <xsd:import namespace="http://www.ifopt.org.uk/ifopt" schemaLocation="../ifopt/ifopt_equipment-v0.3.xsd"/>
  <xsd:import namespace="http://www.ifopt.org.uk/ifopt" schemaLocation="../ifopt/ifopt_checkpoint-v0.3.xsd"/>
-
+ <xsd:import namespace="http://www.ifopt.org.uk/ifopt" schemaLocation="../ifopt/ifopt_path-v0.2.xsd"/>
  <xsd:import namespace="http://www.ifopt.org.uk/acsb" schemaLocation="../acsb/acsb_all-v0.3.xsd"/>
  <xsd:import namespace="http://www.ifopt.org.uk/acsb" schemaLocation="../acsb/acsb_accessibility-v0.3.xsd"/>
  <xsd:import namespace="http://www.ifopt.org.uk/acsb" schemaLocation="../acsb/acsb_passengerMobility-v0.3.xsd"/>
@@ -347,7 +345,11 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element ref="VehicleMode" minOccurs="0"/>
    <xsd:group ref="PtNetworkModeChoiceGroup" minOccurs="0"/>
-   <xsd:element name="AccessMode" type="ifopt:AccessModesEnumeration" minOccurs="0"/>
+   <xsd:element name="AccessMode" type="ifopt:AccessModesEnumeration" minOccurs="0">
+    <xsd:annotation>
+      <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+    </xsd:annotation>
+   </xsd:element>
   </xsd:sequence>
  </xsd:group>
  <xsd:complexType name="AffectedInterchangeStructure">

@@ -15,7 +15,7 @@
      <SituationNumber>ch:1:sstid:100001:000000000001</SituationNumber>
      <Version>1</Version>
      <Source>
-      <Country>ch</Country>
+      <CountryRef>ch</CountryRef>
       <SourceType>directReport</SourceType>
      </Source>
      <!--VersionedAtTime wäre Pflicht bei einem Update-->

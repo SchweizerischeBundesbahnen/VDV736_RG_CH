@@ -474,7 +474,7 @@ If false or omitted, each subscription response will contain the full informatio
      <xsd:documentation>Default context for common properties of SITUATIONs, Values specified apply to all SITUATIONs unless overridden. Can be used optionally to reduce file bulk.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
-   <xsd:element name="Situations" minOccurs="0">
+   <xsd:element name="Situations">
     <xsd:annotation>
      <xsd:appinfo>ch20200623-03</xsd:appinfo>
      <xsd:documentation>SITUATIONs in Delivery.</xsd:documentation>
@@ -489,7 +489,7 @@ If false or omitted, each subscription response will contain the full informatio
       </xsd:element>
       <xsd:element ref="RoadSituationElement" minOccurs="0" maxOccurs="unbounded">
       <xsd:annotation>
-       <xsd:appinfo>ignore</xsd:appinfo>
+       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
       </xsd:annotation>
       </xsd:element>
      </xsd:sequence>
@@ -511,7 +511,7 @@ If false or omitted, each subscription response will contain the full informatio
      </xsd:group>
      <xsd:element ref="Extensions" minOccurs="0"/>
     </xsd:sequence>
-    <xsd:attribute name="version" type="VersionString" default="2.1">
+    <xsd:attribute name="version" type="VersionString" default="2.1_VDV1.0_CH1.0">
      <xsd:annotation>
       <xsd:documentation>Version number of response. Fixed </xsd:documentation>
       <xsd:documentation source="ch-doc">Corresponds to a git tag in https://github.com/SchweizerischeBundesbahnen/VDV736_RG_CH</xsd:documentation>
