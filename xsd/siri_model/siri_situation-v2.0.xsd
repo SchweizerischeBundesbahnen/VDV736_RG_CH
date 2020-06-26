@@ -86,6 +86,10 @@ siri_model\siri_situation-v2.0.xsd:
 		 Removed SubReason
 	  -->
     </Date>
+    <Date>
+     <Modified>2020-06-26</Modified>
+      - ConditionGroup gelöscht
+    </Date>
     <Description>
      <p>SIRI-SX is an XML schema for the exchange of structured SITUATIONs </p>
     </Description>
@@ -894,6 +898,7 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="AreaOfInterest" type="D2LogicalModel:AreaOfInterestEnum" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Affected overall Geographic scope.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
@@ -905,6 +910,7 @@ Rail transport, Roads and road transport
      <xsd:choice>
       <xsd:element name="AllOperators" type="EmptyType">
        <xsd:annotation>
+        <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
         <xsd:documentation>All OPERATORs.</xsd:documentation>
        </xsd:annotation>
       </xsd:element>
@@ -1117,6 +1123,7 @@ Rail transport, Roads and road transport
      <xsd:sequence>
       <xsd:element name="Image" maxOccurs="unbounded">
        <xsd:annotation>
+        <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
         <xsd:documentation>Image description.</xsd:documentation>
        </xsd:annotation>
        <xsd:complexType>
@@ -1286,14 +1293,6 @@ Rail transport, Roads and road transport
    <xsd:element ref="Extensions" minOccurs="0"/>
   </xsd:sequence>
  </xsd:complexType>
- <xsd:group name="ConditionGroup">
-  <xsd:annotation>
-   <xsd:documentation>Structured Condition Elements.</xsd:documentation>
-  </xsd:annotation>
-  <xsd:sequence>
-   <xsd:element ref="Condition" minOccurs="0" maxOccurs="unbounded"/>
-  </xsd:sequence>
- </xsd:group>
  <xsd:complexType name="BoardingStructure">
   <xsd:annotation>
    <xsd:documentation>Type for boarding restrictions.</xsd:documentation>

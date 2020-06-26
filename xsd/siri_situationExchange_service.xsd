@@ -476,16 +476,22 @@ If false or omitted, each subscription response will contain the full informatio
    </xsd:element>
    <xsd:element name="Situations" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo>ch20200623-03</xsd:appinfo>
      <xsd:documentation>SITUATIONs in Delivery.</xsd:documentation>
     </xsd:annotation>
     <xsd:complexType>
      <xsd:sequence>
-      <xsd:element name="PtSituationElement" type="PtSituationElementStructure" minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="PtSituationElement" type="PtSituationElementStructure" minOccurs="1" maxOccurs="unbounded">
        <xsd:annotation>
+        <xsd:appinfo>ch20200623-04</xsd:appinfo>
         <xsd:documentation>Description of a SITUATION.</xsd:documentation>
        </xsd:annotation>
       </xsd:element>
-      <xsd:element ref="RoadSituationElement" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element ref="RoadSituationElement" minOccurs="0" maxOccurs="unbounded">
+      <xsd:annotation>
+       <xsd:appinfo>ignore</xsd:appinfo>
+      </xsd:annotation>
+      </xsd:element>
      </xsd:sequence>
     </xsd:complexType>
    </xsd:element>
@@ -505,10 +511,10 @@ If false or omitted, each subscription response will contain the full informatio
      </xsd:group>
      <xsd:element ref="Extensions" minOccurs="0"/>
     </xsd:sequence>
-    <xsd:attribute name="version" type="VersionString" default="2.0">
+    <xsd:attribute name="version" type="VersionString" default="2.1">
      <xsd:annotation>
-      <xsd:documentation>Version number of response. Fixed 
-</xsd:documentation>
+      <xsd:documentation>Version number of response. Fixed </xsd:documentation>
+      <xsd:documentation source="ch-doc">Corresponds to a git tag in https://github.com/SchweizerischeBundesbahnen/VDV736_RG_CH</xsd:documentation>
      </xsd:annotation>
     </xsd:attribute>
    </xsd:extension>

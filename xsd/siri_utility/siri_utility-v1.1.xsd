@@ -67,6 +67,7 @@ Rail transport, Roads and road transport
  <!-- ======================================================================= -->
  <xsd:element name="Extensions" type="ExtensionsStructure">
   <xsd:annotation>
+   <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
    <xsd:documentation>Extensions to schema. (Wrapper tag used to avoid problems with handling of optional 'any' by some validators).</xsd:documentation>
   </xsd:annotation>
  </xsd:element>

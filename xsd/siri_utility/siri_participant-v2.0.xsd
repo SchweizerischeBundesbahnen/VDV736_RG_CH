@@ -71,6 +71,16 @@ Rail transport, Roads and road transport
  <xsd:complexType name="ParticipantRefStructure">
   <xsd:annotation>
    <xsd:documentation>Reference to Unique identifier of participant.</xsd:documentation>
+   <xsd:documentation source="ch-doc">Reference to Unique identifier of participant. <br/>
+   Describes the system delivering the message e.g. the central data hub. <br/>
+   Format <br/>
+   Partner (mandatory) <br/>
+   -Application (optional) <br/>
+   -Richtung (mandatory): IN=Delivery to Partner / OUT=Receipt from Partner <br/>
+   -Service (mandatory): aus/ausref/et/pt/sx <br/>
+   -Number (optional): for systems with several connections to the central data hub <br/>
+   _Environment (mandatory)
+   </xsd:documentation>
   </xsd:annotation>
   <xsd:simpleContent>
    <xsd:extension base="ParticipantCodeType"/>

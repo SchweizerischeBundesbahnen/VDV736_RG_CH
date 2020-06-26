@@ -21,10 +21,10 @@
 					<Version>1</Version>
 					<Source>
 						<!--Pflicht in VDV736-->
-						<Country>ch</Country>
+						<CountryRef>ch</CountryRef>
 						<SourceType>feed</SourceType>
 						<!--Optional-->
-						<Name>VIA</Name>
+						<Name xml:lang="DE">VIA</Name>
 					</Source>
 					<!--Pflicht bei Updates-->
 					<VersionedAtTime>2020-03-19T16:18:00Z</VersionedAtTime>
@@ -57,13 +57,13 @@
 								<AffectedLine>
 									<AffectedOperator>
 										<OperatorRef>ch:1:sboid:11</OperatorRef>
-										<OperatorShortName>SBB</OperatorShortName>
+										<OperatorShortName xml:lang="DE">SBB</OperatorShortName>
 									</AffectedOperator>
 									<LineRef>ch:1:Line:11:1</LineRef>
-									<PublishedLineName>IC1</PublishedLineName>
+									<PublishedLineName xml:lang="DE">IC1</PublishedLineName>
 									<Direction>
 										<DirectionRef>H</DirectionRef>
-										<DirectionName>St. Gallen</DirectionName>
+										<DirectionName xml:lang="DE">St. Gallen</DirectionName>
 									</Direction>
 									<Routes>
 										<AffectedRoute>
@@ -110,7 +110,7 @@
 										<AffectedNetwork>
 											<AffectedLine>
 												<LineRef>85:11:9</LineRef>
-												<PublishedLineName>S9</PublishedLineName>
+												<PublishedLineName xml:lang="DE">S9</PublishedLineName>
 											</AffectedLine>
 										</AffectedNetwork>
 									</Networks>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns="http://www.siri.org.uk/siri" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.siri.org.uk/siri" elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.0" id="siri_requests">
+<xsd:schema xmlns="http://www.siri.org.uk/siri" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:xs="http://datex2.eu/schema/1_0/1_0" targetNamespace="http://www.siri.org.uk/siri"
+            elementFormDefault="qualified" attributeFormDefault="unqualified" version="2.0" id="siri_requests">
  <xsd:include schemaLocation="../siri_utility/siri_participant-v2.0.xsd"/>
  <xsd:annotation>
   <xsd:appinfo>
@@ -78,14 +80,14 @@ Rail transport, Roads and road transport
    <xsd:extension base="MessageQualifierStructure"/>
   </xsd:simpleContent>
  </xsd:complexType>
- <xsd:complexType name="SubscriptionQualifierStructure">
+ <xsd:simpleType name="SubscriptionQualifierStructure">
   <xsd:annotation>
    <xsd:documentation>Type Unique identifier of Subscription within Participant.</xsd:documentation>
   </xsd:annotation>
-  <xsd:simpleContent>
-   <xsd:extension base="xsd:NMTOKEN"/>
-  </xsd:simpleContent>
- </xsd:complexType>
+   <xsd:restriction base="xsd:NMTOKEN">
+    <xsd:maxLength value="64"/>
+   </xsd:restriction>
+ </xsd:simpleType>
  <xsd:complexType name="SubscriptionFilterStructure">
   <xsd:annotation>
    <xsd:documentation>Type Unique identifier of Subscription Filter within Participant.</xsd:documentation>
@@ -122,6 +124,9 @@ Rail transport, Roads and road transport
  <xsd:element name="ResponseTimestamp" type="xsd:dateTime">
   <xsd:annotation>
    <xsd:documentation>Time individual response element was created.</xsd:documentation>
+   <xsd:documentation source="ch-doc">Recommendation: ZULU time (milliseconds are optional) <br/>
+    Other valid date time formats with time zones are allowed <br/>
+    The central data hub delivers only ZULU time</xsd:documentation>
   </xsd:annotation>
  </xsd:element>
  <!-- ============WSDL========================================================= -->

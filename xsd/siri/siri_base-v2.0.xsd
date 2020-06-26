@@ -219,6 +219,7 @@ Rail transport, Roads and road transport.
     </xsd:sequence>
     <xsd:attribute name="srsName" type="SrsNameType">
      <xsd:annotation>
+      <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
       <xsd:documentation>Default gml coordinate format for eny location elements in response; applies if Coordinates element is used to specify points. May be overridden on individual points.</xsd:documentation>
      </xsd:annotation>
     </xsd:attribute>
