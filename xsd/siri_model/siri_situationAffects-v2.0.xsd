@@ -113,10 +113,11 @@ Rail transport, Roads and road transport
    <xsd:documentation>Type for an SCHEDULED STOP POINT affected by a SITUATION.</xsd:documentation>
   </xsd:annotation>
   <xsd:sequence>
-   <xsd:element ref="StopPointRef" />
+   <xsd:element ref="StopPointRef" >
    <xsd:annotation>
     <xsd:appinfo>ch20200626-01</xsd:appinfo>
    </xsd:annotation>
+   </xsd:element>
    <xsd:element name="PrivateRef" type="xsd:string" minOccurs="0">
     <xsd:annotation>
      <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
@@ -141,7 +142,7 @@ Rail transport, Roads and road transport
      <xsd:documentation>Spatial coordinates of STOP POINT. Derivable from StopRef.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
-   <xsd:element name="StopPlaceRef" type="StopPlaceRefStructure" minOccurs="0">
+   <xsd:element name="StopPlaceRef" type="ifopt:StopPlaceRefStructure" minOccurs="0">
     <xsd:annotation>
      <xsd:appinfo>vdv20200626-02</xsd:appinfo>
      <xsd:documentation>Reference of Stop Place related to this affected StopPoint.</xsd:documentation>
@@ -199,7 +200,9 @@ Rail transport, Roads and road transport
     </xsd:complexType>
    </xsd:element>
    <xsd:element ref="Extensions" minOccurs="0">
+    <xsd:annotation>
     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+    </xsd:annotation>
    </xsd:element>
   </xsd:sequence>
  </xsd:complexType>
@@ -444,7 +447,9 @@ Rail transport, Roads and road transport
     </xsd:annotation>
    </xsd:element>
    <xsd:element ref="Extensions" minOccurs="0">
+    <xsd:annotation>
     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+    </xsd:annotation>
    </xsd:element>
   </xsd:sequence>
  </xsd:complexType>
@@ -465,7 +470,9 @@ Rail transport, Roads and road transport
     </xsd:annotation>
    </xsd:element>
    <xsd:group ref="AffectedModeGroup">
+    <xsd:annotation>
     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+    </xsd:annotation>
    </xsd:group>
   </xsd:sequence>
  </xsd:complexType>
@@ -511,7 +518,7 @@ Rail transport, Roads and road transport
  <!-- ======================================================================= -->
  <xsd:group name="ProjectionGroup">
   <xsd:sequence>
-   <xsd:element name="LinkProjection" type="LinkProjectionStructure" minOccurs="0">
+   <xsd:element name="LinkProjection" type="ifopt:LinkProjectionStructure" minOccurs="0">
     <xsd:annotation>
      <xsd:documentation>GIs projection of Section. NB Line here means Geometry Polyline, not Transmodel Transport Line.</xsd:documentation>
     </xsd:annotation>
@@ -711,7 +718,7 @@ Rail transport, Roads and road transport
          <xsd:documentation>Stop Point of the ROUTE</xsd:documentation>
         </xsd:annotation>
        </xsd:element>
-       <xsd:element name="LinkProjectionToNextStopPoint" type="LinkProjectionStructure" minOccurs="0">
+       <xsd:element name="LinkProjectionToNextStopPoint" type="ifopt:LinkProjectionStructure" minOccurs="0">
         <xsd:annotation>
          <xsd:documentation>GIs projection of Link to the next provided StopPoint. NB Line here means Geometry Polyline, not Transmodel Transport Line.</xsd:documentation>
         </xsd:annotation>
@@ -1108,7 +1115,7 @@ Rail transport, Roads and road transport
   <xsd:complexContent>
    <xsd:extension base="AffectedStopPlaceElementStructure">
     <xsd:sequence>
-     <xsd:element name="StopPlaceRef" type="StopPlaceRefStructure">
+     <xsd:element name="StopPlaceRef" type="ifopt:StopPlaceRefStructure">
       <xsd:annotation>
        <xsd:documentation>Stop Place affected by SITUATION.</xsd:documentation>
       </xsd:annotation>
@@ -1157,7 +1164,7 @@ Rail transport, Roads and road transport
       </xsd:annotation>
       <xsd:complexType>
        <xsd:sequence>
-        <xsd:element name="NavigationPathRef" type="NavigationPathRefStructure" maxOccurs="unbounded"/>
+        <xsd:element name="NavigationPathRef" type="ifopt:NavigationPathRefStructure" maxOccurs="unbounded"/>
        </xsd:sequence>
       </xsd:complexType>
      </xsd:element>
@@ -1173,7 +1180,7 @@ Rail transport, Roads and road transport
   <xsd:complexContent>
    <xsd:extension base="AffectedStopPlaceElementStructure">
     <xsd:sequence>
-     <xsd:element name="ComponentRef" type="StopPlaceComponentRefStructure">
+     <xsd:element name="ComponentRef" type="ifopt:StopPlaceComponentRefStructure">
       <xsd:annotation>
        <xsd:documentation>Reference to a Stop Place.</xsd:documentation>
       </xsd:annotation>
@@ -1183,12 +1190,12 @@ Rail transport, Roads and road transport
        <xsd:documentation>Name of component.  (Unbounded since SIRI 2.0)</xsd:documentation>
       </xsd:annotation>
      </xsd:element>
-     <xsd:element name="ComponentType" type="StopPlaceComponentTypeEnumeration" minOccurs="0">
+     <xsd:element name="ComponentType" type="ifopt:StopPlaceComponentTypeEnumeration" minOccurs="0">
       <xsd:annotation>
        <xsd:documentation>Type of Component.</xsd:documentation>
       </xsd:annotation>
      </xsd:element>
-     <xsd:group ref="PlaceProjectionGroup" minOccurs="0"/>
+     <xsd:group ref="ifopt:PlaceProjectionGroup" minOccurs="0"/>
      <xsd:element name="Offset" type="OffsetStructure" minOccurs="0">
       <xsd:annotation>
        <xsd:documentation>Further qualifcation of affected part of Link projection,</xsd:documentation>

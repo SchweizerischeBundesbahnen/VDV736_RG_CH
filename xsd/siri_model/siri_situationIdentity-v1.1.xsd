@@ -140,17 +140,15 @@ Rail transport, Roads and road transport
    <xsd:extension base="xsd:anyURI"/>
   </xsd:simpleContent>
  </xsd:complexType>
- <xsd:complexType name="SituationVersion">
+ <xsd:simpleType name="SituationVersion">
   <xsd:annotation>
    <xsd:appinfo>ch20200623-06</xsd:appinfo>
    <xsd:documentation>Type for SITUATION version number if entry is update to a previous version. Unique within IncidentNumber. Monotonically increasing within IncidentNumber. Any values for classification, description, affects, effects that are present in an update replace any values on previous incidents and updates with the same identifier. Values that are not updated remain in effect.</xsd:documentation>
   </xsd:annotation>
-  <xsd:simpleContent>
-   <xsd:restriction base="xsd:positiveInteger">
+  <xsd:restriction base="xsd:positiveInteger">
    <xsd:maxInclusive value="1000000" />
    </xsd:restriction>
-  </xsd:simpleContent>
- </xsd:complexType>
+ </xsd:simpleType>
  <!-- ======================================================================= -->
  <xsd:group name="SituationBaseIdentityGroup">
   <xsd:annotation>
