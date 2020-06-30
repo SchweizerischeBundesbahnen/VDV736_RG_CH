@@ -35,6 +35,7 @@ Entspricht VDV736 1.0 <br/>
 - vdv20200626-03: Not-Values in VehicleModesOfTransportEnumeration auskommentiert
 - vdv20200630-01: Endtime Kardinalität 1.1 statt 0.1 in HalfOpenTimestampOutputRangeStructure
 - vdv20200630-02: Lines in AffectedStopPointStructure hinzugefügt
+- vdv20200630-03: StopPoints und StopPlaces in AffectedLineStructure hinzugefügt
 
 Reverted
 - vdv20200623-03: Progress Kardinalität 1.1 statt 0.1 -> Default auswerten reicht               
