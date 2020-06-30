@@ -61,35 +61,37 @@
 									</AffectedOperator>
 									<LineRef>ch:1:Line:11:1</LineRef>
 									<PublishedLineName xml:lang="DE">IC1</PublishedLineName>
-									<Destinations>
-										<StopPointRef>ch:1:sloid:2017</StopPointRef>
-										<StopPointName xml:lang="DE">Waldibrücke</StopPointName>
-										<StopCondition>firstRoutePoint</StopCondition>
-									</Destinations>
-									<Destinations>
-										<StopPointRef>ch:1:sloid:2022</StopPointRef>
-										<StopPointName xml:lang="DE">Eschenbach</StopPointName>
-										<StopCondition>affectedStopplace</StopCondition>
-									</Destinations>
-									<Destinations>
-										<StopPointRef>ch:1:sloid:2023</StopPointRef>
-										<StopPointName xml:lang="DE">Ballwil</StopPointName>
-										<StopCondition>affectedStopplace</StopCondition>
-									</Destinations>
-									<Destinations>
-										<StopPointRef>ch:1:sloid:2042</StopPointRef>
-										<StopPointName xml:lang="DE">Hochdorf Schönau</StopPointName>
-										<StopCondition>affectedStopplace</StopCondition>
-									</Destinations>
-									<Destinations>
-										<StopPointRef>ch:1:sloid:2024</StopPointRef>
-										<StopPointName xml:lang="DE">Hochdorf</StopPointName>
-										<StopCondition>lastRoutePoint</StopCondition>
-									</Destinations>
 									<Direction>
 										<DirectionRef>H</DirectionRef>
 										<DirectionName xml:lang="DE">St. Gallen</DirectionName>
 									</Direction>
+									<StopPoints>
+										<AffectedStopPoint>
+											<StopPointRef>ch:1:sloid:2017</StopPointRef>
+											<StopPointName xml:lang="DE">Waldibrücke</StopPointName>
+											<StopCondition>firstRoutePoint</StopCondition>
+										</AffectedStopPoint>
+										<AffectedStopPoint>
+											<StopPointRef>ch:1:sloid:2022</StopPointRef>
+											<StopPointName xml:lang="DE">Eschenbach</StopPointName>
+											<StopCondition>affectedStopplace</StopCondition>
+										</AffectedStopPoint>
+										<AffectedStopPoint>
+											<StopPointRef>ch:1:sloid:2023</StopPointRef>
+											<StopPointName xml:lang="DE">Ballwil</StopPointName>
+											<StopCondition>affectedStopplace</StopCondition>
+										</AffectedStopPoint>
+										<AffectedStopPoint>
+											<StopPointRef>ch:1:sloid:2042</StopPointRef>
+											<StopPointName xml:lang="DE">Hochdorf Schönau</StopPointName>
+											<StopCondition>affectedStopplace</StopCondition>
+										</AffectedStopPoint>
+										<AffectedStopPoint>
+											<StopPointRef>ch:1:sloid:2024</StopPointRef>
+											<StopPointName xml:lang="DE">Hochdorf</StopPointName>
+											<StopCondition>lastRoutePoint</StopCondition>
+										</AffectedStopPoint>
+									</StopPoints>
 								</AffectedLine>
 							</AffectedNetwork>
 						</Networks>
