@@ -317,6 +317,7 @@ Rail transport, Roads and road transport
    </xsd:element>
    <xsd:element name="DirectionName" type="NaturalLanguageStringStructure" minOccurs="0" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Description of DIRECTION.  (Unbounded since SIRI 2.0)</xsd:documentation>
     </xsd:annotation>
    </xsd:element>

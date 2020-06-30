@@ -421,7 +421,11 @@ be sent in the initial response (or a portion of the data if MoreData is set to 
      <xsd:documentation>Description of any error or warning condition.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
-   <xsd:group ref="SuccessInfoGroup"/>
+   <xsd:group ref="SuccessInfoGroup">
+    <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+    </xsd:annotation>
+   </xsd:group>
   </xsd:sequence>
  </xsd:group>
  <xsd:complexType name="AbstractNotificationStructure" abstract="true">
@@ -446,15 +450,24 @@ be sent in the initial response (or a portion of the data if MoreData is set to 
    <xsd:extension base="ResponseStructure">
     <xsd:sequence>
      <xsd:choice>
-      <xsd:group ref="ContextualisedResponseEndpointGroup"/>
+      <xsd:group ref="ContextualisedResponseEndpointGroup">
+       <xsd:annotation>
+        <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+       </xsd:annotation>
+      </xsd:group>
       <xsd:group ref="SubscriptionIdentifierResourcePropertyGroup"/>
      </xsd:choice>
      <xsd:group ref="DelegatorEndpointGroup">
       <xsd:annotation>
+       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
        <xsd:documentation>If request has been proxied by an intermediate  aggregting system, trackng informattion relating to the original requestor. This allows the aggregation to be stateless.</xsd:documentation>
       </xsd:annotation>
      </xsd:group>
-     <xsd:group ref="DeliveryStatusGroup"/>
+     <xsd:group ref="DeliveryStatusGroup">
+      <xsd:annotation>
+       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+      </xsd:annotation>
+     </xsd:group>
      <xsd:group ref="DeliveryDefaultGroup"/>
     </xsd:sequence>
    </xsd:extension>
@@ -467,7 +480,7 @@ be sent in the initial response (or a portion of the data if MoreData is set to 
   <xsd:sequence>
    <xsd:element name="DefaultLanguage" type="xsd:language" minOccurs="0">
     <xsd:annotation>
-     <xsd:appinfo>ch20200623-02</xsd:appinfo>
+     <xsd:appinfo source="ch-id">ch20200623-02</xsd:appinfo>
      <xsd:documentation>Default language for text elements.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
