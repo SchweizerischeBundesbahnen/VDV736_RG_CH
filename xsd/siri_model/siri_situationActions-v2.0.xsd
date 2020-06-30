@@ -116,7 +116,11 @@ Rail transport, Roads and road transport
    <xsd:documentation>Type for list of actions.</xsd:documentation>
   </xsd:annotation>
   <xsd:sequence minOccurs="0">
-   <xsd:group ref="ActionsGroup"/>
+   <xsd:group ref="ActionsGroup">
+    <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
+    </xsd:annotation>
+   </xsd:group>
    <xsd:element name="PublishingAction" type="PublishingActionStructure" minOccurs="0" maxOccurs="unbounded">
     <xsd:annotation>
      <xsd:documentation>Description of the whole action to be published. &gt;SIRI 2.0</xsd:documentation>
@@ -124,6 +128,7 @@ Rail transport, Roads and road transport
    </xsd:element>
    <xsd:element name="Extensions" type="xsd:anyType" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Extension point.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
@@ -137,6 +142,7 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="ActionStatus" type="ActionStatusEnumeration" default="open" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      <xsd:documentation>Processing Status of action at time of SITUATION publication.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
@@ -152,11 +158,13 @@ Rail transport, Roads and road transport
     <xsd:sequence>
      <xsd:element name="Description" type="NaturalLanguageStringStructure" minOccurs="0">
       <xsd:annotation>
+       <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
        <xsd:documentation>Description of action.</xsd:documentation>
       </xsd:annotation>
      </xsd:element>
      <xsd:element name="ActionData" type="ActionDataStructure" minOccurs="0" maxOccurs="unbounded">
       <xsd:annotation>
+       <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
        <xsd:documentation>Data associated with action.</xsd:documentation>
       </xsd:annotation>
      </xsd:element>
@@ -522,11 +530,13 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="DescriptionText" type="DefaultedTextStructure" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Description of SITUATION. Should not repeat any strap line included in Summary.  (Unbounded since SIRI 2.0)</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="DescriptionCloze" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      <xsd:documentation>TBD</xsd:documentation>
     </xsd:annotation>
     <xsd:complexType>
@@ -542,6 +552,7 @@ Rail transport, Roads and road transport
    </xsd:element>
    <xsd:element name="DescriptionPriority" type="xsd:positiveInteger" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Prioritises a description from the information owner's point of view, e.g. usable for sorting or hiding individual descriptions.
 1 = highest priority.</xsd:documentation>
     </xsd:annotation>
@@ -552,11 +563,13 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="ConsequenceText" type="DefaultedTextStructure" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Further consequence to passengers.  (Unbounded since SIRI 2.0)</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="ConsequenceCloze" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      <xsd:documentation>TBD</xsd:documentation>
     </xsd:annotation>
     <xsd:complexType>
@@ -572,6 +585,7 @@ Rail transport, Roads and road transport
    </xsd:element>
    <xsd:element name="ConsequencePriority" type="xsd:positiveInteger" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Prioritises a consequence from the information owner's point of view, e.g. usable for sorting or hiding individual consequences.
 1 = highest priority.</xsd:documentation>
     </xsd:annotation>
@@ -582,6 +596,7 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="DurationText" type="DefaultedTextStructure" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Further information about the duration to passengers.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
@@ -622,8 +637,9 @@ Rail transport, Roads and road transport
        <xsd:documentation>Perspective of the passenger, e.g. general, vehicleJourney, stopPoint.</xsd:documentation>
       </xsd:annotation>
      </xsd:element>
-     <xsd:element name="ActionPriority" type="xsd:positiveInteger" minOccurs="0">
+     <xsd:element name="ActionPriority" type="PriorityEnumeration" minOccurs="0">
       <xsd:annotation>
+       <xsd:appinfo source="vdv-id">vdv20200623-07</xsd:appinfo>
        <xsd:documentation>Prioritises a passenger information action from the information owner's point of view, e.g. suitable for sorting or hiding individual passenger information actions.
 1 = highest priority.</xsd:documentation>
       </xsd:annotation>
@@ -648,7 +664,11 @@ Rail transport, Roads and road transport
     </xsd:annotation>
     <xsd:complexType>
      <xsd:sequence>
-      <xsd:element name="ScopeType" type="ScopeTypeEnumeration"/>
+      <xsd:element name="ScopeType" type="ScopeTypeEnumeration">
+      <xsd:annotation>
+       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+      </xsd:annotation>
+      </xsd:element>
       <xsd:element name="Affects" type="AffectsScopeStructure"/>
      </xsd:sequence>
     </xsd:complexType>
@@ -672,11 +692,13 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="ReasonText" type="DefaultedTextStructure" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>ReasonName of passenger information action.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="ReasonNameCloze" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      <xsd:documentation>TBD</xsd:documentation>
     </xsd:annotation>
     <xsd:complexType>
@@ -697,11 +719,13 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="RecommendationText" type="DefaultedTextStructure" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Further recommendation to passengers.  (Unbounded since SIRI 2.0)</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="RecommendationCloze" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      <xsd:documentation>TBD</xsd:documentation>
     </xsd:annotation>
     <xsd:complexType>
@@ -717,6 +741,7 @@ Rail transport, Roads and road transport
    </xsd:element>
    <xsd:element name="RecommendationPriority" type="xsd:positiveInteger" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Prioritises a recommendation from the information owner's point of view, e.g. usable for sorting or hiding individual recommendations.
 1 = highest priority.</xsd:documentation>
     </xsd:annotation>
@@ -744,11 +769,13 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="Remark" type="DefaultedTextStructure" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Further remark to passengers, e,g, "For more information call xy".</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="RemarkPriority" type="xsd:positiveInteger" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Prioritises a remark from the information owner's point of view, e.g. usable for sorting or hiding individual remarks.
 1 = highest priority.</xsd:documentation>
     </xsd:annotation>
@@ -764,6 +791,7 @@ Rail transport, Roads and road transport
    </xsd:element>
    <xsd:element name="SummaryCloze" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      <xsd:documentation>TBD</xsd:documentation>
     </xsd:annotation>
     <xsd:complexType>
@@ -788,53 +816,70 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="TextualContentSize" type="xsd:NMTOKENS" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Class of size, e.g. L (large), M (medium), S (small)</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
-   <xsd:group ref="ActionsGroup" minOccurs="0"/>
+   <xsd:group ref="ActionsGroup" minOccurs="0">
+    <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
+    </xsd:annotation>
+   </xsd:group>
    <xsd:element name="SummaryContent" type="SummaryContentStructure">
     <xsd:annotation>
      <xsd:documentation>Content for summary of a passenger information action</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
-   <xsd:element name="ReasonContent" type="ReasonNameContentStructure" minOccurs="0"/>
+   <xsd:element name="ReasonContent" type="ReasonNameContentStructure" minOccurs="0">
+    <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+    </xsd:annotation>
+   </xsd:element>
    <xsd:element name="DescriptionContent" type="DescriptionContentStructure" minOccurs="0" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Content for n descriptions of a passenger information action</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="ConsequenceContent" type="ConsequenceContentStructure" minOccurs="0" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Content for n consequences of a passenger information action</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="RecommendationContent" type="RecommendationContentStructure" minOccurs="0" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Content for n recommendations of a passenger information action</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="DurationContent" type="DurationContentStructure" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Content to inform about a passenger information action.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="RemarkContent" type="RemarkContentStructure" minOccurs="0" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Content for n remarks of a passenger information action, e,g, "For more information call xy".</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="InfoLink" type="InfoLinkStructure" minOccurs="0" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Hyperlinks to other resources associated with SITUATION.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="Image" type="ImageStructure" minOccurs="0" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Any images associated with SITUATION.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="Internal" type="DefaultedTextStructure" minOccurs="0" maxOccurs="unbounded">
     <xsd:annotation>
+     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>for internal information only, not passenger relevant</xsd:documentation>
     </xsd:annotation>
    </xsd:element>

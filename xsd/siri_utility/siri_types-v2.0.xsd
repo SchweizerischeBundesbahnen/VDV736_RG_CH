@@ -64,7 +64,7 @@
  <!--==== Basic Types =======================================================================-->
  <xsd:attribute name="lang">
   <xsd:annotation>
-   <xsd:appinfo>ch20200623-02</xsd:appinfo>
+   <xsd:appinfo source="ch-id">ch20200623-02</xsd:appinfo>
   </xsd:annotation>
   <xsd:simpleType >
   <xsd:restriction base="xsd:language">
@@ -74,7 +74,7 @@
  </xsd:attribute>
  <xsd:element name="SwissLanguage">
   <xsd:annotation>
-   <xsd:appinfo>ch20200623-02</xsd:appinfo>
+   <xsd:appinfo source="ch-id">ch20200623-02</xsd:appinfo>
   </xsd:annotation>
   <xsd:simpleType >
    <xsd:restriction base="xsd:language">
@@ -90,7 +90,7 @@
  </xsd:simpleType>
  <xsd:simpleType name="PopulatedStringType">
   <xsd:annotation>
-   <xsd:appinfo>ch20200623-09</xsd:appinfo>
+   <xsd:appinfo source="ch-id">ch20200623-09</xsd:appinfo>
    <xsd:documentation>A restriction of W3C XML Schema's string that requires at least one character of text.</xsd:documentation>
   </xsd:annotation>
   <xsd:restriction base="xsd:string">
@@ -107,8 +107,8 @@
 
     <xsd:attribute ref="xml:lang" use="required">
     <xsd:annotation>
-     <xsd:appinfo>ch20200623-02</xsd:appinfo>
-     <xsd:appinfo>vdv20200623-06</xsd:appinfo>
+     <xsd:appinfo source="ch-id">ch20200623-02</xsd:appinfo>
+     <xsd:appinfo source="vdv-id">vdv20200623-06</xsd:appinfo>
     </xsd:annotation>
     </xsd:attribute>
    </xsd:extension>

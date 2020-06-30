@@ -471,25 +471,26 @@ If false or omitted, each subscription response will contain the full informatio
   <xsd:sequence>
    <xsd:element name="PtSituationContext" type="ContextStructure" minOccurs="0">
     <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      <xsd:documentation>Default context for common properties of SITUATIONs, Values specified apply to all SITUATIONs unless overridden. Can be used optionally to reduce file bulk.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="Situations">
     <xsd:annotation>
-     <xsd:appinfo>ch20200623-03</xsd:appinfo>
+     <xsd:appinfo source="ch-id">ch20200623-03</xsd:appinfo>
      <xsd:documentation>SITUATIONs in Delivery.</xsd:documentation>
     </xsd:annotation>
     <xsd:complexType>
      <xsd:sequence>
-      <xsd:element name="PtSituationElement" type="PtSituationElementStructure" minOccurs="1" maxOccurs="unbounded">
+      <xsd:element name="PtSituationElement" type="PtSituationElementStructure" maxOccurs="unbounded">
        <xsd:annotation>
-        <xsd:appinfo>ch20200623-04</xsd:appinfo>
+        <xsd:appinfo source="ch-id">ch20200623-04</xsd:appinfo>
         <xsd:documentation>Description of a SITUATION.</xsd:documentation>
        </xsd:annotation>
       </xsd:element>
       <xsd:element ref="RoadSituationElement" minOccurs="0" maxOccurs="unbounded">
       <xsd:annotation>
-       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+       <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
       </xsd:annotation>
       </xsd:element>
      </xsd:sequence>
@@ -509,10 +510,15 @@ If false or omitted, each subscription response will contain the full informatio
        <xsd:documentation>Payload part of Situation Exchange Service delivery.</xsd:documentation>
       </xsd:annotation>
      </xsd:group>
-     <xsd:element ref="Extensions" minOccurs="0"/>
+     <xsd:element ref="Extensions" minOccurs="0">
+      <xsd:annotation>
+       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+      </xsd:annotation>
+     </xsd:element>
     </xsd:sequence>
-    <xsd:attribute name="version" type="VersionString" default="2.1_VDV1.0_CH1.0">
+    <xsd:attribute name="version" type="VersionString" default="2.1_VDV1.0">
      <xsd:annotation>
+      <xsd:appinfo source="ch-id">ch20200630-02</xsd:appinfo>
       <xsd:documentation>Version number of response. Fixed </xsd:documentation>
       <xsd:documentation source="ch-doc">Corresponds to a git tag in https://github.com/SchweizerischeBundesbahnen/VDV736_RG_CH</xsd:documentation>
      </xsd:annotation>

@@ -386,63 +386,63 @@ Rail transport, Roads and road transport.
    <xsd:sequence>
     <xsd:element ref="IncludedSituationExchangeDelivery" minOccurs="0" maxOccurs="unbounded">
     <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
     </xsd:annotation>
     </xsd:element>
     <xsd:choice>
      <xsd:element ref="ProductionTimetableDelivery" maxOccurs="unbounded">
      <xsd:annotation>
-      <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+      <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      </xsd:annotation>
      </xsd:element>
      <xsd:element ref="EstimatedTimetableDelivery" maxOccurs="unbounded">
      <xsd:annotation>
-      <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+      <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      </xsd:annotation>
      </xsd:element>
      <xsd:element ref="StopTimetableDelivery" maxOccurs="unbounded">
      <xsd:annotation>
-      <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+      <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      </xsd:annotation>
      </xsd:element>
      <xsd:element ref="StopMonitoringDelivery" maxOccurs="unbounded">
       <xsd:annotation>
-       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+       <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
        <xsd:documentation>Delviery for Stop Event service.</xsd:documentation>
       </xsd:annotation>
      </xsd:element>
      <xsd:element ref="VehicleMonitoringDelivery" maxOccurs="unbounded">
       <xsd:annotation>
-       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+       <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
        <xsd:documentation>Delviery for Vehicle Activity Service.</xsd:documentation>
       </xsd:annotation>
      </xsd:element>
      <xsd:element ref="ConnectionTimetableDelivery" maxOccurs="unbounded">
      <xsd:annotation>
-      <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+      <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      </xsd:annotation>
      </xsd:element>
      <xsd:element ref="ConnectionMonitoringFeederDelivery" maxOccurs="unbounded">
       <xsd:annotation>
-       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+       <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
        <xsd:documentation>Delivery for Connection Protection Fetcher Service.</xsd:documentation>
       </xsd:annotation>
      </xsd:element>
      <xsd:element ref="ConnectionMonitoringDistributorDelivery" maxOccurs="unbounded">
       <xsd:annotation>
-       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+       <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
        <xsd:documentation>Delivery for Connection Protection Fetcher Service.</xsd:documentation>
       </xsd:annotation>
      </xsd:element>
      <xsd:element ref="GeneralMessageDelivery" maxOccurs="unbounded">
       <xsd:annotation>
-       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+       <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
        <xsd:documentation>Delivery for general Message service.</xsd:documentation>
       </xsd:annotation>
      </xsd:element>
      <xsd:element ref="FacilityMonitoringDelivery" maxOccurs="unbounded">
      <xsd:annotation>
-      <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
+      <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      </xsd:annotation>
      </xsd:element>
     </xsd:choice>

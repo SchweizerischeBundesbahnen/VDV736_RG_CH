@@ -120,7 +120,7 @@ Rail transport, Roads and road transport
  <!-- ======================================================================= -->
  <xsd:element name="SituationNumber">
   <xsd:annotation>
-      <xsd:appinfo>ch20200623-05</xsd:appinfo>
+      <xsd:appinfo source="ch-id">ch20200623-05</xsd:appinfo>
       <xsd:documentation source="ch-doc">SwissSituationNumber <br/>
        Format: <br/>
        ch:1:sstid:[SAID]:[0-9]{12}</xsd:documentation>
@@ -142,10 +142,11 @@ Rail transport, Roads and road transport
  </xsd:complexType>
  <xsd:simpleType name="SituationVersion">
   <xsd:annotation>
-   <xsd:appinfo>ch20200623-06</xsd:appinfo>
+   <xsd:appinfo source="ch-id">ch20200623-06</xsd:appinfo>
    <xsd:documentation>Type for SITUATION version number if entry is update to a previous version. Unique within IncidentNumber. Monotonically increasing within IncidentNumber. Any values for classification, description, affects, effects that are present in an update replace any values on previous incidents and updates with the same identifier. Values that are not updated remain in effect.</xsd:documentation>
   </xsd:annotation>
   <xsd:restriction base="xsd:positiveInteger">
+   <xsd:minInclusive value="1" />
    <xsd:maxInclusive value="1000000" />
    </xsd:restriction>
  </xsd:simpleType>
@@ -157,13 +158,13 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="CountryRef" type="ifopt:CountryRefStructure">
     <xsd:annotation>
-     <xsd:appinfo>vdv20200623-01</xsd:appinfo>
+     <xsd:appinfo source="vdv-id">vdv20200623-01</xsd:appinfo>
      <xsd:documentation>Unique identifier of a Country of a Participant who created SITUATION. Provides namespace for Participant If absent proided from context.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="ParticipantRef" type="ParticipantRefStructure">
     <xsd:annotation>
-     <xsd:appinfo>vdv20200623-01</xsd:appinfo>
+     <xsd:appinfo source="vdv-id">vdv20200623-01</xsd:appinfo>
      <xsd:documentation>Unique identifier of a Participant. Provides namespace for SITUATION. If absent provdied from context.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>

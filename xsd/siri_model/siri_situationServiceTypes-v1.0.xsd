@@ -440,7 +440,7 @@
  </xsd:element>
  <xsd:simpleType name="RoutePointTypeEnumeration">
   <xsd:annotation>
-   <xsd:appinfo>vdv20200626-01</xsd:appinfo>
+   <xsd:appinfo source="vdv-id">vdv20200626-01</xsd:appinfo>
    <xsd:documentation>Values for TPEG Pti015 / PTS044 - RoutePointType</xsd:documentation>
   </xsd:annotation>
   <xsd:restriction base="xsd:NMTOKEN">
@@ -451,7 +451,7 @@
    </xsd:enumeration>
    <xsd:enumeration value="origin">
     <xsd:annotation>
-     <xsd:documentation>PTS044, in TPEG Pti15_1 start point</xsd:documentation>
+     <xsd:documentation>TPEG Pti15_1 start point</xsd:documentation>
     </xsd:annotation>
    </xsd:enumeration>
    <xsd:enumeration value="destination">
@@ -519,13 +519,15 @@
      <xsd:documentation>TPEG Pti15_14, not via</xsd:documentation>
     </xsd:annotation>
    </xsd:enumeration>
-   <xsd:enumeration value="alteredStartPoint">
+   <xsd:enumeration value="firstRoutePoint">
     <xsd:annotation>
+     <xsd:appinfo source="vdv-id">vdv20200626-01</xsd:appinfo>
      <xsd:documentation>TPEG Pti15_15, altered start point</xsd:documentation>
     </xsd:annotation>
    </xsd:enumeration>
-   <xsd:enumeration value="alteredDestination">
+   <xsd:enumeration value="lastRoutePoint">
     <xsd:annotation>
+     <xsd:appinfo source="vdv-id">vdv20200626-01</xsd:appinfo>
      <xsd:documentation>TPEG Pti15_16, altered destination</xsd:documentation>
     </xsd:annotation>
    </xsd:enumeration>
@@ -534,24 +536,38 @@
      <xsd:documentation>TPEG Pti15_255, undefined route point</xsd:documentation>
     </xsd:annotation>
    </xsd:enumeration>
+   <xsd:enumeration value="legBoard">
+    <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
+     <xsd:documentation>PTS044, Usage: TripLeg in Trias</xsd:documentation>
+    </xsd:annotation>
+   </xsd:enumeration>
+   <xsd:enumeration value="legIntermediate">
+    <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
+     <xsd:documentation>PTS044, Usage: TripLeg in Trias</xsd:documentation>
+    </xsd:annotation>
+   </xsd:enumeration>
+   <xsd:enumeration value="legAlight">
+    <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
+     <xsd:documentation>PTS044, Usage: TripLeg in Trias</xsd:documentation>
+    </xsd:annotation>
+   </xsd:enumeration>
    <xsd:enumeration value="affectedStopplace">
     <xsd:annotation>
+     <xsd:documentation>PTS044, first route point</xsd:documentation>
+    </xsd:annotation>
+   </xsd:enumeration>
+   <xsd:enumeration value="presentedStopplace">
+    <xsd:annotation>
+     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
      <xsd:documentation>PTS044, first route point</xsd:documentation>
     </xsd:annotation>
    </xsd:enumeration>
    <xsd:enumeration value="undefinedStopplaceUsage">
     <xsd:annotation>
      <xsd:documentation>PTS044, first route point</xsd:documentation>
-    </xsd:annotation>
-   </xsd:enumeration>
-   <xsd:enumeration value="firstRoutePoint">
-    <xsd:annotation>
-     <xsd:documentation>PTS044, first route point</xsd:documentation>
-    </xsd:annotation>
-   </xsd:enumeration>
-   <xsd:enumeration value="lastRoutePoint">
-    <xsd:annotation>
-     <xsd:documentation>PTS044, last route point</xsd:documentation>
     </xsd:annotation>
    </xsd:enumeration>
   </xsd:restriction>
