@@ -16,7 +16,8 @@ Initiale Version basierend auf https://github.com/SIRI-CEN/SIRI/commit/46a470f9c
 - ch20200623-08: Default undefinedAlertCause gesetzt 
 - ch20200626-01: StopPointRef in AffectedStopPointStructure Kardinalität 1.1 statt 0.1
 - ch20200626-02: OperatorRef in AffectedOperatorStructure Kardinalität 1.1 statt 0.1
-- ch20200630-02: Attribut version in SituationExchangeDelivery Default auf 2.1_VDV1.0 angepasst 
+- ch20200630-02: Attribut version in SituationExchangeDelivery Default auf 2.1_VDV1.0 angepasst
+- ch20200630-03: sämtliche Extensions als Not markieren 
 
 ### VDV736 (CR angenommen)
 
@@ -28,29 +29,30 @@ Initiale Version basierend auf https://github.com/SIRI-CEN/SIRI/commit/46a470f9c
 ### Reverted Changes 
 - ch20200623-07: ClosedTimestampRangeStructure statt HalfOpenTimestampOutputRangeStructure in ValidityPeriod/PublicationWindow auf Situation-Ebene
 
-## VDV736 Changelog
+## VDV736 Changelog 
 Entspricht VDV736 1.0 <br/>
 ### Nicht Siri-relevant
 - vdv20200623-01: CountryRef/ParticipantRef in SituationBaseIdentityGroup Kardinalität 1.1 statt 0.1
 - vdv20200623-02: CountryRef in SituationSourceStructure Kardinalität 1.1 statt 0.1
 - vdv20200626-03: Not-Values in VehicleModesOfTransportEnumeration auskommentiert
 - vdv20200630-01: Endtime Kardinalität 1.1 statt 0.1 in HalfOpenTimestampOutputRangeStructure
+- vdv20200623-07: PriorityEnumeration erstellt, Kardinalität von 0.1 auf 1.1 gesetzt auf Situation-Ebene
 
 ### Siri-relevant (CR einreichen)
 - vdv20200623-04: ValidityPeriod als innerhalb eines PublicationWindows beschrieben
 - vdv20200623-06: Attribut xml:lang als required markiert
-- vdv20200626-01: RoutePointTypeEnumeration angepasst
-- vdv20200623-07: PriorityEnumeration erstellt, Kardinalität von 0.1 auf 1.1 gesetzt auf Situation-Ebene 
+- vdv20200626-01: RoutePointTypeEnumeration angepasst 
 - vdv20200626-02: StopPlaceRef / StopPlaceName in AffectedStopPointStructure hinzugefügt
 - vdv20200630-02: Lines in AffectedStopPointStructure hinzugefügt
 - vdv20200630-03: StopPoints und StopPlaces in AffectedLineStructure hinzugefügt
-
+- vdv20200630-05: Version in SituationUpdateIdentityGroup Kardinalität von 0.1 auf 1.1 gesetzt
 
 ### Siri-relevant (CR angenommen)
 
 ### Reverted Changes
 - vdv20200623-03: Progress Kardinalität 1.1 statt 0.1 -> Default auswerten reicht               
-- vdv20200623-05: AlertCause Element eingefügt -> in Siri führt das Element TpegReason Pts38
+- vdv20200623-05: AlertCause Element eingefügt -> in Siri ist das Element TpegReason Pts38 dazu vorgesehen
+- vdv20200630-04: CountryRef zu Country umbenannt in SituationSourceStructure (Siri-Kompabilität)
 
 
 ## Siri Changelog
