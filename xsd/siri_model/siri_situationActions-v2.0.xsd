@@ -40,7 +40,7 @@
  <xsd:include schemaLocation="siri_feature_support-v2.0.xsd"/>
  <xsd:include schemaLocation="siri_journey-v2.0.xsd"/>
  <xsd:include schemaLocation="../siri_utility/siri_types-v2.0.xsd"/>
- <xsd:include schemaLocation="../siri_utility/siri_location-v2.0.xsd" />
+ <xsd:include schemaLocation="../siri_utility/siri_location-v2.0.xsd"/>
  <xsd:annotation>
   <xsd:appinfo>
    <Metadata xmlns="http://www.govtalk.gov.uk/CM/gms-xs">
@@ -518,19 +518,7 @@ Rail transport, Roads and road transport
   </xsd:complexContent>
  </xsd:complexType>
  <!-- ===Extentions for SIRI-SX v2.0p-a0.x================================================== -->
- <xsd:complexType name="ActionPeriodStructure">
-  <xsd:sequence>
-   <xsd:element name="StartTime" type="xsd:time"/>
-   <xsd:element name="EndTime" type="xsd:time"/>
-  </xsd:sequence>
- </xsd:complexType>
- <xsd:complexType name="AffectsSegmentStructure">
-  <xsd:sequence>
-   <xsd:element name="Start" type="AffectedPlaceStructure"/>
-   <xsd:element name="End" type="AffectedPlaceStructure"/>
-  </xsd:sequence>
- </xsd:complexType>
- <xsd:complexType name="DescriptionContentStructure">
+  <xsd:complexType name="DescriptionContentStructure">
   <xsd:sequence>
    <xsd:element name="DescriptionText" type="DefaultedTextStructure" maxOccurs="unbounded">
     <xsd:annotation>
@@ -590,15 +578,6 @@ Rail transport, Roads and road transport
    </xsd:element>
   </xsd:sequence>
  </xsd:complexType>
- <xsd:simpleType name="Duration235959">
-  <xsd:annotation>
-   <xsd:documentation>Duration of specific time range (smaller than 24h). StartTime plus Duration can result in a time on the next day, smaller than the StartTime.</xsd:documentation>
-  </xsd:annotation>
-  <xsd:restriction base="xsd:duration">
-   <xsd:minInclusive value="P0Y0M0DT0H0M1S"/>
-   <xsd:maxInclusive value="P0Y0M0DT23H59M59S"/>
-  </xsd:restriction>
- </xsd:simpleType>
  <xsd:complexType name="DurationContentStructure">
   <xsd:sequence>
    <xsd:element name="DurationText" type="DefaultedTextStructure" maxOccurs="unbounded">

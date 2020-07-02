@@ -11,7 +11,7 @@ siri_model\siri_situation-v2.0.xsd:
 - AudienceEnumeration Enum value "authorities" added according to recommendation document.
 - AudienceEnumeration Enum value "transportOperators" added according to recommendation document.
 13.06.2018 D. Rubli, Siri_XML-2.0p_a0.5:
-- StatusGroup.Progress changed from optional to mandatory
+- StatusGroup.Progress changed from optional to mandatory -> reverted
 - PublicationWindow changed to unbounded
 -->
  <!-- ======================================================================= -->
@@ -20,7 +20,6 @@ siri_model\siri_situation-v2.0.xsd:
  <xsd:import namespace="http://www.ifopt.org.uk/acsb" schemaLocation="../acsb/acsb_accessibility-v0.3.xsd"/>
  <xsd:import namespace="http://www.ifopt.org.uk/ifopt" schemaLocation="../ifopt/ifopt_countries-v0.2.xsd"/>
  <xsd:import namespace="http://datex2.eu/schema/2_0RC1/2_0" schemaLocation="../datex2/DATEXIISchema_2_0RC1_2_0.xsd"/>
-
  <!-- ======================================================================= -->
  <xsd:include schemaLocation="siri_situationIdentity-v1.1.xsd"/>
  <xsd:include schemaLocation="siri_situationServiceTypes-v1.0.xsd"/>
@@ -687,7 +686,7 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:group ref="ReasonGroup"/>
    <xsd:element ref="Severity" minOccurs="0"/>
-   <xsd:element name="Priority" type="xsd:nonNegativeInteger" minOccurs="0">
+   <xsd:element name="Priority" type="PriorityEnumeration" minOccurs="0">
     <xsd:annotation>
      <xsd:documentation>Arbitrary rating of priority 1-High.</xsd:documentation>
     </xsd:annotation>
@@ -765,6 +764,19 @@ Rail transport, Roads and road transport
    </xsd:element>
   </xsd:sequence>
  </xsd:group>
+
+ <xsd:simpleType name="PriorityEnumeration">
+  <xsd:annotation>
+   <xsd:appinfo>vdv20200623-07</xsd:appinfo>
+   <xsd:documentation>Values for Priority.</xsd:documentation>
+  </xsd:annotation>
+  <xsd:restriction base="xsd:integer">
+   <xsd:enumeration value="1"/>
+   <xsd:enumeration value="2"/>
+   <xsd:enumeration value="3"/>
+   <xsd:enumeration value="4"/>
+  </xsd:restriction>
+ </xsd:simpleType>
  <xsd:simpleType name="SensitivityEnumeration">
   <xsd:annotation>
    <xsd:documentation>Values for Sensitivity.</xsd:documentation>
@@ -1163,7 +1175,7 @@ Rail transport, Roads and road transport
      <xsd:documentation>Period of effect of disruption, if different from that of SITUATION.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
-   <xsd:element ref="Condition" minOccurs="0" maxOccurs="unbounded"/>
+   <xsd:group ref="ConditionGroup"/>
    <xsd:element name="Severity" type="SeverityEnumeration" minOccurs="0">
     <xsd:annotation>
      <xsd:documentation>Severity of disruption if different from that of SITUATION. TPEG pti26</xsd:documentation>
