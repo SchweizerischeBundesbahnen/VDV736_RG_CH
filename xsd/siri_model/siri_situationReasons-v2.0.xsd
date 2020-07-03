@@ -117,8 +117,10 @@ Rail transport, Roads and road transport
      <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
     </xsd:annotation>
    </xsd:element>
-   <xsd:element ref="TpegReason">
+   <xsd:element ref="AlertCause">
     <xsd:annotation>
+     <xsd:appinfo source="ch-id">ch20200623-08</xsd:appinfo>
+     <xsd:appinfo source="vdv-id">vdv20200623-05</xsd:appinfo>
      <xsd:documentation>Classification corresponding to TPEG Pts38 - AlertCause</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
@@ -195,7 +197,7 @@ Rail transport, Roads and road transport
   </xsd:annotation>
  </xsd:element>
  <!-- ===================================================== -->
- <xsd:element name="TpegReason" type="AlertCauseEnumeration" default="undefinedAlertCause">
+ <xsd:element name="AlertCause" type="AlertCauseEnumeration" default="undefinedAlertCause">
   <xsd:annotation>
    <xsd:appinfo source="ch-id">ch20200623-08</xsd:appinfo>
    <xsd:documentation>TPEG Pts38 - AlertCause</xsd:documentation>
