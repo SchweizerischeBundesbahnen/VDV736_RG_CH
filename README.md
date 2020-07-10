@@ -1,4 +1,4 @@
 # VDV736_RG_CH
-This repository documents the API usage for the Swiss Siri SX data interchange.
+This repository documents the Swiss Siri SX profile
 
 
