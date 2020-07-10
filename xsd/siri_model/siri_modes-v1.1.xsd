@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2018 sp1 (x64) (http://www.altova.com) von David Sielaff (Verkehrsverbund Rhein-Sieg GmbH) bearbeitet -->
 <xsd:schema xmlns="http://www.siri.org.uk/siri" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.siri.org.uk/siri" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.1" id="siri_modes">
  <xsd:annotation>
   <xsd:appinfo>
@@ -101,53 +102,19 @@ Rail transport, Roads and road transport
    <xsd:documentation>Submode of mode.</xsd:documentation>
   </xsd:annotation>
   <xsd:choice>
-   <xsd:element ref="AirSubmode">
-    <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-    </xsd:annotation>
-   </xsd:element>
-   <xsd:element ref="BusSubmode">
-    <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-    </xsd:annotation>
-   </xsd:element>
-   <xsd:element ref="CoachSubmode">
-    <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-    </xsd:annotation>
-   </xsd:element>
-   <xsd:element ref="MetroSubmode">
-    <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-    </xsd:annotation>
-   </xsd:element>
-   <xsd:element ref="RailSubmode">
-    <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-    </xsd:annotation>
-   </xsd:element>
-   <xsd:element ref="TramSubmode">
-    <xsd:annotation>
-     <xsd:appinfo source="vdv-doc">ignore</xsd:appinfo>
-    </xsd:annotation>
-   </xsd:element>
-   <xsd:element ref="WaterSubmode">
-    <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-    </xsd:annotation>
-   </xsd:element>
-   <xsd:element ref="TelecabinSubmode">
-    <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-    </xsd:annotation>
-   </xsd:element>
+   <xsd:element ref="AirSubmode"/>
+   <xsd:element ref="BusSubmode"/>
+   <xsd:element ref="CoachSubmode"/>
+   <xsd:element ref="MetroSubmode"/>
+   <xsd:element ref="RailSubmode"/>
+   <xsd:element ref="TramSubmode"/>
+   <xsd:element ref="WaterSubmode"/>
+   <xsd:element ref="TelecabinSubmode"/>
   </xsd:choice>
  </xsd:group>
  <!-- ======================================================================= -->
  <xsd:element name="VehicleMode" type="VehicleModesOfTransportEnumeration" default="unknown">
   <xsd:annotation>
-   <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-   <xsd:appinfo source="vdv-id">vdv20200630-06</xsd:appinfo>
    <xsd:documentation>Vehicle mode- TPEG PTS001 ModeOfTransport</xsd:documentation>
   </xsd:annotation>
  </xsd:element>
@@ -205,22 +172,22 @@ Rail transport, Roads and road transport
      <xsd:documentation>Submodes provided in CoachSubmodesOfTransportEnumeration (TPEG PTS112)</xsd:documentation>
     </xsd:annotation>
    </xsd:enumeration>
-   <!--ch-xsd vdv20200626-03 <xsd:enumeration value="taxiService"/>-->
-   <!--ch-xsd vdv20200626-03 <xsd:enumeration value="rentalVehicle"/> -->
- <xsd:enumeration value="waterTransportService">
-  <xsd:annotation>
-   <xsd:documentation>Submodes provided in WaterSubmodesOfTransportEnumeration (TPEG PTS115)</xsd:documentation>
-  </xsd:annotation>
- </xsd:enumeration>
- <xsd:enumeration value="cableDrawnBoatService">
-  <xsd:annotation>
-   <xsd:documentation>Submodes provided in WaterSubmodesOfTransportEnumeration (TPEG PTS115)</xsd:documentation>
-  </xsd:annotation>
- </xsd:enumeration>
- <xsd:enumeration value="undefinedModeOfTransport"/>
-</xsd:restriction>
-</xsd:simpleType>
-<!-- ======================================================================= -->
+   <xsd:enumeration value="taxiService"/>
+   <xsd:enumeration value="rentalVehicle"/>
+   <xsd:enumeration value="waterTransportService">
+    <xsd:annotation>
+     <xsd:documentation>Submodes provided in WaterSubmodesOfTransportEnumeration (TPEG PTS115)</xsd:documentation>
+    </xsd:annotation>
+   </xsd:enumeration>
+   <xsd:enumeration value="cableDrawnBoatService">
+    <xsd:annotation>
+     <xsd:documentation>Submodes provided in WaterSubmodesOfTransportEnumeration (TPEG PTS115)</xsd:documentation>
+    </xsd:annotation>
+   </xsd:enumeration>
+   <xsd:enumeration value="undefinedModeOfTransport"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ <!-- ======================================================================= -->
  <xsd:element name="RailSubmode" type="RailSubmodesOfTransportEnumeration" default="unknown">
   <xsd:annotation>
    <xsd:documentation>TPEG PTS105 RailwayService</xsd:documentation>
@@ -271,15 +238,15 @@ Rail transport, Roads and road transport
    <xsd:enumeration value="regionalCoachService"/>
    <xsd:enumeration value="additionalCoachService"/>
    <xsd:enumeration value="nightCoachService"/>
- <!--ch-xsd vdv20200626-03 <xsd:enumeration value="specialCoachService"/>-->
- <xsd:enumeration value="sightseeingCoachService"/>
- <xsd:enumeration value="touristCoachService"/>
- <!--ch-xsd vdv20200626-03 <xsd:enumeration value="commuterCoachService"/>-->
- <!--ch-xsd vdv20200626-03 <xsd:enumeration value="onDemandService"/>-->
- <xsd:enumeration value="undefinedCoachService"/>
-</xsd:restriction>
-</xsd:simpleType>
-<!-- ======================================================================= -->
+   <xsd:enumeration value="specialCoachService"/>
+   <xsd:enumeration value="sightseeingCoachService"/>
+   <xsd:enumeration value="touristCoachService"/>
+   <xsd:enumeration value="commuterCoachService"/>
+   <xsd:enumeration value="onDemandService"/>
+   <xsd:enumeration value="undefinedCoachService"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ <!-- ======================================================================= -->
  <xsd:element name="MetroSubmode" type="MetroSubmodesOfTransportEnumeration" default="unknown">
   <xsd:annotation>
    <xsd:documentation>TPEG PTS106 UrbanRailwayService</xsd:documentation>
@@ -318,23 +285,23 @@ Rail transport, Roads and road transport
    <xsd:enumeration value="regionalBusService"/>
    <xsd:enumeration value="additionalBusService"/>
    <xsd:enumeration value="expressBusService"/>
-   <!--ch-xsd vdv20200626-03 <xsd:enumeration value="stoppingBusService"/>-->
+   <xsd:enumeration value="stoppingBusService"/>
    <xsd:enumeration value="localBusService"/>
    <xsd:enumeration value="nightBusService"/>
    <xsd:enumeration value="postBusService"/>
-   <!--ch-xsd vdv20200626-03 <xsd:enumeration value="specialNeedsBusService"/>-->
-  <!--ch-xsd vdv20200626-03 <xsd:enumeration value="mobilityBusService"/>-->
- <xsd:enumeration value="mobilityBusForRegisteredDisabledService"/>
- <xsd:enumeration value="sightseeingBusService"/>
- <xsd:enumeration value="shuttleBusService"/>
- <xsd:enumeration value="schoolBusService"/>
- <xsd:enumeration value="schoolAndPublicServiceBusService"/>
- <xsd:enumeration value="railReplacementBusService"/>
- <xsd:enumeration value="demandAndResponseBusService"/>
- <xsd:enumeration value="undefinedBusService"/>
-</xsd:restriction>
-</xsd:simpleType>
-<!-- ======================================================================= -->
+   <xsd:enumeration value="specialNeedsBusService"/>
+   <xsd:enumeration value="mobilityBusService"/>
+   <xsd:enumeration value="mobilityBusForRegisteredDisabledService"/>
+   <xsd:enumeration value="sightseeingBusService"/>
+   <xsd:enumeration value="shuttleBusService"/>
+   <xsd:enumeration value="schoolBusService"/>
+   <xsd:enumeration value="schoolAndPublicServiceBusService"/>
+   <xsd:enumeration value="railReplacementBusService"/>
+   <xsd:enumeration value="demandAndResponseBusService"/>
+   <xsd:enumeration value="undefinedBusService"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ <!-- ======================================================================= -->
  <xsd:element name="TramSubmode" type="TramSubmodesOfTransportEnumeration" default="unknown">
   <xsd:annotation>
    <xsd:documentation>TPEG pti06 Tram submodes.</xsd:documentation>
@@ -400,11 +367,11 @@ Rail transport, Roads and road transport
    <xsd:enumeration value="schoolBoatService"/>
    <xsd:enumeration value="riverBusService"/>
    <xsd:enumeration value="scheduledFerryService"/>
- <!--ch-xsd vdv20200626-03 <xsd:enumeration value="shuttleFerryService"/>-->
- <xsd:enumeration value="undefinedWaterTransportService"/>
-</xsd:restriction>
-</xsd:simpleType>
-<!-- ======================================================================= -->
+   <xsd:enumeration value="shuttleFerryService"/>
+   <xsd:enumeration value="undefinedWaterTransportService"/>
+  </xsd:restriction>
+ </xsd:simpleType>
+ <!-- ======================================================================= -->
  <xsd:element name="AirSubmode" type="AirSubmodesOfTransportEnumeration" default="unknown">
   <xsd:annotation>
    <xsd:documentation>TPEG PTS101 AirService</xsd:documentation>

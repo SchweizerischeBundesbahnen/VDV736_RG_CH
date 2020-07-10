@@ -56,11 +56,7 @@ Rail transport, Roads and road transport
  <!-- ======================================================================= -->
  <xsd:complexType name="OperatorRefStructure">
   <xsd:annotation>
-   <xsd:appinfo source="ch-id">ch20200630-01</xsd:appinfo>
    <xsd:documentation>Reference to an OPERATOR.</xsd:documentation>
-   <xsd:documentation source="ch-doc">Format: <br/>
-    PoC: VDV454 BetreiberID<br/>
-    Ph2: SBOID (SwissBusinessID)</xsd:documentation>
   </xsd:annotation>
   <xsd:simpleContent>
    <xsd:extension base="OperatorCodeType"/>
@@ -70,17 +66,12 @@ Rail transport, Roads and road transport
   <xsd:annotation>
    <xsd:documentation>Type for identifier of an OPERATOR Code.</xsd:documentation>
   </xsd:annotation>
-  <xsd:restriction base="xsd:string">
-   <xsd:maxLength value="64" />
-  </xsd:restriction>
+  <xsd:restriction base="xsd:NMTOKEN"/>
  </xsd:simpleType>
  <!-- ======================================================================= -->
  <xsd:complexType name="OrganisationRefStructure">
   <xsd:annotation>
    <xsd:documentation>Reference to an Organisation.</xsd:documentation>
-   <xsd:documentation source="ch-doc">Format: <br/>
-    PoC: VDV454 BetreiberID <br/>
-    Ph2: SBOID (SwissBusinessID)</xsd:documentation>
   </xsd:annotation>
   <xsd:simpleContent>
    <xsd:extension base="OrganisationCodeType"/>

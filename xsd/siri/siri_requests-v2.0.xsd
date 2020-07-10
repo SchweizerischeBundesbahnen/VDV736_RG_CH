@@ -207,13 +207,11 @@ Rail transport, Roads and road transport
   <xsd:sequence>
    <xsd:element name="DelegatorAddress" type="EndpointAddress" minOccurs="0">
     <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Address of original Consumer, i.e. requesting system to which delegating response is to be  returned. +SIRI 2.0</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="DelegatorRef" type="ParticipantRefStructure" minOccurs="0">
     <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Identifier of delegating system that originated message. +SIRI 2.0</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
@@ -287,13 +285,6 @@ Rail transport, Roads and road transport
    <xsd:element name="InitialTerminationTime" type="xsd:dateTime">
     <xsd:annotation>
      <xsd:documentation>Requested end time for subscription.</xsd:documentation>
-    </xsd:annotation>
-   </xsd:element>
-   <xsd:element name="SubscriptionRenewal" type="xsd:boolean" minOccurs="0">
-    <xsd:annotation>
-     <xsd:documentation>By using this element, the subscriber asks the data provider for an extension of the InitialTerminationTime of the subscription.
-If SubscriptionRenewal is omitted, this request is to be treated as a re-subscription and therefore all data corresponding to the SubscriptionRequest must 
-be sent in the initial response (or a portion of the data if MoreData is set to 'true'). +SIRI v2.1</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
   </xsd:sequence>
@@ -410,22 +401,13 @@ be sent in the initial response (or a portion of the data if MoreData is set to 
    <xsd:documentation>Status Information for individual request.</xsd:documentation>
   </xsd:annotation>
   <xsd:sequence>
-   <xsd:element ref="Status" minOccurs="0">
-   <xsd:annotation>
-    <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-   </xsd:annotation>
-   </xsd:element>
+   <xsd:element ref="Status" minOccurs="0"/>
    <xsd:element name="ErrorCondition" type="ServiceDeliveryErrorConditionStructure" minOccurs="0">
     <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Description of any error or warning condition.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
-   <xsd:group ref="SuccessInfoGroup">
-    <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-    </xsd:annotation>
-   </xsd:group>
+   <xsd:group ref="SuccessInfoGroup"/>
   </xsd:sequence>
  </xsd:group>
  <xsd:complexType name="AbstractNotificationStructure" abstract="true">
@@ -450,24 +432,15 @@ be sent in the initial response (or a portion of the data if MoreData is set to 
    <xsd:extension base="ResponseStructure">
     <xsd:sequence>
      <xsd:choice>
-      <xsd:group ref="ContextualisedResponseEndpointGroup">
-       <xsd:annotation>
-        <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-       </xsd:annotation>
-      </xsd:group>
+      <xsd:group ref="ContextualisedResponseEndpointGroup"/>
       <xsd:group ref="SubscriptionIdentifierResourcePropertyGroup"/>
      </xsd:choice>
      <xsd:group ref="DelegatorEndpointGroup">
       <xsd:annotation>
-       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
        <xsd:documentation>If request has been proxied by an intermediate  aggregting system, trackng informattion relating to the original requestor. This allows the aggregation to be stateless.</xsd:documentation>
       </xsd:annotation>
      </xsd:group>
-     <xsd:group ref="DeliveryStatusGroup">
-      <xsd:annotation>
-       <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
-      </xsd:annotation>
-     </xsd:group>
+     <xsd:group ref="DeliveryStatusGroup"/>
      <xsd:group ref="DeliveryDefaultGroup"/>
     </xsd:sequence>
    </xsd:extension>
@@ -480,7 +453,6 @@ be sent in the initial response (or a portion of the data if MoreData is set to 
   <xsd:sequence>
    <xsd:element name="DefaultLanguage" type="xsd:language" minOccurs="0">
     <xsd:annotation>
-     <xsd:appinfo source="ch-id">ch20200623-02</xsd:appinfo>
      <xsd:documentation>Default language for text elements.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
@@ -510,13 +482,11 @@ be sent in the initial response (or a portion of the data if MoreData is set to 
   <xsd:sequence>
    <xsd:element name="SubscriberRef" type="ParticipantRefStructure" minOccurs="0">
     <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Unique identifier of Subscriber - reference to a Participant.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="SubscriptionFilterRef" type="SubscriptionFilterRefStructure" minOccurs="0">
     <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Unique identifier of Subscription filter to which this subscription is assigned. If there is onlya single filter, then can be omitted.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
@@ -551,7 +521,6 @@ be sent in the initial response (or a portion of the data if MoreData is set to 
   <xsd:sequence>
    <xsd:element name="RequestMessageRef" type="MessageQualifierStructure" minOccurs="0">
     <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Arbitrary unique reference to the request which gave rise to this message.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
@@ -730,19 +699,16 @@ be sent in the initial response (or a portion of the data if MoreData is set to 
    </xsd:element>
    <xsd:element name="Address" type="EndpointAddress" minOccurs="0">
     <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Endpoint Address to which acknowledgements to confirm delivery are to be sent.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="ResponseMessageIdentifier" type="MessageQualifierStructure" minOccurs="0">
     <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>An arbitrary unique reference associated with the response which may be used to reference it.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>
    <xsd:element name="RequestMessageRef" type="MessageRefStructure" minOccurs="0">
     <xsd:annotation>
-     <xsd:appinfo source="ch-doc">ignore</xsd:appinfo>
      <xsd:documentation>Reference to an arbitrary unique identifier associated with the request which gave rise to this response.</xsd:documentation>
     </xsd:annotation>
    </xsd:element>

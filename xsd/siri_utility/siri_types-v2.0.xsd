@@ -62,26 +62,6 @@
   <xsd:documentation>SIRI Framework Base Types.</xsd:documentation>
  </xsd:annotation>
  <!--==== Basic Types =======================================================================-->
- <xsd:attribute name="lang">
-  <xsd:annotation>
-   <xsd:appinfo source="ch-id">ch20200623-02</xsd:appinfo>
-  </xsd:annotation>
-  <xsd:simpleType >
-  <xsd:restriction base="xsd:language">
-     <xsd:pattern value="[de|DE|fr|FR|it|IT].*"/>
-  </xsd:restriction>
- </xsd:simpleType>
- </xsd:attribute>
- <xsd:element name="SwissLanguage">
-  <xsd:annotation>
-   <xsd:appinfo source="ch-id">ch20200623-02</xsd:appinfo>
-  </xsd:annotation>
-  <xsd:simpleType >
-   <xsd:restriction base="xsd:language">
-    <xsd:pattern value="[de|DE|fr|FR|it|IT].*"/>
-   </xsd:restriction>
-  </xsd:simpleType>
- </xsd:element>
  <xsd:simpleType name="VersionString">
   <xsd:annotation>
    <xsd:documentation>A string indicating the versioin of a SIRI data structure.</xsd:documentation>
@@ -90,12 +70,10 @@
  </xsd:simpleType>
  <xsd:simpleType name="PopulatedStringType">
   <xsd:annotation>
-   <xsd:appinfo source="ch-id">ch20200623-09</xsd:appinfo>
    <xsd:documentation>A restriction of W3C XML Schema's string that requires at least one character of text.</xsd:documentation>
   </xsd:annotation>
   <xsd:restriction base="xsd:string">
    <xsd:minLength value="1"/>
-   <xsd:maxLength value="1000"/>
   </xsd:restriction>
  </xsd:simpleType>
  <xsd:complexType name="NaturalLanguageStringStructure">
@@ -104,13 +82,7 @@
   </xsd:annotation>
   <xsd:simpleContent>
    <xsd:extension base="PopulatedStringType">
-
-    <xsd:attribute ref="xml:lang" use="required">
-    <xsd:annotation>
-     <xsd:appinfo source="ch-id">ch20200623-02</xsd:appinfo>
-     <xsd:appinfo source="vdv-id">vdv20200623-06</xsd:appinfo>
-    </xsd:annotation>
-    </xsd:attribute>
+    <xsd:attribute ref="xml:lang" use="optional"/>
    </xsd:extension>
   </xsd:simpleContent>
  </xsd:complexType>

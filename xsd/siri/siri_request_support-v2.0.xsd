@@ -78,14 +78,14 @@ Rail transport, Roads and road transport
    <xsd:extension base="MessageQualifierStructure"/>
   </xsd:simpleContent>
  </xsd:complexType>
- <xsd:simpleType name="SubscriptionQualifierStructure">
+ <xsd:complexType name="SubscriptionQualifierStructure">
   <xsd:annotation>
    <xsd:documentation>Type Unique identifier of Subscription within Participant.</xsd:documentation>
   </xsd:annotation>
-   <xsd:restriction base="xsd:NMTOKEN">
-    <xsd:maxLength value="64"/>
-   </xsd:restriction>
- </xsd:simpleType>
+  <xsd:simpleContent>
+   <xsd:extension base="xsd:NMTOKEN"/>
+  </xsd:simpleContent>
+ </xsd:complexType>
  <xsd:complexType name="SubscriptionFilterStructure">
   <xsd:annotation>
    <xsd:documentation>Type Unique identifier of Subscription Filter within Participant.</xsd:documentation>
@@ -122,9 +122,6 @@ Rail transport, Roads and road transport
  <xsd:element name="ResponseTimestamp" type="xsd:dateTime">
   <xsd:annotation>
    <xsd:documentation>Time individual response element was created.</xsd:documentation>
-   <xsd:documentation source="ch-doc">Recommendation: ZULU time (milliseconds are optional) <br/>
-    Other valid date time formats with time zones are allowed <br/>
-    The central data hub delivers only ZULU time</xsd:documentation>
   </xsd:annotation>
  </xsd:element>
  <!-- ============WSDL========================================================= -->
@@ -146,17 +143,8 @@ Rail transport, Roads and road transport
  <xsd:element name="IncludeTranslations" type="xsd:boolean">
   <xsd:annotation>
    <xsd:documentation>Whether additional translations of text names are to be included in elements. If false, then only one element should be returned.  Default is false.
+
 Where multiple values are returned The first element returned ill be used as the default value.</xsd:documentation>
-  </xsd:annotation>
- </xsd:element>
- <xsd:element name="IncludeInterchanges" type="xsd:boolean" default="true">
-  <xsd:annotation>
-   <xsd:documentation>Whether SERVICE JOURNEY INTERCHANGE data is to be transmitted or not. Default is true. +SIRI v2.1</xsd:documentation>
-  </xsd:annotation>
- </xsd:element>
- <xsd:element name="IncludeJourneyRelations" type="xsd:boolean" default="true">
-  <xsd:annotation>
-   <xsd:documentation>Whether JOURNEY RELATION data is to be transmitted or not. Default is true. +SIRI v2.1</xsd:documentation>
   </xsd:annotation>
  </xsd:element>
  <!-- ======================================================================= -->
