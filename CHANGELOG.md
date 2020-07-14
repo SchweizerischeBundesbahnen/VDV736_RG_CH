@@ -164,6 +164,14 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
         <td></td>
     </tr>
     <tr>
+            <td>vdv20200626-01</td>
+            <td>RoutePointTypeEnumeration changed</td>
+            <td>TBD</td>
+            <td></td>
+            <td>Siri CR-015</td>
+            <td></td>
+        </tr>
+    <tr>
          <td>ch20200710-03</td>
          <td>Cardinality from DirectionRef in AffectedLineStructure changed from 0.1 to 1.1</td>
          <td>Doc-only change</td>
