@@ -22,7 +22,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
     </tr>
     <tr>
         <td>ch20200630-02</td>
-        <td>Default value from attribute version in SituationExchangeDelivery set to 2.1_VDV1.0</td>
+        <td>Default value from attribute version in SituationExchangeDelivery set to 2.1_VDV1.0 instead of 2.0</td>
         <td>not relevant yet</td>
         <td></td>
         <td></td>
@@ -171,16 +171,32 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
             <td>Siri CR-015</td>
             <td></td>
         </tr>
-    <tr>
-         <td>ch20200710-03</td>
-         <td>Cardinality from DirectionRef in AffectedLineStructure changed from 0.1 to 1.1</td>
-         <td>Doc-only change</td>
-         <td></td>
-         <td></td>
-         <td></td>
-         <td></td>
-     </tr>
-     <tr>     
+        <tr>
+            <td>vdv20200630-06</td>
+            <td>VehicleModesOfTransportEnumeration changed</td>
+            <td>Wait for Siri</td>
+            <td></td>
+            <td>Siri CR-016</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>vdv20200630-06</td>
+            <td>Integrate UmS PublishingAction in Siri</td>
+            <td>Wait for Siri</td>
+            <td></td>
+            <td>Siri CR-069</td>
+            <td></td>
+        </tr>
+        <tr>
+             <td>ch20200710-03</td>
+             <td>Cardinality from DirectionRef in AffectedLineStructure changed from 0.1 to 1.1</td>
+             <td>Doc-only change</td>
+             <td></td>
+             <td></td>
+             <td></td>
+             <td></td>
+         </tr>
+         <tr>     
         <td>vdv20200630-06</td>
         <td>DefaultedTextStructure extends auf NaturalLanguageStringStructure analog zu Siri</td>
          <td>XSD changed</td>
