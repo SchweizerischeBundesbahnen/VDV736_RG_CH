@@ -49,7 +49,7 @@
      <Language>DE</Language>
      <!-- Optional: beschreibt den Ort des Ereignisses -->
      <!-- Strecke der betroffenen Linie(n) als Ereignisort-->
-     <!--Auskommentieren, weil Schemavalidierung im Travis sonst fehlschlägt
+     <!--Auskommentieren, weil Schemavalidierung im Travis sonst fehlschlägt (da Routes auf Affect-Ebene noch nicht im Schema erlaubt ist)
      <Affects>
       <Routes>
        <AffectedRoute>
