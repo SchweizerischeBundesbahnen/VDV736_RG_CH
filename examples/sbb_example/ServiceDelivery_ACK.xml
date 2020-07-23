@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">    <DataReceivedAcknowledgement>
+        <ResponseTimestamp>2020-02-24T03:42:44.28094Z</ResponseTimestamp>
+        <ConsumerRef>ski-ddip-out-sx_test</ConsumerRef>
+        <Status>true</Status>
+    </DataReceivedAcknowledgement>
+</Siri>
