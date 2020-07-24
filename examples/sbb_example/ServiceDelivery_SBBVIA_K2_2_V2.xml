@@ -80,12 +80,41 @@
 								<ScopeType>line</ScopeType>
 								<Affects>
 									<Networks>
-										<AffectedNetwork>
-											<AffectedLine>
-												<LineRef>85:11:9</LineRef>
-												<PublishedLineName xml:lang="DE">S9</PublishedLineName>
-											</AffectedLine>
-										</AffectedNetwork>
+											<AffectedNetwork>
+													<AffectedLine>
+															<!--LinienID = ZN -->
+															<LineRef>22978</LineRef>
+															<PublishedLineName xml:lang="DE">S9</PublishedLineName>
+													</AffectedLine>
+													<AffectedLine>
+															<LineRef>21959</LineRef>
+															<PublishedLineName xml:lang="DE">S9</PublishedLineName>
+													</AffectedLine>
+													<AffectedLine>
+															<LineRef>21960</LineRef>
+															<PublishedLineName xml:lang="DE">S9</PublishedLineName>
+													</AffectedLine>
+													<AffectedLine>
+															<LineRef>21961</LineRef>
+															<PublishedLineName xml:lang="DE">S9</PublishedLineName>
+													</AffectedLine>
+													<AffectedLine>
+															<LineRef>21962</LineRef>
+															<PublishedLineName xml:lang="DE">S9</PublishedLineName>
+													</AffectedLine>
+													<AffectedLine>
+															<LineRef>21963</LineRef>
+															<PublishedLineName xml:lang="DE">S9</PublishedLineName>
+													</AffectedLine>
+													<AffectedLine>
+															<LineRef>91961</LineRef>
+															<PublishedLineName xml:lang="DE">S9</PublishedLineName>
+													</AffectedLine>
+													<AffectedLine>
+															<LineRef>91960</LineRef>
+															<PublishedLineName xml:lang="DE">S9</PublishedLineName>
+													</AffectedLine>
+											</AffectedNetwork>
 									</Networks>
 								</Affects>
 							</PublishAtScope>

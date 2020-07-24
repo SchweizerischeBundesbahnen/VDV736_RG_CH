@@ -1,0 +1,27 @@
+<Siri version="2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.siri.org.uk/siri">
+
+   <SubscriptionResponse>
+
+      <ResponseTimestamp>2020-03-12T03:00:01.983292Z</ResponseTimestamp>
+
+      <ResponderRef>ddip-out_test</ResponderRef>
+
+      <ResponseStatus>
+
+      <ResponseTimestamp>2020-03-12T03:00:01.983292Z</ResponseTimestamp>
+
+         <ErrorCondition>
+
+            <OtherError>
+
+               <ErrorText>ROOT SERVICE NOT AVAILABLE</ErrorText>
+
+            </OtherError>
+
+         </ErrorCondition>
+
+      </ResponseStatus>
+
+   </SubscriptionResponse>
+
+</Siri>

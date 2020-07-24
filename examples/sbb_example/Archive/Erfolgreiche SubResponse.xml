@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+
+<!--
+  ~ Copyright (C) Schweizerische Bundesbahnen SBB, 2020.
+  -->
+
+<Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.siri.org.uk/siri" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://wsdl.siri.org.uk" xmlns:ns2="http://www.ifopt.org.uk/ifopt" xmlns:ns3="http://www.ifopt.org.uk/acsb" xmlns:ns4="http://datex2.eu/schema/2_0RC1/2_0" xmlns:siri="http://www.siri.org.uk/siri" version="2.0">
+
+    <SubscriptionResponse>
+
+        <ResponseTimestamp>2020-03-12T03:00:01.123456Z</ResponseTimestamp>
+
+        <ResponderRef>via-out_test</ResponderRef>
+
+        <ResponseStatus>
+
+            <ResponseTimestamp>2020-03-12T03:00:01.123456Z</ResponseTimestamp>
+
+            <SubscriberRef>ski-ddip-out-sx_test</SubscriberRef>
+
+            <SubscriptionRef>1000</SubscriptionRef>
+
+            <Status>true</Status>
+
+            <ValidUntil>2020-03-13T02:59:59Z</ValidUntil>
+
+        </ResponseStatus>
+
+    </SubscriptionResponse>
+
+</Siri>

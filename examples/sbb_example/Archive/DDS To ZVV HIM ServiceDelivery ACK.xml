@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Siri xmlns="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.siri.org.uk/siri ../../siri/UMS/xsd/siri.xsd">
+
+    <DataReceivedAcknowledgement>
+
+        <ResponseTimestamp>2020-02-24T03:42:44.28094Z</ResponseTimestamp>
+
+        <ConsumerRef>zvv-in_test</ConsumerRef>
+
+        <Status>true</Status>
+
+    </DataReceivedAcknowledgement>
+
+</Siri>

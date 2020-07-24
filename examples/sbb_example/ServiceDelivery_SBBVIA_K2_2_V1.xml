@@ -82,7 +82,16 @@
          <Networks>
           <AffectedNetwork>
            <AffectedLine>
-            <LineRef>85:11:9</LineRef>
+            <!--LinienID = ZN -->
+            <LineRef>22978</LineRef>
+            <PublishedLineName xml:lang="DE">S9</PublishedLineName>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21959</LineRef>
+            <PublishedLineName xml:lang="DE">S9</PublishedLineName>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21960</LineRef>
             <PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
           </AffectedNetwork>

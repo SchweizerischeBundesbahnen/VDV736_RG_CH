@@ -1,0 +1,31 @@
+<Siri version="2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.siri.org.uk/siri">
+
+   <CheckStatusResponse>
+
+      <ResponseTimestamp>2020-03-12T10:04:39.717834Z</ResponseTimestamp>
+
+      <ProducerRef>via-out_test</ProducerRef>
+
+      <Status>true</Status>
+
+      <ResponseStatus>
+
+      <ResponseTimestamp>2020-03-12T03:00:01.983292Z</ResponseTimestamp>
+
+         <ErrorCondition>
+
+            <OtherError>
+
+               <ErrorText>SIRI check status requests from server to client are not allowed</ErrorText>
+
+            </OtherError>
+
+         </ErrorCondition>
+
+      </ResponseStatus>
+
+      <ServiceStartedTime>2020-03-09T10:04:39.717834Z</ServiceStartedTime>
+
+   </CheckStatusResponse>
+
+</Siri>
