@@ -1,56 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Siri xmlns="http://www.siri.org.uk/siri" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
-	<ServiceDelivery>
-		<ResponseTimestamp>2020-03-19T16:29:00Z</ResponseTimestamp>
-		<ProducerRef>sbb-via-out-sx_test</ProducerRef>
-		<SituationExchangeDelivery version="2.0">
-			<ResponseTimestamp>2020-03-19T16:29:00Z</ResponseTimestamp>
-			<SubscriptionRef>rJZZdSxMB8</SubscriptionRef>
-			<Situations>
-				<PtSituationElement>
-					<CreationTime>2020-03-19T16:29:00Z</CreationTime>
-					<!--Pflicht in VDV736-->
-					<CountryRef>ch</CountryRef>
-					<ParticipantRef>sbb-via-out-sx_test</ParticipantRef>
-					<SituationNumber>ch:1:sstid:100001:000000000001</SituationNumber>
-					<Version>2</Version>
-					<Source>
-						<!--Pflicht in VDV736-->
-						<CountryRef>ch</CountryRef>
-						<SourceType>directReport</SourceType>
-						<!--Optional-->
-						<Name xml:lang="DE">VIA</Name>
-					</Source>
-					<!--Pflicht bei Updates-->
-					<VersionedAtTime>2020-03-19T16:29:00Z</VersionedAtTime>
-					<Progress>published</Progress>
-					<ValidityPeriod>
-						<StartTime>2020-03-19T16:18:00Z</StartTime>
-						<EndTime>2020-03-19T20:18:00Z</EndTime>
-					</ValidityPeriod>
-					<!--Optional-->
-					<PublicationWindow>
-						<StartTime>2020-03-19T16:29:00Z</StartTime>
-						<EndTime>2020-03-19T20:18:00Z</EndTime>
-					</PublicationWindow>
-					<AlertCause>technicalProblem</AlertCause>
-					<!--Optional: wird nicht den Kunden publiziert-->
-					<ReasonName xml:lang="DE">Technische Störung an der Bahnanlage</ReasonName>
-					<!--Zulässig: 1-4-->
-					<Priority>2</Priority>
-					<!--Optional: default is false unplanned-->
-					<Planned>false</Planned>
-					<!--Optional: definiert Defaultsprache für die Ausgabe-->
-					<Language>DE</Language>
-					<!-- Optional: beschreibt den Ort des Ereignisses -->
-					<Affects>
-						<StopPoints>
-							<AffectedStopPoint>
-								<StopPointRef>8502017</StopPointRef>
-								<StopPointName xml:lang="DE">Waldibrücke</StopPointName>
-								<StopCondition>firstRoutePoint</StopCondition>
-							</AffectedStopPoint>
+<!--
+  ~ Copyright (C) Schweizerische Bundesbahnen SBB, 2020.
+  -->
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+ <ServiceDelivery>
+  <ResponseTimestamp>2020-03-19T16:29:00Z</ResponseTimestamp>
+  <ProducerRef>sbb-via-out-sx_test</ProducerRef>
+  <SituationExchangeDelivery version="2.0">
+   <ResponseTimestamp>2020-03-19T16:29:00Z</ResponseTimestamp>
+   <SubscriptionRef>rJZZdSxMB8</SubscriptionRef>
+   <Situations>
+    <PtSituationElement>
+     <CreationTime>2020-03-19T16:29:00Z</CreationTime>
+     <!--Pflicht in VDV736-->
+     <CountryRef>ch</CountryRef>
+     <ParticipantRef>sbb-via-out-sx_test</ParticipantRef>
+     <SituationNumber>ch:1:sstid:100001:000000000001</SituationNumber>
+     <Version>2</Version>
+     <Source>
+      <!--Pflicht in VDV736-->
+      <CountryRef>ch</CountryRef>
+      <SourceType>directReport</SourceType>
+      <!--Optional-->
+      <Name xml:lang="DE">VIA</Name>
+     </Source>
+     <!--Pflicht bei Updates-->
+     <VersionedAtTime>2020-03-19T16:29:00Z</VersionedAtTime>
+     <Progress>published</Progress>
+     <ValidityPeriod>
+      <StartTime>2020-03-19T16:18:00Z</StartTime>
+      <EndTime>2020-03-19T20:18:00Z</EndTime>
+     </ValidityPeriod>
+     <!--Optional-->
+     <PublicationWindow>
+      <StartTime>2020-03-19T16:29:00Z</StartTime>
+      <EndTime>2020-03-19T20:18:00Z</EndTime>
+     </PublicationWindow>
+     <AlertCause>technicalProblem</AlertCause>
+     <!--Optional: wird nicht den Kunden publiziert-->
+     <ReasonName xml:lang="DE">Technische Störung an der Bahnanlage</ReasonName>
+     <!--Zulässig: 1-4-->
+     <Priority>2</Priority>
+     <!--Optional: default is false unplanned-->
+     <Planned>false</Planned>
+     <!--Optional: definiert Defaultsprache für die Ausgabe-->
+     <Language>DE</Language>
+     <!-- Optional: beschreibt den Ort des Ereignisses -->
+     <Affects>
+      <StopPoints>
+       <AffectedStopPoint>
+        <StopPointRef>8502017</StopPointRef>
+        <StopPointName xml:lang="DE">Waldibrücke</StopPointName>
+        <StopCondition>firstRoutePoint</StopCondition>
+       </AffectedStopPoint>
+       <!--
 							<AffectedStopPoint>
 								<StopPointRef>8502022</StopPointRef>
 								<StopPointName xml:lang="DE">Eschenbach</StopPointName>
@@ -65,146 +68,140 @@
 								<StopPointRef>8502042</StopPointRef>
 								<StopPointName xml:lang="DE">Hochdorf Schönau</StopPointName>
 								<StopCondition>affectedStopplace</StopCondition>
-							</AffectedStopPoint>
-							<AffectedStopPoint>
-								<StopPointRef>8502024</StopPointRef>
-								<StopPointName xml:lang="DE">Hochdorf</StopPointName>
-								<StopCondition>lastRoutePoint</StopCondition>
-							</AffectedStopPoint>
-						</StopPoints>
-					</Affects>
-					<!-- Consequences darf geliefert werden, wird aber noch nicht verarbeitet-->
-					<PublishingActions>
-						<PublishingAction>
-							<PublishAtScope>
-								<ScopeType>line</ScopeType>
-								<Affects>
-									<Networks>
-											<AffectedNetwork>
-													<AffectedLine>
-															<!--LinienID = ZN -->
-															<LineRef>22978</LineRef>
-															
-													</AffectedLine>
-													<AffectedLine>
-															<LineRef>21959</LineRef>
-															
-													</AffectedLine>
-													<AffectedLine>
-															<LineRef>21960</LineRef>
-															
-													</AffectedLine>
-													<AffectedLine>
-															<LineRef>21961</LineRef>
-															
-													</AffectedLine>
-													<AffectedLine>
-															<LineRef>91961</LineRef>
-															
-													</AffectedLine>
-													<AffectedLine>
-															<LineRef>91960</LineRef>
-															
-													</AffectedLine>
-											</AffectedNetwork>
-									</Networks>
-								</Affects>
-							</PublishAtScope>
-							<PassengerInformationAction>
-								<!--Optional: ein PublicationWindow per PassengerInfo-->
-								<ActionRef>1</ActionRef>
-								<RecordedAtTime>2020-03-19T16:29:00Z</RecordedAtTime>
-								<SourceRef>sbb-via-out-sx_test</SourceRef>
-								<OwnerRef>85:11</OwnerRef>
-								<Perspective>general</Perspective>
-								<!--Optional: existiert auch Priority auf Ebene Ereignis-->
-								<ActionPriority>2</ActionPriority>
-								<TextualContent>
-									<TextualContentSize>L</TextualContentSize>
-									<SummaryContent>
-										<SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und
+							</AffectedStopPoint>-->
+       <AffectedStopPoint>
+        <StopPointRef>8502024</StopPointRef>
+        <StopPointName xml:lang="DE">Hochdorf</StopPointName>
+        <StopCondition>lastRoutePoint</StopCondition>
+       </AffectedStopPoint>
+      </StopPoints>
+     </Affects>
+     <!-- Consequences darf geliefert werden, wird aber noch nicht verarbeitet-->
+     <PublishingActions>
+      <PublishingAction>
+       <PublishAtScope>
+        <ScopeType>line</ScopeType>
+        <Affects>
+         <Networks>
+          <AffectedNetwork>
+           <AffectedLine>
+            <!--LinienID = ZN -->
+            <LineRef>22978</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21959</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21960</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21961</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>91961</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>91960</LineRef>
+           </AffectedLine>
+          </AffectedNetwork>
+         </Networks>
+        </Affects>
+       </PublishAtScope>
+       <PassengerInformationAction>
+        <!--Optional: ein PublicationWindow per PassengerInfo-->
+        <ActionRef>1</ActionRef>
+        <RecordedAtTime>2020-03-19T16:29:00Z</RecordedAtTime>
+        <SourceRef>sbb-via-out-sx_test</SourceRef>
+        <OwnerRef>85:11</OwnerRef>
+        <Perspective>general</Perspective>
+        <!--Optional: existiert auch Priority auf Ebene Ereignis-->
+        <ActionPriority>2</ActionPriority>
+        <TextualContent>
+         <TextualContentSize>L</TextualContentSize>
+         <SummaryContent>
+          <SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und
 											Lenzburg ist in beiden Richtungen zwischen Waldibrücke und
 											Hochdorf unterbrochen.
 										</SummaryText>
-									</SummaryContent>
-									<ReasonContent>
-										<ReasonText xml:lang="DE">Technische Störung an der Bahnanlage
+         </SummaryContent>
+         <ReasonContent>
+          <ReasonText xml:lang="DE">Technische Störung an der Bahnanlage
 										</ReasonText>
-									</ReasonContent>
-									<ConsequenceContent>
-										<ConsequenceText xml:lang="DE">Es ist mit Verspätungen und
+         </ReasonContent>
+         <ConsequenceContent>
+          <ConsequenceText xml:lang="DE">Es ist mit Verspätungen und
 											Zugausfällen zu rechnen.
 										</ConsequenceText>
-									</ConsequenceContent>
-									<DurationContent>
-										<DurationText xml:lang="DE">Die Dauer der Einschränkung ist
+         </ConsequenceContent>
+         <DurationContent>
+          <DurationText xml:lang="DE">Die Dauer der Einschränkung ist
 											unbestimmt.
 										</DurationText>
-									</DurationContent>
-								</TextualContent>
-							</PassengerInformationAction>
-						</PublishingAction>
-						<PublishingAction>
-							<PublishAtScope>
-								<ScopeType>stopPoint</ScopeType>
-								<Affects>
-									<StopPoints>
-										<AffectedStopPoint>
-											<StopPointRef>8505000</StopPointRef>
-											<StopPointName xml:lang="DE">Luzern</StopPointName>
-										</AffectedStopPoint>
-										<AffectedStopPoint>
-											<StopPointRef>8502021</StopPointRef>
-											<StopPointName xml:lang="DE">Emmenbrücke</StopPointName>
-										</AffectedStopPoint>
-										<AffectedStopPoint>
-											<StopPointRef>8502028</StopPointRef>
-											<StopPointName xml:lang="DE">Emmenbrücke Gersag</StopPointName>
-										</AffectedStopPoint>
-										<AffectedStopPoint>
-											<StopPointRef>8502017</StopPointRef>
-											<StopPointName xml:lang="DE">Waldibrücke</StopPointName>
-										</AffectedStopPoint>
-										<AffectedStopPoint>
-											<StopPointRef>8502022</StopPointRef>
-											<StopPointName xml:lang="DE">Eschenbach</StopPointName>
-										</AffectedStopPoint>
-										<AffectedStopPoint>
-											<StopPointRef>8502024</StopPointRef>
-											<StopPointName xml:lang="DE">Hochdorf</StopPointName>
-										</AffectedStopPoint>
-									</StopPoints>
-								</Affects>
-							</PublishAtScope>
-							<PassengerInformationAction>
-								<!--Optional: ein PublicationWindow per PassengerInfo-->
-								<ActionRef>2</ActionRef>
-								<RecordedAtTime>2020-03-19T16:29:00Z</RecordedAtTime>
-								<SourceRef>sbb-via-out-sx_test</SourceRef>
-								<OwnerRef>85:11</OwnerRef>
-								<Perspective>stopPoint</Perspective>
-								<!--Optional: existiert auch Priority auf Ebene Ereignis-->
-								<ActionPriority>2</ActionPriority>
-								<TextualContent>
-									<TextualContentSize>L</TextualContentSize>
-									<SummaryContent>
-										<SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf unterbrochen.</SummaryText>
-									</SummaryContent>
-									<ReasonContent>
-										<ReasonText xml:lang="DE">Technische Störung an der Bahnanlage</ReasonText>
-									</ReasonContent>
-									<ConsequenceContent>
-										<ConsequenceText xml:lang="DE">Es ist mit Verspätungen und Zugausfällen zu rechnen.</ConsequenceText>
-									</ConsequenceContent>
-									<DurationContent>
-										<DurationText xml:lang="DE">Die Dauer der Einschränkung ist unbestimmt.</DurationText>
-									</DurationContent>
-								</TextualContent>
-							</PassengerInformationAction>
-						</PublishingAction>
-					</PublishingActions>
-				</PtSituationElement>
-			</Situations>
-		</SituationExchangeDelivery>
-	</ServiceDelivery>
+         </DurationContent>
+        </TextualContent>
+       </PassengerInformationAction>
+      </PublishingAction>
+      <PublishingAction>
+       <PublishAtScope>
+        <ScopeType>stopPoint</ScopeType>
+        <Affects>
+         <StopPoints>
+          <AffectedStopPoint>
+           <StopPointRef>8505000</StopPointRef>
+           <StopPointName xml:lang="DE">Luzern</StopPointName>
+          </AffectedStopPoint>
+          <AffectedStopPoint>
+           <StopPointRef>8502021</StopPointRef>
+           <StopPointName xml:lang="DE">Emmenbrücke</StopPointName>
+          </AffectedStopPoint>
+          <AffectedStopPoint>
+           <StopPointRef>8502028</StopPointRef>
+           <StopPointName xml:lang="DE">Emmenbrücke Gersag</StopPointName>
+          </AffectedStopPoint>
+          <AffectedStopPoint>
+           <StopPointRef>8502017</StopPointRef>
+           <StopPointName xml:lang="DE">Waldibrücke</StopPointName>
+          </AffectedStopPoint>
+          <AffectedStopPoint>
+           <StopPointRef>8502022</StopPointRef>
+           <StopPointName xml:lang="DE">Eschenbach</StopPointName>
+          </AffectedStopPoint>
+          <AffectedStopPoint>
+           <StopPointRef>8502024</StopPointRef>
+           <StopPointName xml:lang="DE">Hochdorf</StopPointName>
+          </AffectedStopPoint>
+         </StopPoints>
+        </Affects>
+       </PublishAtScope>
+       <PassengerInformationAction>
+        <!--Optional: ein PublicationWindow per PassengerInfo-->
+        <ActionRef>2</ActionRef>
+        <RecordedAtTime>2020-03-19T16:29:00Z</RecordedAtTime>
+        <SourceRef>sbb-via-out-sx_test</SourceRef>
+        <OwnerRef>85:11</OwnerRef>
+        <Perspective>stopPoint</Perspective>
+        <!--Optional: existiert auch Priority auf Ebene Ereignis-->
+        <ActionPriority>2</ActionPriority>
+        <TextualContent>
+         <TextualContentSize>L</TextualContentSize>
+         <SummaryContent>
+          <SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf unterbrochen.</SummaryText>
+         </SummaryContent>
+         <ReasonContent>
+          <ReasonText xml:lang="DE">Technische Störung an der Bahnanlage</ReasonText>
+         </ReasonContent>
+         <ConsequenceContent>
+          <ConsequenceText xml:lang="DE">Es ist mit Verspätungen und Zugausfällen zu rechnen.</ConsequenceText>
+         </ConsequenceContent>
+         <DurationContent>
+          <DurationText xml:lang="DE">Die Dauer der Einschränkung ist unbestimmt.</DurationText>
+         </DurationContent>
+        </TextualContent>
+       </PassengerInformationAction>
+      </PublishingAction>
+     </PublishingActions>
+    </PtSituationElement>
+   </Situations>
+  </SituationExchangeDelivery>
+ </ServiceDelivery>
 </Siri>
