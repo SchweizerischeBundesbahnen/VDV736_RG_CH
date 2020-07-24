@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+  ~ Copyright (C) Schweizerische Bundesbahnen SBB, 2020.
+
+  -->
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd">
+ <SubscriptionResponse>
+  <ResponseTimestamp>2020-03-12T03:00:01.983292Z</ResponseTimestamp>
+  <ResponderRef>ddip-out_test</ResponderRef>
+  <ResponseStatus>
+   <ResponseTimestamp>2020-03-12T03:00:01.983292Z</ResponseTimestamp>
+   <ErrorCondition>
+    <OtherError>
+     <ErrorText>ROOT SERVICE NOT AVAILABLE</ErrorText>
+    </OtherError>
+   </ErrorCondition>
+  </ResponseStatus>
+ </SubscriptionResponse>
+</Siri>

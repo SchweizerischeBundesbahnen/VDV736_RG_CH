@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
-		<SubscriptionResponse>
-				<ResponseTimestamp>2020-03-12T03:00:01.123456Z</ResponseTimestamp>
-				<ResponderRef>ski-ddip-out-sx_test</ResponderRef>
-				<ResponseStatus>
-						<ResponseTimestamp>2020-03-12T03:00:01.123456Z</ResponseTimestamp>
-						<SubscriberRef>zvv-in-sx_test</SubscriberRef>
-						<SubscriptionRef>1000</SubscriptionRef>
-						<Status>false</Status>
-						<ErrorCondition>
-								<OtherError>
-										<ErrorText>XXX</ErrorText>
-								</OtherError>
-						</ErrorCondition>
-				</ResponseStatus>
-		</SubscriptionResponse>
+ <SubscriptionResponse>
+  <ResponseTimestamp>2020-03-12T03:00:01.123456Z</ResponseTimestamp>
+  <ResponderRef>ski-ddip-out-sx_test</ResponderRef>
+  <ResponseStatus>
+   <ResponseTimestamp>2020-03-12T03:00:01.123456Z</ResponseTimestamp>
+   <SubscriberRef>zvv-in-sx_test</SubscriberRef>
+   <SubscriptionRef>1000</SubscriptionRef>
+   <Status>false</Status>
+   <ErrorCondition>
+    <OtherError>
+     <ErrorText>XXX</ErrorText>
+    </OtherError>
+   </ErrorCondition>
+  </ResponseStatus>
+ </SubscriptionResponse>
 </Siri>

@@ -7,9 +7,10 @@
 <Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd">
  <ServiceDelivery>
   <ResponseTimestamp>2018-10-04T10:11:00+00:00</ResponseTimestamp>
-  <ProducerRef>via-out_test</ProducerRef>
+  <ProducerRef>ddip-out_test</ProducerRef>
   <SituationExchangeDelivery version="2.0">
    <ResponseTimestamp>2018-10-04T10:11:00+00:00</ResponseTimestamp>
+   <SubscriptionRef>zvv-in_test</SubscriptionRef>
    <Situations>
     <PtSituationElement>
      <CreationTime>2020-03-31T16:18:00+02:00</CreationTime>
@@ -134,9 +135,7 @@
        <PublishAtScope>
         <ScopeType>stopPoint</ScopeType>
         <Affects>
-         <!--
-         <StopPlaces>LuzernHochdorfEmmenbrücke GersagEmmenbrückeEschenbach</StopPlaces>
-         -->
+         <!--<StopPlaces>LuzernHochdorfEmmenbrücke GersagEmmenbrückeEschenbach</StopPlaces>-->
         </Affects>
        </PublishAtScope>
        <PassengerInformationAction>

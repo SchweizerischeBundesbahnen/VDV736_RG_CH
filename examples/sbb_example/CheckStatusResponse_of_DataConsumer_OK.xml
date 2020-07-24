@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
-		<CheckStatusResponse>
-				<ResponseTimestamp>2020-03-12T10:04:39.717834Z</ResponseTimestamp>
-				<ProducerRef>sbb-via-in-sx_test</ProducerRef>
-				<Status>true</Status>
-				<ErrorCondition>
-						<OtherError>
-								<ErrorText>SIRI check status requests from server to client are not allowed</ErrorText>
-						</OtherError>
-				</ErrorCondition>
-				<ServiceStartedTime>2020-03-09T10:04:39.717834Z</ServiceStartedTime>
-		</CheckStatusResponse>
+ <CheckStatusResponse>
+  <ResponseTimestamp>2020-03-12T10:04:39.717834Z</ResponseTimestamp>
+  <ProducerRef>sbb-via-in-sx_test</ProducerRef>
+  <Status>true</Status>
+  <ErrorCondition>
+   <OtherError>
+    <ErrorText>SIRI check status requests from server to client are not allowed</ErrorText>
+   </OtherError>
+  </ErrorCondition>
+  <ServiceStartedTime>2020-03-09T10:04:39.717834Z</ServiceStartedTime>
+ </CheckStatusResponse>
 </Siri>
