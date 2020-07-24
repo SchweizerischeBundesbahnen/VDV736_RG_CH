@@ -80,8 +80,53 @@
 																		<Networks>
 																				<AffectedNetwork>
 																						<AffectedLine>
-																								<LineRef>85:11:9</LineRef>
-																								<PublishedLineName xml:lang="DE">S9</PublishedLineName>
+																								<!--LinienID = ZN -->
+																								<LineRef>22978</LineRef>
+																								
+																						</AffectedLine>
+																						<AffectedLine>
+																								<LineRef>21959</LineRef>
+																								
+																						</AffectedLine>
+																						<AffectedLine>
+																								<LineRef>21960</LineRef>
+																								
+																						</AffectedLine>
+																						<AffectedLine>
+																								<LineRef>21961</LineRef>
+																								
+																						</AffectedLine>
+																						<AffectedLine>
+																								<LineRef>91961</LineRef>
+																								
+																						</AffectedLine>
+																						<AffectedLine>
+																								<LineRef>91960</LineRef>
+																								
+																						</AffectedLine>
+																						<AffectedLine>
+																								<LineRef>21962</LineRef>
+																								
+																						</AffectedLine>
+																						<AffectedLine>
+																								<LineRef>21963</LineRef>
+																								
+																						</AffectedLine>
+																						<AffectedLine>
+																								<LineRef>21964</LineRef>
+																								
+																						</AffectedLine>
+																						<AffectedLine>
+																								<LineRef>21965</LineRef>
+																								
+																						</AffectedLine>
+																						<AffectedLine>
+																								<LineRef>21966</LineRef>
+																								
+																						</AffectedLine>
+																						<AffectedLine>
+																								<LineRef>22980</LineRef>
+																								
 																						</AffectedLine>
 																				</AffectedNetwork>
 																		</Networks>
@@ -89,7 +134,7 @@
 														</PublishAtScope>
 														<PassengerInformationAction>
 																<!--Optional: ein PublicationWindow per PassengerInfo-->
-																<ActionRef>5</ActionRef>
+																<ActionRef>1</ActionRef>
 																<RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
 																<SourceRef>sbb-via-out-sx_test</SourceRef>
 																<OwnerRef>85:11</OwnerRef>
@@ -133,7 +178,7 @@
 														</PublishAtScope>
 														<PassengerInformationAction>
 																<!--Optional: ein PublicationWindow per PassengerInfo-->
-																<ActionRef>6</ActionRef>
+																<ActionRef>3</ActionRef>
 																<RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
 																<SourceRef>sbb-via-out-sx_test</SourceRef>
 																<OwnerRef>85:11</OwnerRef>
@@ -174,7 +219,7 @@
 														</PublishAtScope>
 														<PassengerInformationAction>
 																<!--Optional: ein PublicationWindow per PassengerInfo-->
-																<ActionRef>7</ActionRef>
+																<ActionRef>4</ActionRef>
 																<RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
 																<SourceRef>sbb-via-out-sx_test</SourceRef>
 																<OwnerRef>85:11</OwnerRef>
@@ -227,11 +272,83 @@
 														</PublishAtScope>
 														<PassengerInformationAction>
 																<!--Optional: ein PublicationWindow per PassengerInfo-->
-																<ActionRef>8</ActionRef>
+																<ActionRef>2</ActionRef>
 																<RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
 																<SourceRef>sbb-via-out-sx_test</SourceRef>
 																<OwnerRef>85:11</OwnerRef>
 																<Perspective>stopPoint</Perspective>
+																<!--Optional: existiert auch Priority auf Ebene Ereignis-->
+																<ActionPriority>2</ActionPriority>
+																<TextualContent>
+																		<TextualContentSize>L</TextualContentSize>
+																		<SummaryContent>
+																				<SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf unterbrochen.</SummaryText>
+																		</SummaryContent>
+																		<ReasonContent>
+																				<ReasonText xml:lang="DE">Technische Störung an der Bahnanlage</ReasonText>
+																		</ReasonContent>
+																		<ConsequenceContent>
+																				<ConsequenceText xml:lang="DE">Es ist mit Verspätungen und Zugausfällen zu rechnen.</ConsequenceText>
+																		</ConsequenceContent>
+																		<RecommendationContent>
+																				<RecommendationText xml:lang="DE">Zwischen Emmenbrücke und Hochdorf fahren in beiden Richtungen Ersatzbusse.</RecommendationText>
+																		</RecommendationContent>
+																		<DurationContent>
+																				<DurationText xml:lang="DE">Die Dauer der Einschränkung ist unbestimmt.</DurationText>
+																		</DurationContent>
+																</TextualContent>
+														</PassengerInformationAction>
+												</PublishingAction>
+												<PublishingAction>
+														<PublishAtScope>
+																<ScopeType>route</ScopeType>
+																<Affects>
+																		<StopPoints>
+																				<AffectedStopPoint>
+																						<StopPointRef>8502021</StopPointRef>
+																						<StopPointName xml:lang="DE">Emmenbrücke</StopPointName>
+																						<StopCondition>firstRoutePoint</StopCondition>
+																				</AffectedStopPoint>
+																				<AffectedStopPoint>
+																						<StopPointRef>8502028</StopPointRef>
+																						<StopPointName xml:lang="DE">Emmenbrücke Gersag</StopPointName>
+																						<StopCondition>affectedStopplace</StopCondition>
+																				</AffectedStopPoint>
+																				<AffectedStopPoint>
+																						<StopPointRef>8502017</StopPointRef>
+																						<StopPointName xml:lang="DE">Waldibrücke</StopPointName>
+																						<StopCondition>affectedStopplace</StopCondition>
+																				</AffectedStopPoint>
+																				<AffectedStopPoint>
+																						<StopPointRef>8502022</StopPointRef>
+																						<StopPointName xml:lang="DE">Eschenbach</StopPointName>
+																						<StopCondition>affectedStopplace</StopCondition>
+																				</AffectedStopPoint>
+																				<AffectedStopPoint>
+																						<StopPointRef>8502023</StopPointRef>
+																						<StopPointName xml:lang="DE">Ballwil</StopPointName>
+																						<StopCondition>affectedStopplace</StopCondition>
+																				</AffectedStopPoint>
+																				<AffectedStopPoint>
+																						<StopPointRef>8502042</StopPointRef>
+																						<StopPointName xml:lang="DE">Hochdorf Schönau</StopPointName>
+																						<StopCondition>affectedStopplace</StopCondition>
+																				</AffectedStopPoint>
+																				<AffectedStopPoint>
+																						<StopPointRef>8502024</StopPointRef>
+																						<StopPointName xml:lang="DE">Hochdorf</StopPointName>
+																						<StopCondition>lastRoutePoint</StopCondition>
+																				</AffectedStopPoint>
+																		</StopPoints>
+																</Affects>
+														</PublishAtScope>
+														<PassengerInformationAction>
+																<!--Optional: ein PublicationWindow per PassengerInfo-->
+																<ActionRef>5</ActionRef>
+																<RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
+																<SourceRef>sbb-via-out-sx_test</SourceRef>
+																<OwnerRef>85:11</OwnerRef>
+																<Perspective>general</Perspective>
 																<!--Optional: existiert auch Priority auf Ebene Ereignis-->
 																<ActionPriority>2</ActionPriority>
 																<TextualContent>
