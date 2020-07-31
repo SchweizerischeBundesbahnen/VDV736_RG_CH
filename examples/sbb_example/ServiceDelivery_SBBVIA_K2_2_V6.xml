@@ -142,10 +142,10 @@
 																<TextualContent>
 																		<SummaryContent>
 																				<SummaryText xml:lang="DE">Der Unterbruch des Bahnverkehrs zwischen Luzern und Hochdorf konnte in beiden Richtungen aufgehoben werden.</SummaryText>
-																		</SummaryContent>
+																		</SummaryContent><!--Ph2
 																		<ConsequenceContent>
 																				<ConsequenceText xml:lang="DE">Vereinzelt sind weiterhin Verspätungen möglich.</ConsequenceText>
-																		</ConsequenceContent>
+																		</ConsequenceContent>-->
 																</TextualContent>
 														</PassengerInformationAction>
 												</PublishingAction><!--Ph2

@@ -142,7 +142,7 @@
 																		</SummaryContent>
 																		<ReasonContent>
 																				<ReasonText xml:lang="DE">Technische Störung an der Bahnanlage</ReasonText>
-																		</ReasonContent>
+																		</ReasonContent><!--Ph2
 																		<DescriptionContent>
 																				<DescriptionText xml:lang="DE">Betroffen ist die Linie S9.</DescriptionText>
 																		</DescriptionContent>
@@ -151,7 +151,7 @@
 																		</ConsequenceContent>
 																		<RecommendationContent>
 																				<RecommendationText xml:lang="DE">Reisende zwischen Luzern und Emmenbrücke benützen in beiden Richtungen die Züge der Linien S1 und RE. Reisende von Luzern nach Emmembrücke Gersag, Waldibrücke, Eschenbach und Hochdorf und umgekehrt benutzen zwischen Luzern und Emmebrücke die S1 oder den RE und zwischen Emmebrücke und Hochdorf den Ersatzbus. Reisende von Luzern nach Hitzkirch, Beinwil am See, Hallwil und Seon und umgekehrt reisen wie folgt: S1 oder RE von Luzern bis Emmebrücke, Ersatzbus zwischen Emmebrücke und Hochdorf, S9 zwischen Hochdorf und Seon. Reisende zwischen Luzern und Lenzburg reisen in beiden Richtungen via Olten.</RecommendationText>
-																		</RecommendationContent>
+																		</RecommendationContent>-->
 																		<DurationContent>
 																				<DurationText xml:lang="DE">Die Dauer der Einschränkung ist unbestimmt.</DurationText>
 																		</DurationContent>
