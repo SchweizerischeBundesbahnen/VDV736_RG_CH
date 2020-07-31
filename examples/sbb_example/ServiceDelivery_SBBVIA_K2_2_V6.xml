@@ -148,7 +148,7 @@
 																		</ConsequenceContent>
 																</TextualContent>
 														</PassengerInformationAction>
-												</PublishingAction>
+												</PublishingAction><!--Ph2
 												<PublishingAction>
 														<PublishAtScope>
 																<ScopeType>route</ScopeType>
@@ -183,7 +183,7 @@
 																		</ConsequenceContent>
 																</TextualContent>
 														</PassengerInformationAction>
-												</PublishingAction>
+												</PublishingAction>-->
 										</PublishingActions>
 								</PtSituationElement>
 						</Situations>

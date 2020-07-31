@@ -108,16 +108,16 @@
 																		</SummaryContent>
 																		<ReasonContent>
 																				<ReasonText xml:lang="DE">Technische Störung an der Bahnanlage</ReasonText>
-																		</ReasonContent>
+																		</ReasonContent><!--Ph2
 																		<ConsequenceContent>
 																				<ConsequenceText xml:lang="DE">Es ist mit Verspätungen und Zugausfällen zu rechnen.</ConsequenceText>
-																		</ConsequenceContent>
+																		</ConsequenceContent>-->
 																		<DurationContent>
 																				<DurationText xml:lang="DE">Die Dauer der Einschränkung ist unbestimmt.</DurationText>
 																		</DurationContent>
 																</TextualContent>
 														</PassengerInformationAction>
-												</PublishingAction>
+												</PublishingAction><!--Ph2
 												<PublishingAction>
 														<PublishAtScope>
 																<ScopeType>route</ScopeType>
@@ -150,6 +150,7 @@
 																		<ReasonContent>
 																				<ReasonText xml:lang="DE">Technische Störung an der Bahnanlage</ReasonText>
 																		</ReasonContent>
+																		
 																		<ConsequenceContent>
 																				<ConsequenceText xml:lang="DE">Es ist mit Verspätungen und Zugausfällen zu rechnen.</ConsequenceText>
 																		</ConsequenceContent>
@@ -158,7 +159,7 @@
 																		</DurationContent>
 																</TextualContent>
 														</PassengerInformationAction>
-												</PublishingAction>
+												</PublishingAction>-->
 										</PublishingActions>
 								</PtSituationElement>
 						</Situations>

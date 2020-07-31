@@ -157,7 +157,7 @@
 																		</DurationContent>
 																</TextualContent>
 														</PassengerInformationAction>
-												</PublishingAction>
+												</PublishingAction><!--Ph2
 												<PublishingAction>
 														<PublishAtScope>
 																<ScopeType>route</ScopeType>
@@ -201,7 +201,7 @@
 																		</DurationContent>
 																</TextualContent>
 														</PassengerInformationAction>
-												</PublishingAction><!--
+												</PublishingAction>
 												<PublishingAction>
 														<PublishAtScope>
 																<ScopeType>stopPoint</ScopeType>
