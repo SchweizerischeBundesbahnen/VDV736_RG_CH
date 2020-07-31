@@ -142,10 +142,10 @@
 																<TextualContent>
 																		<SummaryContent>
 																				<SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf unterbrochen.</SummaryText>
-																		</SummaryContent>
+																		</SummaryContent><!--Ph2
 																		<ReasonContent>
 																				<ReasonText xml:lang="DE">Technische Störung an der Bahnanlage</ReasonText>
-																		</ReasonContent><!--Ph2
+																		</ReasonContent>
 																		<DescriptionContent>
 																				<DescriptionText xml:lang="DE">Betroffen ist die Linie S9.</DescriptionText>
 																		</DescriptionContent>
@@ -154,11 +154,11 @@
 																		</ConsequenceContent>
 																		<RecommendationContent>
 																				<RecommendationText xml:lang="DE">Reisende zwischen Luzern und Emmenbrücke benützen in beiden Richtungen die Züge der Linien S1 und RE. Reisende von Luzern nach Emmembrücke Gersag, Waldibrücke, Eschenbach und Hochdorf und umgekehrt benutzen zwischen Luzern und Emmebrücke die S1 oder den RE und zwischen Emmebrücke und Hochdorf den Ersatzbus. Reisende von Luzern nach Hitzkirch, Beinwil am See, Hallwil und Seon und umgekehrt reisen wie folgt: S1 oder RE von Luzern bis Emmebrücke, Ersatzbus zwischen Emmebrücke und Hochdorf, S9 zwischen Hochdorf und Seon. Reisende zwischen Luzern und Lenzburg reisen in beiden Richtungen via Olten.</RecommendationText>
-																		</RecommendationContent>-->
+																		</RecommendationContent>
 																		<DurationContent>
 																				<DurationText xml:lang="DE">Die Einschränkung dauert bis voraussichtlich 19.03.2020 18:00 Uhr.</DurationText>
-																		</DurationContent>
-																</TextualContent>
+																		</DurationContent>-->
+																		</TextualContent>
 														</PassengerInformationAction>
 												</PublishingAction><!--Ph2
 												<PublishingAction>

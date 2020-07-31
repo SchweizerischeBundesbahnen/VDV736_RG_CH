@@ -117,19 +117,19 @@
 																		<SummaryContent>
 																				<SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf unterbrochen.
 																				</SummaryText>
-																		</SummaryContent>
+																		</SummaryContent><!--Ph2
 																		<ReasonContent>
 																				<ReasonText xml:lang="DE">Technische Störung an der Bahnanlage
 																				</ReasonText>
-																		</ReasonContent><!--Ph2
+																		</ReasonContent>
 																		<ConsequenceContent>
 																				<ConsequenceText xml:lang="DE">Es ist mit Verspätungen und Zugausfällen zu rechnen.
 																				</ConsequenceText>
-																		</ConsequenceContent>-->
+																		</ConsequenceContent>
 																		<DurationContent>
 																				<DurationText xml:lang="DE">Die Dauer der Einschränkung ist unbestimmt.
 																				</DurationText>
-																		</DurationContent>
+																		</DurationContent>-->
 																</TextualContent>
 														</PassengerInformationAction>
 												</PublishingAction><!--Ph2
