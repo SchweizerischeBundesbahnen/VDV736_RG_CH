@@ -1,12 +1,34 @@
 # Changelog
-Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec5659f3ae1f52e4ec6de1184fbb9
+
+## Branch model 
+
+### Branch UmS-XSD-PoC
+The branch UmS-XSD-PoC is based on the UmS Standard.  
+https://github.com/VDVde/UMS/commit/34a0142abceec5659f3ae1f52e4ec6de1184fbb9
+
+Changes on the standard have to be approved by KIDS (current Project VDV736 Techausschuss) 
+and discussed with the UmS group.
+
+The realisation guide for the Swiss UmS implementation is documented here. 
+
+### Branch integration
+Our long term goal is that the UmS standard become a subset of Siri. 
+For this, we work on changes in the UmS standard (branch integration).  
+
+Based on Siri https://github.com/SIRI-CEN/SIRI/commit/46a470f9cf4836fb70873a0abfe29f6641ba0f9c
+
+## Changes
+
+<br/> 
+
+
 
 <table>
     <tr>
         <th>CR-ID</th>
-        <th>Beschreibung</th>
-        <th>Status</th>
-        <th>Status Techausschuss</th>
+        <th>Description</th>
+        <th>Status XSD</th>
+        <th>Status KIDS</th>
         <th>Status VDV736</th>
         <th>Status Siri</th>
         <th>Jira</th>        
@@ -58,7 +80,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
     </tr>
     <tr>
         <td>vdv20200630-04</td>
-        <td>CountryRef zu Country umbenennen in SituationSourceStructure / Type set to ifopt:CountryRefStructure (Siri-Kompabilität)</td>
+        <td>CountryRef renamed to Country in SituationSourceStructure / Type set to ifopt:CountryRefStructure for Siri compability</td>
         <td>TBD</td>
         <td></td>
         <td>VDV CR to do</td>
@@ -67,7 +89,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
     </tr>
     <tr>
         <td>vdv20200623-02</td>
-        <td>Cardinality CountryRef in SituationSourceStructure 1.1 instead of 0.1 </td>
+        <td>Cardinality change in CountryRef (SituationSourceStructure) 1.1 instead of 0.1 </td>
         <td>XSD changed</td>
         <td>reviewed</td>
         <td>known difference to Siri</td>
@@ -76,7 +98,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
     </tr>
     <tr>
         <td>vdv20200623-03</td>
-        <td>Progress Kardinalität 1.1 statt 0.1 -> Default auswerten reicht</td>
+        <td>Cardinality change: Progress 1.1 instead of 0.1 -> Because of default value the field hasn't to be mandatory</td>
         <td>XSD changed</td>
         <td>reviewed</td>
         <td>VDV CR to do</td>
@@ -85,7 +107,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
     </tr>
     <tr>
         <td>ch20200623-07</td>
-        <td>ClosedTimestampRangeStructure statt HalfOpenTimestampOutputRangeStructure in ValidityPeriod/PublicationWindow auf Situation-Ebene (temporär Endtime in HalfOpenTimestampOutputRangeStructure 1.1 gesetzt)</td>
+        <td>Type ClosedTimestampRangeStructure instead of HalfOpenTimestampOutputRangeStructure in ValidityPeriod/PublicationWindow in PtSituationElementStructure (Endtime in HalfOpenTimestampOutputRangeStructure set mandatory temporarly)</td>
         <td>XSD changed</td>
         <td></td>
         <td></td>
@@ -94,7 +116,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
     </tr>
     <tr>
         <td>vdv20200623-05</td>
-        <td>Change VDV736 element name from AlertCause to TpegReason for Siri compability</td>
+        <td>Rename AlertCause to TpegReason for Siri compability</td>
         <td>TBD</td>
         <td></td>
         <td></td>
@@ -103,7 +125,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
     </tr>
      <tr>
          <td>ch20200710-02</td>
-         <td>Cardinality of ReasonName change to 0.n</td>
+         <td>Cardinality change of element ReasonName to 0.n</td>
          <td>Doc-only change</td>
          <td></td>
          <td></td>
@@ -112,7 +134,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
      </tr>
      <tr>
           <td>vdv20200623-07</td>
-          <td>PriorityEnumeration erstellt</td>
+          <td>PriorityEnumeration created</td>
           <td>TBD</td>
           <td></td>
           <td>VDV-CR to do</td>
@@ -121,7 +143,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
       </tr>    
       <tr>
         <td>vdv20200703-01</td>
-        <td>Cardinality Priority in ClassifierGroup changed from 0.1 to 1.1</td>
+        <td>Cardinality change: Priority in ClassifierGroup from 0.1 to 1.1</td>
         <td>XSD changed</td>
         <td></td>
         <td>VDV-CR to do</td>
@@ -139,7 +161,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
     </tr>
     <tr>
         <td>ch20200626-02</td>
-        <td>Cardinality from OperatorRef in AffectedOperatorStructure changed from 1.1 to 0.1</td>
+        <td>Cardinality change: OperatorRef in AffectedOperatorStructure from 1.1 to 0.1</td>
         <td>TBD</td>
         <td></td>
         <td>VDV-CR to do</td>
@@ -148,7 +170,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
     </tr>
     <tr>
         <td>ch20200626-01</td>
-        <td>Cardinality from StopPointRef in AffectedStopPointStructure changed from 0.1 to 1.1</td>
+        <td>Cardinality change: StopPointRef in AffectedStopPointStructure from 0.1 to 1.1</td>
         <td>TBD</td>
         <td></td>
         <td></td>
@@ -189,7 +211,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
         </tr>
         <tr>
              <td>ch20200710-03</td>
-             <td>Cardinality from DirectionRef in AffectedLineStructure changed from 0.1 to 1.1</td>
+             <td>Cardinality change: DirectionRef in AffectedLineStructure from 0.1 to 1.1</td>
              <td>Doc-only change</td>
              <td></td>
              <td></td>
@@ -198,7 +220,7 @@ Initiale Version basierend auf https://github.com/VDVde/UMS/commit/34a0142abceec
          </tr>
          <tr>     
         <td>vdv20200630-06</td>
-        <td>DefaultedTextStructure extends auf NaturalLanguageStringStructure analog zu Siri</td>
+        <td>DefaultedTextStructure extension changed to NaturalLanguageStringStructure for Siri compability</td>
          <td>XSD changed</td>
          <td></td>
          <td>VDV CR to do</td>
