@@ -3,13 +3,22 @@
 ## Branch model 
 
 ### Branch UmS-XSD-PoC
-The branch UmS-XSD-PoC is based on the UmS Standard.  
+The realisation guide for the Swiss UmS implementation is documented here.
+<br/> 
+The branch UmS-XSD-PoC is based on the UmS Standard (Umgang mit Störung - VDV736). <br/>
+The UmS Standard is a fork of the Siri standard. <br/>   
 https://github.com/VDVde/UMS/commit/34a0142abceec5659f3ae1f52e4ec6de1184fbb9
 
-Changes on the standard have to be approved by KIDS (current Project VDV736 Techausschuss) 
+Changes on the UmS standard have to be approved by KIDS (current project VDV736 Techausschuss) 
 and discussed with the UmS group.
+<br/>
+<br/>  
+The UmS group decides whether UmS changes have to be integrated in the Siri standard. 
+Further, Siri changes are integrated in the UmS standard continually.
+<br/> 
+In the following change log you can see the status of the discussions with KIDS / VDV736 / Siri for each change. 
 
-The realisation guide for the Swiss UmS implementation is documented here. 
+ 
 
 ### Branch integration
 Our long term goal is that the UmS standard become a subset of Siri. 
@@ -27,7 +36,7 @@ Based on Siri https://github.com/SIRI-CEN/SIRI/commit/46a470f9cf4836fb70873a0abf
     <tr>
         <th>CR-ID</th>
         <th>Description</th>
-        <th>Status XSD</th>
+        <th>Status RG</th>
         <th>Status KIDS</th>
         <th>Status VDV736</th>
         <th>Status Siri</th>
