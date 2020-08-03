@@ -10,7 +10,7 @@
    <Status>false</Status>
    <ErrorCondition>
     <OtherError>
-     <ErrorText>XXX</ErrorText>
+     <ErrorText>Unknown subscription error</ErrorText>
     </OtherError>
    </ErrorCondition>
   </ResponseStatus>
