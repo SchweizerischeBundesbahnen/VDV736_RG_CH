@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+~ Copyright (C) Schweizerische Bundesbahnen SBB, 2020.
+Author: Priscila Moreno-Rey priscila.moreno@sbb.ch
+This example demonstrates the communication of a planned construction work situation affecting a set of stop points.
+It is based on a real message from the DDS FISZ extracted on May 25th
+-->
 <Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
  <ServiceDelivery>
   <ResponseTimestamp>2020-03-08T14:45:40+01:00</ResponseTimestamp>
@@ -11,28 +17,45 @@
     <PtSituationElement>
      <CreationTime>2020-03-02T18:08:33+01:00</CreationTime>
      <CountryRef>ch</CountryRef>
-     <ParticipantRef>fisz-dds-out-sx_test</ParticipantRef>
-     <SituationNumber>ch:1:sstid:100001:000000000001</SituationNumber>
+     <ParticipantRef>ddsfisz-out-sx_test</ParticipantRef>
+     <SituationNumber>ch:1:sstid:100619:000000000001</SituationNumber>
+     <!--TODO
+										Is it the inital message when the construction work has begun in January?
+										ResponseTimestamp and CreationTimestamp are several days apart. Probably an update message.
+										VersionedAtTime seems to be missing too.
+										-->
      <Version>1</Version>
      <Source>
       <CountryRef>ch</CountryRef>
       <SourceType>directReport</SourceType>
      </Source>
-     <!--VersionedAtTime wäre Pflicht bei einem Update-->
-     <!--weil Progress fehlt, wird default=open angenommen. Eine Meldung wird nur bei Progress=published den Kunden publiziert.-->
      <Progress>published</Progress>
      <ValidityPeriod>
       <StartTime>2020-01-27T08:11:00+01:00</StartTime>
       <EndTime>2020-04-01T23:59:00+02:00</EndTime>
      </ValidityPeriod>
      <AlertCause>constructionWork</AlertCause>
-     <!--Gesetzt, da kein Default (mehr) definiert und Pflicht-->
      <Priority>3</Priority>
-     <!--wird nicht auswertet-->
+     <!--TODO
+										isn't it a planned construction work? otherwise planned=false should be delivered-->
      <ReportType>incident</ReportType>
-     <!--Optional: Planned=true liefern-->
-     <!--Default Priority=3 (normal) wird ausgewertet-->
-     <!--Affects optional hinzufügen: betroffene Haltestelle-->
+     <Affects>
+      <Operators>
+       <AffectedOperator>
+        <!-- Corresponds to VDV454 OperatorRef-->
+        <OperatorRef>85:820</OperatorRef>
+       </AffectedOperator>
+      </Operators>
+      <StopPoints>
+       <AffectedStopPoint>
+        <!--TODO
+																 ist dieser Haltepunkt korrekt? Haltestelle Gerbe in Fahrtrichtung Unterlöchli
+																 -->
+        <!-- in CH: Didok codes are expected, consists of either 7 or 9 digits / StopPlaces are not used in CH -->
+        <StopPointRef>858965900</StopPointRef>
+       </AffectedStopPoint>
+      </StopPoints>
+     </Affects>
      <PublishingActions>
       <PublishingAction>
        <PublishAtScope>
@@ -66,16 +89,22 @@
         </Affects>
        </PublishAtScope>
        <PassengerInformationAction>
-        <!--könnte ausgelassen werden, wenn identisch wie ValidityPeriod -->
+        <!--TODO
+																I would expect the publication window to start before validity period -->
+        <!--
+																Relation between ValidityPeriod and PublicationWindow described here
+																https://confluence.sbb.ch/pages/viewpage.action?pageId=1603046795
+																-->
         <PublicationWindow>
          <StartTime>2020-01-27T08:11:00+01:00</StartTime>
          <EndTime>2020-04-01T23:59:00+02:00</EndTime>
         </PublicationWindow>
+        <!-- unique for each situation number -->
         <ActionRef>5e2e8d12866cda0c44d93bfe</ActionRef>
         <RecordedAtTime>2020-03-02T18:08:33+01:00</RecordedAtTime>
         <Version>1</Version>
         <SourceRef>fisz-dds-out-sx_test</SourceRef>
-        <!--optional-->
+        <!-- VDV454 BetreiberID-->
         <OwnerRef>85:820</OwnerRef>
         <Perspective>general</Perspective>
         <Perspective>stopPoint</Perspective>

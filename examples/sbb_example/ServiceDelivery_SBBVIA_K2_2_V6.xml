@@ -1,6 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><!--
-  ~ Copyright (C) Schweizerische Bundesbahnen SBB, 2020.
-  -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Author: Priscila Moreno-Rey priscila.moreno@sbb.ch
+This example demonstrates the communication of a disruption situation in a train route
+-->
 <Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
 		<ServiceDelivery>
 				<ResponseTimestamp>2020-03-19T17:50:00Z</ResponseTimestamp>
@@ -10,41 +13,31 @@
 						<SubscriptionRef>rJZZdSxMB8</SubscriptionRef>
 						<Situations>
 								<PtSituationElement>
-										<CreationTime>2020-03-19T17:50:00Z</CreationTime>
-										<!--Pflicht in VDV736-->
+										<CreationTime>2020-03-19T16:18:00Z</CreationTime>
 										<CountryRef>ch</CountryRef>
 										<ParticipantRef>sbb-via-out-sx_test</ParticipantRef>
 										<SituationNumber>ch:1:sstid:100001:000000000001</SituationNumber>
-										<Version>5</Version>
+										<Version>6</Version>
 										<Source>
-												<!--Pflicht in VDV736-->
 												<CountryRef>ch</CountryRef>
 												<SourceType>directReport</SourceType>
-												<!--Optional-->
 												<Name xml:lang="DE">VIA</Name>
 										</Source>
-										<!--Pflicht bei Updates-->
 										<VersionedAtTime>2020-03-19T17:50:00Z</VersionedAtTime>
-										<Progress>closing</Progress>
+										<Progress>closed</Progress>
 										<ValidityPeriod>
 												<StartTime>2020-03-19T16:18:00Z</StartTime>
-												<EndTime>2020-03-25T18:20:00Z</EndTime>
+												<EndTime>2020-03-25T18:00:00Z</EndTime>
 										</ValidityPeriod>
-										<!--Optional-->
 										<PublicationWindow>
-												<StartTime>2020-03-19T17:50:00Z</StartTime>
+												<StartTime>2020-03-19T16:18:00Z</StartTime>
 												<EndTime>2020-03-25T18:20:00Z</EndTime>
 										</PublicationWindow>
 										<AlertCause>technicalProblem</AlertCause>
-										<!--Optional: wird nicht den Kunden publiziert-->
 										<ReasonName xml:lang="DE">Technische Störung an der Bahnanlage</ReasonName>
-										<!--Zulässig: 1-4-->
 										<Priority>4</Priority>
-										<!--Optional: default is false unplanned-->
 										<Planned>false</Planned>
-										<!--Optional: definiert Defaultsprache für die Ausgabe-->
 										<Language>DE</Language>
-										<!-- Optional: beschreibt den Ort des Ereignisses -->
 										<Affects>
 												<StopPoints>
 														<AffectedStopPoint>
@@ -52,7 +45,7 @@
 																<StopPointName xml:lang="DE">Waldibrücke</StopPointName>
 																<StopCondition>firstRoutePoint</StopCondition>
 														</AffectedStopPoint>
-														<!--
+														<!-- End systems have to evaluate that between Waldibrücke and Hochdorf the following stop points are also affected by disruption
 																										 <AffectedStopPoint>
 																												 <StopPointRef>8502022</StopPointRef>
 																												 <StopPointName xml:lang="DE">Eschenbach</StopPointName>
@@ -82,8 +75,11 @@
 																<Affects>
 																		<Networks>
 																				<AffectedNetwork>
+																						<AffectedOperator>
+																								<OperatorRef>85:11</OperatorRef>
+																						</AffectedOperator>
 																						<AffectedLine>
-																								<!--LinienID = ZN -->
+																								<!--LinienID (VDV454):  train number -->
 																								<LineRef>22978</LineRef>
 																						</AffectedLine>
 																						<AffectedLine>
@@ -133,7 +129,6 @@
 																</Affects>
 														</PublishAtScope>
 														<PassengerInformationAction>
-																
 																<ActionRef>1</ActionRef>
 																<RecordedAtTime>2020-03-19T17:50:00Z</RecordedAtTime>
 																<SourceRef>sbb-via-out-sx_test</SourceRef>
@@ -142,13 +137,13 @@
 																<TextualContent>
 																		<SummaryContent>
 																				<SummaryText xml:lang="DE">Der Unterbruch des Bahnverkehrs zwischen Luzern und Hochdorf konnte in beiden Richtungen aufgehoben werden.</SummaryText>
-																		</SummaryContent><!--Ph2
+																		</SummaryContent><!--Out-of-scope in pilot
 																		<ConsequenceContent>
 																				<ConsequenceText xml:lang="DE">Vereinzelt sind weiterhin Verspätungen möglich.</ConsequenceText>
 																		</ConsequenceContent>-->
 																</TextualContent>
 														</PassengerInformationAction>
-												</PublishingAction><!--Ph2
+												</PublishingAction><!--Out-of-scope in pilot
 												<PublishingAction>
 														<PublishAtScope>
 																<ScopeType>route</ScopeType>
