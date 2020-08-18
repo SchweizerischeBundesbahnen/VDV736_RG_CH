@@ -5,43 +5,43 @@ Author: Priscila Moreno-Rey priscila.moreno@sbb.ch
 This example demonstrates the communication of a disruption situation in a train route
 -->
 <Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
-		<ServiceDelivery>
-				<ResponseTimestamp>2020-03-19T16:54:00Z</ResponseTimestamp>
-				<ProducerRef>sbb-via-out-sx_test</ProducerRef>
-				<SituationExchangeDelivery version="2.0">
-						<ResponseTimestamp>2020-03-19T16:54:00Z</ResponseTimestamp>
-						<SubscriptionRef>rJZZdSxMB8</SubscriptionRef>
-						<Situations>
-								<PtSituationElement>
-										<CreationTime>2020-03-19T16:18:00Z</CreationTime>
-										<CountryRef>ch</CountryRef>
-										<ParticipantRef>sbb-via-out-sx_test</ParticipantRef>
-										<SituationNumber>ch:1:sstid:100001:000000000001</SituationNumber>
-										<Version>4</Version>
-										<Source>
-												<CountryRef>ch</CountryRef>
-												<SourceType>directReport</SourceType>
-												<Name xml:lang="DE">VIA</Name>
-										</Source>
-										<VersionedAtTime>2020-03-19T16:54:00Z</VersionedAtTime>
-										<Progress>published</Progress>
-										<ValidityPeriod>
-												<StartTime>2020-03-19T16:18:00Z</StartTime>
-												<EndTime>2020-03-19T20:18:00Z</EndTime>
-										</ValidityPeriod>
-										<AlertCause>technicalProblem</AlertCause>
-										<ReasonName xml:lang="DE">Technische Störung an der Bahnanlage</ReasonName>
-										<Priority>2</Priority>
-										<Planned>false</Planned>
-										<Language>DE</Language>
-										<Affects>
-												<StopPoints>
-														<AffectedStopPoint>
-																<StopPointRef>8502017</StopPointRef>
-																<StopPointName xml:lang="DE">Waldibrücke</StopPointName>
-																<StopCondition>firstRoutePoint</StopCondition>
-														</AffectedStopPoint>
-														<!-- End systems have to evaluate that between Waldibrücke and Hochdorf the following stop points are also affected by disruption
+ <ServiceDelivery>
+  <ResponseTimestamp>2020-03-19T16:54:00Z</ResponseTimestamp>
+  <ProducerRef>sbb-via-out-sx_test</ProducerRef>
+  <SituationExchangeDelivery version="2.0">
+   <ResponseTimestamp>2020-03-19T16:54:00Z</ResponseTimestamp>
+   <SubscriptionRef>rJZZdSxMB8</SubscriptionRef>
+   <Situations>
+    <PtSituationElement>
+     <CreationTime>2020-03-19T16:18:00Z</CreationTime>
+     <CountryRef>ch</CountryRef>
+     <ParticipantRef>sbb-via-out-sx_test</ParticipantRef>
+     <SituationNumber>ch:1:sstid:100001:000000000001</SituationNumber>
+     <Version>4</Version>
+     <Source>
+      <CountryRef>ch</CountryRef>
+      <SourceType>directReport</SourceType>
+      <Name xml:lang="DE">VIA</Name>
+     </Source>
+     <VersionedAtTime>2020-03-19T16:54:00Z</VersionedAtTime>
+     <Progress>published</Progress>
+     <ValidityPeriod>
+      <StartTime>2020-03-19T16:18:00Z</StartTime>
+      <EndTime>2020-03-19T20:18:00Z</EndTime>
+     </ValidityPeriod>
+     <AlertCause>technicalProblem</AlertCause>
+     <ReasonName xml:lang="DE">Technische Störung an der Bahnanlage</ReasonName>
+     <Priority>2</Priority>
+     <Planned>false</Planned>
+     <Language>DE</Language>
+     <Affects>
+      <StopPoints>
+       <AffectedStopPoint>
+        <StopPointRef>8502017</StopPointRef>
+        <StopPointName xml:lang="DE">Waldibrücke</StopPointName>
+        <StopCondition>firstRoutePoint</StopCondition>
+       </AffectedStopPoint>
+       <!-- End systems have to evaluate that between Waldibrücke and Hochdorf the following stop points are also affected by disruption
 																										 <AffectedStopPoint>
 																												 <StopPointRef>8502022</StopPointRef>
 																												 <StopPointName xml:lang="DE">Eschenbach</StopPointName>
@@ -57,80 +57,81 @@ This example demonstrates the communication of a disruption situation in a train
 																												 <StopPointName xml:lang="DE">Hochdorf Schönau</StopPointName>
 																												 <StopCondition>affectedStopplace</StopCondition>
 																										 </AffectedStopPoint>-->
-														<AffectedStopPoint>
-																<StopPointRef>8502024</StopPointRef>
-																<StopPointName xml:lang="DE">Hochdorf</StopPointName>
-																<StopCondition>lastRoutePoint</StopCondition>
-														</AffectedStopPoint>
-												</StopPoints>
-										</Affects>
-										<PublishingActions>
-												<PublishingAction>
-														<PublishAtScope>
-																<ScopeType>line</ScopeType>
-																<Affects>
-																		<Networks>
-																				<AffectedNetwork>
-																						<AffectedOperator>
-																								<OperatorRef>85:11</OperatorRef>
-																						</AffectedOperator>
-																						<AffectedLine>
-																								<!--LinienID (VDV454):  train number -->
-																								<LineRef>22978</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>21959</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>21960</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>21961</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>91961</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>91960</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>21962</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>21963</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>21964</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>21965</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>21966</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>22980</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>21967</LineRef>
-																						</AffectedLine>
-																						<AffectedLine>
-																								<LineRef>22982</LineRef>
-																						</AffectedLine>
-																				</AffectedNetwork>
-																		</Networks>
-																</Affects>
-														</PublishAtScope>
-														<PassengerInformationAction>
-																<ActionRef>1</ActionRef>
-																<RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
-																<SourceRef>sbb-via-out-sx_test</SourceRef>
-																<OwnerRef>85:11</OwnerRef>
-																<Perspective>general</Perspective>
-																<TextualContent>
-																		<SummaryContent>
-																				<SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf unterbrochen.</SummaryText>
-																		</SummaryContent><!--Out-of-scope in pilot
+       <AffectedStopPoint>
+        <StopPointRef>8502024</StopPointRef>
+        <StopPointName xml:lang="DE">Hochdorf</StopPointName>
+        <StopCondition>lastRoutePoint</StopCondition>
+       </AffectedStopPoint>
+      </StopPoints>
+     </Affects>
+     <PublishingActions>
+      <PublishingAction>
+       <PublishAtScope>
+        <ScopeType>line</ScopeType>
+        <Affects>
+         <Networks>
+          <AffectedNetwork>
+           <AffectedOperator>
+            <OperatorRef>85:11</OperatorRef>
+           </AffectedOperator>
+           <AffectedLine>
+            <!--LinienID (VDV454):  train number -->
+            <LineRef>22978</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21959</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21960</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21961</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>91961</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>91960</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21962</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21963</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21964</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21965</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21966</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>22980</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>21967</LineRef>
+           </AffectedLine>
+           <AffectedLine>
+            <LineRef>22982</LineRef>
+           </AffectedLine>
+          </AffectedNetwork>
+         </Networks>
+        </Affects>
+       </PublishAtScope>
+       <PassengerInformationAction>
+        <ActionRef>1</ActionRef>
+        <RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
+        <SourceRef>sbb-via-out-sx_test</SourceRef>
+        <OwnerRef>85:11</OwnerRef>
+        <Perspective>general</Perspective>
+        <TextualContent>
+         <SummaryContent>
+          <SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf unterbrochen.</SummaryText>
+         </SummaryContent>
+         <!--Out-of-scope in pilot
 																		<ReasonContent>
 																				<ReasonText xml:lang="DE">Technische Störung an der Bahnanlage</ReasonText>
 																		</ReasonContent>
@@ -146,9 +147,10 @@ This example demonstrates the communication of a disruption situation in a train
 																		<DurationContent>
 																				<DurationText xml:lang="DE">Die Dauer der Einschränkung ist unbestimmt.</DurationText>
 																		</DurationContent>-->
-																</TextualContent>
-														</PassengerInformationAction>
-												</PublishingAction><!--Out-of-scope in pilot
+        </TextualContent>
+       </PassengerInformationAction>
+      </PublishingAction>
+      <!--Out-of-scope in pilot
 												<PublishingAction>
 														<PublishAtScope>
 																<ScopeType>route</ScopeType>
@@ -348,9 +350,9 @@ This example demonstrates the communication of a disruption situation in a train
 																</TextualContent>
 														</PassengerInformationAction>
 												</PublishingAction>-->
-										</PublishingActions>
-								</PtSituationElement>
-						</Situations>
-				</SituationExchangeDelivery>
-		</ServiceDelivery>
+     </PublishingActions>
+    </PtSituationElement>
+   </Situations>
+  </SituationExchangeDelivery>
+ </ServiceDelivery>
 </Siri>

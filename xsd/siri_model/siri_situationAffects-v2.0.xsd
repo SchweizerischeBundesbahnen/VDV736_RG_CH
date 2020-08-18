@@ -109,10 +109,10 @@ Rail transport, Roads and road transport
    <xsd:documentation>Type for an SCHEDUELD STOP POINT affected by a SITUATION.</xsd:documentation>
   </xsd:annotation>
   <xsd:sequence>
-   <xsd:element ref="StopPointRef" >
-   <xsd:annotation>
-    <xsd:appinfo source="ch-id">ch20200626-01</xsd:appinfo>
-   </xsd:annotation>
+   <xsd:element ref="StopPointRef">
+    <xsd:annotation>
+     <xsd:appinfo source="ch-id">ch20200626-01</xsd:appinfo>
+    </xsd:annotation>
    </xsd:element>
    <xsd:element name="PrivateRef" type="xsd:string" minOccurs="0">
     <xsd:annotation>
