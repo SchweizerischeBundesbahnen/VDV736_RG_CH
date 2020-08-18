@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadata>
+</metadata>
 <!--
 This example was extracted on May 25th from the DDS FISZ.
 Content wrapped in a comment because of validation errors causing travis to fail
@@ -628,4 +630,3 @@ Content wrapped in a comment because of validation errors causing travis to fail
  </ServiceDelivery>
 </Siri>
 -->
-<xml/>
