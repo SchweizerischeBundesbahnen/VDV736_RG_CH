@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<metadata>
-</metadata>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd"/>
 <!--
 This example was extracted on May 25th from the DDS FISZ.
 Content wrapped in a comment because of validation errors causing travis to fail
