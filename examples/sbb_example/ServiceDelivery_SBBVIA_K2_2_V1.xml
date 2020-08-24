@@ -87,7 +87,6 @@ This example demonstrates the communication of a disruption situation in a train
           <!--LinienID (VDV454):  train number -->
           <!--Because of technical issues, we cannot provide a vehicle journey which would suit better.
           All journeys with this train number during the validity period will match in end systems-->
-          <!-- S99 leaving Lucerne at 16:23, cancelled because departure -->
           <LineRef>22978</LineRef>
          </AffectedLine>
         </AffectedNetwork>
@@ -98,7 +97,7 @@ This example demonstrates the communication of a disruption situation in a train
        <AdviceType>noMeansOfTravel</AdviceType>
       </Advice>
       <Blocking>
-       <!--information in online timetable has to be overriden, waiting for new PT-->
+       <!--information provided by Siri PT/ET has to be overriden, waiting for new PT-->
        <JourneyPlanner>true</JourneyPlanner>
        <RealTime>true</RealTime>
       </Blocking>
@@ -107,7 +106,7 @@ This example demonstrates the communication of a disruption situation in a train
      <PublishingActions>
       <PublishToWebAction>
       <PublishingAction>
-       <!-- in UmS PublishAtScope-->
+       <!-- in UmS PublicationScope-->
        <PublicationScope>
         <ScopeType>line</ScopeType>
         <Affects>
@@ -168,7 +167,7 @@ This example demonstrates the communication of a disruption situation in a train
       </PublishToWebAction>
       <!--Out-of-scope in pilot
 												<PublishingAction>
-														<PublishAtScope>
+														<PublicationScope>
 																<ScopeType>route</ScopeType>
 																<Affects>
 																		<StopPoints>
@@ -184,7 +183,7 @@ This example demonstrates the communication of a disruption situation in a train
 																				</AffectedStopPoint>
 																		</StopPoints>
 																</Affects>
-														</PublishAtScope>
+														</PublicationScope>
 														<PassengerInformationAction>
 																<ActionRef>2</ActionRef>
 																<RecordedAtTime>2020-03-19T16:18:00Z</RecordedAtTime>

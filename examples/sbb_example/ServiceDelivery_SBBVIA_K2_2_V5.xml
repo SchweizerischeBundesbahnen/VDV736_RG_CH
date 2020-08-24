@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
+  ~ Copyright (C) Schweizerische Bundesbahnen SBB, 2020.
+  -->
+
+<!--
 
 Author: Priscila Moreno-Rey priscila.moreno@sbb.ch
 This example demonstrates the communication of a disruption situation in a train route
@@ -19,7 +23,7 @@ This example demonstrates the communication of a disruption situation in a train
      <SituationNumber>ch:1:sstid:100001:000000000001</SituationNumber>
      <Version>5</Version>
      <Source>
-      <CountryRef>ch</CountryRef>
+      <Country>ch</Country>
       <SourceType>directReport</SourceType>
       <Name xml:lang="DE">VIA</Name>
      </Source>
@@ -29,7 +33,7 @@ This example demonstrates the communication of a disruption situation in a train
       <StartTime>2020-03-19T16:18:00Z</StartTime>
       <EndTime>2020-03-19T18:00:00Z</EndTime>
      </ValidityPeriod>
-     <AlertCause>technicalProblem</AlertCause>
+     <TpegReason>technicalProblem</TpegReason>
      <ReasonName xml:lang="DE">Technische Störung an der Bahnanlage</ReasonName>
      <Priority>2</Priority>
      <Planned>false</Planned>
@@ -65,8 +69,9 @@ This example demonstrates the communication of a disruption situation in a train
       </StopPoints>
      </Affects>
      <PublishingActions>
+      <PublishToWebAction>
       <PublishingAction>
-       <PublishAtScope>
+       <PublicationScope>
         <ScopeType>line</ScopeType>
         <Affects>
          <Networks>
@@ -123,7 +128,7 @@ This example demonstrates the communication of a disruption situation in a train
           </AffectedNetwork>
          </Networks>
         </Affects>
-       </PublishAtScope>
+       </PublicationScope>
        <PassengerInformationAction>
         <ActionRef>1</ActionRef>
         <RecordedAtTime>2020-03-19T17:40:00Z</RecordedAtTime>
@@ -155,7 +160,7 @@ This example demonstrates the communication of a disruption situation in a train
       </PublishingAction>
       <!--Out-of-scope in pilot
 												<PublishingAction>
-														<PublishAtScope>
+														<PublicationScope>
 																<ScopeType>route</ScopeType>
 																<Affects>
 																		<StopPoints>
@@ -171,7 +176,7 @@ This example demonstrates the communication of a disruption situation in a train
 																				</AffectedStopPoint>
 																		</StopPoints>
 																</Affects>
-														</PublishAtScope>
+														</PublicationScope>
 														<PassengerInformationAction>
 																
 																<ActionRef>3</ActionRef>
@@ -202,7 +207,7 @@ This example demonstrates the communication of a disruption situation in a train
 														</PassengerInformationAction>
 												</PublishingAction>
 												<PublishingAction>
-														<PublishAtScope>
+														<PublicationScope>
 																<ScopeType>stopPoint</ScopeType>
 																<Affects>
 																		<StopPoints>
@@ -212,7 +217,7 @@ This example demonstrates the communication of a disruption situation in a train
 																				</AffectedStopPoint>
 																		</StopPoints>
 																</Affects>
-														</PublishAtScope>
+														</PublicationScope>
 														<PassengerInformationAction>
 																
 																<ActionRef>4</ActionRef>
@@ -243,7 +248,7 @@ This example demonstrates the communication of a disruption situation in a train
 														</PassengerInformationAction>
 												</PublishingAction>
 												<PublishingAction>
-														<PublishAtScope>
+														<PublicationScope>
 																<ScopeType>stopPoint</ScopeType>
 																<Affects>
 																		<StopPoints>
@@ -265,7 +270,7 @@ This example demonstrates the communication of a disruption situation in a train
 																				</AffectedStopPoint>
 																		</StopPoints>
 																</Affects>
-														</PublishAtScope>
+														</PublicationScope>
 														<PassengerInformationAction>
 																
 																<ActionRef>2</ActionRef>
@@ -293,7 +298,7 @@ This example demonstrates the communication of a disruption situation in a train
 														</PassengerInformationAction>
 												</PublishingAction>
 												<PublishingAction>
-														<PublishAtScope>
+														<PublicationScope>
 																<ScopeType>route</ScopeType>
 																<Affects>
 																		<StopPoints>
@@ -334,7 +339,7 @@ This example demonstrates the communication of a disruption situation in a train
 																				</AffectedStopPoint>
 																		</StopPoints>
 																</Affects>
-														</PublishAtScope>
+														</PublicationScope>
 														<PassengerInformationAction>
 																
 																<ActionRef>5</ActionRef>
@@ -361,6 +366,7 @@ This example demonstrates the communication of a disruption situation in a train
 																</TextualContent>
 														</PassengerInformationAction>
 												</PublishingAction>-->
+      </PublishToWebAction>
      </PublishingActions>
     </PtSituationElement>
    </Situations>
