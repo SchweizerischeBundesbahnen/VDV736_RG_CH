@@ -40,7 +40,7 @@ This example demonstrates the communication of a disruption situation in a train
       <StopPoints>
        <AffectedStopPoint>
         <StopPointRef>8502017</StopPointRef>
-        <StopPointName xml:lang="invalid">Waldibrücke</StopPointName>
+        <StopPointName xml:lang="DE">Waldibrücke</StopPointName>
         <StopCondition>firstRoutePoint</StopCondition>
        </AffectedStopPoint>
        <!-- End systems have to evaluate that between Waldibrücke and Hochdorf the following stop points are also affected by disruption
@@ -66,46 +66,97 @@ This example demonstrates the communication of a disruption situation in a train
        </AffectedStopPoint>
       </StopPoints>
      </Affects>
+     <Consequences>
+      <Consequence>
+       <Period>
+        <StartTime>2020-03-19T16:14:00Z</StartTime>
+        <EndTime>2020-03-19T20:14:00Z</EndTime>
+       </Period>
+       <Condition>tripCancellation</Condition>
+       <Affects>
+        <Networks>
+         <AffectedNetwork>
+          <AffectedOperator>
+           <OperatorRef>85:11</OperatorRef>
+          </AffectedOperator>
+          <AffectedLine>
+           <!--LinienID (VDV454):  train number -->
+           <!--Because of technical issues, we cannot provide a vehicle journey which would suit better.
+          All journeys with this train number during the validity period will match in end systems-->
+           <LineRef>22978</LineRef>
+          </AffectedLine>
+         </AffectedNetwork>
+        </Networks>
+       </Affects>
+       <Advice>
+        <!--no replacement yet-->
+        <AdviceType>noMeansOfTravel</AdviceType>
+       </Advice>
+       <ConsequenceType>impactOnTimetable</ConsequenceType>
+      </Consequence>
+     </Consequences>
      <PublishingActions>
       <PublishByPerspectiveAction>
-      <PublishingAction>
-       <!-- in UmS PublicationScope-->
-       <PublicationScope>
-        <ScopeType>line</ScopeType>
-        <Affects>
-         <Networks>
-          <AffectedNetwork>
-           <AffectedOperator>
-            <OperatorRef>85:11</OperatorRef>
-           </AffectedOperator>
-           <AffectedLine>
-            <!--LinienID (VDV454):  train number -->
-            <LineRef>22978</LineRef>
-           </AffectedLine>
-           <AffectedLine>
-            <LineRef>21959</LineRef>
-           </AffectedLine>
-           <AffectedLine>
-            <LineRef>21960</LineRef>
-           </AffectedLine>
-          </AffectedNetwork>
-         </Networks>
-        </Affects>
-       </PublicationScope>
-       <PassengerInformationAction>
-        <ActionRef>1</ActionRef>
-        <RecordedAtTime>2020-03-19T16:18:00Z</RecordedAtTime>
-        <SourceRef>sbb-via-out-sx_test</SourceRef>
-        <OwnerRef>85:11</OwnerRef>
-        <Perspective>general</Perspective>
-        <Perspective>stopPoint</Perspective>
-        <TextualContent>
-         <SummaryContent>
-          <SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf eingeschränkt.</SummaryText>
-         </SummaryContent>
+       <PublishingAction>
+        <!-- in UmS PublicationScope-->
+        <PublicationScope>
+         <ScopeType>line</ScopeType>
+         <Affects>
+          <Networks>
+           <AffectedNetwork>
+            <AffectedOperator>
+             <OperatorRef>85:11</OperatorRef>
+            </AffectedOperator>
+            <AffectedLine>
+             <!--LinienID (VDV454):  train number -->
+             <LineRef>22978</LineRef>
+            </AffectedLine>
+            <AffectedLine>
+             <LineRef>21959</LineRef>
+            </AffectedLine>
+            <AffectedLine>
+             <LineRef>21960</LineRef>
+            </AffectedLine>
+           </AffectedNetwork>
+          </Networks>
+         </Affects>
+        </PublicationScope>
+        <PassengerInformationAction>
+         <ActionRef>1</ActionRef>
+         <RecordedAtTime>2020-03-19T16:18:00Z</RecordedAtTime>
+         <SourceRef>sbb-via-out-sx_test</SourceRef>
+         <OwnerRef>85:11</OwnerRef>
+         <Perspective>general</Perspective>
+         <Perspective>stopPoint</Perspective>
+         <TextualContent>
+          <SummaryContent>
+           <SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf eingeschränkt.</SummaryText>
+          </SummaryContent>
          </TextualContent>
-       </PassengerInformationAction>
-      </PublishingAction>
+         <Classification>
+          <ConsequenceFilter>
+           <Period>
+            <StartTime>2020-03-19T16:14:00Z</StartTime>
+            <EndTime>2020-03-19T20:14:00Z</EndTime>
+           </Period>
+           <Condition>tripCancellation</Condition>
+           <Affects>
+            <Networks>
+             <AffectedNetwork>
+              <AffectedOperator>
+               <OperatorRef>85:11</OperatorRef>
+              </AffectedOperator>
+              <AffectedLine>
+               <!--LinienID (VDV454):  train number -->
+               <LineRef>22978</LineRef>
+              </AffectedLine>
+             </AffectedNetwork>
+            </Networks>
+           </Affects>
+          </ConsequenceFilter>
+         </Classification>
+        </PassengerInformationAction>
+       </PublishingAction>
       </PublishByPerspectiveAction>
       <!--Out-of-scope in pilot
 												<PublishingAction>

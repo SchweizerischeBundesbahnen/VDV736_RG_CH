@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright (C) Schweizerische Bundesbahnen SBB, 2020.
-  -->
-
-<!--
 
 Author: Priscila Moreno-Rey priscila.moreno@sbb.ch
 This example demonstrates the communication of a disruption situation in a train route
@@ -96,11 +92,6 @@ This example demonstrates the communication of a disruption situation in a train
        <!--no replacement yet-->
        <AdviceType>noMeansOfTravel</AdviceType>
       </Advice>
-      <Blocking>
-       <!--information provided by Siri PT/ET has to be overriden, waiting for new PT-->
-       <JourneyPlanner>true</JourneyPlanner>
-       <RealTime>true</RealTime>
-      </Blocking>
      </Consequence>
      </Consequences>
      <PublishingActions>
