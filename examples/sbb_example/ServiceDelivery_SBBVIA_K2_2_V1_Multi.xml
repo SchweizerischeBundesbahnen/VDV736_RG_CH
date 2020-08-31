@@ -3,11 +3,11 @@
 Author: Priscila Moreno-Rey priscila.moreno@sbb.ch
 This example demonstrates the communication of a disruption situation in a train route
 -->
-<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
 		<ServiceDelivery>
 				<ResponseTimestamp>2020-03-19T16:18:00Z</ResponseTimestamp>
 				<ProducerRef>sbb-via-out-sx_test</ProducerRef>
-				<SituationExchangeDelivery version="2.0">
+				<SituationExchangeDelivery version="2.1">
 						<ResponseTimestamp>2020-03-19T16:18:00Z</ResponseTimestamp>
 						<SubscriptionRef>rJZZdSxMB8</SubscriptionRef>
 						<Situations>
