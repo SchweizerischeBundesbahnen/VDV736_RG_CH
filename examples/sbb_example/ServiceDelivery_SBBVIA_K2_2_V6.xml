@@ -24,15 +24,11 @@ This example demonstrates the communication of a disruption situation in a train
       <Name xml:lang="DE">VIA</Name>
      </Source>
      <VersionedAtTime>2020-03-19T17:50:00Z</VersionedAtTime>
-     <Progress>closed</Progress>
+     <Progress>closing</Progress>
      <ValidityPeriod>
       <StartTime>2020-03-19T16:18:00Z</StartTime>
       <EndTime>2020-03-25T18:00:00Z</EndTime>
      </ValidityPeriod>
-     <PublicationWindow>
-      <StartTime>2020-03-19T16:18:00Z</StartTime>
-      <EndTime>2020-03-25T18:20:00Z</EndTime>
-     </PublicationWindow>
      <AlertCause>technicalProblem</AlertCause>
      <ReasonName xml:lang="DE">Technische Störung an der Bahnanlage</ReasonName>
      <Priority>4</Priority>
@@ -129,6 +125,10 @@ This example demonstrates the communication of a disruption situation in a train
         </Affects>
        </PublishAtScope>
        <PassengerInformationAction>
+        <PublicationWindow>
+         <StartTime>2020-03-19T17:50:00Z</StartTime>
+         <EndTime>2020-03-25T18:20:00Z</EndTime>
+        </PublicationWindow>
         <ActionRef>1</ActionRef>
         <RecordedAtTime>2020-03-19T17:50:00Z</RecordedAtTime>
         <SourceRef>sbb-via-out-sx_test</SourceRef>
