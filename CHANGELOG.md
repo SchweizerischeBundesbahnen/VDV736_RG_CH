@@ -29,8 +29,9 @@ Based on Siri https://github.com/SIRI-CEN/SIRI/commit/46a470f9cf4836fb70873a0abf
 ## Changes
 
 <br/> 
+2020-08-01 CR_736-001 SituationVersion - Verwendung präzisieren
 
-
+oder
 
 <table>
     <tr>

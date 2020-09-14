@@ -4,12 +4,13 @@
   <RequestTimestamp>2020-03-12T03:00:00.123456Z</RequestTimestamp>
   <RequestorRef>sbb-via-in-sx_test</RequestorRef>
   <SituationExchangeSubscriptionRequest>
+   <SubscriberRef>sbb-via-in-sx_test</SubscriberRef>
    <SubscriptionIdentifier>1000</SubscriptionIdentifier>
    <InitialTerminationTime>2020-03-13T03:00:00Z</InitialTerminationTime>
    <SituationExchangeRequest>
     <RequestTimestamp>2020-03-12T03:00:00.123456Z</RequestTimestamp>
-    <PreviewInterval>PT3H0S</PreviewInterval>
    </SituationExchangeRequest>
+   <IncrementalUpdates>true</IncrementalUpdates>
   </SituationExchangeSubscriptionRequest>
  </SubscriptionRequest>
 </Siri>
