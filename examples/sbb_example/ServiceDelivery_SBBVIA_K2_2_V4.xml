@@ -6,10 +6,10 @@ This example demonstrates the communication of a disruption situation in a train
 -->
 <Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
  <ServiceDelivery>
-  <ResponseTimestamp>2020-03-19T16:54:00Z</ResponseTimestamp>
+  <ResponseTimestamp>2020-03-19T17:20:00Z</ResponseTimestamp>
   <ProducerRef>sbb-via-out-sx_test</ProducerRef>
   <SituationExchangeDelivery version="2.0">
-   <ResponseTimestamp>2020-03-19T16:54:00Z</ResponseTimestamp>
+   <ResponseTimestamp>2020-03-19T17:20:00Z</ResponseTimestamp>
    <SubscriptionRef>rJZZdSxMB8</SubscriptionRef>
    <Situations>
     <PtSituationElement>
@@ -23,7 +23,7 @@ This example demonstrates the communication of a disruption situation in a train
       <SourceType>directReport</SourceType>
       <Name xml:lang="DE">VIA</Name>
      </Source>
-     <VersionedAtTime>2020-03-19T16:54:00Z</VersionedAtTime>
+     <VersionedAtTime>2020-03-19T17:20:00Z</VersionedAtTime>
      <Progress>published</Progress>
      <ValidityPeriod>
       <StartTime>2020-03-19T16:18:00Z</StartTime>
@@ -41,22 +41,13 @@ This example demonstrates the communication of a disruption situation in a train
         <StopPointName xml:lang="DE">Waldibrücke</StopPointName>
         <StopCondition>firstRoutePoint</StopCondition>
        </AffectedStopPoint>
-       <!-- End systems have to evaluate that between Waldibrücke and Hochdorf the following stop points are also affected by disruption
-																										 <AffectedStopPoint>
-																												 <StopPointRef>8502022</StopPointRef>
-																												 <StopPointName xml:lang="DE">Eschenbach</StopPointName>
-																												 <StopCondition>affectedStopplace</StopCondition>
-																										 </AffectedStopPoint>
-																										 <AffectedStopPoint>
-																												 <StopPointRef>8502023</StopPointRef>
-																												 <StopPointName xml:lang="DE">Ballwil</StopPointName>
-																												 <StopCondition>affectedStopplace</StopCondition>
-																										 </AffectedStopPoint>
-																										 <AffectedStopPoint>
-																												 <StopPointRef>8502042</StopPointRef>
-																												 <StopPointName xml:lang="DE">Hochdorf Schönau</StopPointName>
-																												 <StopCondition>affectedStopplace</StopCondition>
-																										 </AffectedStopPoint>-->
+       <!-- Stop points in between such as the following can't be delivered yet
+           <AffectedStopPoint>
+                   <StopPointRef>8502022</StopPointRef>
+                   <StopPointName xml:lang="DE">Eschenbach</StopPointName>
+                   <StopCondition>affectedStopplace</StopCondition>
+           </AffectedStopPoint>
+           -->
        <AffectedStopPoint>
         <StopPointRef>8502024</StopPointRef>
         <StopPointName xml:lang="DE">Hochdorf</StopPointName>
@@ -122,8 +113,12 @@ This example demonstrates the communication of a disruption situation in a train
         </Affects>
        </PublishAtScope>
        <PassengerInformationAction>
+        <PublicationWindow>
+         <StartTime>2020-03-19T17:20:00Z</StartTime>
+         <EndTime>2020-03-19T20:18:00Z</EndTime>
+        </PublicationWindow>
         <ActionRef>1</ActionRef>
-        <RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
+        <RecordedAtTime>2020-03-19T17:20:00Z</RecordedAtTime>
         <SourceRef>sbb-via-out-sx_test</SourceRef>
         <OwnerRef>85:11</OwnerRef>
         <Perspective>general</Perspective>
@@ -171,7 +166,7 @@ This example demonstrates the communication of a disruption situation in a train
 														</PublishAtScope>
 														<PassengerInformationAction>
 																<ActionRef>3</ActionRef>
-																<RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
+																<RecordedAtTime>2020-03-19T17:20:00Z</RecordedAtTime>
 																<SourceRef>sbb-via-out-sx_test</SourceRef>
 																<OwnerRef>85:11</OwnerRef>
 																<Perspective>stopPoint</Perspective>
@@ -208,7 +203,7 @@ This example demonstrates the communication of a disruption situation in a train
 														</PublishAtScope>
 														<PassengerInformationAction>
 																<ActionRef>4</ActionRef>
-																<RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
+																<RecordedAtTime>2020-03-19T17:20:00Z</RecordedAtTime>
 																<SourceRef>sbb-via-out-sx_test</SourceRef>
 																<OwnerRef>85:11</OwnerRef>
 																<Perspective>stopPoint</Perspective>
@@ -258,7 +253,7 @@ This example demonstrates the communication of a disruption situation in a train
 														<PassengerInformationAction>
 																
 																<ActionRef>2</ActionRef>
-																<RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
+																<RecordedAtTime>2020-03-19T17:20:00Z</RecordedAtTime>
 																<SourceRef>sbb-via-out-sx_test</SourceRef>
 																<OwnerRef>85:11</OwnerRef>
 																<Perspective>stopPoint</Perspective>
@@ -327,7 +322,7 @@ This example demonstrates the communication of a disruption situation in a train
 														<PassengerInformationAction>
 																
 																<ActionRef>5</ActionRef>
-																<RecordedAtTime>2020-03-19T16:54:00Z</RecordedAtTime>
+																<RecordedAtTime>2020-03-19T17:20:00Z</RecordedAtTime>
 																<SourceRef>sbb-via-out-sx_test</SourceRef>
 																<OwnerRef>85:11</OwnerRef>
 																<Perspective>general</Perspective>

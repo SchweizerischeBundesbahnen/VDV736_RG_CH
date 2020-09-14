@@ -41,22 +41,13 @@ This example demonstrates the communication of a disruption situation in a train
         <StopPointName xml:lang="DE">Waldibrücke</StopPointName>
         <StopCondition>firstRoutePoint</StopCondition>
        </AffectedStopPoint>
-       <!-- End systems have to evaluate that between Waldibrücke and Hochdorf the following stop points are also affected by disruption
-																										 <AffectedStopPoint>
-																												 <StopPointRef>8502022</StopPointRef>
-																												 <StopPointName xml:lang="DE">Eschenbach</StopPointName>
-																												 <StopCondition>affectedStopplace</StopCondition>
-																										 </AffectedStopPoint>
-																										 <AffectedStopPoint>
-																												 <StopPointRef>8502023</StopPointRef>
-																												 <StopPointName xml:lang="DE">Ballwil</StopPointName>
-																												 <StopCondition>affectedStopplace</StopCondition>
-																										 </AffectedStopPoint>
-																										 <AffectedStopPoint>
-																												 <StopPointRef>8502042</StopPointRef>
-																												 <StopPointName xml:lang="DE">Hochdorf Schönau</StopPointName>
-																												 <StopCondition>affectedStopplace</StopCondition>
-																										 </AffectedStopPoint>-->
+       <!-- Stop points in between such as the following can't be delivered yet
+           <AffectedStopPoint>
+                   <StopPointRef>8502022</StopPointRef>
+                   <StopPointName xml:lang="DE">Eschenbach</StopPointName>
+                   <StopCondition>affectedStopplace</StopCondition>
+           </AffectedStopPoint>
+           -->
        <AffectedStopPoint>
         <StopPointRef>8502024</StopPointRef>
         <StopPointName xml:lang="DE">Hochdorf</StopPointName>
@@ -125,6 +116,10 @@ This example demonstrates the communication of a disruption situation in a train
         </Affects>
        </PublishAtScope>
        <PassengerInformationAction>
+        <PublicationWindow>
+         <StartTime>2020-03-19T17:40:00Z</StartTime>
+         <EndTime>2020-03-19T20:18:00Z</EndTime>
+        </PublicationWindow>
         <ActionRef>1</ActionRef>
         <RecordedAtTime>2020-03-19T17:40:00Z</RecordedAtTime>
         <SourceRef>sbb-via-out-sx_test</SourceRef>

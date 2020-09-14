@@ -31,6 +31,9 @@ This example demonstrates the communication of a disruption situation in a train
      </ValidityPeriod>
      <AlertCause>technicalProblem</AlertCause>
      <ReasonName xml:lang="DE">Technische Störung an der Bahnanlage</ReasonName>
+     <ReasonName xml:lang="FR">Technische Störung an der Bahnanlage</ReasonName>
+     <ReasonName xml:lang="IT">Technische Störung an der Bahnanlage</ReasonName>
+     <ReasonName xml:lang="EN">Technische Störung an der Bahnanlage</ReasonName>
      <Priority>2</Priority>
      <Planned>false</Planned>
      <Language>DE</Language>
@@ -41,22 +44,13 @@ This example demonstrates the communication of a disruption situation in a train
         <StopPointName xml:lang="DE">Waldibrücke</StopPointName>
         <StopCondition>firstRoutePoint</StopCondition>
        </AffectedStopPoint>
-       <!-- End systems have to evaluate that between Waldibrücke and Hochdorf the following stop points are also affected by disruption
-																										 <AffectedStopPoint>
-																												 <StopPointRef>8502022</StopPointRef>
-																												 <StopPointName xml:lang="DE">Eschenbach</StopPointName>
-																												 <StopCondition>affectedStopplace</StopCondition>
-																										 </AffectedStopPoint>
-																										 <AffectedStopPoint>
-																												 <StopPointRef>8502023</StopPointRef>
-																												 <StopPointName xml:lang="DE">Ballwil</StopPointName>
-																												 <StopCondition>affectedStopplace</StopCondition>
-																										 </AffectedStopPoint>
-																										 <AffectedStopPoint>
-																												 <StopPointRef>8502042</StopPointRef>
-																												 <StopPointName xml:lang="DE">Hochdorf Schönau</StopPointName>
-																												 <StopCondition>affectedStopplace</StopCondition>
-																										 </AffectedStopPoint>-->
+       <!-- Stop points in between such as the following can't be delivered yet
+           <AffectedStopPoint>
+                   <StopPointRef>8502022</StopPointRef>
+                   <StopPointName xml:lang="DE">Eschenbach</StopPointName>
+                   <StopCondition>affectedStopplace</StopCondition>
+           </AffectedStopPoint>
+           -->
        <AffectedStopPoint>
         <StopPointRef>8502024</StopPointRef>
         <StopPointName xml:lang="DE">Hochdorf</StopPointName>
@@ -75,20 +69,38 @@ This example demonstrates the communication of a disruption situation in a train
             <OperatorRef>85:11</OperatorRef>
            </AffectedOperator>
            <AffectedLine>
-            <!--LinienID (VDV454):  train number -->
-            <LineRef>22978</LineRef>
+            <!--Ländercode:Betreiber:Zugnummer:Linienname -->
+            <LineRef>85:11:S99:22978</LineRef>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21959</LineRef>
+            <LineRef>85:11:S9:21959</LineRef>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21960</LineRef>
+            <LineRef>85:11:S9:21960</LineRef>
            </AffectedLine>
           </AffectedNetwork>
          </Networks>
+         <VehicleJourneys>
+            <AffectedVehicleJourney>
+             <FramedVehicleJourneyRef>
+              <DataFrameRef>2020-03-19</DataFrameRef>
+              <DatedVehicleJourneyRef>85:11:22978</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+             </FramedVehicleJourneyRef>
+             <Operator>
+              <OperatorRef>85:11</OperatorRef>
+             </Operator>
+             <TrainNumbers>
+              <TrainNumberRef>22978</TrainNumberRef>
+             </TrainNumbers>
+            </AffectedVehicleJourney>
+           </VehicleJourneys>
         </Affects>
        </PublishAtScope>
        <PassengerInformationAction>
+        <PublicationWindow>
+         <StartTime>2020-03-19T16:18:00Z</StartTime>
+         <EndTime>2020-03-19T20:18:00Z</EndTime>
+        </PublicationWindow>
         <ActionRef>1</ActionRef>
         <RecordedAtTime>2020-03-19T16:18:00Z</RecordedAtTime>
         <SourceRef>sbb-via-out-sx_test</SourceRef>
@@ -97,6 +109,9 @@ This example demonstrates the communication of a disruption situation in a train
         <TextualContent>
          <SummaryContent>
           <SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf eingeschränkt.</SummaryText>
+          <SummaryText xml:lang="FR">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf eingeschränkt.</SummaryText>
+          <SummaryText xml:lang="IT">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf eingeschränkt.</SummaryText>
+          <SummaryText xml:lang="EN">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf eingeschränkt.</SummaryText>
          </SummaryContent>
          <!--Out-of-scope in pilot
 																		<ReasonContent>
