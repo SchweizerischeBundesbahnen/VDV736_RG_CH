@@ -30,7 +30,10 @@ This example demonstrates the communication of a disruption situation in a train
       <EndTime>2020-03-25T18:00:00Z</EndTime>
      </ValidityPeriod>
      <AlertCause>technicalProblem</AlertCause>
-     <ReasonName xml:lang="DE">Technische Störung an der Bahnanlage</ReasonName>
+     <ReasonName xml:lang="DE">Technische Störung am Zug</ReasonName>
+     <ReasonName xml:lang="FR">Dérangement technique au train</ReasonName>
+     <ReasonName xml:lang="IT">Guasto tecnico al treno</ReasonName>
+     <ReasonName xml:lang="EN">Technical difficulty with the carriage</ReasonName>
      <Priority>4</Priority>
      <Planned>false</Planned>
      <Language>DE</Language>
@@ -58,7 +61,7 @@ This example demonstrates the communication of a disruption situation in a train
      <PublishingActions>
       <PublishingAction>
        <PublishAtScope>
-        <ScopeType>line</ScopeType>
+        <ScopeType>vehicleJourney</ScopeType>
         <Affects>
          <Networks>
           <AffectedNetwork>
@@ -66,53 +69,250 @@ This example demonstrates the communication of a disruption situation in a train
             <OperatorRef>85:11</OperatorRef>
            </AffectedOperator>
            <AffectedLine>
-            <!--LinienID (VDV454):  train number -->
-            <LineRef>22978</LineRef>
+            <!--Ländercode:Betreiber:Zugnummer:Linienname -->
+            <LineRef>85:11:22978</LineRef>
+            <PublishedLineName>S99</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21959</LineRef>
+            <LineRef>85:11:21959</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21960</LineRef>
+            <LineRef>85:11:21960</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21961</LineRef>
+            <LineRef>85:11:21961</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>91961</LineRef>
+            <LineRef>85:11:91961</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>91960</LineRef>
+            <LineRef>85:11:91960</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21962</LineRef>
+            <LineRef>85:11:21962</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21963</LineRef>
+            <LineRef>85:11:21963</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21964</LineRef>
+            <LineRef>85:11:21964</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21965</LineRef>
+            <LineRef>85:11:21965</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21966</LineRef>
+            <LineRef>85:11:21966</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>22980</LineRef>
+            <LineRef>85:11:22980</LineRef>
+            <PublishedLineName>S99</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21967</LineRef>
+            <LineRef>85:11:21967</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>22982</LineRef>
+            <LineRef>85:11:22982</LineRef>
+            <PublishedLineName>S99</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
-            <LineRef>21968</LineRef>
+            <LineRef>85:11:21968</LineRef>
+            <PublishedLineName>S9</PublishedLineName>
            </AffectedLine>
           </AffectedNetwork>
          </Networks>
+         <VehicleJourneys>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:22978</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>22978</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:21959</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>21959</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:21960</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>21960</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:21961</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>21961</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:91961</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>91961</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:91960</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>91960</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:21962</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>21962</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:21963</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>21963</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:21964</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>21964</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:21965</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>21965</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:21966</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>21966</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:22980</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>22980</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:21967</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>21967</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:22982</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>22982</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+          <AffectedVehicleJourney>
+           <FramedVehicleJourneyRef>
+            <DataFrameRef>2020-03-19</DataFrameRef>
+            <DatedVehicleJourneyRef>85:11:21968</DatedVehicleJourneyRef> <!--Ländercode:Betreiber:Zugnummer-->
+           </FramedVehicleJourneyRef>
+           <Operator>
+            <OperatorRef>85:11</OperatorRef>
+           </Operator>
+           <TrainNumbers>
+            <TrainNumberRef>21968</TrainNumberRef>
+           </TrainNumbers>
+          </AffectedVehicleJourney>
+         </VehicleJourneys>
         </Affects>
        </PublishAtScope>
        <PassengerInformationAction>
