@@ -136,10 +136,10 @@ This example demonstrates the communication of a disruption situation in a train
         <Perspective>general</Perspective>
         <TextualContent>
          <SummaryContent>
-          <SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf eingeschränkt.</SummaryText>
-          <SummaryText xml:lang="FR">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf eingeschränkt.</SummaryText>
-          <SummaryText xml:lang="IT">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf eingeschränkt.</SummaryText>
-          <SummaryText xml:lang="EN">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf eingeschränkt.</SummaryText>
+          <SummaryText xml:lang="DE">Der Bahnverkehr zwischen Waldibrücke und Hochdorf ist beeinträchtigt.</SummaryText>
+          <SummaryText xml:lang="FR">Ligne restreinte entre Waldibrücke et Hochdorf.</SummaryText>
+          <SummaryText xml:lang="IT">Limitazione dell'esercizie fra Waldibrücke e Hochdorf.</SummaryText>
+          <SummaryText xml:lang="EN">The rail traffic between Waldibrücke and Hochdorf is impaired.</SummaryText>
          </SummaryContent>
          <!--Out-of-scope in pilot
 																		<ReasonContent>

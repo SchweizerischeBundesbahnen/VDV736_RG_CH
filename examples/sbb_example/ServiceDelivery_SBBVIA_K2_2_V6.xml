@@ -30,10 +30,11 @@ This example demonstrates the communication of a disruption situation in a train
       <EndTime>2020-03-25T18:00:00Z</EndTime>
      </ValidityPeriod>
      <AlertCause>technicalProblem</AlertCause>
+     <!--Out of scope PoC
      <ReasonName xml:lang="DE">Technische Störung am Zug</ReasonName>
      <ReasonName xml:lang="FR">Dérangement technique au train</ReasonName>
      <ReasonName xml:lang="IT">Guasto tecnico al treno</ReasonName>
-     <ReasonName xml:lang="EN">Technical difficulty with the carriage</ReasonName>
+     <ReasonName xml:lang="EN">Technical difficulty with the carriage</ReasonName>-->
      <Priority>4</Priority>
      <Planned>false</Planned>
      <Language>DE</Language>
@@ -327,7 +328,10 @@ This example demonstrates the communication of a disruption situation in a train
         <Perspective>general</Perspective>
         <TextualContent>
          <SummaryContent>
-          <SummaryText xml:lang="DE">Der Unterbruch des Bahnverkehrs zwischen Luzern und Hochdorf konnte in beiden Richtungen aufgehoben werden.</SummaryText>
+          <SummaryText xml:lang="DE">Die Störung zwischen Waldibrücke und Hochdorf Süd konnte behoben werden.</SummaryText>
+          <SummaryText xml:lang="FR">La perturbation entre Waldibrücke et Hochdorf Süd a pu être levée.</SummaryText>
+          <SummaryText xml:lang="IT">Il disservizio sulla tratta Waldibrücke - Hochdorf Süd è stato risolto.</SummaryText>
+          <SummaryText xml:lang="EN">The disruption to services between Waldibrücke and Hochdorf Süd has been resolved.</SummaryText>
          </SummaryContent>
          <!--Out-of-scope in pilot
 																		<ConsequenceContent>
