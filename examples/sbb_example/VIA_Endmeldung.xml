@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<himsx version="1.4.0" deliveryTimestamp="2020-09-24T22:36:45.633+02:00" supplierId="redko" xmlns="http://www.hacon.de/hafas/himsx">
+	<situationExchangeDelivery>
+		<message id="2195003532738">
+			<mode>
+				<route bidirectional="true" impact="AFFECTED_SECTION">
+					<firstStop boarding="EVER" id="8500201" name="Lengnau"/>
+					<lastStop boarding="EVER" id="8500202" name="Grenchen Süd"/>
+				</route>
+			</mode>
+			<eventPeriod startDate="2020-09-24T22:26:00.000+02:00" endDate="2020-09-25T00:10:00.000+02:00" dailyStartTime="00:00:00" dailyEndTime="23:59:59"/>
+			<texts realtimeConflict="0">
+				<text lang="DE">
+					<title>Endmeldung: Lengnau - Grenchen Süd</title>
+					<short>Die Störung zwischen Lengnau und Grenchen Süd konnte behoben werden.</short>
+					<long>Die Störung zwischen Lengnau und Grenchen Süd konnte behoben werden.
+Es ist noch mit Verspätungen zu rechnen.</long>
+				</text>
+				<text lang="FR">
+					<title>Annonce finale: Lengnau - Grenchen Süd</title>
+					<short>La perturbation entre Lengnau et Grenchen Süd a pu être levée.</short>
+					<long>La perturbation entre Lengnau et Grenchen Süd a pu être levée.
+Des retards sont encore prévisibles.</long>
+				</text>
+				<text lang="IT">
+					<title>Annuncio finale: Lengnau - Grenchen Süd</title>
+					<short>Il disservizio sulla tratta Lengnau - Grenchen Süd è stato risolto.</short>
+					<long>Il disservizio sulla tratta Lengnau - Grenchen Süd è stato risolto.
+Des retards sont encore prévisibles.</long>
+				</text>
+				<text lang="EN">
+					<title>Final announcement: Lengnau - Grenchen Süd</title>
+					<short>The disruption to services between Lengnau and Grenchen Süd has been resolved.</short>
+					<long>The disruption to services between Lengnau and Grenchen Süd has been resolved.
+There will still be some delays.</long>
+				</text>
+			</texts>
+			<publicationPeriods>
+				<publicationPeriod start="2020-09-24T22:26:00.000+02:00" end="2020-09-24T23:06:45.631+02:00" channel="MAP_CUSTOMER"/>
+				<publicationPeriod start="2020-09-24T22:26:00.000+02:00" end="2020-09-24T23:06:45.631+02:00" channel="MAP_SALE"/>
+				<publicationPeriod start="2020-09-24T22:26:00.000+02:00" end="2020-09-24T23:06:45.631+02:00" channel="MESSAGELIST_CUSTOMER"/>
+				<publicationPeriod start="2020-09-24T22:26:00.000+02:00" end="2020-09-24T23:06:45.631+02:00" channel="MESSAGELIST_SALE"/>
+			</publicationPeriods>
+			<publications>
+				<publicationPeriods>
+					<publicationPeriod start="2020-09-24T22:26:00.000+02:00" end="2020-09-24T23:06:45.631+02:00" channel="MAP_CUSTOMER"/>
+					<publicationPeriod start="2020-09-24T22:26:00.000+02:00" end="2020-09-24T23:06:45.631+02:00" channel="MAP_SALE"/>
+					<publicationPeriod start="2020-09-24T22:26:00.000+02:00" end="2020-09-24T23:06:45.631+02:00" channel="MESSAGELIST_CUSTOMER"/>
+					<publicationPeriod start="2020-09-24T22:26:00.000+02:00" end="2020-09-24T23:06:45.631+02:00" channel="MESSAGELIST_SALE"/>
+				</publicationPeriods>
+				<email publish="true">
+					<emailGroups>
+						<groupCode>BVI2</groupCode>
+						<groupCode>MEDIA2</groupCode>
+					</emailGroups>
+				</email>
+				<push publish="false"/>
+			</publications>
+			<priority>40</priority>
+			<delay>0</delay>
+			<filter>
+				<products>
+					<productRef>0</productRef>
+					<productRef>1</productRef>
+					<productRef>2</productRef>
+					<productRef>3</productRef>
+					<productRef>5</productRef>
+					<productRef>8</productRef>
+				</products>
+			</filter>
+			<categoryRef>6</categoryRef>
+		</message>
+	</situationExchangeDelivery>
+</himsx>

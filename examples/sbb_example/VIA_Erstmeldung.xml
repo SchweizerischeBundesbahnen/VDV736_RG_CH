@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<himsx version="1.4.0" deliveryTimestamp="2020-09-23T13:10:19.185+02:00" supplierId="redko" xmlns="http://www.hacon.de/hafas/himsx">
+	<situationExchangeDelivery>
+		<message id="VIA_ZL_2195003520956_RE_3471">
+			<mode>
+				<journey name="RE 3471" impact="AFFECTED_SECTION">
+					<firstStop boarding="EVER" id="8503225" name="Ziegelbrücke"/>
+					<lastStop boarding="EVER" id="8509411" name="Sargans"/>
+				</journey>
+			</mode>
+			<eventPeriod startDate="2020-09-23T12:12:00.000+02:00" endDate="2020-09-23T13:43:00.000+02:00" dailyStartTime="00:00:00" dailyEndTime="23:59:59"/>
+			<texts realtimeConflict="0">
+				<text lang="DE">
+					<title>Einschränkungen im Bahnverkehr: Zürich HB - Chur</title>
+					<short>Der Bahnverkehr zwischen Ziegelbrücke und Sargans ist unterbrochen.</short>
+					<long>Grund: Unwetter.
+Sämtliche Züge fallen aus.
+Reisende von Pfäffikon SZ und Uznach nach Chur reisen via St. Gallen.
+Reisende von Luzern und Zürich HB nach Chur reisen via St. Gallen.</long>
+				</text>
+				<text lang="FR">
+					<title>Restrictions dans le trafic ferroviaire: Zürich HB - Chur</title>
+					<short>Ligne interrompue entre Ziegelbrücke et Sargans.</short>
+					<long>Motif: Intempéries.
+Tous les trains sont supprimés.
+Les voyageurs de Pfäffikon SZ et Uznach pour Chur voyagent via St. Gallen.
+Les voyageurs de Luzern et Zürich HB pour Chur voyagent via St. Gallen.</long>
+				</text>
+				<text lang="IT">
+					<title>Restrizioni nel traffico ferroviario: Zürich HB - Chur</title>
+					<short>Interruzione di tratta fra Ziegelbrücke e Sargans.</short>
+					<long>Motivo: Maltempo.
+Tutti i treni sono soppressi.
+I viaggiatori da Pfäffikon SZ e Uznach per Chur circolano via St. Gallen.
+I viaggiatori da Luzern e Zürich HB per Chur circolano via St. Gallen.</long>
+				</text>
+				<text lang="EN">
+					<title>Restrictions in rail traffic: Zürich HB - Chur</title>
+					<short>The rail traffic between Ziegelbrücke and Sargans is interrupted.</short>
+					<long>Reason: Storms.
+All train services are cancelled.
+Passengers from Pfäffikon SZ and Uznach to Chur are travelling via St. Gallen.
+Passengers from Luzern and Zürich HB to Chur are travelling via St. Gallen.</long>
+				</text>
+			</texts>
+			<publicationPeriods>
+				<publicationPeriod start="2020-09-23T13:10:13.587+02:00" end="2020-09-23T14:43:00.000+02:00" channel="TIMETABLE"/>
+			</publicationPeriods>
+			<publications>
+				<publicationPeriods>
+					<publicationPeriod start="2020-09-23T13:10:13.587+02:00" end="2020-09-23T14:43:00.000+02:00" channel="TIMETABLE"/>
+				</publicationPeriods>
+				<push publish="false"/>
+			</publications>
+			<priority>60</priority>
+			<delay>0</delay>
+			<filter>
+				<products>
+					<productRef>0</productRef>
+				</products>
+			</filter>
+			<categoryRef>3</categoryRef>
+		</message>
+	</situationExchangeDelivery>
+</himsx>

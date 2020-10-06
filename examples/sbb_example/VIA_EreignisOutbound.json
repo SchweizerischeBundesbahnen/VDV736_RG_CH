@@ -1,0 +1,60 @@
+{
+	 @@ ereignisId @@ : 2195003288802,
+	 @@ ausgabeKanaele @@ : [ @@ HIM_BVI @@ ,  @@ ALEA @@ ],
+	 @@ ereignisBasisinformationen @@ : {
+		 @@ ereignisgrund @@ :  @@ EG_010 @@ ,
+		 @@ ausmass @@ :  @@ EINSCHRAENKUNG @@ ,
+		 @@ ort @@ : {
+			 @@ typ @@ :  @@ STRECKE @@ ,
+			 @@ ort1 @@ : 8502017,
+			 @@ ort2 @@ : 8502024,
+			 @@ linieVon @@ : null,
+			 @@ linieBis @@ : null
+		},
+		 @@ dauer @@ : {
+			 @@ typ @@ :  @@ BIS_ZEIT @@ ,
+			 @@ von @@ : null,
+			 @@ bis @@ :  @@ 2020 - 07 - 30T17: 00: 00.501Z @@
+		},
+		 @@ weitereInformationen @@ : {
+			 @@ typ @@ :  @@ KEINE @@ ,
+			 @@ zeitpunkt @@ : null
+		},
+		 @@ auswirkung @@ :  @@ VERSPAETUNGEN_ZUGAUSFAELLE @@ ,
+		 @@ reiseempfehlungKonfiguration @@ : {
+			 @@ reiseempfehlungen @@ : [],
+			 @@ bahnersatzEmpfehlungAktiv @@ : false,
+			 @@ bahnersatzNewlyAdded @@ : false
+		}
+	},
+	 @@ aleaEreignisInformationen @@ : {
+		 @@ audit @@ : {
+			 @@ ersteller @@ :  @@ Administrator Ganze Schweiz @@ ,
+			 @@ erstellungszeit @@ :  @@ 2020 - 07 - 30T15: 59: 37.244 + 02: 00 @@ ,
+			 @@ erstellerEvu @@ : null,
+			 @@ letzterAenderer @@ :  @@ REDKO @@ ,
+			 @@ letzteAenderungszeit @@ :  @@ 2020 - 07 - 30T16: 05: 44.361105 + 02: 00 @@ ,
+			 @@ letzterAendererEvu @@ : null
+		},
+		 @@ ereignisTyp @@ : null,
+		 @@ ereignisTitelDe @@ :  @@ Stellwerkstörung @@ ,
+		 @@ ereignisTitelFr @@ :  @@ Dérangement à l 'enclenchement@@,@@ereignisTitelIt@@:@@Perturbazione all' apparecchio centrale @@ ,
+		 @@ ereignisDetails @@ :  @@ test twe @@ ,
+		 @@ ortStrecke @@ :  @@ WAB,
+		HO @@ ,
+		 @@ zug @@ : null,
+		 @@ ende @@ : null,
+		 @@ zuglisteStartzeit @@ :  @@ 2020 - 07 - 30T16: 00: 00 + 02: 00 @@ ,
+		 @@ zuglisteEndzeit @@ :  @@ 2020 - 07 - 30T19: 00: 00 + 02: 00 @@ ,
+		 @@ abschlussZeit @@ :  @@ 2020 - 07 - 31T04: 02: 25.73 + 02: 00 @@ ,
+		 @@ zuglisteBetriebspunktVon @@ : 8502017,
+		 @@ zuglisteBetriebspunktBis @@ : null,
+		 @@ stoerungsInfoPubliziert @@ : false
+	},
+	 @@ aleaMeldungen @@ : [],
+	 @@ aleaUpdateCounter @@ : 4,
+	 @@ blmConfig @@ : {
+		 @@ auftragsKonfigurationenBlm @@ : []
+	},
+	 @@ endmeldung @@ : null
+}

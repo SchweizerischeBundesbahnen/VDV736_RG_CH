@@ -23,8 +23,8 @@
 		<th>Creator</th>
 		<th>Status</th>
 		<th>Review by supporters (MENTZ / HBT etc)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-		<th>Change in VDV736</th>
-		<th>Change in Siri</th>
+		<th>Change in <br>VDV736</th>
+		<th>Change in <br>Siri</th>
 	</tr>
 	<tr>
 		<td>CR_736-001</td>
@@ -141,6 +141,7 @@
 		<td>TBD</td>
 		<td></td>
 		<td></td>
+		<td></td>
 	</tr>
 <tr>
 		<td>CR_736-014 <br> CR_CEN-079</td>
@@ -189,8 +190,7 @@
 	</tr>
 <tr>
 		<td>CR_736-019</td>
-		<td>Downstream Siri 2.1</td>
-		<td>Several changes</td>
+		<td>Downstream Siri 2.1 several changes</td>
 		<td>SBB</td>
 		<td>TBD</td>
 		<td></td>
@@ -208,8 +208,7 @@
 	</tr>
 <tr>
 		<td>CR_736-021 <br> CR_CEN_84</td>
-		<td>Blocking</td>
-		<td>New element planned</td>
+		<td>Blocking new element planned</td>
 		<td>SBB</td>
 		<td>TBD</td>
 		<td></td>

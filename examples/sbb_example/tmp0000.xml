@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+Author: Priscila Moreno-Rey priscila.moreno@sbb.ch
+This example demonstrates the communication of a disruption situation in a train route
+-->
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<ServiceDelivery>
+		<ResponseTimestamp>2020-03-19T16:18:00Z</ResponseTimestamp>
+		<ProducerRef>sbb-via-out-sx_test</ProducerRef>
+		<SituationExchangeDelivery version="2.0">
+			<ResponseTimestamp>2020-03-19T16:18:00Z</ResponseTimestamp>
+			<SubscriptionRef>rJZZdSxMB8</SubscriptionRef>
+			<Situations>
+				<PtSituationElement>
+					<CreationTime>2020-03-19T16:18:00Z</CreationTime>
+					<CountryRef>ch</CountryRef>
+					<ParticipantRef>sbb-via-out-sx_test</ParticipantRef>
+					<SituationNumber>ch:1:sstid:100001:000000000001</SituationNumber>
+					<Version>1</Version>
+					<Source>
+						<CountryRef>ch</CountryRef>
+						<SourceType>directReport</SourceType>
+						<Name xml:lang="DE">VIA</Name>
+					</Source>
+					<VersionedAtTime>2020-03-19T16:18:00Z</VersionedAtTime>
+					<Progress>published</Progress>
+					<ValidityPeriod>
+						<StartTime>2020-03-19T16:18:00Z</StartTime>
+						<EndTime>2020-03-19T20:18:00Z</EndTime>
+					</ValidityPeriod>
+					<AlertCause>technicalProblem</AlertCause>
+					<Priority>2</Priority>
+					<Planned>false</Planned>
+					<Language>DE</Language>
+					<Affects>
+						<StopPoints>
+							<AffectedStopPoint>
+								<StopPointRef>8502017</StopPointRef>
+								<StopPointName xml:lang="DE">Waldibrücke</StopPointName>
+								<StopCondition>firstRoutePoint</StopCondition>
+							</AffectedStopPoint>
+							<!-- Stop points in between such as the following can't be delivered yet
+           <AffectedStopPoint>
+                   <StopPointRef>8502022</StopPointRef>
+                   <StopPointName xml:lang="DE">Eschenbach</StopPointName>
+                   <StopCondition>affectedStopplace</StopCondition>
+           </AffectedStopPoint>
+           -->
+							<AffectedStopPoint>
+								<StopPointRef>8502024</StopPointRef>
+								<StopPointName xml:lang="DE">Hochdorf</StopPointName>
+								<StopCondition>lastRoutePoint</StopCondition>
+							</AffectedStopPoint>
+						</StopPoints>
+					</Affects>
+					<PublishingActions>
+						<PublishingAction>
+							<PublishAtScope>
+								<ScopeType>vehicleJourney</ScopeType>
+								<Affects>
+									<Networks>
+										<AffectedNetwork>
+											<AffectedOperator>
+												<OperatorRef>85:11</OperatorRef>
+											</AffectedOperator>
+											<AffectedLine>
+												<!--Ländercode:Betreiber:Zugnummer:Linienname -->
+												<LineRef>85:11:22978</LineRef>
+												<PublishedLineName>S99</PublishedLineName>
+											</AffectedLine>
+											<AffectedLine>
+												<LineRef>85:11:21959</LineRef>
+												<PublishedLineName>S9</PublishedLineName>
+											</AffectedLine>
+											<AffectedLine>
+												<LineRef>85:11:21960</LineRef>
+												<PublishedLineName>S9</PublishedLineName>
+											</AffectedLine>
+										</AffectedNetwork>
+									</Networks>
+									<VehicleJourneys>
+										<AffectedVehicleJourney>
+											<FramedVehicleJourneyRef>
+												<DataFrameRef>2020-03-19</DataFrameRef>
+												<DatedVehicleJourneyRef>85:11:22978</DatedVehicleJourneyRef>
+												<!--Ländercode:Betreiber:Zugnummer-->
+											</FramedVehicleJourneyRef>
+											<Operator>
+												<OperatorRef>85:11</OperatorRef>
+											</Operator>
+											<TrainNumbers>
+												<TrainNumberRef>22978</TrainNumberRef>
+											</TrainNumbers>
+										</AffectedVehicleJourney>
+										<AffectedVehicleJourney>
+											<FramedVehicleJourneyRef>
+												<DataFrameRef>2020-03-19</DataFrameRef>
+												<DatedVehicleJourneyRef>85:11:21959</DatedVehicleJourneyRef>
+												<!--Ländercode:Betreiber:Zugnummer-->
+											</FramedVehicleJourneyRef>
+											<Operator>
+												<OperatorRef>85:11</OperatorRef>
+											</Operator>
+											<TrainNumbers>
+												<TrainNumberRef>21959</TrainNumberRef>
+											</TrainNumbers>
+										</AffectedVehicleJourney>
+										<AffectedVehicleJourney>
+											<FramedVehicleJourneyRef>
+												<DataFrameRef>2020-03-19</DataFrameRef>
+												<DatedVehicleJourneyRef>85:11:21960</DatedVehicleJourneyRef>
+												<!--Ländercode:Betreiber:Zugnummer-->
+											</FramedVehicleJourneyRef>
+											<Operator>
+												<OperatorRef>85:11</OperatorRef>
+											</Operator>
+											<TrainNumbers>
+												<TrainNumberRef>21960</TrainNumberRef>
+											</TrainNumbers>
+										</AffectedVehicleJourney>
+									</VehicleJourneys>
+								</Affects>
+							</PublishAtScope>
+							<PassengerInformationAction>
+								<PublicationWindow>
+									<StartTime>2020-03-19T16:18:00Z</StartTime>
+									<EndTime>2020-03-19T20:18:00Z</EndTime>
+								</PublicationWindow>
+								<ActionRef>1</ActionRef>
+								<RecordedAtTime>2020-03-19T16:18:00Z</RecordedAtTime>
+								<SourceRef>sbb-via-out-sx_test</SourceRef>
+								<OwnerRef>85:11</OwnerRef>
+								<Perspective>general</Perspective>
+								<TextualContent>
+									<SummaryContent>
+										<SummaryText xml:lang="DE">Der Bahnverkehr zwischen Waldibrücke und Hochdorf ist beeinträchtigt.</SummaryText>
+										<SummaryText xml:lang="FR">Ligne restreinte entre Waldibrücke et Hochdorf.</SummaryText>
+										<SummaryText xml:lang="IT">Limitazione dell'esercizie fra Waldibrücke e Hochdorf.</SummaryText>
+										<SummaryText xml:lang="EN">The rail traffic between Waldibrücke and Hochdorf is impaired.</SummaryText>
+									</SummaryContent>
+									<!--Out-of-scope in pilot
+																		<ReasonContent>
+																				<ReasonName xml:lang="DE">Technische Störung am Zug</ReasonName>
+																				<ReasonName xml:lang="FR">Dérangement technique au train</ReasonName>
+																				<ReasonName xml:lang="IT">Guasto tecnico al treno</ReasonName>
+																				<ReasonName xml:lang="EN">Technical difficulty with the carriage</ReasonName>
+																		</ReasonContent>
+																		<ConsequenceContent>
+																				<ConsequenceText xml:lang="DE">Es ist mit Verspätungen und Zugausfällen zu rechnen.</ConsequenceText>
+																		</ConsequenceContent>
+																		<DurationContent>
+																				<DurationText xml:lang="DE">Die Dauer der Einschränkung ist unbestimmt.</DurationText>
+																		</DurationContent>-->
+								</TextualContent>
+							</PassengerInformationAction>
+						</PublishingAction>
+						<!--Out-of-scope in pilot
+												<PublishingAction>
+														<PublishAtScope>
+																<ScopeType>route</ScopeType>
+																<Affects>
+																		<StopPoints>
+																				<AffectedStopPoint>
+																						<StopPointRef>8505000</StopPointRef>
+																						<StopPointName xml:lang="DE">Luzern</StopPointName>
+																						<StopCondition>firstRoutePoint</StopCondition>
+																				</AffectedStopPoint>
+																				<AffectedStopPoint>
+																						<StopPointRef>8502119</StopPointRef>
+																						<StopPointName xml:lang="DE">Lenzburg</StopPointName>
+																						<StopCondition>lastRoutePoint</StopCondition>
+																				</AffectedStopPoint>
+																		</StopPoints>
+																</Affects>
+														</PublishAtScope>
+														<PassengerInformationAction>
+																<ActionRef>2</ActionRef>
+																<RecordedAtTime>2020-03-19T16:18:00Z</RecordedAtTime>
+																<SourceRef>sbb-via-out-sx_test</SourceRef>
+																<OwnerRef>85:11</OwnerRef>
+																<Perspective>stopPoint</Perspective>
+																<TextualContent>
+																		<SummaryContent>
+																				<SummaryText xml:lang="DE">Der Bahnverkehr auf der Strecke Luzern und Lenzburg ist in beiden Richtungen zwischen Waldibrücke und Hochdorf eingeschränkt.</SummaryText>
+																		</SummaryContent>
+																		<ReasonContent>
+																				<ReasonText xml:lang="DE">Technische Störung an der Bahnanlage</ReasonText>
+																		</ReasonContent>
+																		<ConsequenceContent>
+																				<ConsequenceText xml:lang="DE">Es ist mit Verspätungen und Zugausfällen zu rechnen.</ConsequenceText>
+																		</ConsequenceContent>
+																		<DurationContent>
+																				<DurationText xml:lang="DE">Die Dauer der Einschränkung ist unbestimmt.</DurationText>
+																		</DurationContent>
+																</TextualContent>
+														</PassengerInformationAction>
+												</PublishingAction>-->
+					</PublishingActions>
+				</PtSituationElement>
+			</Situations>
+		</SituationExchangeDelivery>
+	</ServiceDelivery>
+</Siri>

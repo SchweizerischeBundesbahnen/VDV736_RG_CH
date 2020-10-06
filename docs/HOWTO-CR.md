@@ -1,4 +1,4 @@
-![HOWTOCR](https://github.com/SchweizerischeBundesbahnen/VDV736_RG_CH/blob/UmS-XSD-PoC/HOWTOCR.png)
+![HOWTOCR](https://github.com/SchweizerischeBundesbahnen/VDV736_RG_CH/blob/UmS-XSD-PoC/docs/img/HOWTOCR.png)
 # Discuss
 * Ist es Siri relevant? Starte eine Basecamp Diskussion
 * Ansonsten: starte eine Diskussion anhand einem UmS Github Issue 
