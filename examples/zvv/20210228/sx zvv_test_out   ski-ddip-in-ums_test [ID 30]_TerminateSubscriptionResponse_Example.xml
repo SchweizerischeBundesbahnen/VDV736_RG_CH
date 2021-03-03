@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:datex="http://datex2.eu/schema/2_0RC1/2_0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd">
+	<TerminateSubscriptionResponse>
+		<ResponseTimestamp>2021-02-28T08:07:10.425Z</ResponseTimestamp>
+		<ResponderRef>zvv_test_out</ResponderRef>
+		<TerminationResponseStatus>
+			<ResponseTimestamp>2021-02-28T08:07:10.425Z</ResponseTimestamp>
+			<SubscriberRef>ski-ddip-in-ums_test</SubscriberRef>
+			<SubscriptionRef>UnknownSubscriber-NoSubscriptionRefAvailable</SubscriptionRef>
+			<Status>false</Status>
+			<ErrorCondition>
+				<UnknownSubscriberError>
+					<ErrorText>UNKNOWN_SUBSCRIBER</ErrorText>
+					<SubscriberRef>ski-ddip-in-ums_test</SubscriberRef>
+				</UnknownSubscriberError>
+			</ErrorCondition>
+		</TerminationResponseStatus>
+	</TerminateSubscriptionResponse>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 28.02.2021 09:07:10//-->
+<!-- REQUEST-URL: http://213.83.5.132:17017/ski-ddip-in-ums_test/vdv736//-->
+<!-- REMOTE_END_POINT-URL: http://213.83.5.132:17017/ski-ddip-in-ums_test/vdv736//-->

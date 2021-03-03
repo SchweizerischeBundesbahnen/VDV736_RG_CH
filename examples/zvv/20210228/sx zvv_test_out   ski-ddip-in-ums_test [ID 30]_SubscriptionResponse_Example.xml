@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:datex="http://datex2.eu/schema/2_0RC1/2_0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd">
+	<SubscriptionResponse>
+		<ResponseTimestamp>2021-02-28T08:07:10.670Z</ResponseTimestamp>
+		<Address>https://api.test.ddip.odpch.ch:443/siri20/ps-xml/sx/zvv_test_out/ski-ddip-in-ums_test/</Address>
+		<ResponderRef>zvv_test_out</ResponderRef>
+		<ResponseStatus>
+			<ResponseTimestamp>2021-02-28T08:07:10.670Z</ResponseTimestamp>
+			<SubscriberRef>ski-ddip-in-ums_test</SubscriberRef>
+			<SubscriptionRef>1</SubscriptionRef>
+		</ResponseStatus>
+		<ServiceStartedTime>2021-02-22T08:04:11.828Z</ServiceStartedTime>
+	</SubscriptionResponse>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 28.02.2021 09:07:10//-->
+<!-- REQUEST-URL: http://213.83.5.132:17017/ski-ddip-in-ums_test/vdv736//-->
+<!-- REMOTE_END_POINT-URL: http://213.83.5.132:17017/ski-ddip-in-ums_test/vdv736//-->

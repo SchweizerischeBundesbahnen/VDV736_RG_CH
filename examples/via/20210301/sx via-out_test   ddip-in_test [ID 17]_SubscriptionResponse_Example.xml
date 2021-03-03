@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns:ns3="http://www.ifopt.org.uk/ifopt" xmlns:ns4="http://datex2.eu/schema/2_0RC1/2_0" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd">
+	<SubscriptionResponse>
+		<ResponseTimestamp>2021-03-01T23:27:58.263864+01:00</ResponseTimestamp>
+		<ResponderRef>via-in_test</ResponderRef>
+		<ResponseStatus>
+			<ResponseTimestamp>2021-03-01T23:27:58.218721+01:00</ResponseTimestamp>
+			<SubscriberRef>ddip-in_test</SubscriberRef>
+			<SubscriptionRef>1</SubscriptionRef>
+			<Status>true</Status>
+			<ShortestPossibleCycle>PT1M</ShortestPossibleCycle>
+		</ResponseStatus>
+		<ServiceStartedTime>2021-03-01T14:25:17.365023+01:00</ServiceStartedTime>
+	</SubscriptionResponse>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 01.03.2021 23:27:58//-->
+<!-- REQUEST-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->
+<!-- REMOTE_END_POINT-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->

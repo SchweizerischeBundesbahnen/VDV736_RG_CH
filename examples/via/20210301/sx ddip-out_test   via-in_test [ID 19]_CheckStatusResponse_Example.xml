@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri">
+	<CheckStatusResponse>
+		<ResponseTimestamp>2021-03-01T08:59:40.701688Z</ResponseTimestamp>
+		<ProducerRef>ddip-out_test</ProducerRef>
+		<Status>true</Status>
+		<ServiceStartedTime>2021-03-01T07:29:39.15438Z</ServiceStartedTime>
+	</CheckStatusResponse>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 01.03.2021 09:59:40//-->
+<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/via-in_test/ddip-out_test//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.114:52136//-->
+<!-- HEADERS:  Accept:text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*,Accept-Encoding:gzip,deflate,Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIzMTc5NDJhdW5mcWdoamw2Z283ZzZpamdyYSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxNDU4NzI2MSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE0NTkwODYxLCJpYXQiOjE2MTQ1ODcyNjEsInZlcnNpb24iOjIsImp0aSI6IjQwZmY3ZDJjLTU4ZGQtNGE2NS1hNTVkLThmNmQ0MGI3ZjQ5NSIsImNsaWVudF9pZCI6IjMxNzk0MmF1bmZxZ2hqbDZnbzdnNmlqZ3JhIn0.Q77ATlEJlQoZ6YUmz7wwbG2D_ZQPup62wFplJbajyifTnFTCJi7VZRmjLXlyWMbP6mPfOgf0Z77ZkspF2Uus554n6mRtGT77iC5mQjJ6QIzPsopCPXCeVllioyhw7qPMTCqKHUYH29qtWy9ni0ABhXbDMsK79ws6P6nLCHxM7Ar_FDc4b-DwCZpAxOodb9-LfHJ9mFJqQP2REXtK5jqvvazcx9x-PUE1S54iZipj8W33rYgGQ1rCkgYrqbmA2TX0lQw8Unr7_4E1hrj-6LXRPgMBTr4zJ1ZZuvuPxTDuG2aLoG5NQUxsU1Tfm8dPnFbSTsj-fByGBUDsqb6JDgXG-w,Connection:close,Content-Length:398,Content-Type:text/plain;charset=ISO-8859-1,Host:api.test.ddip.odpch.ch,User-Agent:Apache-HttpClient/4.5.13 (Java/11.0.10),X-Amzn-Trace-Id:Root=1-603cacfc-173758497cc5631677389dd2,X-Forwarded-For:195.65.154.112,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.172,X-Scheme:https//-->

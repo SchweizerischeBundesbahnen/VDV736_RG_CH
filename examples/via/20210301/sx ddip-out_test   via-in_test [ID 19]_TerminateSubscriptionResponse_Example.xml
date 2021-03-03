@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri">
+	<TerminateSubscriptionResponse>
+		<ResponseTimestamp>2021-03-01T07:28:27.764772Z</ResponseTimestamp>
+		<ResponderRef>ddip-out_test</ResponderRef>
+	</TerminateSubscriptionResponse>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 01.03.2021 08:28:27//-->
+<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/via-in_test/ddip-out_test//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.114:50342//-->
+<!-- HEADERS:  Accept:text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*,Accept-Encoding:gzip,deflate,Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIzMTc5NDJhdW5mcWdoamw2Z283ZzZpamdyYSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxNDU4MzcwNywiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE0NTg3MzA3LCJpYXQiOjE2MTQ1ODM3MDcsInZlcnNpb24iOjIsImp0aSI6Ijg2ZjEzNGMyLThmMTgtNDU2Ny1hMzRmLWY4ZDY0OTAxMTVkNiIsImNsaWVudF9pZCI6IjMxNzk0MmF1bmZxZ2hqbDZnbzdnNmlqZ3JhIn0.RjYh-iDTlsSAAa4X0Gw-WIJMM917jRPbY1Lo0jIpqmfeDUiRyZexpaYOP-89lVDL0GNEY4didprx01bIkIo7r6UvMTymzhRJP2ixuRfzqRqHuy3Z9mHZtu8QbBpTxSB81_FmyMRZJblRRh0Z7PsjCvtk2RyQwa6e70aFQnUmCVC-EMb8qSc7U06rsRPzP-96ABxDiOvYlM3bungAL2NerTB59kH_MMU2OsjEFjaDYASFpTvxXbwCVCEPEiXIzseNez5t7yskLzrCr4ET7TazmtgC_25ARp5rTBbjm1P2P1sjL5nWSpAvT_rJ8Ts7xdA0Yhs2GziFouTfw5rZwqm6KA,Connection:close,Content-Length:429,Content-Type:text/plain;charset=ISO-8859-1,Host:api.test.ddip.odpch.ch,User-Agent:Apache-HttpClient/4.5.13 (Java/11.0.10),X-Amzn-Trace-Id:Root=1-603c979b-268489dc7d06f5c230db89e9,X-Forwarded-For:195.65.154.112,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.172,X-Scheme:https//-->

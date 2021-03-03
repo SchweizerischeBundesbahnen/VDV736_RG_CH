@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd">
+	<ServiceDelivery>
+		<ResponseTimestamp>2021-03-01T20:59:39Z</ResponseTimestamp>
+		<ProducerRef>EMS-out_test</ProducerRef>
+		<ResponseMessageIdentifier>jq4l7jARl</ResponseMessageIdentifier>
+		<Status>true</Status>
+		<MoreData>false</MoreData>
+		<SituationExchangeDelivery version="2.0">
+			<ResponseTimestamp>2021-03-01T20:59:39Z</ResponseTimestamp>
+			<SubscriberRef>DDIP-in_test</SubscriberRef>
+			<SubscriptionRef>1</SubscriptionRef>
+			<Situations>
+				<PtSituationElement>
+					<CreationTime>2021-03-01T20:59:39Z</CreationTime>
+					<CountryRef>ch</CountryRef>
+					<ParticipantRef>sbb-ems-out-sx_test</ParticipantRef>
+					<SituationNumber>ch:1:sstid:1:d5d9796f-b064-57e8-a5f2-2588be81933c</SituationNumber>
+					<Version>1</Version>
+					<Source>
+						<CountryRef>ch</CountryRef>
+						<SourceType>feed</SourceType>
+						<Name>EMS</Name>
+						<ExternalCode>sbb-ems-out-sx_test</ExternalCode>
+					</Source>
+					<VersionedAtTime>2021-03-01T20:59:35Z</VersionedAtTime>
+					<Progress>published</Progress>
+					<ValidityPeriod>
+						<StartTime>2021-03-01T20:58:00Z</StartTime>
+						<EndTime>2021-03-09T20:58:00Z</EndTime>
+					</ValidityPeriod>
+					<PublicationWindow>
+						<StartTime>2021-03-01T20:58:00Z</StartTime>
+						<EndTime>2021-03-09T21:08:00Z</EndTime>
+					</PublicationWindow>
+					<AlertCause>strongWinds</AlertCause>
+					<Severity>normal</Severity>
+					<Priority>3</Priority>
+					<Audience>public</Audience>
+					<ScopeType>line</ScopeType>
+					<Language>DE</Language>
+					<Summary xml:lang="DE">Unterbruch in beiden Richtungen zwischen  -  </Summary>
+					<Description xml:lang="DE"></Description>
+					<Detail xml:lang="DE">Grund: Starke Winde</Detail>
+					<Affects>
+						<StopPlaces>
+							<AffectedStopPlace>
+								<StopPlaceRef>8589766</StopPlaceRef>
+								<PlaceName>Luzern, Allmend/Messe</PlaceName>
+							</AffectedStopPlace>
+						</StopPlaces>
+					</Affects>
+					<Consequences>
+						<Consequence>
+							<Condition>unknown</Condition>
+							<Severity>normal</Severity>
+							<Affects>
+								<Networks>
+									<AffectedNetwork>
+										<AffectedLine>
+											<LineRef>ojp920N1DHj21</LineRef>
+											<PublishedLineName>N1</PublishedLineName>
+										</AffectedLine>
+										<AffectedLine>
+											<LineRef>ojp92020BHj21</LineRef>
+											<PublishedLineName>20</PublishedLineName>
+										</AffectedLine>
+										<AffectedLine>
+											<LineRef>ojp92020BRj21</LineRef>
+											<PublishedLineName>20</PublishedLineName>
+										</AffectedLine>
+									</AffectedNetwork>
+								</Networks>
+							</Affects>
+						</Consequence>
+					</Consequences>
+					<PublishingActions>
+						<PublishingAction>
+							<PublishAtScope>
+								<ScopeType>line</ScopeType>
+								<Affects>
+									<Networks>
+										<AffectedNetwork>
+											<AffectedLine>
+												<LineRef>ojp920N1DHj21</LineRef>
+												<PublishedLineName>N1</PublishedLineName>
+											</AffectedLine>
+											<AffectedLine>
+												<LineRef>ojp92020BHj21</LineRef>
+												<PublishedLineName>20</PublishedLineName>
+											</AffectedLine>
+											<AffectedLine>
+												<LineRef>ojp92020BRj21</LineRef>
+												<PublishedLineName>20</PublishedLineName>
+											</AffectedLine>
+										</AffectedNetwork>
+									</Networks>
+								</Affects>
+							</PublishAtScope>
+							<PassengerInformationAction>
+								<ActionRef>ems-144-0</ActionRef>
+								<RecordedAtTime>2021-03-01T20:59:35Z</RecordedAtTime>
+								<Perspective>general</Perspective>
+								<Perspective>stopPoint</Perspective>
+								<Perspective>vehicleJourney</Perspective>
+								<TextualContent>
+									<TextualContentSize>M</TextualContentSize>
+									<SummaryContent>
+										<SummaryText xml:lang="DE">Unterbruch in beiden Richtungen zwischen  -  </SummaryText>
+									</SummaryContent>
+									<ReasonContent>
+										<ReasonText xml:lang="DE">Starke Winde</ReasonText>
+									</ReasonContent>
+									<DescriptionContent>
+										<DescriptionText xml:lang="DE"></DescriptionText>
+									</DescriptionContent>
+									<ConsequenceContent>
+										<ConsequenceText xml:lang="DE">Streckensperrung</ConsequenceText>
+									</ConsequenceContent>
+								</TextualContent>
+							</PassengerInformationAction>
+						</PublishingAction>
+					</PublishingActions>
+				</PtSituationElement>
+			</Situations>
+		</SituationExchangeDelivery>
+	</ServiceDelivery>
+</Siri>
+
+		<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+		<!-- TIMESTAMP: 01.03.2021 21:59:39//-->
+		<!-- REQUEST-URL: http://lb.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/EMS-out_test/DDIP-in_test//-->
+		<!-- REMOTE_END_POINT-URL: 10.39.17.234:45228//-->
+		<!-- HEADERS:  Connection:close,Content-Length:7271,Content-Type:text/xml; charset=utf-8,Host:lb.test.ddip.odpch.ch:8882//-->

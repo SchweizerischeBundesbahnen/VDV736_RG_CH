@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri">
+	<CheckStatusRequest>
+		<RequestTimestamp>2021-03-01T08:59:42.945157Z</RequestTimestamp>
+		<RequestorRef>ddip-in_test</RequestorRef>
+	</CheckStatusRequest>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 01.03.2021 09:59:42//-->
+<!-- REQUEST-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->
+<!-- REMOTE_END_POINT-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->

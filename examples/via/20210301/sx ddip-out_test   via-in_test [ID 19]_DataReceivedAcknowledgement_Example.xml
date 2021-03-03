@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns:ns3="http://www.ifopt.org.uk/ifopt" xmlns:ns4="http://datex2.eu/schema/2_0RC1/2_0" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd">
+	<DataReceivedAcknowledgement>
+		<ResponseTimestamp>2021-03-01T08:29:13.233534+01:00</ResponseTimestamp>
+		<ConsumerRef>via-in_test</ConsumerRef>
+		<Status>true</Status>
+	</DataReceivedAcknowledgement>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 01.03.2021 08:29:15//-->
+<!-- REQUEST-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->
+<!-- REMOTE_END_POINT-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->
