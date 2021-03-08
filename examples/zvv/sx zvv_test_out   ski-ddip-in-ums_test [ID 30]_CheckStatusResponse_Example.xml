@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:datex="http://datex2.eu/schema/2_0RC1/2_0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<CheckStatusResponse>
+		<ResponseTimestamp>2021-03-05T08:59:15.657Z</ResponseTimestamp>
+		<ProducerRef>zvv_test_out</ProducerRef>
+		<Address>https://api.test.ddip.odpch.ch:443/siri20/ps-xml/sx/zvv_test_out/ski-ddip-in-ums_test/</Address>
+		<Status>true</Status>
+		<DataReady>false</DataReady>
+		<ServiceStartedTime>2021-03-03T12:45:11.290Z</ServiceStartedTime>
+	</CheckStatusResponse>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 05.03.2021 09:59:15//-->
+<!-- REQUEST-URL: http://213.83.5.132:17017/ski-ddip-in-ums_test/vdv736//-->
+<!-- REMOTE_END_POINT-URL: http://213.83.5.132:17017/ski-ddip-in-ums_test/vdv736//-->

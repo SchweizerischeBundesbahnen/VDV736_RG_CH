@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns:ns4="http://datex2.eu/schema/2_0RC1/2_0" xmlns:ns3="http://www.ifopt.org.uk/ifopt" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<TerminateSubscriptionResponse>
+		<ResponseTimestamp>2021-03-05T09:49:10.001+01:00</ResponseTimestamp>
+		<ResponderRef>pag-out-ums_test</ResponderRef>
+	</TerminateSubscriptionResponse>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 05.03.2021 09:49:10//-->
+<!-- REQUEST-URL: https://vdv736.oevfahrplan.ch:443/vdv736/pag-out-ums_test/ski-ddip-in-ums_test//-->
+<!-- REMOTE_END_POINT-URL: https://vdv736.oevfahrplan.ch:443/vdv736/pag-out-ums_test/ski-ddip-in-ums_test//-->

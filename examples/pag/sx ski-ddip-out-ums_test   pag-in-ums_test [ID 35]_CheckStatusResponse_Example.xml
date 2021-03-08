@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<CheckStatusResponse>
+		<ResponseTimestamp>2021-03-05T08:59:27.232123Z</ResponseTimestamp>
+		<ProducerRef>ski-ddip-out-ums_test</ProducerRef>
+		<Status>true</Status>
+		<ServiceStartedTime>2021-03-04T15:40:08.6116Z</ServiceStartedTime>
+	</CheckStatusResponse>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 05.03.2021 09:59:27//-->
+<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/pag-in-ums_test/ski-ddip-out-ums_test//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.114:54794//-->
+<!-- HEADERS:  Accept-Encoding:gzip,Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxa2FsOWliMjJ0ODJjcnNzb2I2aGx0c2E4cyIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxNDkzNDc2NiwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE0OTM4MzY2LCJpYXQiOjE2MTQ5MzQ3NjYsInZlcnNpb24iOjIsImp0aSI6IjExM2U3Mjg5LTRjNTktNDIxNS1iMDEwLWMyN2VjZGIyMTNmZiIsImNsaWVudF9pZCI6IjFrYWw5aWIyMnQ4MmNyc3NvYjZobHRzYThzIn0.QwqWfXVsiT30GrtEgurIHyYA-PJ_v-_b5NEQlfxp-Hzitg-B_CGpC9LVW2rwHq6q2hGicrL9O57d_B1rkFdZUP7aBJpDbHdXoojUVQ8_tgsoYZV8C8KPHcc6p6fAzy5tztZuo_DSyH-Dw-_Yj37kgtnwIJumlDkTuAOC2Djto227WUbQPBPmLOcEF4oIQQnwZzlcu-2HtCpZpxueFNjgNmcX5pcJkVYD3ygCzCRKoYb1PXUpG5TtIiMwOv4no9aDADykaJpCXI_92bUCm_DIUUawAZOjY7MTOmSx9zeg0hDlUfdzJFkDCQCDiHNJKEkf-B61wpgLIoeHg1bmMUG_0A,Connection:close,Content-Length:430,Content-Type:text/xml,Host:api.test.ddip.odpch.ch,User-Agent:unirest-java/3.1.00,X-Amzn-Trace-Id:Root=1-6041f2ef-1e6afa8b59babd4f086cd6d9,X-Forwarded-For:185.235.188.54,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.63,X-Scheme:https//-->

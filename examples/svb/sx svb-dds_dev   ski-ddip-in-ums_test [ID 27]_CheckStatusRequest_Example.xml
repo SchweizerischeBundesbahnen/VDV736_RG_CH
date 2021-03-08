@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<CheckStatusRequest>
+		<RequestTimestamp>2021-03-05T08:59:15.57042Z</RequestTimestamp>
+		<RequestorRef>ski-ddip-in-ums_test</RequestorRef>
+	</CheckStatusRequest>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 05.03.2021 09:59:15//-->
+<!-- REQUEST-URL: https://vdv736-dev.ddsbern.ch:443/ski-ddip_test/ums//-->
+<!-- REMOTE_END_POINT-URL: https://vdv736-dev.ddsbern.ch:443/ski-ddip_test/ums//-->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<SubscriptionResponse>
+		<ResponseTimestamp>2021-03-05T19:27:31.14401Z</ResponseTimestamp>
+		<ResponderRef>ski-ddip-out-ums_test</ResponderRef>
+		<RequestMessageRef>11e68a12-b424-4ca8-9860-f3ed6f8c71bd</RequestMessageRef>
+		<ResponseStatus>
+			<ResponseTimestamp>2021-03-05T19:27:31.14401Z</ResponseTimestamp>
+			<SubscriptionRef>1</SubscriptionRef>
+		</ResponseStatus>
+	</SubscriptionResponse>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 05.03.2021 20:27:31//-->
+<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/zvv_test_in/ski-ddip-out-ums_test//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.114:56632//-->
+<!-- HEADERS:  Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI1bTg4dWdiNG9wdWRkZGNwbzQ3cTVnanFvOSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxNDk3MTc3MSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE0OTc1MzcxLCJpYXQiOjE2MTQ5NzE3NzEsInZlcnNpb24iOjIsImp0aSI6IjRkYjMwMmIyLTU5NGYtNDBmNi1hOTdjLWIxNWIzMmU3N2YxMCIsImNsaWVudF9pZCI6IjVtODh1Z2I0b3B1ZGRkY3BvNDdxNWdqcW85In0.gUhIsDMozDPuwgUHKQ5mpS11zQbi8BF7WSKU2C1Nu0wrfBmquHBCJsR25hTu5vHYujbaKAtAGZuoSMGrgs7AMRXArpd5o5y-mKj4fyi3uyAYwTregGAxFOF_9U3FPbrf02mf2d40GKAjy72ozgS-GIKK6ys4PnhVx09CvuWgz8rFndf03FqCgheRqIkKZAIvVcxa1e9hfSlSr31t6YJBb2H-QDiagrhhXtI58-0SOEZyhaKjtWAbw2tUCTsodaeX1lwB4g0EfCGlnQwUWD1JIA68VN1_BAdU9GX6a_fMK3AYaUtb8TfG6q5PNrerAp7PnMcAI339E4IZfAusB1Fohw,Connection:close,Content-Length:1619,Content-Type:text/xml,Host:api.test.ddip.odpch.ch,User-Agent:Apache-HttpAsyncClient/4.1.4 (Java/11.0.10),X-Amzn-Trace-Id:Root=1-60428623-65d7ea251a61158227349a86,X-Forwarded-For:213.83.5.134,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.63,X-Scheme:https//-->

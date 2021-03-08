@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:datex="http://datex2.eu/schema/2_0RC1/2_0" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<TerminateSubscriptionRequest>
+		<RequestTimestamp>2021-03-05T19:23:07Z</RequestTimestamp>
+		<RequestorRef>svb-dds_dev</RequestorRef>
+		<All />
+	</TerminateSubscriptionRequest>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 05.03.2021 20:23:07//-->
+<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/svb-dds_dev/ski-ddip-out-ums_test//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.114:55188//-->
+<!-- HEADERS:  Accept:text/xml,Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI1NDhjNmxwNDA0YTgxbGUzNGwzcmJybWo4YiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxNDk3MjEyNiwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE0OTc1NzI2LCJpYXQiOjE2MTQ5NzIxMjYsInZlcnNpb24iOjIsImp0aSI6IjU2YTZmNTUxLTQ5MjUtNDE1MC1hYjZiLTE1NWI3MmE3ZTY4YyIsImNsaWVudF9pZCI6IjU0OGM2bHA0MDRhODFsZTM0bDNyYnJtajhiIn0.eBbCQ8HRjrIMeunAfzgwG852UiGS0FIgPIkZg4dzoMTxWgQXJLNl42PLxqyeJQDor7lgRP_hTEavrxyv8z6Vi-DKD3SHn4kx1Bw-rRQ5TitUkxzipxXqTZGVD6VJkDkIRRbKf3-6AS02wM9qAppm51tfw-alrtikSA-8kV0SyocG2HBZ-htscj6VQBmiHdEcZJcnDAD-o-M3K1LUVIQTbFou_-zAOqh6hmQQI1WO6edFXDdd3bCS3TzfRroIJ8rVX-BAH8yRzCou13CeY4853STXwyTHUaDvNTMqc_BJxLADGR2GD5EKhHVos0HdVJy_ZW8tJBU_fYSj8S33LTQJ5g,Connection:close,Content-Length:495,Content-Type:text/xml,Host:api.test.ddip.odpch.ch,User-Agent:VDV Leitstellenkopplung,X-Amzn-Trace-Id:Root=1-6042851b-1d71cfa86df236645e24d825,X-Forwarded-For:217.192.58.132,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.63,X-Scheme:https//-->

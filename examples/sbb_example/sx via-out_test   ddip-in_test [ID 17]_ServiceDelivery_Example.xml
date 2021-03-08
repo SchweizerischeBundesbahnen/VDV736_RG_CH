@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns:ns4="http://datex2.eu/schema/2_0RC1/2_0" xmlns:ns3="http://www.ifopt.org.uk/ifopt" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+    <ServiceDelivery>
+        <ResponseTimestamp>2021-03-03T09:24:54.226+01:00</ResponseTimestamp>
+        <SituationExchangeDelivery version="2.0">
+            <ResponseTimestamp>2021-03-03T09:24:54.226+01:00</ResponseTimestamp>
+            <Situations>
+                <PtSituationElement>
+                    <CreationTime>2021-03-03T09:24:54.226+01:00</CreationTime>
+                    <CountryRef>ch</CountryRef>
+                    <ParticipantRef>via-out_test</ParticipantRef>
+                    <SituationNumber>1</SituationNumber>
+                    <Version>1</Version>
+                    <Source>
+                        <SourceType>other</SourceType>
+                        <Name>SBB</Name>
+                    </Source>
+                    <Progress>published</Progress>
+                    <ValidityPeriod>
+                        <StartTime>2021-03-03T09:24:54.226+01:00</StartTime>
+                        <EndTime>2021-03-03T12:24:54.226+01:00</EndTime>
+                    </ValidityPeriod>
+                    <MiscellaneousReason>demonstration</MiscellaneousReason>
+                    <ReasonName xml:lang="DE">EG_015</ReasonName>
+                    <Priority>3</Priority>
+                    <ScopeType>route</ScopeType>
+                </PtSituationElement>
+            </Situations>
+        </SituationExchangeDelivery>
+    </ServiceDelivery>
+</Siri>
+
+        <!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+        <!-- TIMESTAMP: 03.03.2021 09:24:54//-->
+        <!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/via-out_test/ddip-in_test//-->
+        <!-- REMOTE_END_POINT-URL: 10.39.17.114:37940//-->
+        <!-- HEADERS:  Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxdW12dW45Y2JodDNoN2tpNWZmMXRmZXYyaiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxNDc1OTg2MywiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE0NzYzNDYzLCJpYXQiOjE2MTQ3NTk4NjMsInZlcnNpb24iOjIsImp0aSI6IjhiODIyMTdhLTFkZjQtNDQ5Yy1hY2EyLWVkYzc5YTAwYjA2MCIsImNsaWVudF9pZCI6IjF1bXZ1bjljYmh0M2g3a2k1ZmYxdGZldjJqIn0.dFV-7YI3Cs1QN2kR6Y3MxvSgGud41vWkvn_z25ekFyCrgnJTmDp2N0vXlqOt2QzUuYvufZUNPNLJH0BU0RvKLCYBQpmailooHdGXHF2MDhtgUStwhc8PSk4wLjAKBhFy5HzUl-rifyzrwAWbuki6UjYODa1qhDV8DtPqhhKfyrZfoG5sMgTTvcylwJ27_H9XY3gimWvsDKtKCjG_DSVP0sD4oC2huZaVKcP1yzSlJ3URrvuuA0EpgTX9eITDyqa5-8HrQ5us6N1pzVcOAlGnlJPJ6PZCZCQiohHUPMVh9S6ZuJ_IGCUQzwgJGTnFICrrodEZ3P9S2yGPUYPAsz73ng,Connection:close,Content-Length:1103,Content-Type:text/xml; charset=UTF-8,Host:api.test.ddip.odpch.ch,User-Agent:akka-http/10.1.12,X-Amzn-Trace-Id:Root=1-603f47d6-19f93881007a938a2097cdf7,X-Forwarded-For:213.3.11.138,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.172,X-Scheme:https//-->

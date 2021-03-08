@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<ServiceDelivery>
+		<ResponseTimestamp>2021-03-05T08:50:38.791465Z</ResponseTimestamp>
+		<ProducerRef>ski-ddip-out-ums_test</ProducerRef>
+		<SituationExchangeDelivery xmlns="http://www.siri.org.uk/siri">
+			<ResponseTimestamp>2021-03-05T08:50:38.791465Z</ResponseTimestamp>
+			<SubscriptionRef>1</SubscriptionRef>
+			<Situations>
+				<PtSituationElement>
+					<CreationTime>2021-03-05T09:50:24.701+01:00</CreationTime>
+					<CountryRef>ch</CountryRef>
+					<ParticipantRef>pag-out-ums_test</ParticipantRef>
+					<SituationNumber>ch:1:sstid:100633:6041e63619b10260ddc0a4cf</SituationNumber>
+					<Version>0</Version>
+					<Source>
+						<CountryRef>ch</CountryRef>
+						<SourceType>directReport</SourceType>
+						<Name xml:lang="de">PostAuto AG Schweiz</Name>
+					</Source>
+					<VersionedAtTime>2021-03-05T09:50:24.701+01:00</VersionedAtTime>
+					<Progress>open</Progress>
+					<ValidityPeriod>
+						<StartTime>2021-03-05T09:01:00+01:00</StartTime>
+						<EndTime>2021-03-05T11:59:00+01:00</EndTime>
+					</ValidityPeriod>
+					<AlertCause>serviceDisruption</AlertCause>
+					<Priority>3</Priority>
+					<ScopeType>line</ScopeType>
+					<Language>de</Language>
+					<PublishingActions>
+						<PublishingAction>
+							<PublishAtScope>
+								<ScopeType>line</ScopeType>
+								<Affects>
+									<Operators>
+										<AffectedOperator>
+											<OperatorRef>85:801</OperatorRef>
+											<OperatorName xml:lang="de">PostAuto Schweiz AG</OperatorName>
+											<OperatorShortName xml:lang="de">PAG</OperatorShortName>
+										</AffectedOperator>
+									</Operators>
+									<Networks>
+										<AffectedNetwork>
+											<AffectedLine>
+												<LineRef>85:801:1710</LineRef>
+												<PublishedLineName xml:lang="de">444</PublishedLineName>
+												<Direction>
+													<DirectionRef>A</DirectionRef>
+												</Direction>
+												<Direction>
+													<DirectionRef>B</DirectionRef>
+												</Direction>
+											</AffectedLine>
+										</AffectedNetwork>
+									</Networks>
+								</Affects>
+							</PublishAtScope>
+							<PassengerInformationAction>
+								<PublicationWindow>
+									<StartTime>2021-03-05T09:01:00+01:00</StartTime>
+									<EndTime>2021-03-05T11:59:00+01:00</EndTime>
+								</PublicationWindow>
+								<ActionRef>1</ActionRef>
+								<RecordedAtTime>2021-03-05T09:01:00+01:00</RecordedAtTime>
+								<Perspective>general</Perspective>
+								<ActionPriority>2</ActionPriority>
+								<TextualContent>
+									<SummaryContent>
+										<SummaryText xml:lang="de">Einschränkung Linie 444 vom 05.03. 09:01 bis 05.03. 11:59. Grund: Feuerwehreinsatz.</SummaryText>
+									</SummaryContent>
+								</TextualContent>
+							</PassengerInformationAction>
+						</PublishingAction>
+					</PublishingActions>
+				</PtSituationElement>
+			</Situations>
+		</SituationExchangeDelivery>
+	</ServiceDelivery>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 05.03.2021 09:50:38//-->
+<!-- REQUEST-URL: http://213.83.5.132:17017/ski-ddip-out-ums_test/vdv736//-->
+<!-- REMOTE_END_POINT-URL: http://213.83.5.132:17017/ski-ddip-out-ums_test/vdv736//-->

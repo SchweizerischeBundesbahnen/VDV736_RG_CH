@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<ServiceDelivery>
+		<ResponseTimestamp>2021-03-05T22:52:03.735298Z</ResponseTimestamp>
+		<ProducerRef>ddip-out_test</ProducerRef>
+		<SituationExchangeDelivery xmlns="http://www.siri.org.uk/siri">
+			<ResponseTimestamp>2021-03-05T22:52:03.735298Z</ResponseTimestamp>
+			<SubscriptionRef>via-vdv736-adapter_via-dev</SubscriptionRef>
+			<Situations>
+				<PtSituationElement>
+					<CreationTime>2021-03-05T23:51:54.824+01:00</CreationTime>
+					<CountryRef>ch</CountryRef>
+					<ParticipantRef>pag-out-ums_test</ParticipantRef>
+					<SituationNumber>ch:1:sstid:100633:5fe20b7a19b10201f7d4413b</SituationNumber>
+					<Version>0</Version>
+					<Source>
+						<CountryRef>ch</CountryRef>
+						<SourceType>directReport</SourceType>
+						<Name xml:lang="de">PostAuto AG Schweiz</Name>
+					</Source>
+					<VersionedAtTime>2021-03-05T23:51:54.824+01:00</VersionedAtTime>
+					<Progress>open</Progress>
+					<ValidityPeriod>
+						<StartTime>2021-03-05T23:00:00+01:00</StartTime>
+						<EndTime>2021-03-06T04:00:00+01:00</EndTime>
+					</ValidityPeriod>
+					<AlertCause>serviceDisruption</AlertCause>
+					<Priority>3</Priority>
+					<ScopeType>line</ScopeType>
+					<Language>de</Language>
+					<PublishingActions>
+						<PublishingAction>
+							<PublishAtScope>
+								<ScopeType>line</ScopeType>
+								<Affects>
+									<Operators>
+										<AffectedOperator>
+											<OperatorRef>85:801</OperatorRef>
+											<OperatorName xml:lang="de">PostAuto Schweiz AG</OperatorName>
+											<OperatorShortName xml:lang="de">PAG</OperatorShortName>
+										</AffectedOperator>
+									</Operators>
+									<Networks>
+										<AffectedNetwork>
+											<AffectedLine>
+												<LineRef>85:801:382</LineRef>
+												<PublishedLineName xml:lang="de">341</PublishedLineName>
+												<Direction>
+													<DirectionRef>A</DirectionRef>
+												</Direction>
+												<Direction>
+													<DirectionRef>B</DirectionRef>
+												</Direction>
+											</AffectedLine>
+										</AffectedNetwork>
+									</Networks>
+								</Affects>
+							</PublishAtScope>
+							<PassengerInformationAction>
+								<PublicationWindow>
+									<StartTime>2021-03-05T23:00:00+01:00</StartTime>
+									<EndTime>2021-03-06T04:00:00+01:00</EndTime>
+								</PublicationWindow>
+								<ActionRef>1</ActionRef>
+								<RecordedAtTime>2021-03-05T23:00:00+01:00</RecordedAtTime>
+								<Perspective>general</Perspective>
+								<ActionPriority>2</ActionPriority>
+								<TextualContent>
+									<SummaryContent>
+										<SummaryText xml:lang="de">Lignes 341, 351, 353 et 381: interruption. Raison: coronavirus. Durée: 23:00 - 04:00.</SummaryText>
+									</SummaryContent>
+								</TextualContent>
+							</PassengerInformationAction>
+						</PublishingAction>
+					</PublishingActions>
+				</PtSituationElement>
+				<PtSituationElement>
+					<CreationTime>2021-03-05T23:51:56.14+01:00</CreationTime>
+					<CountryRef>ch</CountryRef>
+					<ParticipantRef>pag-out-ums_test</ParticipantRef>
+					<SituationNumber>ch:1:sstid:100633:5fe20b9819b10201f7d44171</SituationNumber>
+					<Version>0</Version>
+					<Source>
+						<CountryRef>ch</CountryRef>
+						<SourceType>directReport</SourceType>
+						<Name xml:lang="de">PostAuto AG Schweiz</Name>
+					</Source>
+					<VersionedAtTime>2021-03-05T23:51:56.14+01:00</VersionedAtTime>
+					<Progress>open</Progress>
+					<ValidityPeriod>
+						<StartTime>2021-03-05T23:00:00+01:00</StartTime>
+						<EndTime>2021-03-06T04:00:00+01:00</EndTime>
+					</ValidityPeriod>
+					<AlertCause>serviceDisruption</AlertCause>
+					<Priority>3</Priority>
+					<ScopeType>line</ScopeType>
+					<Language>de</Language>
+					<PublishingActions>
+						<PublishingAction>
+							<PublishAtScope>
+								<ScopeType>line</ScopeType>
+								<Affects>
+									<Operators>
+										<AffectedOperator>
+											<OperatorRef>85:801</OperatorRef>
+											<OperatorName xml:lang="de">PostAuto Schweiz AG</OperatorName>
+											<OperatorShortName xml:lang="de">PAG</OperatorShortName>
+										</AffectedOperator>
+									</Operators>
+									<Networks>
+										<AffectedNetwork>
+											<AffectedLine>
+												<LineRef>85:801:366</LineRef>
+												<PublishedLineName xml:lang="de">311</PublishedLineName>
+												<Direction>
+													<DirectionRef>A</DirectionRef>
+												</Direction>
+												<Direction>
+													<DirectionRef>B</DirectionRef>
+												</Direction>
+											</AffectedLine>
+										</AffectedNetwork>
+									</Networks>
+								</Affects>
+							</PublishAtScope>
+							<PassengerInformationAction>
+								<PublicationWindow>
+									<StartTime>2021-03-05T23:00:00+01:00</StartTime>
+									<EndTime>2021-03-06T04:00:00+01:00</EndTime>
+								</PublicationWindow>
+								<ActionRef>1</ActionRef>
+								<RecordedAtTime>2021-03-05T23:00:00+01:00</RecordedAtTime>
+								<Perspective>general</Perspective>
+								<ActionPriority>2</ActionPriority>
+								<TextualContent>
+									<SummaryContent>
+										<SummaryText xml:lang="de">Lignes 311 et N422: interruption. Raison: coronavirus. Durée: 23:00 - 04:00.</SummaryText>
+									</SummaryContent>
+								</TextualContent>
+							</PassengerInformationAction>
+						</PublishingAction>
+					</PublishingActions>
+				</PtSituationElement>
+			</Situations>
+		</SituationExchangeDelivery>
+	</ServiceDelivery>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 05.03.2021 23:52:03//-->
+<!-- REQUEST-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->
+<!-- REMOTE_END_POINT-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->

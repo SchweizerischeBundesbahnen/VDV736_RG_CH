@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:datex="http://datex2.eu/schema/2_0RC1/2_0" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<ServiceDelivery>
+		<ResponseTimestamp>2021-03-05T20:26:46Z</ResponseTimestamp>
+		<ProducerRef>svb-dds_dev</ProducerRef>
+		<Status>true</Status>
+		<MoreData>false</MoreData>
+		<SituationExchangeDelivery version="2.0">
+			<ResponseTimestamp>2021-03-05T21:26:46+01:00</ResponseTimestamp>
+			<SubscriptionRef>1</SubscriptionRef>
+			<Situations>
+				<PtSituationElement>
+					<CreationTime>2021-02-25T08:09:18+01:00</CreationTime>
+					<CountryRef>ch</CountryRef>
+					<ParticipantRef>int-zvb-lio-prod-sx</ParticipantRef>
+					<SituationNumber>ZVB:2</SituationNumber>
+					<UpdateCountryRef>ch</UpdateCountryRef>
+					<UpdateParticipantRef>int-zvb-lio-prod-sx</UpdateParticipantRef>
+					<Version>2</Version>
+					<Source>
+						<CountryRef>ch</CountryRef>
+						<SourceType>directReport</SourceType>
+						<Name>ZVB</Name>
+					</Source>
+					<Progress>published</Progress>
+					<ValidityPeriod>
+						<StartTime>2021-02-23T06:00:00+01:00</StartTime>
+						<EndTime>2021-03-06T03:00:00+01:00</EndTime>
+					</ValidityPeriod>
+					<AlertCause>specialEvent</AlertCause>
+					<Priority>3</Priority>
+					<Summary xml:lang="de">L4: Infolge Bauarbeiten kann die Haltestelle V-Zug Richtung Zug nicht bedient werden. Dauer: 25.02.21 bis April.</Summary>
+					<PublishingActions>
+						<PublishingAction>
+							<PublishAtScope>
+								<ScopeType>general</ScopeType>
+								<Affects>
+									<StopPoints>
+										<AffectedStopPoint>
+											<StopPointRef>850220602</StopPointRef>
+										</AffectedStopPoint>
+										<AffectedStopPoint>
+											<StopPointRef>850279803</StopPointRef>
+										</AffectedStopPoint>
+										<AffectedStopPoint>
+											<StopPointRef>850279804</StopPointRef>
+										</AffectedStopPoint>
+									</StopPoints>
+								</Affects>
+							</PublishAtScope>
+							<PassengerInformationAction>
+								<PublicationWindow>
+									<StartTime>2021-02-23T06:00:00+01:00</StartTime>
+									<EndTime>2021-03-06T03:00:00+01:00</EndTime>
+								</PublicationWindow>
+								<ActionRef>ZVB:2</ActionRef>
+								<RecordedAtTime>2021-02-25T08:09:18+01:00</RecordedAtTime>
+								<OwnerRef>ZVB</OwnerRef>
+								<Perspective>general</Perspective>
+								<Perspective>stopPoint</Perspective>
+								<ActionPriority>4</ActionPriority>
+								<TextualContent>
+									<SummaryContent>
+										<SummaryText xml:lang="de">L4: Infolge Bauarbeiten kann die Haltestelle V-Zug Richtung Zug nicht bedient werden. Dauer: 25.02.21 bis April.</SummaryText>
+									</SummaryContent>
+									<DescriptionContent>
+										<DescriptionText xml:lang="de">L4: Infolge Bauarbeiten kann die Haltestelle V-Zug Richtung Zug nicht bedient werden. Dauer: 25.02.21 bis April.</DescriptionText>
+									</DescriptionContent>
+								</TextualContent>
+							</PassengerInformationAction>
+						</PublishingAction>
+					</PublishingActions>
+				</PtSituationElement>
+			</Situations>
+		</SituationExchangeDelivery>
+	</ServiceDelivery>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 05.03.2021 21:26:46//-->
+<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/svb-dds_dev/ski-ddip-in-ums_test//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.114:38634//-->
+<!-- HEADERS:  Accept:text/xml,Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI1NDhjNmxwNDA0YTgxbGUzNGwzcmJybWo4YiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxNDk3NTcyNywiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE0OTc5MzI3LCJpYXQiOjE2MTQ5NzU3MjcsInZlcnNpb24iOjIsImp0aSI6ImY4MDFlNTQyLTA5NTEtNDQ3Zi1hNDBmLTdiNmIxNzUzYTE3YiIsImNsaWVudF9pZCI6IjU0OGM2bHA0MDRhODFsZTM0bDNyYnJtajhiIn0.DvAmMBQ4gk2kKl5KpPtHPFGZ49DLQesqdhRL7YTPUAwUajAWlATdVT-oW8IuQRNIfDojFX-2Ti7FIbqkZPTScLbbJtkARKqKPXIjDJ1Sklje0k8WNZNyoGj7gUYIOeR7WmcJtrIyu1n_a-T7qzfgIIHfNKIQc_hYqFRZHkidN7G9c8fzJsahH6BJ15Q849Tp0w28-p_6XUtWF9wNnVWnUGNGw-3fyeuTOyQgm9hRq1DlkZuVFy1yt4DFLTkulDZclUEP4UShpkV1iDBiHsE9AOlwTqHDQrbi9IhEu496_H2HL2K_qy1AkttJITftRsHv2b58hRMbChedVlZLiGBeVw,Connection:close,Content-Length:3743,Content-Type:text/xml,Host:api.test.ddip.odpch.ch,User-Agent:VDV Leitstellenkopplung,X-Amzn-Trace-Id:Root=1-60429406-561e5a2a7bc8abd87bf09c3c,X-Forwarded-For:217.192.58.132,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.63,X-Scheme:https//-->
