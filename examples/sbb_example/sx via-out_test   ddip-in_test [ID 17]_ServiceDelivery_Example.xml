@@ -12,6 +12,7 @@
                     <SituationNumber>1</SituationNumber>
                     <Version>1</Version>
                     <Source>
+                        <CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
                         <SourceType>other</SourceType>
                         <Name>SBB</Name>
                     </Source>
@@ -20,7 +21,7 @@
                         <StartTime>2021-03-03T09:24:54.226+01:00</StartTime>
                         <EndTime>2021-03-03T12:24:54.226+01:00</EndTime>
                     </ValidityPeriod>
-                    <MiscellaneousReason>demonstration</MiscellaneousReason>
+                    <AlertCause>unknown</AlertCause><!--TODO manual edited: AlertCause was missing -->
                     <ReasonName xml:lang="DE">EG_015</ReasonName>
                     <Priority>3</Priority>
                     <ScopeType>route</ScopeType>

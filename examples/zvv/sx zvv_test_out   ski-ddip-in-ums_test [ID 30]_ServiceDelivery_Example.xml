@@ -9,9 +9,12 @@
 			<Situations>
 				<PtSituationElement>
 					<CreationTime>2021-03-03T13:45:40.399+01:00</CreationTime>
+					<CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
+					<ParticipantRef>zvv_test_out</ParticipantRef><!--TODO manual edited: missing element fails to validate -->
 					<SituationNumber>11</SituationNumber>
 					<Version>2</Version>
 					<Source>
+						<CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
 						<SourceType>directReport</SourceType>
 					</Source>
 					<Progress>published</Progress>
@@ -248,9 +251,12 @@
 				</PtSituationElement>
 				<PtSituationElement>
 					<CreationTime>2021-03-03T13:45:40.429+01:00</CreationTime>
+					<CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
+					<ParticipantRef>zvv_test_out</ParticipantRef><!--TODO manual edited: missing element fails to validate -->
 					<SituationNumber>12</SituationNumber>
 					<Version>3</Version>
 					<Source>
+						<CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
 						<SourceType>directReport</SourceType>
 					</Source>
 					<Progress>published</Progress>
@@ -298,9 +304,12 @@
 				</PtSituationElement>
 				<PtSituationElement>
 					<CreationTime>2021-03-03T13:45:40.235+01:00</CreationTime>
+					<CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
+					<ParticipantRef>zvv_test_out</ParticipantRef><!--TODO manual edited: missing element fails to validate -->
 					<SituationNumber>9</SituationNumber>
 					<Version>4</Version>
 					<Source>
+						<CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
 						<SourceType>directReport</SourceType>
 					</Source>
 					<Progress>published</Progress>
@@ -488,9 +497,12 @@
 				</PtSituationElement>
 				<PtSituationElement>
 					<CreationTime>2021-03-03T13:45:40.466+01:00</CreationTime>
+					<CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
+					<ParticipantRef>zvv_test_out</ParticipantRef><!--TODO manual edited: missing element fails to validate -->
 					<SituationNumber>13</SituationNumber>
 					<Version>3</Version>
 					<Source>
+						<CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
 						<SourceType>directReport</SourceType>
 					</Source>
 					<Progress>published</Progress>
@@ -523,9 +535,12 @@
 				</PtSituationElement>
 				<PtSituationElement>
 					<CreationTime>2021-03-03T13:45:40.359+01:00</CreationTime>
+					<CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
+					<ParticipantRef>zvv_test_out</ParticipantRef><!--TODO manual edited: missing element fails to validate -->
 					<SituationNumber>10</SituationNumber>
 					<Version>2</Version>
 					<Source>
+						<CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
 						<SourceType>directReport</SourceType>
 					</Source>
 					<Progress>published</Progress>

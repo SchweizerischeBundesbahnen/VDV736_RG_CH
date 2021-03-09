@@ -8,6 +8,7 @@
 		<SituationExchangeDelivery version="2.0">
 			<ResponseTimestamp>2021-03-05T09:50:24.701+01:00</ResponseTimestamp>
 			<SubscriberRef>1</SubscriberRef>
+			<SubscriptionRef>1</SubscriptionRef><!--TODO manual edited: missing element fails to validate -->
 			<DefaultLanguage>de</DefaultLanguage>
 			<Situations>
 				<PtSituationElement>
