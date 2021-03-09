@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns:ns3="http://www.ifopt.org.uk/ifopt" xmlns:ns4="http://datex2.eu/schema/2_0RC1/2_0" version="2.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<SubscriptionRequest>
+		<RequestTimestamp>2021-03-05T20:23:26.206217+01:00</RequestTimestamp>
+		<RequestorRef>via-in_test</RequestorRef>
+		<MessageIdentifier>e8160e24-7cd0-4f22-a947-b8c48a36da08</MessageIdentifier>
+		<SubscriptionContext>
+			<HeartbeatInterval>PT1M</HeartbeatInterval>
+		</SubscriptionContext>
+		<SituationExchangeSubscriptionRequest>
+			<SubscriptionIdentifier>via-vdv736-adapter_via-dev</SubscriptionIdentifier>
+			<InitialTerminationTime>2021-03-06T21:23:26.206217+01:00</InitialTerminationTime>
+			<SituationExchangeRequest>
+				<RequestTimestamp>2021-03-05T20:23:26.206217+01:00</RequestTimestamp>
+				<PreviewInterval>PT12H</PreviewInterval>
+			</SituationExchangeRequest>
+		</SituationExchangeSubscriptionRequest>
+	</SubscriptionRequest>
+</Siri>
+
+		<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+		<!-- TIMESTAMP: 05.03.2021 20:23:26//-->
+		<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/via-in_test/ddip-out_test//-->
+		<!-- REMOTE_END_POINT-URL: 10.39.17.114:48796//-->
+		<!-- HEADERS:  Accept:text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*,Accept-Encoding:gzip,deflate,Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIzMTc5NDJhdW5mcWdoamw2Z283ZzZpamdyYSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxNDk2OTM4NSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE0OTcyOTg1LCJpYXQiOjE2MTQ5NjkzODUsInZlcnNpb24iOjIsImp0aSI6IjFlMmM4MjY0LWM1ZmQtNGIxMy1iMTI2LThhNjM0YzVhNzVkYiIsImNsaWVudF9pZCI6IjMxNzk0MmF1bmZxZ2hqbDZnbzdnNmlqZ3JhIn0.jyBr7FN26wViEqgiQ_dSJSDTiXz7v4Bv2grVm1NfjUXRjg69JmDps4uYPI3zlz8YU7sbM0zZICimGpWctqq6lMMDJZ8wiJtHV-qYL8KeMtYTEsdyeH5DCmQUZuq3HGXQcU18kS1VOgQkvPRXsV3YV9HpCUGacW_VouRCYVpiKPjgRf4AkT5Z33fIvR3aa0wrU3SerOVl4PE3Tui2McxhROzTwXqPQinSXLJKJ5cVLWE1d6zEd58AG1bqzKaY8En7puMzNWrBEwJF7o1fg4QSpqs63r_cqK3l3T5qGu1Og2WOOlqMtZjSrSIHh7y8GR_fBHHQX_znksE98IqigFcFtg,Connection:close,Content-Length:956,Content-Type:text/plain;charset=ISO-8859-1,Host:api.test.ddip.odpch.ch,User-Agent:Apache-HttpClient/4.5.13 (Java/11.0.10),X-Amzn-Trace-Id:Root=1-6042852e-109b0ada7ddb7b1f47814d85,X-Forwarded-For:195.65.152.112,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.63,X-Scheme:https//-->
