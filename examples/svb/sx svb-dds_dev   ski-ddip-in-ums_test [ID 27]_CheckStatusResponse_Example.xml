@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Siri xmlns="http://www.siri.org.uk/siri" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:datex="http://datex2.eu/schema/2_0RC1/2_0" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
 	<CheckStatusResponse>
-		<ResponseTimestamp>2021-03-05T08:59:15Z</ResponseTimestamp>
+		<ResponseTimestamp>2021-03-10T11:01:09Z</ResponseTimestamp>
 		<Status>true</Status>
 		<DataReady>false</DataReady>
-		<ServiceStartedTime>2021-03-04T15:30:28Z</ServiceStartedTime><!--TODO manual edited: element was placed before Status -->
+		<ServiceStartedTime>2021-03-09T19:51:10Z</ServiceStartedTime>
 	</CheckStatusResponse>
 </Siri>
 
 <!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
-<!-- TIMESTAMP: 05.03.2021 09:59:15//-->
+<!-- TIMESTAMP: 10.03.2021 12:01:09//-->
 <!-- REQUEST-URL: https://vdv736-dev.ddsbern.ch:443/ski-ddip_test/ums//-->
 <!-- REMOTE_END_POINT-URL: https://vdv736-dev.ddsbern.ch:443/ski-ddip_test/ums//-->
