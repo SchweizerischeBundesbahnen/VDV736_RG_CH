@@ -12,7 +12,7 @@
 				<PtSituationElement>
 					<CreationTime>2021-02-25T08:09:18+01:00</CreationTime>
 					<CountryRef>ch</CountryRef>
-					<ParticipantRef>int-zvb-lio-prod-sx</ParticipantRef>
+					<ParticipantRef>int-zvb-lio-prod-sx</ParticipantRef><!--TODO https://issues.sbb.ch/browse/UMS-575 -->
 					<SituationNumber>ZVB:2</SituationNumber>
 					<UpdateCountryRef>ch</UpdateCountryRef>
 					<UpdateParticipantRef>int-zvb-lio-prod-sx</UpdateParticipantRef>
@@ -20,8 +20,9 @@
 					<Source>
 						<CountryRef>ch</CountryRef>
 						<SourceType>directReport</SourceType>
-						<Name>ZVB</Name>
+						<Name xml:lang="de">ZVB</Name><!--TODO https://issues.sbb.ch/browse/UMS-577 -->
 					</Source>
+					<VersionedAtTime>2021-03-05T21:26:46+01:00</VersionedAtTime><!--TODO https://issues.sbb.ch/browse/UMS-576 -->
 					<Progress>published</Progress>
 					<ValidityPeriod>
 						<StartTime>2021-02-23T06:00:00+01:00</StartTime>
