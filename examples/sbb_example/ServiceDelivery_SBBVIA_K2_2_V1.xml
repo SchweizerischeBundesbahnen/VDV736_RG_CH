@@ -67,15 +67,15 @@ This example demonstrates the communication of a disruption situation in a train
            <AffectedLine>
             <!--Ländercode:Betreiber:Zugnummer:Linienname -->
             <LineRef>85:11:22978</LineRef>
-            <PublishedLineName>S99</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S99</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:21959</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:21960</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
           </AffectedNetwork>
          </Networks>

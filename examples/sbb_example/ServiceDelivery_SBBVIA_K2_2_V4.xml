@@ -67,59 +67,59 @@ This example demonstrates the communication of a disruption situation in a train
            <AffectedLine>
             <!--Ländercode:Betreiber:Zugnummer:Linienname -->
             <LineRef>85:11:22978</LineRef>
-            <PublishedLineName>S99</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S99</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:21959</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:21960</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:21961</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:91961</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:91960</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:21962</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:21963</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:21964</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:21965</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:21966</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:22980</LineRef>
-            <PublishedLineName>S99</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S99</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:21967</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
            <AffectedLine>
             <LineRef>85:11:22982</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
           </AffectedNetwork>
          </Networks>

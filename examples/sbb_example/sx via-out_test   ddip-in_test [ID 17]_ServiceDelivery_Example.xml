@@ -14,7 +14,7 @@
                     <Source>
                         <CountryRef>ch</CountryRef><!--TODO manual edited: missing element fails to validate -->
                         <SourceType>other</SourceType>
-                        <Name>SBB</Name>
+                        <!--TODO xml:lang fehlt--><Name xml:lang="DE">SBB</Name>
                     </Source>
                     <Progress>published</Progress>
                     <ValidityPeriod>

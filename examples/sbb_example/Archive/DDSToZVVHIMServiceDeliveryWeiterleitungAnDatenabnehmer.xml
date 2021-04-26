@@ -24,7 +24,7 @@
       <CountryRef>ch</CountryRef>
       <SourceType>feed</SourceType>
       <!--Optional-->
-      <Name>VIA</Name>
+      <!--TODO xml:lang fehlt--><Name xml:lang="DE">VIA</Name>
      </Source>
      <!--Pflicht bei Updates-->
      <VersionedAtTime>2020-03-31T17:40:00+02:00</VersionedAtTime>
@@ -52,13 +52,13 @@
       <StopPlaces>
        <AffectedStopPlace>
         <StopPlaceRef>ch:1:sloid:2017</StopPlaceRef>
-        <PlaceName>Waldibrücke</PlaceName>
+        <!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Waldibrücke</PlaceName>
        </AffectedStopPlace>
        <AffectedStopPlace>
         <StopPlaceRef>
 
                                     ch:1:sloid:2024</StopPlaceRef>
-        <PlaceName>Hochdorf</PlaceName>
+        <!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Hochdorf</PlaceName>
        </AffectedStopPlace>
       </StopPlaces>
      </Affects>
@@ -71,42 +71,42 @@
           <AffectedNetwork>
            <AffectedLine>
             <LineRef>85:11:9</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
           </AffectedNetwork>
          </Networks>
          <StopPlaces>
           <AffectedStopPlace>
            <StopPlaceRef>ch:1:sloid:2022</StopPlaceRef>
-           <PlaceName>Eschenbach</PlaceName>
+           <!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Eschenbach</PlaceName>
           </AffectedStopPlace>
           <AffectedStopPlace>
            <StopPlaceRef>ch:1:sloid:2024</StopPlaceRef>
-           <PlaceName>Hochdorf</PlaceName>
+           <!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Hochdorf</PlaceName>
           </AffectedStopPlace>
           <AffectedStopPlace>
            <StopPlaceRef>ch:1:sloid:2028</StopPlaceRef>
-           <PlaceName>Emmenbrücke Gersag</PlaceName>
+           <!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Emmenbrücke Gersag</PlaceName>
           </AffectedStopPlace>
           <AffectedStopPlace>
            <StopPlaceRef>ch:1:sloid:2042</StopPlaceRef>
-           <PlaceName>Hochdorf Schönau</PlaceName>
+           <!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Hochdorf Schönau</PlaceName>
           </AffectedStopPlace>
           <AffectedStopPlace>
            <StopPlaceRef>ch:1:sloid:5000</StopPlaceRef>
-           <PlaceName>Luzern</PlaceName>
+           <!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Luzern</PlaceName>
           </AffectedStopPlace>
           <AffectedStopPlace>
            <StopPlaceRef>ch:1:sloid:2017</StopPlaceRef>
-           <PlaceName>Waldibrücke</PlaceName>
+           <!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Waldibrücke</PlaceName>
           </AffectedStopPlace>
           <AffectedStopPlace>
            <StopPlaceRef>ch:1:sloid:2021</StopPlaceRef>
-           <PlaceName>Emmenbrücke</PlaceName>
+           <!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Emmenbrücke</PlaceName>
           </AffectedStopPlace>
           <AffectedStopPlace>
            <StopPlaceRef>ch:1:sloid:2023</StopPlaceRef>
-           <PlaceName>Ballwil</PlaceName>
+           <!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Ballwil</PlaceName>
           </AffectedStopPlace>
          </StopPlaces>
         </Affects>

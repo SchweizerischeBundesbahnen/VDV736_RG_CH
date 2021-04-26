@@ -18,7 +18,7 @@
       <CountryRef>ch</CountryRef>
       <SourceType>feed</SourceType>
       <!--Optional-->
-      <Name>VIA</Name>
+      <!--TODO xml:lang fehlt--><Name xml:lang="DE">VIA</Name>
      </Source>
      <!--Pflicht bei Updates-->
      <VersionedAtTime>2020-03-19T16:18:00Z</VersionedAtTime>
@@ -61,11 +61,11 @@
          <!-- Was ist hin und was ist retour?-->
          <Direction>
           <DirectionRef>H</DirectionRef>
-          <DirectionName>Lenzburg</DirectionName>
+          <!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Lenzburg</DirectionName>
          </Direction>
          <Direction>
           <DirectionRef>R</DirectionRef>
-          <DirectionName>Luzern</DirectionName>
+          <!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Luzern</DirectionName>
          </Direction>
          <StopPlaces>
           <AffectedStopPlace>
@@ -167,7 +167,7 @@
           <AffectedNetwork>
            <AffectedLine>
             <LineRef>85:11:9</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
           </AffectedNetwork>
          </Networks>

@@ -18,7 +18,7 @@
       <CountryRef>ch</CountryRef>
       <SourceType>feed</SourceType>
       <!--Optional-->
-      <Name>VIA</Name>
+      <!--TODO xml:lang fehlt--><Name xml:lang="DE">VIA</Name>
      </Source>
      <!--Pflicht bei Updates-->
      <VersionedAtTime>2020-03-31T17:50:00+02:00</VersionedAtTime>
@@ -78,7 +78,7 @@
           <AffectedNetwork>
            <AffectedLine>
             <LineRef>85:11:9</LineRef>
-            <PublishedLineName>S9</PublishedLineName>
+            <!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">S9</PublishedLineName>
            </AffectedLine>
           </AffectedNetwork>
          </Networks>

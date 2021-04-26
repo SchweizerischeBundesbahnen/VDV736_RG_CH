@@ -33,9 +33,10 @@
 							<PublishAtScope>
 								<ScopeType>line</ScopeType>
 								<Affects>
+									<!--TODO missing AffectedLine
 									<Networks>
 										<AffectedNetwork />
-									</Networks>
+									</Networks>-->
 								</Affects>
 							</PublishAtScope>
 							<PassengerInformationAction>
@@ -863,9 +864,10 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 							<PublishAtScope>
 								<ScopeType>line</ScopeType>
 								<Affects>
+									<!--TODO missing AffectedLine
 									<Networks>
 										<AffectedNetwork />
-									</Networks>
+									</Networks>-->
 								</Affects>
 							</PublishAtScope>
 							<PassengerInformationAction>
@@ -5221,9 +5223,10 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 							<PublishAtScope>
 								<ScopeType>line</ScopeType>
 								<Affects>
+									<!--TODO missing AffectedLine
 									<Networks>
 										<AffectedNetwork />
-									</Networks>
+									</Networks>-->
 								</Affects>
 							</PublishAtScope>
 							<PassengerInformationAction>
@@ -6246,7 +6249,7 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 					<Source>
 						<CountryRef>ch</CountryRef>
 						<SourceType>directReport</SourceType>
-						<Name>ZVB</Name>
+						<!--TODO xml:lang fehlt--><Name xml:lang="DE">ZVB</Name>
 					</Source>
 					<Progress>published</Progress>
 					<ValidityPeriod>
@@ -6678,71 +6681,71 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 												<LineRef>85:849:032</LineRef>
 												<Direction>
 													<DirectionRef>0299473</DirectionRef>
-													<DirectionName>Zürich, Strassenverkehrsamt</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Strassenverkehrsamt</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299526</DirectionRef>
-													<DirectionName>Zürich, Holzerhurd</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Holzerhurd</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299913</DirectionRef>
-													<DirectionName>Zürich, Hardplatz</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Hardplatz</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299904</DirectionRef>
-													<DirectionName>Zürich, Herdernstrasse</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Herdernstrasse</DirectionName>
 												</Direction>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>85:3849:012</LineRef>
 												<Direction>
 													<DirectionRef>0299387</DirectionRef>
-													<DirectionName>Zürich Flughafen, Fracht</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich Flughafen, Fracht</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299172</DirectionRef>
-													<DirectionName>Zürich, Bahnhof Stettbach</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Bahnhof Stettbach</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299706</DirectionRef>
-													<DirectionName>Zürich, Sternen Oerlikon</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Sternen Oerlikon</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299706</DirectionRef>
-													<DirectionName>Zürich, Sternen Oerlikon</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Sternen Oerlikon</DirectionName>
 												</Direction>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>85:490:013</LineRef>
 												<Direction>
 													<DirectionRef>008503206</DirectionRef>
-													<DirectionName>Wädenswil</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Wädenswil</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>008503283</DirectionRef>
-													<DirectionName>Einsiedeln</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Einsiedeln</DirectionName>
 												</Direction>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>85:164:025</LineRef>
 												<Direction>
 													<DirectionRef>0299764</DirectionRef>
-													<DirectionName>Zürich, Römerhof</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Römerhof</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299511</DirectionRef>
-													<DirectionName>Zürich, Bergstation Dolderbahn</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Bergstation Dolderbahn</DirectionName>
 												</Direction>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>85:204:026</LineRef>
 												<Direction>
 													<DirectionRef>8503081</DirectionRef>
-													<DirectionName>Felsenegg</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Felsenegg</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>8503082</DirectionRef>
-													<DirectionName>Adliswil (Luftseilbahnstation)</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Adliswil (Luftseilbahnstation)</DirectionName>
 												</Direction>
 											</AffectedLine>
 										</AffectedNetwork>
@@ -6929,7 +6932,7 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 					<PublishingActions>
 						<NotifyUserAction>
 							<ActionData>
-								<Name>PushTimestamp</Name>
+								<!--TODO xml:lang fehlt--><Name>PushTimestamp</Name>
 								<Type>OffsetDateTime</Type>
 								<Value xmlns:q2="http://www.w3.org/2001/XMLSchema" d7p1:type="q2:string" xmlns:d7p1="http://www.w3.org/2001/XMLSchema-instance">2020-12-03T10:44:01.035+01:00</Value>
 							</ActionData>
@@ -6941,11 +6944,11 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 									<StopPoints>
 										<AffectedStopPoint>
 											<StopPointRef>8591222</StopPointRef>
-											<StopPointName>Zürich, Kappeli</StopPointName>
+											<!--TODO xml:lang fehlt--><StopPointName xml:lang="DE">Zürich, Kappeli</StopPointName>
 										</AffectedStopPoint>
 										<AffectedStopPoint>
 											<StopPointRef>8503404</StopPointRef>
-											<StopPointName>Rafz</StopPointName>
+											<!--TODO xml:lang fehlt--><StopPointName xml:lang="DE">Rafz</StopPointName>
 										</AffectedStopPoint>
 									</StopPoints>
 								</Affects>
@@ -7006,7 +7009,7 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 									<StopPoints>
 										<AffectedStopPoint>
 											<StopPointRef>8591134</StopPointRef>
-											<StopPointName>Zürich, Flurstrasse</StopPointName>
+											<!--TODO xml:lang fehlt--><StopPointName xml:lang="DE">Zürich, Flurstrasse</StopPointName>
 										</AffectedStopPoint>
 									</StopPoints>
 								</Affects>
@@ -7123,46 +7126,46 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 												<LineRef>85:3849:003</LineRef>
 												<Direction>
 													<DirectionRef>0299998</DirectionRef>
-													<DirectionName>Zürich, Albisrieden</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Albisrieden</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299854</DirectionRef>
-													<DirectionName>Zürich, Klusplatz</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Klusplatz</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299869</DirectionRef>
-													<DirectionName>Zürich,Kalkbreite/Bhf.Wiedikon</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich,Kalkbreite/Bhf.Wiedikon</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299867</DirectionRef>
-													<DirectionName>Zürich,Kalkbreite/Bhf.Wiedikon</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich,Kalkbreite/Bhf.Wiedikon</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299463</DirectionRef>
-													<DirectionName>Zürich, Letzigrund</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Letzigrund</DirectionName>
 												</Direction>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>85:3849:003</LineRef>
 												<Direction>
 													<DirectionRef>0299998</DirectionRef>
-													<DirectionName>Zürich, Albisrieden</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Albisrieden</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299854</DirectionRef>
-													<DirectionName>Zürich, Klusplatz</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Klusplatz</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299869</DirectionRef>
-													<DirectionName>Zürich,Kalkbreite/Bhf.Wiedikon</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich,Kalkbreite/Bhf.Wiedikon</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299867</DirectionRef>
-													<DirectionName>Zürich,Kalkbreite/Bhf.Wiedikon</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich,Kalkbreite/Bhf.Wiedikon</DirectionName>
 												</Direction>
 												<Direction>
 													<DirectionRef>0299463</DirectionRef>
-													<DirectionName>Zürich, Letzigrund</DirectionName>
+													<!--TODO xml:lang fehlt--><DirectionName xml:lang="DE">Zürich, Letzigrund</DirectionName>
 												</Direction>
 											</AffectedLine>
 										</AffectedNetwork>
@@ -7194,7 +7197,7 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 					<Source>
 						<CountryRef>ch</CountryRef>
 						<SourceType>directReport</SourceType>
-						<Name>EMS</Name>
+						<!--TODO xml:lang fehlt--><Name xml:lang="DE">EMS</Name>
 						<ExternalCode>ski-ems-out-sx_test</ExternalCode>
 					</Source>
 					<VersionedAtTime>2021-04-21T13:49:18Z</VersionedAtTime>
@@ -7230,7 +7233,7 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 						<StopPlaces>
 							<AffectedStopPlace>
 								<StopPlaceRef>8577152</StopPlaceRef>
-								<PlaceName>Ebikon, St. Klemens</PlaceName>
+								<!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Ebikon, St. Klemens</PlaceName>
 							</AffectedStopPlace>
 						</StopPlaces>
 					</Affects>
@@ -7243,27 +7246,27 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 									<AffectedNetwork>
 										<AffectedLine>
 											<LineRef>ojp92001DRj21</LineRef>
-											<PublishedLineName>1</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">1</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp92001DHj21</LineRef>
-											<PublishedLineName>1</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">1</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp920N3BRj21</LineRef>
-											<PublishedLineName>N3</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">N3</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp920N3BHj21</LineRef>
-											<PublishedLineName>N3</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">N3</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp92030BRj21</LineRef>
-											<PublishedLineName>30</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">30</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp92030BHj21</LineRef>
-											<PublishedLineName>30</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">30</PublishedLineName>
 										</AffectedLine>
 									</AffectedNetwork>
 								</Networks>
@@ -7279,27 +7282,27 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 										<AffectedNetwork>
 											<AffectedLine>
 												<LineRef>ojp92001DRj21</LineRef>
-												<PublishedLineName>1</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">1</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp92001DHj21</LineRef>
-												<PublishedLineName>1</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">1</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp920N3BRj21</LineRef>
-												<PublishedLineName>N3</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">N3</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp920N3BHj21</LineRef>
-												<PublishedLineName>N3</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">N3</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp92030BRj21</LineRef>
-												<PublishedLineName>30</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">30</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp92030BHj21</LineRef>
-												<PublishedLineName>30</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">30</PublishedLineName>
 											</AffectedLine>
 										</AffectedNetwork>
 									</Networks>
@@ -7331,602 +7334,6 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 					</PublishingActions>
 				</PtSituationElement>
 				<PtSituationElement>
-					<CreationTime>2021-04-19T10:34:41Z</CreationTime>
-					<CountryRef>ch</CountryRef>
-					<ParticipantRef>ski-ems-out-sx_test</ParticipantRef>
-					<SituationNumber>ch:1:sstid:1:0459955e-b3db-5c56-aa9d-6d7916c83a3a</SituationNumber>
-					<Version>1</Version>
-					<Source>
-						<CountryRef>ch</CountryRef>
-						<SourceType>directReport</SourceType>
-						<Name>EMS</Name>
-						<ExternalCode>ski-ems-out-sx_test</ExternalCode>
-					</Source>
-					<VersionedAtTime>2021-04-19T10:34:30Z</VersionedAtTime>
-					<Progress>published</Progress>
-					<ValidityPeriod>
-						<StartTime>2020-12-03T09:45:00Z</StartTime>
-						<EndTime>2021-06-03T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<PublicationWindow>
-						<StartTime>2020-12-03T09:45:00Z</StartTime>
-						<EndTime>2021-06-03T22:59:00Z</EndTime>
-					</PublicationWindow>
-					<Severity>normal</Severity>
-					<Priority>3</Priority>
-					<ScopeType>line</ScopeType>
-					<Language>DE</Language>
-					<Summary xml:lang="DE">linienbezogene Meldung 6 monate</Summary>
-					<Description xml:lang="DE" />
-					<Detail xml:lang="DE" />
-					<Affects />
-					<Consequences>
-						<Consequence>
-							<Condition>unknown</Condition>
-							<Severity>normal</Severity>
-							<Affects />
-						</Consequence>
-					</Consequences>
-					<PublishingActions>
-						<PublishingAction>
-							<PublishAtScope>
-								<ScopeType>line</ScopeType>
-								<Affects />
-							</PublishAtScope>
-							<PassengerInformationAction>
-								<ActionRef>ski-ddip-out-sx_test-10-0</ActionRef>
-								<RecordedAtTime>2021-04-19T10:34:30Z</RecordedAtTime>
-								<Perspective>general</Perspective>
-								<Perspective>stopPoint</Perspective>
-								<Perspective>vehicleJourney</Perspective>
-								<TextualContent>
-									<TextualContentSize>M</TextualContentSize>
-									<SummaryContent>
-										<SummaryText xml:lang="DE">linienbezogene Meldung 6 monate</SummaryText>
-									</SummaryContent>
-									<ReasonContent>
-										<ReasonText xml:lang="DE" />
-									</ReasonContent>
-									<DescriptionContent>
-										<DescriptionText xml:lang="DE" />
-									</DescriptionContent>
-									<ConsequenceContent>
-										<ConsequenceText xml:lang="DE" />
-									</ConsequenceContent>
-								</TextualContent>
-							</PassengerInformationAction>
-						</PublishingAction>
-					</PublishingActions>
-				</PtSituationElement>
-				<PtSituationElement>
-					<CreationTime>2021-04-19T10:34:45Z</CreationTime>
-					<CountryRef>ch</CountryRef>
-					<ParticipantRef>ski-ems-out-sx_test</ParticipantRef>
-					<SituationNumber>ch:1:sstid:1:70e5f05d-ae9e-5676-b132-8096697606d9</SituationNumber>
-					<Version>1</Version>
-					<Source>
-						<CountryRef>ch</CountryRef>
-						<SourceType>directReport</SourceType>
-						<Name>EMS</Name>
-						<ExternalCode>ski-ems-out-sx_test</ExternalCode>
-					</Source>
-					<VersionedAtTime>2021-04-19T10:34:30Z</VersionedAtTime>
-					<Progress>published</Progress>
-					<ValidityPeriod>
-						<StartTime>2020-12-07T09:36:00Z</StartTime>
-						<EndTime>2021-06-04T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<PublicationWindow>
-						<StartTime>2020-12-07T09:36:00Z</StartTime>
-						<EndTime>2021-06-04T22:59:00Z</EndTime>
-					</PublicationWindow>
-					<Severity>normal</Severity>
-					<Priority>3</Priority>
-					<ScopeType>line</ScopeType>
-					<Language>DE</Language>
-					<Summary xml:lang="DE">Test Umkreis / Regionsbezogene Meldung</Summary>
-					<Description xml:lang="DE" />
-					<Detail xml:lang="DE" />
-					<Affects />
-					<Consequences>
-						<Consequence>
-							<Condition>unknown</Condition>
-							<Severity>normal</Severity>
-							<Affects />
-						</Consequence>
-					</Consequences>
-					<PublishingActions>
-						<PublishingAction>
-							<PublishAtScope>
-								<ScopeType>line</ScopeType>
-								<Affects />
-							</PublishAtScope>
-							<PassengerInformationAction>
-								<ActionRef>ski-ddip-out-sx_test-12-0</ActionRef>
-								<RecordedAtTime>2021-04-19T10:34:30Z</RecordedAtTime>
-								<Perspective>general</Perspective>
-								<Perspective>stopPoint</Perspective>
-								<Perspective>vehicleJourney</Perspective>
-								<TextualContent>
-									<TextualContentSize>M</TextualContentSize>
-									<SummaryContent>
-										<SummaryText xml:lang="DE">Test Umkreis / Regionsbezogene Meldung</SummaryText>
-									</SummaryContent>
-									<ReasonContent>
-										<ReasonText xml:lang="DE" />
-									</ReasonContent>
-									<DescriptionContent>
-										<DescriptionText xml:lang="DE" />
-									</DescriptionContent>
-									<ConsequenceContent>
-										<ConsequenceText xml:lang="DE" />
-									</ConsequenceContent>
-								</TextualContent>
-							</PassengerInformationAction>
-						</PublishingAction>
-					</PublishingActions>
-				</PtSituationElement>
-				<PtSituationElement>
-					<CreationTime>2021-04-19T10:34:45Z</CreationTime>
-					<CountryRef>ch</CountryRef>
-					<ParticipantRef>ski-ems-out-sx_test</ParticipantRef>
-					<SituationNumber>ch:1:sstid:1:c3d14a77-add6-5af9-812d-0380b94eb467</SituationNumber>
-					<Version>1</Version>
-					<Source>
-						<CountryRef>ch</CountryRef>
-						<SourceType>directReport</SourceType>
-						<Name>EMS</Name>
-						<ExternalCode>ski-ems-out-sx_test</ExternalCode>
-					</Source>
-					<VersionedAtTime>2021-04-19T10:34:30Z</VersionedAtTime>
-					<Progress>published</Progress>
-					<ValidityPeriod>
-						<StartTime>2020-12-07T09:39:00Z</StartTime>
-						<EndTime>2021-06-16T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<PublicationWindow>
-						<StartTime>2020-12-07T09:39:00Z</StartTime>
-						<EndTime>2021-06-16T22:59:00Z</EndTime>
-					</PublicationWindow>
-					<Severity>normal</Severity>
-					<Priority>3</Priority>
-					<ScopeType>line</ScopeType>
-					<Language>DE</Language>
-					<Summary xml:lang="DE">Maskenpflicht in der Ganzen Schweiz TESTMELDUNG</Summary>
-					<Description xml:lang="DE" />
-					<Detail xml:lang="DE" />
-					<Affects />
-					<Consequences>
-						<Consequence>
-							<Condition>unknown</Condition>
-							<Severity>normal</Severity>
-							<Affects />
-						</Consequence>
-					</Consequences>
-					<PublishingActions>
-						<PublishingAction>
-							<PublishAtScope>
-								<ScopeType>line</ScopeType>
-								<Affects />
-							</PublishAtScope>
-							<PassengerInformationAction>
-								<ActionRef>ski-ddip-out-sx_test-13-0</ActionRef>
-								<RecordedAtTime>2021-04-19T10:34:30Z</RecordedAtTime>
-								<Perspective>general</Perspective>
-								<Perspective>stopPoint</Perspective>
-								<Perspective>vehicleJourney</Perspective>
-								<TextualContent>
-									<TextualContentSize>M</TextualContentSize>
-									<SummaryContent>
-										<SummaryText xml:lang="DE">Maskenpflicht in der Ganzen Schweiz TESTMELDUNG</SummaryText>
-									</SummaryContent>
-									<ReasonContent>
-										<ReasonText xml:lang="DE" />
-									</ReasonContent>
-									<DescriptionContent>
-										<DescriptionText xml:lang="DE" />
-									</DescriptionContent>
-									<ConsequenceContent>
-										<ConsequenceText xml:lang="DE" />
-									</ConsequenceContent>
-								</TextualContent>
-							</PassengerInformationAction>
-						</PublishingAction>
-					</PublishingActions>
-				</PtSituationElement>
-				<PtSituationElement>
-					<CreationTime>2021-04-19T10:34:38Z</CreationTime>
-					<CountryRef>ch</CountryRef>
-					<ParticipantRef>ski-ems-out-sx_test</ParticipantRef>
-					<SituationNumber>ch:1:sstid:1:567965d0-0292-5558-a710-3cec3b708ee8</SituationNumber>
-					<Version>1</Version>
-					<Source>
-						<CountryRef>ch</CountryRef>
-						<SourceType>directReport</SourceType>
-						<Name>EMS</Name>
-						<ExternalCode>ski-ems-out-sx_test</ExternalCode>
-					</Source>
-					<VersionedAtTime>2021-04-19T10:34:30Z</VersionedAtTime>
-					<Progress>published</Progress>
-					<ValidityPeriod>
-						<StartTime>2020-12-07T09:29:00Z</StartTime>
-						<EndTime>2020-12-10T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2020-12-13T23:00:00Z</StartTime>
-						<EndTime>2020-12-17T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2020-12-20T23:00:00Z</StartTime>
-						<EndTime>2020-12-24T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2020-12-27T23:00:00Z</StartTime>
-						<EndTime>2020-12-31T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-01-03T23:00:00Z</StartTime>
-						<EndTime>2021-01-07T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-01-10T23:00:00Z</StartTime>
-						<EndTime>2021-01-14T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-01-17T23:00:00Z</StartTime>
-						<EndTime>2021-01-21T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-01-24T23:00:00Z</StartTime>
-						<EndTime>2021-01-28T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-01-31T23:00:00Z</StartTime>
-						<EndTime>2021-02-04T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-02-07T23:00:00Z</StartTime>
-						<EndTime>2021-02-11T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-02-14T23:00:00Z</StartTime>
-						<EndTime>2021-02-18T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-02-21T23:00:00Z</StartTime>
-						<EndTime>2021-02-25T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-02-28T23:00:00Z</StartTime>
-						<EndTime>2021-03-04T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-03-07T23:00:00Z</StartTime>
-						<EndTime>2021-03-11T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-03-14T23:00:00Z</StartTime>
-						<EndTime>2021-03-18T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-03-21T23:00:00Z</StartTime>
-						<EndTime>2021-03-25T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-03-28T23:00:00Z</StartTime>
-						<EndTime>2021-04-01T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-04-04T23:00:00Z</StartTime>
-						<EndTime>2021-04-08T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-04-11T23:00:00Z</StartTime>
-						<EndTime>2021-04-15T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-04-18T23:00:00Z</StartTime>
-						<EndTime>2021-04-22T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-04-25T23:00:00Z</StartTime>
-						<EndTime>2021-04-29T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-05-02T23:00:00Z</StartTime>
-						<EndTime>2021-05-06T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-05-09T23:00:00Z</StartTime>
-						<EndTime>2021-05-13T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-05-16T23:00:00Z</StartTime>
-						<EndTime>2021-05-20T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-05-23T23:00:00Z</StartTime>
-						<EndTime>2021-05-27T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-05-30T23:00:00Z</StartTime>
-						<EndTime>2021-06-03T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-06-06T23:00:00Z</StartTime>
-						<EndTime>2021-06-10T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-06-13T23:00:00Z</StartTime>
-						<EndTime>2021-06-17T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-06-20T23:00:00Z</StartTime>
-						<EndTime>2021-06-24T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-06-27T23:00:00Z</StartTime>
-						<EndTime>2021-07-01T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-07-04T23:00:00Z</StartTime>
-						<EndTime>2021-07-08T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<PublicationWindow>
-						<StartTime>2020-12-07T09:29:00Z</StartTime>
-						<EndTime>2021-07-08T22:59:00Z</EndTime>
-					</PublicationWindow>
-					<Severity>normal</Severity>
-					<Priority>3</Priority>
-					<ScopeType>line</ScopeType>
-					<Language>DE</Language>
-					<Summary xml:lang="DE">Test Linienbezogene Meldung</Summary>
-					<Description xml:lang="DE" />
-					<Detail xml:lang="DE" />
-					<Affects />
-					<Consequences>
-						<Consequence>
-							<Condition>unknown</Condition>
-							<Severity>normal</Severity>
-							<Affects />
-						</Consequence>
-					</Consequences>
-					<PublishingActions>
-						<PublishingAction>
-							<PublishAtScope>
-								<ScopeType>line</ScopeType>
-								<Affects />
-							</PublishAtScope>
-							<PassengerInformationAction>
-								<ActionRef>ski-ddip-out-sx_test-11-0</ActionRef>
-								<RecordedAtTime>2021-04-19T10:34:30Z</RecordedAtTime>
-								<Perspective>general</Perspective>
-								<Perspective>stopPoint</Perspective>
-								<Perspective>vehicleJourney</Perspective>
-								<TextualContent>
-									<TextualContentSize>M</TextualContentSize>
-									<SummaryContent>
-										<SummaryText xml:lang="DE">Test Linienbezogene Meldung</SummaryText>
-									</SummaryContent>
-									<ReasonContent>
-										<ReasonText xml:lang="DE" />
-									</ReasonContent>
-									<DescriptionContent>
-										<DescriptionText xml:lang="DE" />
-									</DescriptionContent>
-									<ConsequenceContent>
-										<ConsequenceText xml:lang="DE" />
-									</ConsequenceContent>
-								</TextualContent>
-							</PassengerInformationAction>
-						</PublishingAction>
-					</PublishingActions>
-				</PtSituationElement>
-				<PtSituationElement>
-					<CreationTime>2021-04-19T10:34:40Z</CreationTime>
-					<CountryRef>ch</CountryRef>
-					<ParticipantRef>ski-ems-out-sx_test</ParticipantRef>
-					<SituationNumber>ch:1:sstid:1:b0b2739c-459b-5091-be5a-c690a4d776b8</SituationNumber>
-					<Version>1</Version>
-					<Source>
-						<CountryRef>ch</CountryRef>
-						<SourceType>directReport</SourceType>
-						<Name>EMS</Name>
-						<ExternalCode>ski-ems-out-sx_test</ExternalCode>
-					</Source>
-					<VersionedAtTime>2021-04-19T10:34:30Z</VersionedAtTime>
-					<Progress>published</Progress>
-					<ValidityPeriod>
-						<StartTime>2020-12-04T23:00:00Z</StartTime>
-						<EndTime>2020-12-06T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2020-12-11T23:00:00Z</StartTime>
-						<EndTime>2020-12-13T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2020-12-18T23:00:00Z</StartTime>
-						<EndTime>2020-12-20T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2020-12-25T23:00:00Z</StartTime>
-						<EndTime>2020-12-27T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-01-01T23:00:00Z</StartTime>
-						<EndTime>2021-01-03T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-01-08T23:00:00Z</StartTime>
-						<EndTime>2021-01-10T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-01-15T23:00:00Z</StartTime>
-						<EndTime>2021-01-17T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-01-22T23:00:00Z</StartTime>
-						<EndTime>2021-01-24T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-01-29T23:00:00Z</StartTime>
-						<EndTime>2021-01-31T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-02-05T23:00:00Z</StartTime>
-						<EndTime>2021-02-07T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-02-12T23:00:00Z</StartTime>
-						<EndTime>2021-02-14T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-02-19T23:00:00Z</StartTime>
-						<EndTime>2021-02-21T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-02-26T23:00:00Z</StartTime>
-						<EndTime>2021-02-28T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-03-05T23:00:00Z</StartTime>
-						<EndTime>2021-03-07T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-03-12T23:00:00Z</StartTime>
-						<EndTime>2021-03-14T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-03-19T23:00:00Z</StartTime>
-						<EndTime>2021-03-21T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-03-26T23:00:00Z</StartTime>
-						<EndTime>2021-03-28T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-04-02T23:00:00Z</StartTime>
-						<EndTime>2021-04-04T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-04-09T23:00:00Z</StartTime>
-						<EndTime>2021-04-11T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-04-16T23:00:00Z</StartTime>
-						<EndTime>2021-04-18T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-04-23T23:00:00Z</StartTime>
-						<EndTime>2021-04-25T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-04-30T23:00:00Z</StartTime>
-						<EndTime>2021-05-02T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-05-07T23:00:00Z</StartTime>
-						<EndTime>2021-05-09T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-05-14T23:00:00Z</StartTime>
-						<EndTime>2021-05-16T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-05-21T23:00:00Z</StartTime>
-						<EndTime>2021-05-23T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-05-28T23:00:00Z</StartTime>
-						<EndTime>2021-05-30T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-06-04T23:00:00Z</StartTime>
-						<EndTime>2021-06-06T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-06-11T23:00:00Z</StartTime>
-						<EndTime>2021-06-13T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-06-18T23:00:00Z</StartTime>
-						<EndTime>2021-06-20T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-06-25T23:00:00Z</StartTime>
-						<EndTime>2021-06-27T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-07-02T23:00:00Z</StartTime>
-						<EndTime>2021-07-04T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-07-09T23:00:00Z</StartTime>
-						<EndTime>2021-07-11T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-07-16T23:00:00Z</StartTime>
-						<EndTime>2021-07-18T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-07-23T23:00:00Z</StartTime>
-						<EndTime>2021-07-25T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<ValidityPeriod>
-						<StartTime>2021-07-30T23:00:00Z</StartTime>
-						<EndTime>2021-08-01T22:59:00Z</EndTime>
-					</ValidityPeriod>
-					<PublicationWindow>
-						<StartTime>2020-12-04T23:00:00Z</StartTime>
-						<EndTime>2021-08-01T22:59:00Z</EndTime>
-					</PublicationWindow>
-					<Severity>normal</Severity>
-					<Priority>3</Priority>
-					<ScopeType>line</ScopeType>
-					<Language>DE</Language>
-					<Summary xml:lang="DE">test</Summary>
-					<Description xml:lang="DE" />
-					<Detail xml:lang="DE" />
-					<Affects />
-					<Consequences>
-						<Consequence>
-							<Condition>unknown</Condition>
-							<Severity>normal</Severity>
-							<Affects />
-						</Consequence>
-					</Consequences>
-					<PublishingActions>
-						<PublishingAction>
-							<PublishAtScope>
-								<ScopeType>line</ScopeType>
-								<Affects />
-							</PublishAtScope>
-							<PassengerInformationAction>
-								<ActionRef>ski-ddip-out-sx_test-9-0</ActionRef>
-								<RecordedAtTime>2021-04-19T10:34:30Z</RecordedAtTime>
-								<Perspective>general</Perspective>
-								<Perspective>stopPoint</Perspective>
-								<Perspective>vehicleJourney</Perspective>
-								<TextualContent>
-									<TextualContentSize>M</TextualContentSize>
-									<SummaryContent>
-										<SummaryText xml:lang="DE">test</SummaryText>
-									</SummaryContent>
-									<ReasonContent>
-										<ReasonText xml:lang="DE" />
-									</ReasonContent>
-									<DescriptionContent>
-										<DescriptionText xml:lang="DE" />
-									</DescriptionContent>
-									<ConsequenceContent>
-										<ConsequenceText xml:lang="DE" />
-									</ConsequenceContent>
-								</TextualContent>
-							</PassengerInformationAction>
-						</PublishingAction>
-					</PublishingActions>
-				</PtSituationElement>
-				<PtSituationElement>
 					<CreationTime>2021-04-21T12:59:58Z</CreationTime>
 					<CountryRef>ch</CountryRef>
 					<ParticipantRef>ski-ems-out-sx_test</ParticipantRef>
@@ -7935,7 +7342,7 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 					<Source>
 						<CountryRef>ch</CountryRef>
 						<SourceType>directReport</SourceType>
-						<Name>EMS</Name>
+						<!--TODO xml:lang fehlt--><Name xml:lang="DE">EMS</Name>
 						<ExternalCode>ski-ems-out-sx_test</ExternalCode>
 					</Source>
 					<VersionedAtTime>2021-04-21T12:59:55Z</VersionedAtTime>
@@ -7961,52 +7368,52 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 						<StopPlaces>
 							<AffectedStopPlace>
 								<StopPlaceRef>8589780</StopPlaceRef>
-								<PlaceName>Luzern, Eisfeldstrasse</PlaceName>
+								<!--TODO xml:lang="DE" fehlt--><PlaceName xml:lang="DE">Luzern, Eisfeldstrasse</PlaceName>
 							</AffectedStopPlace>
 						</StopPlaces>
 					</Affects>
 					<Consequences>
 						<Consequence>
-							<Condition>delayed</Condition>
+							<!--TODO wrong enum value--><Condition>delay</Condition>
 							<Severity>normal</Severity>
 							<Affects>
 								<Networks>
 									<AffectedNetwork>
 										<AffectedLine>
 											<LineRef>ojp92006DRj21</LineRef>
-											<PublishedLineName>6</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">6</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp92006DHj21</LineRef>
-											<PublishedLineName>6</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">6</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp92007BHj21</LineRef>
-											<PublishedLineName>7</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">7</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp92007BRj21</LineRef>
-											<PublishedLineName>7</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">7</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp92008BRj21</LineRef>
-											<PublishedLineName>8</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">8</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp92008BHj21</LineRef>
-											<PublishedLineName>8</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">8</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp92N10_Hj21</LineRef>
-											<PublishedLineName>N10</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">N10</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp92021ERj21</LineRef>
-											<PublishedLineName>21</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">21</PublishedLineName>
 										</AffectedLine>
 										<AffectedLine>
 											<LineRef>ojp92021EHj21</LineRef>
-											<PublishedLineName>21</PublishedLineName>
+											<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">21</PublishedLineName>
 										</AffectedLine>
 									</AffectedNetwork>
 								</Networks>
@@ -8022,39 +7429,39 @@ Vor Einreise müssen Kontaktdaten mittels Online-Formular erfassen. Informatione
 										<AffectedNetwork>
 											<AffectedLine>
 												<LineRef>ojp92006DRj21</LineRef>
-												<PublishedLineName>6</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">6</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp92006DHj21</LineRef>
-												<PublishedLineName>6</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">6</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp92007BHj21</LineRef>
-												<PublishedLineName>7</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">7</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp92007BRj21</LineRef>
-												<PublishedLineName>7</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">7</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp92008BRj21</LineRef>
-												<PublishedLineName>8</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">8</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp92008BHj21</LineRef>
-												<PublishedLineName>8</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">8</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp92N10_Hj21</LineRef>
-												<PublishedLineName>N10</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">N10</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp92021ERj21</LineRef>
-												<PublishedLineName>21</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">21</PublishedLineName>
 											</AffectedLine>
 											<AffectedLine>
 												<LineRef>ojp92021EHj21</LineRef>
-												<PublishedLineName>21</PublishedLineName>
+												<!--TODO xml:lang fehlt--><PublishedLineName xml:lang="DE">21</PublishedLineName>
 											</AffectedLine>
 										</AffectedNetwork>
 									</Networks>
