@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
 	<SubscriptionResponse>
-		<ResponseTimestamp>2021-03-05T02:15:01.410681Z</ResponseTimestamp>
+		<ResponseTimestamp>2021-04-22T02:13:21Z</ResponseTimestamp>
 		<ResponderRef>ski-ddip-out-ums_test</ResponderRef>
 		<ResponseStatus>
-			<ResponseTimestamp>2021-03-05T02:15:01.410681Z</ResponseTimestamp>
-			<SubscriptionRef>20015</SubscriptionRef>
+			<ResponseTimestamp>2021-04-22T02:13:21Z</ResponseTimestamp>
+			<SubscriptionRef>20014</SubscriptionRef>
 		</ResponseStatus>
 	</SubscriptionResponse>
 </Siri>
 
 <!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
-<!-- TIMESTAMP: 05.03.2021 03:15:01//-->
+<!-- TIMESTAMP: 22.04.2021 04:13:20//-->
 <!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/svb-dds_dev/ski-ddip-out-ums_test//-->
-<!-- REMOTE_END_POINT-URL: 10.39.17.114:50628//-->
-<!-- HEADERS:  Accept:text/xml,Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI1NDhjNmxwNDA0YTgxbGUzNGwzcmJybWo4YiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxNDkwNzgzMCwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE0OTExNDMwLCJpYXQiOjE2MTQ5MDc4MzAsInZlcnNpb24iOjIsImp0aSI6ImFjZDY5ZWY1LTI1MWYtNDQ1OC1iMzI4LWIyMGRjMTZiMzE0MyIsImNsaWVudF9pZCI6IjU0OGM2bHA0MDRhODFsZTM0bDNyYnJtajhiIn0.Q2g3TG1TCSeNMfgtsn4m1nqFtYaD-_eft2SBisHVHVbTw7WUPoaO4_hDFWCztMTNFIYlCgPyJSDl6L31xcn_ceVx08jzHv8VqhDey7ffydUjT37z1j7Jt4i-evO64BpIArWTK6Gmav2XuMgPdAEknMocHg2n_tbe3l5V3_Ss2CzDqYnV7hXSkWgO0NhJNSm20vGG0sPfSoqA1XfF5WGQ4s2fgUAnypOCJUw5g3tG88LLm-Oc0e96Lw3uMLs4Q6PPRrJ-AxWyrcG4wVA9NThHSbFqjvZX-JbGnnS_blIe2W6J7dU15f1wI5a_0SAmYP9gsL0YeCJIetrbtQDjiWflIw,Connection:close,Content-Length:872,Content-Type:text/xml,Host:api.test.ddip.odpch.ch,User-Agent:VDV Leitstellenkopplung,X-Amzn-Trace-Id:Root=1-60419425-64c35ca8490509dd7fe63499,X-Forwarded-For:217.192.58.132,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.63,X-Scheme:https//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.114:42382//-->
+<!-- HEADERS:  Accept:text/xml,Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI1NDhjNmxwNDA0YTgxbGUzNGwzcmJybWo4YiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxOTA1NDk2MCwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE5MDU4NTYwLCJpYXQiOjE2MTkwNTQ5NjAsInZlcnNpb24iOjIsImp0aSI6IjRhMTMzNTUxLTZlOGYtNGFjYi1iOWU5LTU5ZjM4YzM1YzcwMSIsImNsaWVudF9pZCI6IjU0OGM2bHA0MDRhODFsZTM0bDNyYnJtajhiIn0.hGLT1fWu_0SIvUPMirVUwDQR_IGhshEPeZLNQ9nmGRr-b966ljCG4LDmTCnWvpjdjRxPPB-x9BAle_Q6h8mLIqBUfQ8VIceyZtgkoWAYDIIdGqKdbhMyuytijoK7u4bdwHkmm3LgNhEbEQ60tzxicEt0LtYpRaCSdZ08rel9lHZ5iK_B57vpDOUttuxlUbp-xQ_anza3sIg4EB6eHzRzctKCUMXb3s6L6UsufNJkBHS9pK3EzPqxauEDfnh5tYXJ7K-xRP-mj0YTVHjj0OzuVvrRrgy4nKSOCTjpJfooKj6ADWijrltL431I30qJUIfAj38sXj3skmU4Noo2us-umw,Connection:close,Content-Length:872,Content-Type:text/xml,Host:api.test.ddip.odpch.ch,User-Agent:VDV Leitstellenkopplung,X-Amzn-Trace-Id:Root=1-6080dbc0-0a0600de4135f6f365d1f440,X-Forwarded-For:217.192.58.132,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.172,X-Scheme:https//-->

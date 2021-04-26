@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd">
+	<ServiceDelivery>
+			<ResponseTimestamp>2021-03-26T12:47:57Z</ResponseTimestamp>
+			<ProducerRef>ski-ems-out-sx_test</ProducerRef>
+			<ResponseMessageIdentifier>rELlNdgPx</ResponseMessageIdentifier>
+			<Status>true</Status>
+			<MoreData>false</MoreData>
+			<SituationExchangeDelivery version="2.0">
+				<ResponseTimestamp>2021-03-26T12:47:57Z</ResponseTimestamp>
+				<SubscriberRef>ski-ddip-in-sx_test</SubscriberRef>
+				<SubscriptionRef>1</SubscriptionRef>
+				<Situations>
+					<PtSituationElement>
+						<CreationTime>2021-03-26T12:47:56Z</CreationTime>
+						<CountryRef>ch</CountryRef>
+						<ParticipantRef>sbb-ems-out-sx_test</ParticipantRef>
+						<SituationNumber>ch:1:sstid:1:fbe9ba34-17eb-56f8-a2d5-0e25dfb6ac6a</SituationNumber>
+						<Version>1</Version>
+						<Source>
+							<CountryRef>ch</CountryRef>
+							<SourceType>directReport</SourceType>
+							<!--TODO xml:lang fehlt --><Name xml:lang="DE">EMS</Name>
+							<ExternalCode>sbb-ems-out-sx_test</ExternalCode>
+						</Source>
+						<VersionedAtTime>2021-03-26T12:47:55Z</VersionedAtTime>
+						<Progress>published</Progress>
+						<ValidityPeriod>
+							<StartTime>2021-03-26T12:46:00Z</StartTime>
+							<EndTime>2021-03-26T14:16:00Z</EndTime>
+						</ValidityPeriod>
+						<PublicationWindow>
+							<StartTime>2021-03-26T12:46:00Z</StartTime>
+							<EndTime>2021-03-26T14:26:00Z</EndTime>
+						</PublicationWindow>
+						<AlertCause>unscheduledConstructionWork</AlertCause>
+						<Severity>normal</Severity>
+						<Priority>3</Priority>
+						<Audience>public</Audience>
+						<ScopeType>line</ScopeType>
+						<Language>DE</Language>
+						<Summary xml:lang="DE">Unregelmässiger Betrieb Linie 6 Luzern, Matthof - Luzern, Büttenenhalde (Bus)</Summary>
+						<Description xml:lang="DE">Betroffen: Bus 6</Description>
+						<Detail xml:lang="DE">Einschränkungsdauer: Bis ca. 15:20</Detail>
+						<Affects>
+							<StopPlaces>
+								<AffectedStopPlace>
+									<StopPlaceRef>8589811</StopPlaceRef>
+									<!--TODO xml:lang fehlt --><PlaceName xml:lang="DE">Luzern, Matthof</PlaceName>
+								</AffectedStopPlace>
+							</StopPlaces>
+						</Affects>
+						<Consequences>
+							<Consequence>
+								<Condition>unknown</Condition>
+								<Severity>normal</Severity>
+								<Affects>
+									<Networks>
+										<AffectedNetwork>
+											<AffectedLine>
+												<LineRef>ojp92006DHj21</LineRef>
+												<!--TODO xml:lang fehlt --><PublishedLineName xml:lang="DE">6</PublishedLineName>
+											</AffectedLine>
+											<AffectedLine>
+												<LineRef>ojp92006DRj21</LineRef>
+												<!--TODO xml:lang fehlt --><PublishedLineName xml:lang="DE">6</PublishedLineName>
+											</AffectedLine>
+										</AffectedNetwork>
+									</Networks>
+								</Affects>
+							</Consequence>
+						</Consequences>
+						<PublishingActions>
+							<PublishingAction>
+								<PublishAtScope>
+									<ScopeType>line</ScopeType>
+									<Affects>
+										<Networks>
+											<AffectedNetwork>
+												<AffectedLine>
+													<LineRef>ojp92006DHj21</LineRef>
+													<!--TODO xml:lang fehlt --><PublishedLineName xml:lang="DE">6</PublishedLineName>
+												</AffectedLine>
+												<AffectedLine>
+													<LineRef>ojp92006DRj21</LineRef>
+													<!--TODO xml:lang fehlt --><PublishedLineName xml:lang="DE">6</PublishedLineName>
+												</AffectedLine>
+											</AffectedNetwork>
+										</Networks>
+									</Affects>
+								</PublishAtScope>
+								<PassengerInformationAction>
+									<ActionRef>ems-262-0</ActionRef>
+									<RecordedAtTime>2021-03-26T12:47:55Z</RecordedAtTime>
+									<Perspective>general</Perspective>
+									<Perspective>stopPoint</Perspective>
+									<Perspective>vehicleJourney</Perspective>
+									<TextualContent>
+										<TextualContentSize>M</TextualContentSize>
+										<SummaryContent>
+											<SummaryText xml:lang="DE">Unregelmässiger Betrieb Linie 6 Luzern, Matthof - Luzern, Büttenenhalde (Bus)</SummaryText>
+										</SummaryContent>
+										<ReasonContent>
+											<ReasonText xml:lang="DE">Grund: Ungeplante Bauarbeiten</ReasonText>
+										</ReasonContent>
+										<DescriptionContent>
+											<DescriptionText xml:lang="DE">Betroffen: Bus 6</DescriptionText>
+										</DescriptionContent>
+										<ConsequenceContent>
+											<ConsequenceText xml:lang="DE">Es ist mit Verspätungen, Ausfällen und Umleitungen zu rechnen.</ConsequenceText>
+										</ConsequenceContent>
+									</TextualContent>
+								</PassengerInformationAction>
+							</PublishingAction>
+						</PublishingActions>
+					</PtSituationElement>
+				</Situations>
+			</SituationExchangeDelivery>
+		</ServiceDelivery>
+	</Siri>
+
+	<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+	<!-- TIMESTAMP: 26.03.2021 13:47:57//-->
+	<!-- REQUEST-URL: http://lb.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/ski-ems-out-sx_test/ski-ddip-in-sx_test//-->
+	<!-- REMOTE_END_POINT-URL: 10.39.17.234:60488//-->
+	<!-- HEADERS:  Connection:close,Content-Length:6916,Content-Type:text/xml; charset=utf-8,Host:lb.test.ddip.odpch.ch:8882//-->

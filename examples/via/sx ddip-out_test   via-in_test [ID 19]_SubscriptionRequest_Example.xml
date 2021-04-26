@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns:ns3="http://www.ifopt.org.uk/ifopt" xmlns:ns4="http://datex2.eu/schema/2_0RC1/2_0" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<SubscriptionRequest>
+		<RequestTimestamp>2021-04-22T07:48:20.064972+02:00</RequestTimestamp>
+		<RequestorRef>via-in_test</RequestorRef>
+		<MessageIdentifier>4d3b9a38-ea86-40dd-bf23-7daf8b69a492</MessageIdentifier>
+		<SubscriptionContext>
+			<HeartbeatInterval>PT1M</HeartbeatInterval>
+		</SubscriptionContext>
+		<SituationExchangeSubscriptionRequest>
+			<SubscriptionIdentifier>via-vdv736-adapter_via-dev</SubscriptionIdentifier>
+			<InitialTerminationTime>2021-04-23T08:48:20.064972+02:00</InitialTerminationTime>
+			<SituationExchangeRequest>
+				<RequestTimestamp>2021-04-22T07:48:20.064972+02:00</RequestTimestamp>
+				<PreviewInterval>PT12H</PreviewInterval>
+			</SituationExchangeRequest>
+		</SituationExchangeSubscriptionRequest>
+	</SubscriptionRequest>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 22.04.2021 07:48:20//-->
+<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/via-in_test/ddip-out_test//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.114:39456//-->
+<!-- HEADERS:  Accept:text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*,Accept-Encoding:gzip,deflate,Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIzMTc5NDJhdW5mcWdoamw2Z283ZzZpamdyYSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxOTA3MDAyMCwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE5MDczNjIwLCJpYXQiOjE2MTkwNzAwMjAsInZlcnNpb24iOjIsImp0aSI6ImQ0NGRmNTg5LTI3ZTUtNDIzYi05OGJlLTYxZmRjNDgwYTgyNyIsImNsaWVudF9pZCI6IjMxNzk0MmF1bmZxZ2hqbDZnbzdnNmlqZ3JhIn0.ITn4isqgg8wOM1aWbwFtlNdMGb8f2a1HHe9IyFifHPZa4ipnkKYU-8Q3tJOeU0QQwH-KetQfWkSdwPn3tsenbj5R1g6YcAbuRVh7ChS-zdT_fF8I5-C8vnCtPZRD9SXoCCfZ5AuP_rd_iWCLjImKXpyfLqB880FCq52uJphiAsVMPbm-mD35jJjQ2Ar-67qdoXfcxcZDjyUdxPL5ZZzjwZ2cxoQ1qkZk9XQBqIxGG0Incj1I2kG2w2EO1cWM3dGzQIuPQCAO-3HbLt78oK_b18fO3ig5WjdPr9ch58i1g-UO55e-wLVVL5vbtfbOxH5LSz9qBPU_r9TAIJnLTb6Smw,Connection:close,Content-Length:956,Content-Type:text/plain;charset=ISO-8859-1,Cookie:AWSALB=5Mpxnl0s5ewoxCFSlTYTLhfjeSIJ2hxRJCbnrC6YyrTiDkQz8AK89IzgHb3J6TcYn0eN/qGJOdoYDWmpx0okpHNzijqFzbJRlS2y3p46R/w5p1JlT7yGEtdZ0drx; AWSALBCORS=5Mpxnl0s5ewoxCFSlTYTLhfjeSIJ2hxRJCbnrC6YyrTiDkQz8AK89IzgHb3J6TcYn0eN/qGJOdoYDWmpx0okpHNzijqFzbJRlS2y3p46R/w5p1JlT7yGEtdZ0drx; AWSALBTG=V5Vb/UUP7ufPt6HT/vegcbmrqYm+PyOB420FOyET5AK2YgWVVtopHYkWfGxwZNy6OHLAZ7qIPV4Vu2L09f/7m/oqw1WBZBMrqC/Et3UhPub9Y+/TtWkgHQNnLc9ZH2pRKVZIPR+xAzih7lT2AV2SC8yYZ0lMP68qB7e9aEhbv2yHlAOG/Fs=; AWSALBTGCORS=V5Vb/UUP7ufPt6HT/vegcbmrqYm+PyOB420FOyET5AK2YgWVVtopHYkWfGxwZNy6OHLAZ7qIPV4Vu2L09f/7m/oqw1WBZBMrqC/Et3UhPub9Y+/TtWkgHQNnLc9ZH2pRKVZIPR+xAzih7lT2AV2SC8yYZ0lMP68qB7e9aEhbv2yHlAOG/Fs=,Host:api.test.ddip.odpch.ch,User-Agent:Apache-HttpClient/4.5.13 (Java/11.0.10),X-Amzn-Trace-Id:Root=1-60810e24-7bc709a01cdfa0641c91fbf2,X-Forwarded-For:194.150.244.80,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.63,X-Scheme:https//-->

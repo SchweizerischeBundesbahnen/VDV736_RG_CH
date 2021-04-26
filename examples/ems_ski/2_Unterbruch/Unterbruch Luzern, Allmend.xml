@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd">
+	<ServiceDelivery>
+			<ResponseTimestamp>2021-03-26T12:53:31.204579Z</ResponseTimestamp>
+			<ProducerRef>ddip-out_test</ProducerRef>
+			<SituationExchangeDelivery xmlns="http://www.siri.org.uk/siri">
+				<ResponseTimestamp>2021-03-26T12:53:31.204579Z</ResponseTimestamp>
+				<SubscriptionRef>via-vdv736-adapter_via-dev</SubscriptionRef>
+				<Situations>
+					<PtSituationElement>
+						<CreationTime>2021-03-26T12:53:24Z</CreationTime>
+						<CountryRef>ch</CountryRef>
+						<ParticipantRef>sbb-ems-out-sx_test</ParticipantRef>
+						<SituationNumber>ch:1:sstid:1:fbe9ba34-17eb-56f8-a2d5-0e25dfb6ac6a</SituationNumber>
+						<Version>2</Version>
+						<Source>
+							<CountryRef>ch</CountryRef>
+							<SourceType>directReport</SourceType>
+							<!--TODO xml:lang fehlt --><Name xml:lang="DE">EMS</Name>
+							<ExternalCode>sbb-ems-out-sx_test</ExternalCode>
+						</Source>
+						<VersionedAtTime>2021-03-26T12:53:18Z</VersionedAtTime>
+						<Progress>published</Progress>
+						<ValidityPeriod>
+							<StartTime>2021-03-26T12:48:00Z</StartTime>
+							<EndTime>2021-03-26T16:53:00Z</EndTime>
+						</ValidityPeriod>
+						<PublicationWindow>
+							<StartTime>2021-03-26T12:48:00Z</StartTime>
+							<EndTime>2021-03-26T17:03:00Z</EndTime>
+						</PublicationWindow>
+						<AlertCause>unscheduledConstructionWork</AlertCause>
+						<Severity>normal</Severity>
+						<Priority>3</Priority>
+						<ScopeType>stopPlace</ScopeType>
+						<Language>DE</Language>
+						<Summary xml:lang="DE">Unterbruch Luzern, Allmend/Messe (Bus)</Summary>
+						<Description xml:lang="DE">Betroffen: Bus 20</Description>
+						<Detail xml:lang="DE">Einschränkungsdauer: Bis ca. 17:50</Detail>
+						<Affects>
+							<StopPlaces>
+								<AffectedStopPlace>
+									<StopPlaceRef>8589766</StopPlaceRef>
+									<!--TODO xml:lang fehlt --><PlaceName xml:lang="DE">Luzern, Allmend/Messe</PlaceName>
+								</AffectedStopPlace>
+							</StopPlaces>
+						</Affects>
+						<Consequences>
+							<Consequence>
+								<Condition>unknown</Condition>
+								<Severity>normal</Severity>
+								<Affects>
+									<StopPlaces>
+										<AffectedStopPlace>
+											<StopPlaceRef>8589766</StopPlaceRef>
+											<!--TODO xml:lang fehlt --><PlaceName xml:lang="DE">Luzern, Allmend/Messe</PlaceName>
+										</AffectedStopPlace>
+									</StopPlaces>
+								</Affects>
+							</Consequence>
+						</Consequences>
+						<PublishingActions>
+							<PublishingAction>
+								<PublishAtScope>
+									<ScopeType>stopPlace</ScopeType>
+									<Affects>
+										<StopPlaces>
+											<AffectedStopPlace>
+												<StopPlaceRef>8589766</StopPlaceRef>
+												<!--TODO xml:lang fehlt --><PlaceName xml:lang="DE">Luzern, Allmend/Messe</PlaceName>
+											</AffectedStopPlace>
+										</StopPlaces>
+									</Affects>
+								</PublishAtScope>
+								<PassengerInformationAction>
+									<ActionRef>ems-262-0</ActionRef>
+									<RecordedAtTime>2021-03-26T12:53:18Z</RecordedAtTime>
+									<Perspective>general</Perspective>
+									<Perspective>stopPoint</Perspective>
+									<Perspective>vehicleJourney</Perspective>
+									<TextualContent>
+										<TextualContentSize>M</TextualContentSize>
+										<SummaryContent>
+											<SummaryText xml:lang="DE">Unterbruch Luzern, Allmend/Messe (Bus)</SummaryText>
+										</SummaryContent>
+										<ReasonContent>
+											<ReasonText xml:lang="DE">Grund: Ungeplante Bauarbeiten</ReasonText>
+										</ReasonContent>
+										<DescriptionContent>
+											<DescriptionText xml:lang="DE">Betroffen: Bus 20</DescriptionText>
+										</DescriptionContent>
+										<ConsequenceContent>
+											<ConsequenceText xml:lang="DE">Es ist mit Verspätungen, Ausfällen und Umleitungen zu rechnen.</ConsequenceText>
+										</ConsequenceContent>
+									</TextualContent>
+								</PassengerInformationAction>
+							</PublishingAction>
+						</PublishingActions>
+					</PtSituationElement>
+				</Situations>
+			</SituationExchangeDelivery>
+		</ServiceDelivery>
+	</Siri>
+
+	<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+	<!-- TIMESTAMP: 26.03.2021 13:53:31//-->
+	<!-- REQUEST-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->
+	<!-- REMOTE_END_POINT-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->

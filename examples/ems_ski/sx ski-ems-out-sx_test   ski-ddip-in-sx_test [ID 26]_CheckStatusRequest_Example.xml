@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<CheckStatusRequest>
+		<RequestTimestamp>2021-04-22T04:59:04.017838Z</RequestTimestamp>
+		<RequestorRef>ski-ddip-in-sx_test</RequestorRef>
+	</CheckStatusRequest>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 22.04.2021 06:59:04//-->
+<!-- REQUEST-URL: http://10.39.17.234:80/siri/server/736v1//-->
+<!-- REMOTE_END_POINT-URL: http://10.39.17.234:80/siri/server/736v1//-->

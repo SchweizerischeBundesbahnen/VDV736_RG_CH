@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<ServiceDelivery>
+		<ResponseTimestamp>2021-04-22T03:00:10Z</ResponseTimestamp>
+		<ProducerRef>ski-ems-out-sx_test</ProducerRef>
+		<ResponseMessageIdentifier>FkkG24Sb8</ResponseMessageIdentifier>
+		<Status>true</Status>
+		<MoreData>false</MoreData>
+		<SituationExchangeDelivery version="2.0">
+			<ResponseTimestamp>2021-04-22T03:00:10Z</ResponseTimestamp>
+			<SubscriberRef>ski-ddip-in-sx_test</SubscriberRef>
+			<SubscriptionRef>1</SubscriptionRef>
+			<Situations>
+				<PtSituationElement>
+					<CreationTime>2021-04-22T03:00:09Z</CreationTime>
+					<CountryRef>ch</CountryRef>
+					<ParticipantRef>ski-ems-out-sx_test</ParticipantRef>
+					<SituationNumber>ch:1:sstid:1:60298cd8-0c88-596b-accf-4fbe96852961</SituationNumber>
+					<Version>2</Version>
+					<Source>
+						<CountryRef>ch</CountryRef>
+						<SourceType>directReport</SourceType>
+						<!--TODO xml:lang--><Name xml:lang="DE">EMS</Name>
+						<ExternalCode>ski-ems-out-sx_test</ExternalCode>
+					</Source>
+					<VersionedAtTime>2021-04-21T13:49:18Z</VersionedAtTime>
+					<Progress>closing</Progress>
+					<ValidityPeriod>
+						<StartTime>2021-04-21T13:48:00Z</StartTime>
+						<EndTime>2021-04-22T03:00:00Z</EndTime>
+					</ValidityPeriod>
+					<PublicationWindow>
+						<StartTime>2021-04-21T13:48:00Z</StartTime>
+						<EndTime>2021-04-22T03:10:00Z</EndTime>
+					</PublicationWindow>
+					<AlertCause>strongWinds</AlertCause>
+					<Severity>normal</Severity>
+					<Priority>3</Priority>
+					<Audience>public</Audience>
+					<ScopeType>line</ScopeType>
+					<Language>DE</Language>
+					<Summary xml:lang="DE">Wieder in Betrieb: Linie 1, 30, N3  -  (Bus)</Summary>
+					<Description xml:lang="DE">Betroffen: Busse 1, 30, N3</Description>
+					<Detail xml:lang="DE">TODO</Detail>
+					<Affects>
+						<StopPlaces>
+							<AffectedStopPlace>
+								<StopPlaceRef>8577152</StopPlaceRef>
+								<!--TODO xml:lang--><PlaceName xml:lang="DE">Ebikon, St. Klemens</PlaceName>
+							</AffectedStopPlace>
+						</StopPlaces>
+					</Affects>
+					<Consequences>
+						<Consequence>
+							<Condition>unknown</Condition>
+							<Severity>normal</Severity>
+							<Affects>
+								<Networks>
+									<AffectedNetwork>
+										<AffectedLine>
+											<LineRef>ojp92001DRj21</LineRef>
+											<!--TODO xml:lang--><PublishedLineName xml:lang="DE">1</PublishedLineName>
+										</AffectedLine>
+										<AffectedLine>
+											<LineRef>ojp92001DHj21</LineRef>
+											<!--TODO xml:lang--><PublishedLineName xml:lang="DE">1</PublishedLineName>
+										</AffectedLine>
+										<AffectedLine>
+											<LineRef>ojp920N3BRj21</LineRef>
+											<!--TODO xml:lang--><PublishedLineName xml:lang="DE">N3</PublishedLineName>
+										</AffectedLine>
+										<AffectedLine>
+											<LineRef>ojp920N3BHj21</LineRef>
+											<!--TODO xml:lang--><PublishedLineName xml:lang="DE">N3</PublishedLineName>
+										</AffectedLine>
+										<AffectedLine>
+											<LineRef>ojp92030BRj21</LineRef>
+											<!--TODO xml:lang--><PublishedLineName xml:lang="DE">30</PublishedLineName>
+										</AffectedLine>
+										<AffectedLine>
+											<LineRef>ojp92030BHj21</LineRef>
+											<!--TODO xml:lang--><PublishedLineName xml:lang="DE">30</PublishedLineName>
+										</AffectedLine>
+									</AffectedNetwork>
+								</Networks>
+							</Affects>
+						</Consequence>
+					</Consequences>
+					<PublishingActions>
+						<PublishingAction>
+							<PublishAtScope>
+								<ScopeType>line</ScopeType>
+								<Affects>
+									<Networks>
+										<AffectedNetwork>
+											<AffectedLine>
+												<LineRef>ojp92001DRj21</LineRef>
+												<!--TODO xml:lang--><PublishedLineName xml:lang="DE">1</PublishedLineName>
+											</AffectedLine>
+											<AffectedLine>
+												<LineRef>ojp92001DHj21</LineRef>
+												<!--TODO xml:lang--><PublishedLineName xml:lang="DE">1</PublishedLineName>
+											</AffectedLine>
+											<AffectedLine>
+												<LineRef>ojp920N3BRj21</LineRef>
+												<!--TODO xml:lang--><PublishedLineName xml:lang="DE">N3</PublishedLineName>
+											</AffectedLine>
+											<AffectedLine>
+												<LineRef>ojp920N3BHj21</LineRef>
+												<!--TODO xml:lang--><PublishedLineName xml:lang="DE">N3</PublishedLineName>
+											</AffectedLine>
+											<AffectedLine>
+												<LineRef>ojp92030BRj21</LineRef>
+												<!--TODO xml:lang--><PublishedLineName xml:lang="DE">30</PublishedLineName>
+											</AffectedLine>
+											<AffectedLine>
+												<LineRef>ojp92030BHj21</LineRef>
+												<!--TODO xml:lang--><PublishedLineName xml:lang="DE">30</PublishedLineName>
+											</AffectedLine>
+										</AffectedNetwork>
+									</Networks>
+								</Affects>
+							</PublishAtScope>
+							<PassengerInformationAction>
+								<ActionRef>ems-288-0</ActionRef>
+								<RecordedAtTime>2021-04-21T13:49:18Z</RecordedAtTime>
+								<Perspective>general</Perspective>
+								<Perspective>stopPoint</Perspective>
+								<Perspective>vehicleJourney</Perspective>
+								<TextualContent>
+									<TextualContentSize>M</TextualContentSize>
+									<SummaryContent>
+										<SummaryText xml:lang="DE">Wieder in Betrieb: Linie 1, 30, N3  -  (Bus)</SummaryText>
+									</SummaryContent>
+									<ReasonContent>
+										<ReasonText xml:lang="DE">Grund: Starke Winde</ReasonText>
+									</ReasonContent>
+									<DescriptionContent>
+										<DescriptionText xml:lang="DE">Betroffen: Busse 1, 30, N3</DescriptionText>
+									</DescriptionContent>
+									<ConsequenceContent>
+										<ConsequenceText xml:lang="DE">Es ist mit einer längeren Reisezeit von ca. 20 Minuten zu rechnen.</ConsequenceText>
+									</ConsequenceContent>
+								</TextualContent>
+							</PassengerInformationAction>
+						</PublishingAction>
+					</PublishingActions>
+				</PtSituationElement>
+			</Situations>
+		</SituationExchangeDelivery>
+	</ServiceDelivery>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 22.04.2021 05:00:10//-->
+<!-- REQUEST-URL: http://lb.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/ski-ems-out-sx_test/ski-ddip-in-sx_test//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.234:59322//-->
+<!-- HEADERS:  Connection:close,Content-Length:9066,Content-Type:text/xml; charset=utf-8,Host:lb.test.ddip.odpch.ch:8882//-->

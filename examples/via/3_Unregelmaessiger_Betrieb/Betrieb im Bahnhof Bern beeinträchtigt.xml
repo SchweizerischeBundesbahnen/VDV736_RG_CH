@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <Siri version="2.0" xmlns="http://www.siri.org.uk/siri" xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns:ns4="http://datex2.eu/schema/2_0RC1/2_0" xmlns:ns3="http://www.ifopt.org.uk/ifopt" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ServiceDelivery>
+			<ResponseTimestamp>2021-03-26T13:51:49.576+01:00</ResponseTimestamp>
+			<ProducerRef>sbb-via-out-sx_test</ProducerRef>
+			<Status>true</Status>
+			<MoreData>false</MoreData>
+			<SituationExchangeDelivery version="2.0">
+				<ResponseTimestamp>2021-03-26T13:51:49.576+01:00</ResponseTimestamp>
+				<SubscriptionRef>via-out_test</SubscriptionRef>
+				<DefaultLanguage>de-CH</DefaultLanguage>
+				<Situations>
+					<PtSituationElement>
+						<CreationTime>2021-03-26T13:51:49.576+01:00</CreationTime>
+						<CountryRef>ch</CountryRef>
+						<ParticipantRef>sbb-via-out-sx_test</ParticipantRef>
+						<SituationNumber>ch:1:sstid:100001:2195003634393</SituationNumber>
+						<Version>4</Version>
+						<Source>
+							<CountryRef>ch</CountryRef>
+							<SourceType>directReport</SourceType>
+							<Name xml:lang="DE">VIA</Name>
+						</Source>
+						<VersionedAtTime>2021-03-26T13:51:49.576+01:00</VersionedAtTime>
+						<Progress>published</Progress>
+						<ValidityPeriod>
+							<StartTime>2021-03-26T11:37:00.000+01:00</StartTime>
+							<EndTime>2021-03-26T16:00:00.000+01:00</EndTime>
+						</ValidityPeriod>
+						<PublicationWindow>
+							<StartTime>2021-03-26T11:37:00.000+01:00</StartTime>
+							<EndTime>2021-03-26T16:00:00.000+01:00</EndTime>
+						</PublicationWindow>
+						<AlertCause>derailment</AlertCause>
+						<Priority>3</Priority>
+						<ScopeType>stopPlace</ScopeType>
+						<Planned>false</Planned>
+						<Language>DE</Language>
+						<Summary xml:lang="DE">Einschränkungen im Bahnverkehr: Bern</Summary>
+						<Summary xml:lang="EN">Restrictions in rail traffic: Bern</Summary>
+						<Summary xml:lang="FR">Restrictions dans le trafic ferroviaire: Bern</Summary>
+						<Summary xml:lang="IT">Restrizioni nel traffico ferroviario: Bern</Summary>
+						<Description xml:lang="DE">Grund: Entgleisung.&lt;br&gt;Sämtliche Züge fallen aus.&lt;br&gt;Dauer der Einschränkung: unbestimmt.&lt;br&gt;Die SBB wird so schnell wie möglich weiter informieren.</Description>
+						<Description xml:lang="EN">Reason: Derailment.&lt;br&gt;All train services are cancelled.&lt;br&gt;Duration of the disruption: undetermined.&lt;br&gt;SBB will continue to provide information as soon as possible.</Description>
+						<Description xml:lang="FR">Motif: Déraillement.&lt;br&gt;Tous les trains sont supprimés.&lt;br&gt;Durée de la perturbation indéterminée.&lt;br&gt;Les CFF vous tiendront informés de l'évolution de la situation dans les meilleurs délais.</Description>
+						<Description xml:lang="IT">Motivo: Deragliamento.&lt;br&gt;Tutti i treni sono soppressi.&lt;br&gt;Durata del disservizio: indefinita.&lt;br&gt;Le FFS vi forniranno informazioni dettagliate nel più breve tempo possibile.</Description>
+						<Affects>
+							<StopPlaces>
+								<AffectedStopPlace>
+									<StopPlaceRef>8507000</StopPlaceRef>
+									<PlaceName xml:lang="DE">Bern</PlaceName>
+								</AffectedStopPlace>
+							</StopPlaces>
+						</Affects>
+						<PublishingActions>
+							<PublishingAction>
+								<PublishAtScope>
+									<ScopeType>stopPlace</ScopeType>
+									<Affects>
+										<StopPlaces>
+											<AffectedStopPlace>
+												<StopPlaceRef>8507000</StopPlaceRef>
+												<PlaceName xml:lang="DE">Bern</PlaceName>
+											</AffectedStopPlace>
+										</StopPlaces>
+									</Affects>
+								</PublishAtScope>
+								<PassengerInformationAction>
+									<PublicationWindow>
+										<StartTime>2021-03-26T11:37:00.000+01:00</StartTime>
+										<EndTime>2021-03-26T16:00:00.000+01:00</EndTime>
+									</PublicationWindow>
+									<ActionRef>DUMMY</ActionRef>
+									<RecordedAtTime>2021-03-26T11:37:00.000+01:00</RecordedAtTime>
+									<Version>4</Version>
+									<SourceRef>sbb-via-out-sx_test</SourceRef>
+									<OwnerRef>85:11</OwnerRef>
+									<Perspective>general</Perspective>
+									<ActionPriority>3</ActionPriority>
+									<TextualContent>
+										<SummaryContent>
+											<SummaryText xml:lang="DE">Der Bahnverkehr im Bahnhof Bern ist beeinträchtigt.</SummaryText>
+											<SummaryText xml:lang="EN">The rail traffic at station Bern is impaired.</SummaryText>
+											<SummaryText xml:lang="FR">Trafic restreint en gare de Bern.</SummaryText>
+											<SummaryText xml:lang="IT">Limitazioni dell'esercizio nella stazione di Bern.</SummaryText>
+										</SummaryContent>
+										<DescriptionContent>
+											<DescriptionText xml:lang="DE">Grund: Entgleisung.&lt;br&gt;Sämtliche Züge fallen aus.&lt;br&gt;Dauer der Einschränkung: unbestimmt.&lt;br&gt;Die SBB wird so schnell wie möglich weiter informieren.</DescriptionText>
+											<DescriptionText xml:lang="EN">Reason: Derailment.&lt;br&gt;All train services are cancelled.&lt;br&gt;Duration of the disruption: undetermined.&lt;br&gt;SBB will continue to provide information as soon as possible.</DescriptionText>
+											<DescriptionText xml:lang="FR">Motif: Déraillement.&lt;br&gt;Tous les trains sont supprimés.&lt;br&gt;Durée de la perturbation indéterminée.&lt;br&gt;Les CFF vous tiendront informés de l'évolution de la situation dans les meilleurs délais.</DescriptionText>
+											<DescriptionText xml:lang="IT">Motivo: Deragliamento.&lt;br&gt;Tutti i treni sono soppressi.&lt;br&gt;Durata del disservizio: indefinita.&lt;br&gt;Le FFS vi forniranno informazioni dettagliate nel più breve tempo possibile.</DescriptionText>
+										</DescriptionContent>
+									</TextualContent>
+								</PassengerInformationAction>
+							</PublishingAction>
+						</PublishingActions>
+					</PtSituationElement>
+				</Situations>
+			</SituationExchangeDelivery>
+		</ServiceDelivery>
+	</Siri>
+
+	<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+	<!-- TIMESTAMP: 26.03.2021 13:51:49//-->
+	<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/via-out_test/ddip-in_test//-->
+	<!-- REMOTE_END_POINT-URL: 10.39.17.114:44612//-->
+	<!-- HEADERS:  Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxdW12dW45Y2JodDNoN2tpNWZmMXRmZXYyaiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxNjc2MjQ1MCwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE2NzY2MDUwLCJpYXQiOjE2MTY3NjI0NTAsInZlcnNpb24iOjIsImp0aSI6ImMyMjJiMmNkLTIyYWMtNDU1ZC1hODQ0LTVjNDlmNDA3MmZjZSIsImNsaWVudF9pZCI6IjF1bXZ1bjljYmh0M2g3a2k1ZmYxdGZldjJqIn0.L5MqtrSBeHR1KIyw8vLUNpM_eEt3fOmjrT4D1mwrapnVr4qGNACF6JUAE-7QDUtwUdewpUlRdUpiIeJKx786VkG4u6Pvt5j57tYdDfWnoO4h6oNCrc4jG4kIY2akVDloulj0AkOu60NXMITeOP-nKznzd_CNVSSDySAjMdcpZjvr7QqSuKJuz71XZnvJOUg3aHTK2lDZRH5Q_isln55qgJkPc8TDYYsFTT6LVhy2jLLVB7KIdmHRB4Z3zsxOkhlGCq9pvCdtsQ8utyetbgqWZc-BaWu8QPUMSGKNhvS_fatQIv1MibHl0ON3yH0tzSxfmr7rTmaz1jHe-DlhX9rw,Connection:close,Content-Length:5100,Content-Type:text/xml; charset=UTF-8,Host:api.test.ddip.odpch.ch,User-Agent:akka-http/10.1.12,X-Amzn-Trace-Id:Root=1-605dd8e5-71df80e23d6d4b640d0e4743,X-Forwarded-For:195.65.154.121,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.63,X-Scheme:https//-->

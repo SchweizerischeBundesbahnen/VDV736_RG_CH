@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<CheckStatusRequest>
+		<RequestTimestamp>2021-04-22T05:59:18Z</RequestTimestamp>
+		<RequestorRef>ski-ems-in-sx_test</RequestorRef>
+	</CheckStatusRequest>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 22.04.2021 07:59:18//-->
+<!-- REQUEST-URL: http://lb.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/ski-ems-in-sx_test/ski-ddip-out-sx_test/checkstatus.xml//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.234:50904//-->
+<!-- HEADERS:  Connection:close,Content-Length:331,Content-Type:text/xml; charset=utf-8,Host:lb.test.ddip.odpch.ch:8882//-->

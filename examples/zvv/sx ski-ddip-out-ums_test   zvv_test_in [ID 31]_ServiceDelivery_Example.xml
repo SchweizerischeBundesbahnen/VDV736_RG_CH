@@ -1,74 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
 	<ServiceDelivery>
-		<ResponseTimestamp>2021-03-05T08:50:38.791465Z</ResponseTimestamp>
+		<ResponseTimestamp>2021-03-26T08:48:55.733138Z</ResponseTimestamp>
 		<ProducerRef>ski-ddip-out-ums_test</ProducerRef>
 		<SituationExchangeDelivery xmlns="http://www.siri.org.uk/siri">
-			<ResponseTimestamp>2021-03-05T08:50:38.791465Z</ResponseTimestamp>
+			<ResponseTimestamp>2021-03-26T08:48:55.733138Z</ResponseTimestamp>
 			<SubscriptionRef>1</SubscriptionRef>
 			<Situations>
 				<PtSituationElement>
-					<CreationTime>2021-03-05T09:50:24.701+01:00</CreationTime>
+					<CreationTime>2021-03-26T09:48:49.09+01:00</CreationTime>
 					<CountryRef>ch</CountryRef>
-					<ParticipantRef>pag-out-ums_test</ParticipantRef>
-					<SituationNumber>ch:1:sstid:100633:6041e63619b10260ddc0a4cf</SituationNumber>
-					<Version>0</Version>
+					<ParticipantRef>sbb-via-out-sx_test</ParticipantRef>
+					<SituationNumber>ch:1:sstid:100001:2195003633952</SituationNumber>
+					<Version>10</Version>
 					<Source>
 						<CountryRef>ch</CountryRef>
 						<SourceType>directReport</SourceType>
-						<Name xml:lang="de">PostAuto AG Schweiz</Name>
+						<Name xml:lang="DE">VIA</Name>
 					</Source>
-					<VersionedAtTime>2021-03-05T09:50:24.701+01:00</VersionedAtTime>
-					<Progress>open</Progress>
+					<VersionedAtTime>2021-03-26T09:48:49.09+01:00</VersionedAtTime>
+					<Progress>published</Progress>
 					<ValidityPeriod>
-						<StartTime>2021-03-05T09:01:00+01:00</StartTime>
-						<EndTime>2021-03-05T11:59:00+01:00</EndTime>
+						<StartTime>2021-03-25T08:48:00+01:00</StartTime>
+						<EndTime>2021-03-25T17:00:00+01:00</EndTime>
 					</ValidityPeriod>
-					<AlertCause>serviceDisruption</AlertCause>
+					<PublicationWindow>
+						<StartTime>2021-03-25T08:48:00+01:00</StartTime>
+						<EndTime>2021-03-25T17:00:00+01:00</EndTime>
+					</PublicationWindow>
+					<AlertCause>lightningStrike</AlertCause>
 					<Priority>3</Priority>
-					<ScopeType>line</ScopeType>
-					<Language>de</Language>
+					<ScopeType>stopPlace</ScopeType>
+					<Language>DE</Language>
+					<Summary xml:lang="DE">Einschränkungen im Bahnverkehr: Flüelen</Summary>
+					<Summary xml:lang="EN">Restrictions in rail traffic: Flüelen</Summary>
+					<Summary xml:lang="FR">Restrictions dans le trafic ferroviaire: Flüelen</Summary>
+					<Summary xml:lang="IT">Restrizioni nel traffico ferroviario: Flüelen</Summary>
+					<Description xml:lang="DE">Grund: Blitzschlag.&lt;br&gt;Sämtliche Züge fallen aus.&lt;br&gt;Dauer der Einschränkung: unbestimmt.&lt;br&gt;Die SBB wird so schnell wie möglich weiter informieren.</Description>
+					<Description xml:lang="EN">Reason: Lightning strike.&lt;br&gt;All train services are cancelled.&lt;br&gt;Duration of the disruption: undetermined.&lt;br&gt;SBB will continue to provide information as soon as possible.</Description>
+					<Description xml:lang="FR">Motif: Orages.&lt;br&gt;Tous les trains sont supprimés.&lt;br&gt;Durée de la perturbation indéterminée.&lt;br&gt;Les CFF vous tiendront informés de l'évolution de la situation dans les meilleurs délais.</Description>
+					<Description xml:lang="IT">Motivo: Fulmine.&lt;br&gt;Tutti i treni sono soppressi.&lt;br&gt;Durata del disservizio: indefinita.&lt;br&gt;Le FFS vi forniranno informazioni dettagliate nel più breve tempo possibile.</Description>
+					<Affects>
+						<StopPlaces>
+							<AffectedStopPlace>
+								<StopPlaceRef>8505112</StopPlaceRef>
+								<PlaceName xml:lang="DE">Flüelen</PlaceName>
+							</AffectedStopPlace>
+						</StopPlaces>
+					</Affects>
 					<PublishingActions>
 						<PublishingAction>
 							<PublishAtScope>
-								<ScopeType>line</ScopeType>
+								<ScopeType>stopPlace</ScopeType>
 								<Affects>
-									<Operators>
-										<AffectedOperator>
-											<OperatorRef>85:801</OperatorRef>
-											<OperatorName xml:lang="de">PostAuto Schweiz AG</OperatorName>
-											<OperatorShortName xml:lang="de">PAG</OperatorShortName>
-										</AffectedOperator>
-									</Operators>
-									<Networks>
-										<AffectedNetwork>
-											<AffectedLine>
-												<LineRef>85:801:1710</LineRef>
-												<PublishedLineName xml:lang="de">444</PublishedLineName>
-												<Direction>
-													<DirectionRef>A</DirectionRef>
-												</Direction>
-												<Direction>
-													<DirectionRef>B</DirectionRef>
-												</Direction>
-											</AffectedLine>
-										</AffectedNetwork>
-									</Networks>
+									<StopPlaces>
+										<AffectedStopPlace>
+											<StopPlaceRef>8505112</StopPlaceRef>
+											<PlaceName xml:lang="DE">Flüelen</PlaceName>
+										</AffectedStopPlace>
+									</StopPlaces>
 								</Affects>
 							</PublishAtScope>
 							<PassengerInformationAction>
 								<PublicationWindow>
-									<StartTime>2021-03-05T09:01:00+01:00</StartTime>
-									<EndTime>2021-03-05T11:59:00+01:00</EndTime>
+									<StartTime>2021-03-25T08:48:00+01:00</StartTime>
+									<EndTime>2021-03-25T17:00:00+01:00</EndTime>
 								</PublicationWindow>
-								<ActionRef>1</ActionRef>
-								<RecordedAtTime>2021-03-05T09:01:00+01:00</RecordedAtTime>
+								<ActionRef>DUMMY</ActionRef>
+								<RecordedAtTime>2021-03-25T08:48:00+01:00</RecordedAtTime>
+								<Version>10</Version>
+								<SourceRef>sbb-via-out-sx_test</SourceRef>
+								<OwnerRef>85:11</OwnerRef>
 								<Perspective>general</Perspective>
-								<ActionPriority>2</ActionPriority>
+								<ActionPriority>3</ActionPriority>
 								<TextualContent>
 									<SummaryContent>
-										<SummaryText xml:lang="de">Einschränkung Linie 444 vom 05.03. 09:01 bis 05.03. 11:59. Grund: Feuerwehreinsatz.</SummaryText>
+										<SummaryText xml:lang="DE">Der Bahnverkehr im Bahnhof Flüelen ist beeinträchtigt.</SummaryText>
+										<SummaryText xml:lang="EN">The rail traffic at station Flüelen is impaired.</SummaryText>
+										<SummaryText xml:lang="FR">Trafic restreint en gare de Flüelen.</SummaryText>
+										<SummaryText xml:lang="IT">Limitazioni dell'esercizio nella stazione di Flüelen.</SummaryText>
 									</SummaryContent>
+									<DescriptionContent>
+										<DescriptionText xml:lang="DE">Grund: Blitzschlag.&lt;br&gt;Sämtliche Züge fallen aus.&lt;br&gt;Dauer der Einschränkung: unbestimmt.&lt;br&gt;Die SBB wird so schnell wie möglich weiter informieren.</DescriptionText>
+										<DescriptionText xml:lang="EN">Reason: Lightning strike.&lt;br&gt;All train services are cancelled.&lt;br&gt;Duration of the disruption: undetermined.&lt;br&gt;SBB will continue to provide information as soon as possible.</DescriptionText>
+										<DescriptionText xml:lang="FR">Motif: Orages.&lt;br&gt;Tous les trains sont supprimés.&lt;br&gt;Durée de la perturbation indéterminée.&lt;br&gt;Les CFF vous tiendront informés de l'évolution de la situation dans les meilleurs délais.</DescriptionText>
+										<DescriptionText xml:lang="IT">Motivo: Fulmine.&lt;br&gt;Tutti i treni sono soppressi.&lt;br&gt;Durata del disservizio: indefinita.&lt;br&gt;Le FFS vi forniranno informazioni dettagliate nel più breve tempo possibile.</DescriptionText>
+									</DescriptionContent>
+								</TextualContent>
+							</PassengerInformationAction>
+						</PublishingAction>
+					</PublishingActions>
+				</PtSituationElement>
+				<PtSituationElement>
+					<CreationTime>2021-03-26T09:48:49.09+01:00</CreationTime>
+					<CountryRef>ch</CountryRef>
+					<ParticipantRef>sbb-via-out-sx_test</ParticipantRef>
+					<SituationNumber>ch:1:sstid:100001:2195003634384</SituationNumber>
+					<Version>2</Version>
+					<Source>
+						<CountryRef>ch</CountryRef>
+						<SourceType>directReport</SourceType>
+						<Name xml:lang="DE">VIA</Name>
+					</Source>
+					<VersionedAtTime>2021-03-26T09:48:49.09+01:00</VersionedAtTime>
+					<Progress>published</Progress>
+					<ValidityPeriod>
+						<StartTime>2021-03-25T07:35:00+01:00</StartTime>
+						<EndTime>2021-03-25T15:00:00.627+01:00</EndTime>
+					</ValidityPeriod>
+					<PublicationWindow>
+						<StartTime>2021-03-25T07:35:00+01:00</StartTime>
+						<EndTime>2021-03-25T15:00:00.627+01:00</EndTime>
+					</PublicationWindow>
+					<AlertCause>derailment</AlertCause>
+					<Priority>3</Priority>
+					<ScopeType>stopPlace</ScopeType>
+					<Language>DE</Language>
+					<Summary xml:lang="DE">Einschränkungen im Bahnverkehr: Bern</Summary>
+					<Summary xml:lang="EN">Restrictions in rail traffic: Bern</Summary>
+					<Summary xml:lang="FR">Restrictions dans le trafic ferroviaire: Bern</Summary>
+					<Summary xml:lang="IT">Restrizioni nel traffico ferroviario: Bern</Summary>
+					<Description xml:lang="DE">Grund: Entgleisung.&lt;br&gt;Es ist mit Verspätungen, Zugausfällen und Umleitungen zu rechnen.&lt;br&gt;Dauer der Einschränkung: bis voraussichtlich 15:00 Uhr.&lt;br&gt;Die SBB wird so schnell wie möglich weiter informieren.</Description>
+					<Description xml:lang="EN">Reason: Derailment.&lt;br&gt;Delays, cancellations and diversions are likely.&lt;br&gt;Duration of the disruption: until approximately 15:00.&lt;br&gt;SBB will continue to provide information as soon as possible.</Description>
+					<Description xml:lang="FR">Motif: Déraillement.&lt;br&gt;Des retards, des suppressions de trains et des détournements sont prévisibles.&lt;br&gt;Perturbation probable jusqu'à 15:00 h.&lt;br&gt;Les CFF vous tiendront informés de l'évolution de la situation dans les meilleurs délais.</Description>
+					<Description xml:lang="IT">Motivo: Deragliamento.&lt;br&gt;Sono previsti ritardi, soppressioni di treni e deviazioni.&lt;br&gt;Durata del disservizio: presumibilmente fino alle ore 15:00.&lt;br&gt;Le FFS vi forniranno informazioni dettagliate nel più breve tempo possibile.</Description>
+					<Affects>
+						<StopPlaces>
+							<AffectedStopPlace>
+								<StopPlaceRef>8507000</StopPlaceRef>
+								<PlaceName xml:lang="DE">Bern</PlaceName>
+							</AffectedStopPlace>
+						</StopPlaces>
+					</Affects>
+					<PublishingActions>
+						<PublishingAction>
+							<PublishAtScope>
+								<ScopeType>stopPlace</ScopeType>
+								<Affects>
+									<StopPlaces>
+										<AffectedStopPlace>
+											<StopPlaceRef>8507000</StopPlaceRef>
+											<PlaceName xml:lang="DE">Bern</PlaceName>
+										</AffectedStopPlace>
+									</StopPlaces>
+								</Affects>
+							</PublishAtScope>
+							<PassengerInformationAction>
+								<PublicationWindow>
+									<StartTime>2021-03-25T07:35:00+01:00</StartTime>
+									<EndTime>2021-03-25T15:00:00.627+01:00</EndTime>
+								</PublicationWindow>
+								<ActionRef>DUMMY</ActionRef>
+								<RecordedAtTime>2021-03-25T07:35:00+01:00</RecordedAtTime>
+								<Version>2</Version>
+								<SourceRef>sbb-via-out-sx_test</SourceRef>
+								<OwnerRef>85:11</OwnerRef>
+								<Perspective>general</Perspective>
+								<ActionPriority>3</ActionPriority>
+								<TextualContent>
+									<SummaryContent>
+										<SummaryText xml:lang="DE">Der Bahnverkehr im Bahnhof Bern ist unterbrochen.</SummaryText>
+										<SummaryText xml:lang="EN">The rail traffic at station Bern is interrupted.</SummaryText>
+										<SummaryText xml:lang="FR">Trafic interrompu en gare de Bern.</SummaryText>
+										<SummaryText xml:lang="IT">Interruzione nella stazione di Bern.</SummaryText>
+									</SummaryContent>
+									<DescriptionContent>
+										<DescriptionText xml:lang="DE">Grund: Entgleisung.&lt;br&gt;Es ist mit Verspätungen, Zugausfällen und Umleitungen zu rechnen.&lt;br&gt;Dauer der Einschränkung: bis voraussichtlich 15:00 Uhr.&lt;br&gt;Die SBB wird so schnell wie möglich weiter informieren.</DescriptionText>
+										<DescriptionText xml:lang="EN">Reason: Derailment.&lt;br&gt;Delays, cancellations and diversions are likely.&lt;br&gt;Duration of the disruption: until approximately 15:00.&lt;br&gt;SBB will continue to provide information as soon as possible.</DescriptionText>
+										<DescriptionText xml:lang="FR">Motif: Déraillement.&lt;br&gt;Des retards, des suppressions de trains et des détournements sont prévisibles.&lt;br&gt;Perturbation probable jusqu'à 15:00 h.&lt;br&gt;Les CFF vous tiendront informés de l'évolution de la situation dans les meilleurs délais.</DescriptionText>
+										<DescriptionText xml:lang="IT">Motivo: Deragliamento.&lt;br&gt;Sono previsti ritardi, soppressioni di treni e deviazioni.&lt;br&gt;Durata del disservizio: presumibilmente fino alle ore 15:00.&lt;br&gt;Le FFS vi forniranno informazioni dettagliate nel più breve tempo possibile.</DescriptionText>
+									</DescriptionContent>
 								</TextualContent>
 							</PassengerInformationAction>
 						</PublishingAction>
@@ -80,6 +181,6 @@
 </Siri>
 
 <!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
-<!-- TIMESTAMP: 05.03.2021 09:50:38//-->
+<!-- TIMESTAMP: 26.03.2021 09:48:55//-->
 <!-- REQUEST-URL: http://213.83.5.132:17017/ski-ddip-out-ums_test/vdv736//-->
 <!-- REMOTE_END_POINT-URL: http://213.83.5.132:17017/ski-ddip-out-ums_test/vdv736//-->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<CheckStatusResponse>
+		<ResponseTimestamp>2021-04-22T05:58:23Z</ResponseTimestamp>
+		<ProducerRef>ddip-out_test</ProducerRef>
+		<Status>true</Status>
+		<ServiceStartedTime>2021-04-22T02:13:12.672665Z</ServiceStartedTime>
+	</CheckStatusResponse>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 22.04.2021 07:58:22//-->
+<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/via-in_test/ddip-out_test//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.114:41844//-->
+<!-- HEADERS:  Accept:text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*,Accept-Encoding:gzip,deflate,Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIzMTc5NDJhdW5mcWdoamw2Z283ZzZpamdyYSIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxOTA3MDAyMCwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE5MDczNjIwLCJpYXQiOjE2MTkwNzAwMjAsInZlcnNpb24iOjIsImp0aSI6ImQ0NGRmNTg5LTI3ZTUtNDIzYi05OGJlLTYxZmRjNDgwYTgyNyIsImNsaWVudF9pZCI6IjMxNzk0MmF1bmZxZ2hqbDZnbzdnNmlqZ3JhIn0.ITn4isqgg8wOM1aWbwFtlNdMGb8f2a1HHe9IyFifHPZa4ipnkKYU-8Q3tJOeU0QQwH-KetQfWkSdwPn3tsenbj5R1g6YcAbuRVh7ChS-zdT_fF8I5-C8vnCtPZRD9SXoCCfZ5AuP_rd_iWCLjImKXpyfLqB880FCq52uJphiAsVMPbm-mD35jJjQ2Ar-67qdoXfcxcZDjyUdxPL5ZZzjwZ2cxoQ1qkZk9XQBqIxGG0Incj1I2kG2w2EO1cWM3dGzQIuPQCAO-3HbLt78oK_b18fO3ig5WjdPr9ch58i1g-UO55e-wLVVL5vbtfbOxH5LSz9qBPU_r9TAIJnLTb6Smw,Connection:close,Content-Length:398,Content-Type:text/plain;charset=ISO-8859-1,Cookie:AWSALB=hKNwMlLyFrrJlO8OXSKQoRhBV129ULSLVeLBongkgRcGEEzYeb9psdNXoF9PTuOyg2RXJosK+mxMa9xPJNZZZDnlH+Pvi0Z1XYY/SNYYu0Zht50xrg+Q6tvvEet8; AWSALBCORS=hKNwMlLyFrrJlO8OXSKQoRhBV129ULSLVeLBongkgRcGEEzYeb9psdNXoF9PTuOyg2RXJosK+mxMa9xPJNZZZDnlH+Pvi0Z1XYY/SNYYu0Zht50xrg+Q6tvvEet8; AWSALBTG=6dgmAI2o6Z8dc/6YuWcnjhJw1bWRvEMFpYFVz6okeV2Ef+ZpSsD0C1lEjUeflfW+9Rr9lNh3xjTIBTax0j58ifKZ32/KHiAtfZ1SWqhGZmTsn5ZHXHwTlGg6RC96daQdM4Hv5SYxYKUYrm3DY+gxKDyguromR5TbbbqzcyEB47p2yj7okB0=; AWSALBTGCORS=6dgmAI2o6Z8dc/6YuWcnjhJw1bWRvEMFpYFVz6okeV2Ef+ZpSsD0C1lEjUeflfW+9Rr9lNh3xjTIBTax0j58ifKZ32/KHiAtfZ1SWqhGZmTsn5ZHXHwTlGg6RC96daQdM4Hv5SYxYKUYrm3DY+gxKDyguromR5TbbbqzcyEB47p2yj7okB0=,Host:api.test.ddip.odpch.ch,User-Agent:Apache-HttpClient/4.5.13 (Java/11.0.10),X-Amzn-Trace-Id:Root=1-6081107e-5019ee5e37effd586ee18d7d,X-Forwarded-For:194.150.244.80,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.63,X-Scheme:https//-->

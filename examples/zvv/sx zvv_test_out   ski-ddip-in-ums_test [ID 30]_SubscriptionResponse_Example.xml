@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Siri xmlns="http://www.siri.org.uk/siri" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:datex="http://datex2.eu/schema/2_0RC1/2_0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:datex="http://datex2.eu/schema/2_0RC1/2_0" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
 	<SubscriptionResponse>
-		<ResponseTimestamp>2021-03-05T02:00:07.269Z</ResponseTimestamp>
+		<ResponseTimestamp>2021-03-26T02:00:07.546Z</ResponseTimestamp>
 		<Address>https://api.test.ddip.odpch.ch:443/siri20/ps-xml/sx/zvv_test_out/ski-ddip-in-ums_test/</Address>
 		<ResponderRef>zvv_test_out</ResponderRef>
 		<ResponseStatus>
-			<ResponseTimestamp>2021-03-05T02:00:07.269Z</ResponseTimestamp>
+			<ResponseTimestamp>2021-03-26T02:00:07.546Z</ResponseTimestamp>
 			<SubscriberRef>ski-ddip-in-ums_test</SubscriberRef>
 			<SubscriptionRef>1</SubscriptionRef>
 		</ResponseStatus>
-		<ServiceStartedTime>2021-03-03T12:45:11.290Z</ServiceStartedTime>
+		<ServiceStartedTime>2021-03-24T18:32:02.318Z</ServiceStartedTime>
 	</SubscriptionResponse>
 </Siri>
 
 <!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
-<!-- TIMESTAMP: 05.03.2021 03:00:07//-->
+<!-- TIMESTAMP: 26.03.2021 03:00:07//-->
 <!-- REQUEST-URL: http://213.83.5.132:17017/ski-ddip-in-ums_test/vdv736//-->
 <!-- REMOTE_END_POINT-URL: http://213.83.5.132:17017/ski-ddip-in-ums_test/vdv736//-->

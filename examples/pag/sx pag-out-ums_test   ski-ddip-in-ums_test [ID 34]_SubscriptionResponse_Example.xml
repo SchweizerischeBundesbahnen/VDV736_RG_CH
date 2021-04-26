@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Siri xmlns="http://www.siri.org.uk/siri" xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns:ns4="http://datex2.eu/schema/2_0RC1/2_0" xmlns:ns3="http://www.ifopt.org.uk/ifopt" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+<!--TODO XML Schema instance added -->
+<Siri xmlns="http://www.siri.org.uk/siri"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns:ns4="http://datex2.eu/schema/2_0RC1/2_0" xmlns:ns3="http://www.ifopt.org.uk/ifopt" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
 	<SubscriptionResponse>
-		<ResponseTimestamp>2021-03-05T09:49:10.131+01:00</ResponseTimestamp>
+		<ResponseTimestamp>2021-04-22T03:00:14.770+02:00</ResponseTimestamp>
 		<ResponseStatus>
-			<ResponseTimestamp>2021-03-05T09:49:10.131+01:00</ResponseTimestamp>
+			<ResponseTimestamp>2021-04-22T03:00:14.771+02:00</ResponseTimestamp>
 			<SubscriptionRef>1</SubscriptionRef>
 			<Status>true</Status>
 		</ResponseStatus>
@@ -11,6 +12,6 @@
 </Siri>
 
 <!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
-<!-- TIMESTAMP: 05.03.2021 09:49:10//-->
+<!-- TIMESTAMP: 22.04.2021 03:00:14//-->
 <!-- REQUEST-URL: https://vdv736.oevfahrplan.ch:443/vdv736/pag-out-ums_test/ski-ddip-in-ums_test//-->
 <!-- REMOTE_END_POINT-URL: https://vdv736.oevfahrplan.ch:443/vdv736/pag-out-ums_test/ski-ddip-in-ums_test//-->

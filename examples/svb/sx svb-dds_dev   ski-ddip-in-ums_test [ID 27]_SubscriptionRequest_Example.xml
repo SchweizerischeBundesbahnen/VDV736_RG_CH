@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
 	<SubscriptionRequest>
-		<RequestTimestamp>2021-03-05T08:00:31.868713Z</RequestTimestamp>
+		<RequestTimestamp>2021-04-22T01:00:14.551644Z</RequestTimestamp>
 		<RequestorRef>ski-ddip-in-ums_test</RequestorRef>
 		<SituationExchangeSubscriptionRequest>
 			<SubscriberRef>ski-ddip-in-ums_test</SubscriberRef>
 			<SubscriptionIdentifier>1</SubscriptionIdentifier>
-			<InitialTerminationTime>2021-03-06T02:00:00Z</InitialTerminationTime>
+			<InitialTerminationTime>2021-04-23T01:00:00Z</InitialTerminationTime>
 			<SituationExchangeRequest>
-				<RequestTimestamp>2021-03-05T08:00:31.868713Z</RequestTimestamp>
+				<RequestTimestamp>2021-04-22T01:00:14.551644Z</RequestTimestamp>
 			</SituationExchangeRequest>
 		</SituationExchangeSubscriptionRequest>
 	</SubscriptionRequest>
 </Siri>
 
 <!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
-<!-- TIMESTAMP: 05.03.2021 09:00:31//-->
+<!-- TIMESTAMP: 22.04.2021 03:00:14//-->
 <!-- REQUEST-URL: https://vdv736-dev.ddsbern.ch:443/ski-ddip_test/ums//-->
 <!-- REMOTE_END_POINT-URL: https://vdv736-dev.ddsbern.ch:443/ski-ddip_test/ums//-->

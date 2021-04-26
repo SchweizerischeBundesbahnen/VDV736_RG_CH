@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<DataReceivedAcknowledgement>
+		<ResponseTimestamp>2021-04-22T01:00:20Z</ResponseTimestamp>
+		<ConsumerRef>ddip-in_test</ConsumerRef>
+		<Status>true</Status>
+	</DataReceivedAcknowledgement>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 22.04.2021 03:00:19//-->
+<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/via-out_test/ddip-in_test//-->
+<!-- REMOTE_END_POINT-URL: 10.39.17.114:44788//-->
+<!-- HEADERS:  Authorization:Bearer e0cSkYs78nZnEEiCdDzy5pbc0bAapxJSvSAkzbMnFZhbYxiP6IBz7eZie19Kw3ng-3HRkmT0Vyf9pEggOIvIvZj4WuE2UpbKWfsso1QW5LQ46rR8XUPjQ6c3iViglPHCXyWNho3pJTkHxcaoKVTFuWfPKzwqCm6LsGsm_ytu16PvrL7RE4PHQozK02Kn34KgBax8X_-bOLylz77tMO9oLCG6xgpcNlXDwMIPTA,Connection:close,Content-Length:4664,Content-Type:text/xml; charset=UTF-8,Host:api.test.ddip.odpch.ch,User-Agent:akka-http/10.1.12,X-Amzn-Trace-Id:Root=1-6080caa3-36a0ef38324671df68da6bc4,X-Forwarded-For:195.65.154.114,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.63,X-Scheme:https//-->

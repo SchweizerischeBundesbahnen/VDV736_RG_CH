@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<SubscriptionRequest>
+		<RequestTimestamp>2021-04-22T01:00:14.985199Z</RequestTimestamp>
+		<RequestorRef>ski-ddip-in-sx_test</RequestorRef>
+		<SituationExchangeSubscriptionRequest>
+			<SubscriberRef>ski-ddip-in-sx_test</SubscriberRef>
+			<SubscriptionIdentifier>1</SubscriptionIdentifier>
+			<InitialTerminationTime>2021-04-23T01:00:00Z</InitialTerminationTime>
+			<SituationExchangeRequest>
+				<RequestTimestamp>2021-04-22T01:00:14.985199Z</RequestTimestamp>
+			</SituationExchangeRequest>
+		</SituationExchangeSubscriptionRequest>
+	</SubscriptionRequest>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 22.04.2021 03:00:14//-->
+<!-- REQUEST-URL: http://10.39.17.234:80/siri/server/736v1//-->
+<!-- REMOTE_END_POINT-URL: http://10.39.17.234:80/siri/server/736v1//-->

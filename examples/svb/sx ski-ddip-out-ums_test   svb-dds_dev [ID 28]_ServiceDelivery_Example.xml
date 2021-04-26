@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
 	<ServiceDelivery>
-		<ResponseTimestamp>2021-03-05T08:50:38.604989Z</ResponseTimestamp>
+		<ResponseTimestamp>2021-04-22T04:28:02.798454Z</ResponseTimestamp>
 		<ProducerRef>ski-ddip-out-ums_test</ProducerRef>
-		<SituationExchangeDelivery xmlns="http://www.siri.org.uk/siri">
-			<ResponseTimestamp>2021-03-05T08:50:38.604989Z</ResponseTimestamp>
-			<SubscriptionRef>20015</SubscriptionRef>
+		<SituationExchangeDelivery>
+			<ResponseTimestamp>2021-04-22T04:28:02.798454Z</ResponseTimestamp>
+			<SubscriptionRef>20014</SubscriptionRef>
 			<Situations>
 				<PtSituationElement>
-					<CreationTime>2021-03-05T09:50:21.871+01:00</CreationTime>
+					<CreationTime>2021-04-22T06:27:00.427+02:00</CreationTime>
 					<CountryRef>ch</CountryRef>
 					<ParticipantRef>pag-out-ums_test</ParticipantRef>
-					<SituationNumber>ch:1:sstid:100633:6041205e19b10260ddc0a49a</SituationNumber>
+					<SituationNumber>ch:1:sstid:100602:6080fb1419b10260ddc0ab4b</SituationNumber>
 					<Version>0</Version>
 					<Source>
 						<CountryRef>ch</CountryRef>
 						<SourceType>directReport</SourceType>
-						<Name xml:lang="de">PostAuto AG Schweiz</Name>
+						<Name xml:lang="de">PostAuto AG</Name>
 					</Source>
-					<VersionedAtTime>2021-03-05T09:50:21.871+01:00</VersionedAtTime>
-					<Progress>open</Progress>
+					<VersionedAtTime>2021-04-22T06:27:56.109+02:00</VersionedAtTime>
+					<Progress>published</Progress>
 					<ValidityPeriod>
-						<StartTime>2021-03-04T18:58:00+01:00</StartTime>
-						<EndTime>2021-03-04T20:05:18+01:00</EndTime>
+						<StartTime>2021-04-22T06:25:00+02:00</StartTime>
+						<EndTime>2021-04-22T23:59:59.999+02:00</EndTime>
 					</ValidityPeriod>
 					<AlertCause>serviceDisruption</AlertCause>
 					<Priority>3</Priority>
@@ -33,18 +33,21 @@
 							<PublishAtScope>
 								<ScopeType>line</ScopeType>
 								<Affects>
-									<Operators>
-										<AffectedOperator>
-											<OperatorRef>85:801</OperatorRef>
-											<OperatorName xml:lang="de">PostAuto Schweiz AG</OperatorName>
-											<OperatorShortName xml:lang="de">PAG</OperatorShortName>
-										</AffectedOperator>
-									</Operators>
 									<Networks>
 										<AffectedNetwork>
 											<AffectedLine>
-												<LineRef>85:801:1276</LineRef>
-												<PublishedLineName xml:lang="de">76</PublishedLineName>
+												<LineRef>85:801:2241</LineRef>
+												<PublishedLineName xml:lang="de">120</PublishedLineName>
+												<Direction>
+													<DirectionRef>A</DirectionRef>
+												</Direction>
+												<Direction>
+													<DirectionRef>B</DirectionRef>
+												</Direction>
+											</AffectedLine>
+											<AffectedLine>
+												<LineRef>85:801:2242</LineRef>
+												<PublishedLineName xml:lang="de">121</PublishedLineName>
 												<Direction>
 													<DirectionRef>A</DirectionRef>
 												</Direction>
@@ -58,151 +61,20 @@
 							</PublishAtScope>
 							<PassengerInformationAction>
 								<PublicationWindow>
-									<StartTime>2021-03-04T18:58:00+01:00</StartTime>
-									<EndTime>2021-03-04T20:05:18+01:00</EndTime>
+									<StartTime>2021-04-22T06:25:00+02:00</StartTime>
+									<EndTime>2021-04-22T23:59:59.999+02:00</EndTime>
 								</PublicationWindow>
 								<ActionRef>1</ActionRef>
-								<RecordedAtTime>2021-03-04T18:58:00+01:00</RecordedAtTime>
+								<RecordedAtTime>2021-04-22T06:27:00.427+02:00</RecordedAtTime>
 								<Perspective>general</Perspective>
 								<ActionPriority>2</ActionPriority>
 								<TextualContent>
 									<SummaryContent>
-										<SummaryText xml:lang="de">Fixe: Limitation de la circulation des bus ligne 76</SummaryText>
+										<SummaryText xml:lang="de">Einschränkung Linien 120 und 121</SummaryText>
 									</SummaryContent>
-								</TextualContent>
-							</PassengerInformationAction>
-						</PublishingAction>
-					</PublishingActions>
-				</PtSituationElement>
-				<PtSituationElement>
-					<CreationTime>2021-03-05T09:50:22.029+01:00</CreationTime>
-					<CountryRef>ch</CountryRef>
-					<ParticipantRef>pag-out-ums_test</ParticipantRef>
-					<SituationNumber>ch:1:sstid:100633:604121c419b10260ddc0a49c</SituationNumber>
-					<Version>0</Version>
-					<Source>
-						<CountryRef>ch</CountryRef>
-						<SourceType>directReport</SourceType>
-						<Name xml:lang="de">PostAuto AG Schweiz</Name>
-					</Source>
-					<VersionedAtTime>2021-03-05T09:50:22.029+01:00</VersionedAtTime>
-					<Progress>open</Progress>
-					<ValidityPeriod>
-						<StartTime>2021-03-04T19:04:00+01:00</StartTime>
-						<EndTime>2021-03-05T00:04:22+01:00</EndTime>
-					</ValidityPeriod>
-					<AlertCause>serviceDisruption</AlertCause>
-					<Priority>3</Priority>
-					<ScopeType>line</ScopeType>
-					<Language>de</Language>
-					<PublishingActions>
-						<PublishingAction>
-							<PublishAtScope>
-								<ScopeType>line</ScopeType>
-								<Affects>
-									<Operators>
-										<AffectedOperator>
-											<OperatorRef>85:801</OperatorRef>
-											<OperatorName xml:lang="de">PostAuto Schweiz AG</OperatorName>
-											<OperatorShortName xml:lang="de">PAG</OperatorShortName>
-										</AffectedOperator>
-									</Operators>
-									<Networks>
-										<AffectedNetwork>
-											<AffectedLine>
-												<LineRef>85:801:1262</LineRef>
-												<PublishedLineName xml:lang="de">62</PublishedLineName>
-												<Direction>
-													<DirectionRef>A</DirectionRef>
-												</Direction>
-												<Direction>
-													<DirectionRef>B</DirectionRef>
-												</Direction>
-											</AffectedLine>
-										</AffectedNetwork>
-									</Networks>
-								</Affects>
-							</PublishAtScope>
-							<PassengerInformationAction>
-								<PublicationWindow>
-									<StartTime>2021-03-04T19:04:00+01:00</StartTime>
-									<EndTime>2021-03-05T00:04:22+01:00</EndTime>
-								</PublicationWindow>
-								<ActionRef>1</ActionRef>
-								<RecordedAtTime>2021-03-04T19:04:00+01:00</RecordedAtTime>
-								<Perspective>general</Perspective>
-								<ActionPriority>2</ActionPriority>
-								<TextualContent>
-									<SummaryContent>
-										<SummaryText xml:lang="de">Fixe: Limitation de la circulation des bus ligne 62</SummaryText>
-									</SummaryContent>
-								</TextualContent>
-							</PassengerInformationAction>
-						</PublishingAction>
-					</PublishingActions>
-				</PtSituationElement>
-				<PtSituationElement>
-					<CreationTime>2021-03-05T09:50:24.701+01:00</CreationTime>
-					<CountryRef>ch</CountryRef>
-					<ParticipantRef>pag-out-ums_test</ParticipantRef>
-					<SituationNumber>ch:1:sstid:100633:6041e63619b10260ddc0a4cf</SituationNumber>
-					<Version>0</Version>
-					<Source>
-						<CountryRef>ch</CountryRef>
-						<SourceType>directReport</SourceType>
-						<Name xml:lang="de">PostAuto AG Schweiz</Name>
-					</Source>
-					<VersionedAtTime>2021-03-05T09:50:24.701+01:00</VersionedAtTime>
-					<Progress>open</Progress>
-					<ValidityPeriod>
-						<StartTime>2021-03-05T09:01:00+01:00</StartTime>
-						<EndTime>2021-03-05T11:59:00+01:00</EndTime>
-					</ValidityPeriod>
-					<AlertCause>serviceDisruption</AlertCause>
-					<Priority>3</Priority>
-					<ScopeType>line</ScopeType>
-					<Language>de</Language>
-					<PublishingActions>
-						<PublishingAction>
-							<PublishAtScope>
-								<ScopeType>line</ScopeType>
-								<Affects>
-									<Operators>
-										<AffectedOperator>
-											<OperatorRef>85:801</OperatorRef>
-											<OperatorName xml:lang="de">PostAuto Schweiz AG</OperatorName>
-											<OperatorShortName xml:lang="de">PAG</OperatorShortName>
-										</AffectedOperator>
-									</Operators>
-									<Networks>
-										<AffectedNetwork>
-											<AffectedLine>
-												<LineRef>85:801:1710</LineRef>
-												<PublishedLineName xml:lang="de">444</PublishedLineName>
-												<Direction>
-													<DirectionRef>A</DirectionRef>
-												</Direction>
-												<Direction>
-													<DirectionRef>B</DirectionRef>
-												</Direction>
-											</AffectedLine>
-										</AffectedNetwork>
-									</Networks>
-								</Affects>
-							</PublishAtScope>
-							<PassengerInformationAction>
-								<PublicationWindow>
-									<StartTime>2021-03-05T09:01:00+01:00</StartTime>
-									<EndTime>2021-03-05T11:59:00+01:00</EndTime>
-								</PublicationWindow>
-								<ActionRef>1</ActionRef>
-								<RecordedAtTime>2021-03-05T09:01:00+01:00</RecordedAtTime>
-								<Perspective>general</Perspective>
-								<ActionPriority>2</ActionPriority>
-								<TextualContent>
-									<SummaryContent>
-										<SummaryText xml:lang="de">Einschränkung Linie 444 vom 05.03. 09:01 bis 05.03. 11:59. Grund: Feuerwehreinsatz.</SummaryText>
-									</SummaryContent>
+									<DescriptionContent>
+										<DescriptionText xml:lang="de">Einschränkung Linien 120 und 121 bis ca. 22.04. 09:00. Grund: Fahrzeugdefekt.</DescriptionText>
+									</DescriptionContent>
 								</TextualContent>
 							</PassengerInformationAction>
 						</PublishingAction>
@@ -214,6 +86,6 @@
 </Siri>
 
 <!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
-<!-- TIMESTAMP: 05.03.2021 09:50:38//-->
+<!-- TIMESTAMP: 22.04.2021 06:28:02//-->
 <!-- REQUEST-URL: https://vdv736-dev.ddsbern.ch:443/ski-ddip_test/ums//-->
 <!-- REMOTE_END_POINT-URL: https://vdv736-dev.ddsbern.ch:443/ski-ddip_test/ums//-->

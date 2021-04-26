@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:ifopt="http://www.ifopt.org.uk/ifopt" xmlns:acsb="http://www.ifopt.org.uk/acsb" xmlns:datex="http://datex2.eu/schema/2_0RC1/2_0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd">
+	<ServiceDelivery>
+			<ResponseTimestamp>2021-03-26T12:39:11Z</ResponseTimestamp>
+			<ProducerRef>svb-dds_dev</ProducerRef>
+			<Status>true</Status>
+			<MoreData>false</MoreData>
+			<SituationExchangeDelivery version="2.0">
+				<ResponseTimestamp>2021-03-26T13:39:11+01:00</ResponseTimestamp>
+				<SubscriptionRef>1</SubscriptionRef>
+				<Situations>
+					<PtSituationElement>
+						<CreationTime>2021-03-26T13:38:06+01:00</CreationTime>
+						<CountryRef>ch</CountryRef>
+						<ParticipantRef>int-svb-lio-test-sx</ParticipantRef>
+						<SituationNumber>SVB:6</SituationNumber>
+						<UpdateCountryRef>ch</UpdateCountryRef>
+						<UpdateParticipantRef>int-svb-lio-test-sx</UpdateParticipantRef>
+						<Version>1</Version>
+						<Source>
+							<CountryRef>ch</CountryRef>
+							<SourceType>directReport</SourceType>
+							<!--TODO xml:lang fehlt --><Name xml:lang="DE">SVB</Name>
+						</Source>
+						<Progress>published</Progress>
+						<ValidityPeriod>
+							<StartTime>2021-03-26T13:38:06+01:00</StartTime>
+							<EndTime>2021-03-27T03:00:00+01:00</EndTime>
+						</ValidityPeriod>
+						<AlertCause>specialEvent</AlertCause>
+						<Priority>3</Priority>
+						<Summary xml:lang="de">Haltestelle nicht bedient. Die Linie 8 fährt infolge Streckenunterbruchs bis/ab Holenacker.</Summary>
+						<PublishingActions>
+							<PublishingAction>
+								<PublishAtScope>
+									<ScopeType>general</ScopeType>
+									<Affects>
+										<StopPoints>
+											<AffectedStopPoint>
+												<StopPointRef>858226201</StopPointRef>
+											</AffectedStopPoint>
+											<AffectedStopPoint>
+												<StopPointRef>858226202</StopPointRef>
+											</AffectedStopPoint>
+											<AffectedStopPoint>
+												<StopPointRef>858226216</StopPointRef>
+											</AffectedStopPoint>
+											<AffectedStopPoint>
+												<StopPointRef>859004501</StopPointRef>
+											</AffectedStopPoint>
+											<AffectedStopPoint>
+												<StopPointRef>859004510</StopPointRef>
+											</AffectedStopPoint>
+											<AffectedStopPoint>
+												<StopPointRef>859004515</StopPointRef>
+											</AffectedStopPoint>
+											<AffectedStopPoint>
+												<StopPointRef>859004516</StopPointRef>
+											</AffectedStopPoint>
+										</StopPoints>
+									</Affects>
+								</PublishAtScope>
+								<PassengerInformationAction>
+									<PublicationWindow>
+										<StartTime>2021-03-26T13:38:06+01:00</StartTime>
+										<EndTime>2021-03-27T03:00:00+01:00</EndTime>
+									</PublicationWindow>
+									<ActionRef>SVB:6</ActionRef>
+									<RecordedAtTime>2021-03-26T13:38:06+01:00</RecordedAtTime>
+									<OwnerRef>SVB</OwnerRef>
+									<Perspective>general</Perspective>
+									<Perspective>stopPoint</Perspective>
+									<ActionPriority>4</ActionPriority>
+									<TextualContent>
+										<SummaryContent>
+											<SummaryText xml:lang="de">Haltestelle nicht bedient. Die Linie 8 fährt infolge Streckenunterbruchs bis/ab Holenacker.</SummaryText>
+										</SummaryContent>
+										<DescriptionContent>
+											<DescriptionText xml:lang="de">Haltestelle nicht bedient. Die Linie 8 fährt infolge Streckenunterbruchs bis/ab Holenacker.</DescriptionText>
+										</DescriptionContent>
+									</TextualContent>
+								</PassengerInformationAction>
+							</PublishingAction>
+						</PublishingActions>
+					</PtSituationElement>
+				</Situations>
+			</SituationExchangeDelivery>
+		</ServiceDelivery>
+	</Siri>
+
+	<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+	<!-- TIMESTAMP: 26.03.2021 13:39:12//-->
+	<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/svb-dds_dev/ski-ddip-in-ums_test//-->
+	<!-- REMOTE_END_POINT-URL: 10.39.17.114:35064//-->
+	<!-- HEADERS:  Accept:text/xml,Authorization:Bearer eyJraWQiOiI2UkJLYjljRGREQ2JkVzdJQVwvYlwvSFV1RGhHK05cL0xhbnh4MjdyaVwvUnc4UT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiI1NDhjNmxwNDA0YTgxbGUzNGwzcmJybWo4YiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoic2ktc2JiLWRkaXAtdFwvc2ktc2JiLWRkaXAtdCIsImF1dGhfdGltZSI6MTYxNjc2MjI5MywiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tXC9ldS1jZW50cmFsLTFfSldQSWk4RVhkIiwiZXhwIjoxNjE2NzY1ODkzLCJpYXQiOjE2MTY3NjIyOTMsInZlcnNpb24iOjIsImp0aSI6IjVmZjk2ODg1LTg5NDYtNDJmMS1hMDdmLTA2NjU5NWFhMDIxZSIsImNsaWVudF9pZCI6IjU0OGM2bHA0MDRhODFsZTM0bDNyYnJtajhiIn0.A7js-bbUO_n2F4YUQzxc-3i0O6m2gLsFO5mpOBUhHC24XXZ4c6j3H9taOEyBI4m4B83c3Llri633_6gv4HOciOOtVjex3BmISfjmsvYhlD9eMv_2jCjylKJE-z-9VzaPWUPv197svQ3dWQMMsmSfGPxDl1p1jUO-hjVBfw5fAGg4A8HCjhitn4NFZT5_TQPW9KklC0rzf7MyDGVkq6fwvAMQRTeQm-9fhSbLfOyUL0nS_NEE295NODJxvQuC_ya1Dj2voazw2oWKu_jizGcA_s68IWCfwNswDiU5LEtrmORr6Ti9LYfT1yTef0ze1XO3dTQ6RLUzA49yMYx6BDEeWg,Connection:close,Content-Length:7065,Content-Type:text/xml,Host:api.test.ddip.odpch.ch,User-Agent:VDV Leitstellenkopplung,X-Amzn-Trace-Id:Root=1-605dd5f0-71db02c23f0f3cda2bd96a18,X-Forwarded-For:217.192.58.132,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.63,X-Scheme:https//-->

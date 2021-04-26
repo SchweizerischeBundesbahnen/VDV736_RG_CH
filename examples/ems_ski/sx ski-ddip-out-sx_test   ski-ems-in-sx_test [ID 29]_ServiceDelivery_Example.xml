@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Siri xmlns="http://www.siri.org.uk/siri" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
+	<ServiceDelivery>
+		<ResponseTimestamp>2021-04-22T05:39:24.197473Z</ResponseTimestamp>
+		<ProducerRef>ski-ddip-out-sx_test</ProducerRef>
+		<SituationExchangeDelivery>
+			<ResponseTimestamp>2021-04-22T05:39:24.197473Z</ResponseTimestamp>
+			<SubscriptionRef>9FCmQaMSF</SubscriptionRef>
+			<Situations>
+				<PtSituationElement>
+					<CreationTime>2021-04-19T11:09:55+02:00</CreationTime>
+					<CountryRef>ch</CountryRef>
+					<ParticipantRef>svb-webums_dev</ParticipantRef>
+					<SituationNumber>ch:1:sstid:100626:607d48e3e8d963285090553d</SituationNumber>
+					<UpdateCountryRef>ch</UpdateCountryRef>
+					<UpdateParticipantRef>svb-webums_dev</UpdateParticipantRef>
+					<Version>2</Version>
+					<Source>
+						<CountryRef>ch</CountryRef>
+						<SourceType>directReport</SourceType>
+						<!--TODO xml:lang--><Name xml:lang="DE">BERNMOBIL</Name>
+					</Source>
+					<Progress>published</Progress>
+					<ValidityPeriod>
+						<StartTime>2021-04-19T11:08:00+02:00</StartTime>
+						<EndTime>2021-04-22T23:59:59+02:00</EndTime>
+					</ValidityPeriod>
+					<AlertCause>serviceDisruption</AlertCause>
+					<Priority>3</Priority>
+					<ScopeType>line</ScopeType>
+					<PublishingActions>
+						<PublishingAction>
+							<PublishAtScope>
+								<ScopeType>general</ScopeType>
+								<Affects>
+									<Networks>
+										<AffectedNetwork>
+											<AffectedLine>
+												<LineRef>85:827:20</LineRef>
+												<Direction>
+													<DirectionRef>A</DirectionRef>
+												</Direction>
+												<Direction>
+													<DirectionRef>B</DirectionRef>
+												</Direction>
+											</AffectedLine>
+										</AffectedNetwork>
+									</Networks>
+								</Affects>
+							</PublishAtScope>
+							<PassengerInformationAction>
+								<PublicationWindow>
+									<StartTime>2021-04-19T11:08:00+02:00</StartTime>
+									<EndTime>2021-04-22T23:59:59+02:00</EndTime>
+								</PublicationWindow>
+								<ActionRef>1</ActionRef>
+								<RecordedAtTime>2021-04-19T11:09:55+02:00</RecordedAtTime>
+								<Perspective>general</Perspective>
+								<ActionPriority>2</ActionPriority>
+								<TextualContent>
+									<SummaryContent>
+										<SummaryText xml:lang="de">Linie 20: Unregelmässiger Betrieb </SummaryText>
+									</SummaryContent>
+									<DescriptionContent>
+										<DescriptionText xml:lang="de">19.04.2021, 11:08 Uhr: Auf Linie 20 ist infolge Landung Heissluftbalon mit unregelmässigem Betrieb zu rechnen. Dauer: unbestimmt. </DescriptionText>
+									</DescriptionContent>
+								</TextualContent>
+							</PassengerInformationAction>
+						</PublishingAction>
+					</PublishingActions>
+				</PtSituationElement>
+			</Situations>
+		</SituationExchangeDelivery>
+	</ServiceDelivery>
+</Siri>
+
+<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+<!-- TIMESTAMP: 22.04.2021 07:39:24//-->
+<!-- REQUEST-URL: http://10.39.17.234:80/siri/client/736v1//-->
+<!-- REMOTE_END_POINT-URL: http://10.39.17.234:80/siri/client/736v1//-->

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Siri xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xmlns="http://www.siri.org.uk/siri" xsi:schemaLocation="http://www.siri.org.uk/siri ../../xsd/siri.xsd">
 	<CheckStatusRequest>
-		<RequestTimestamp>2021-02-28T08:59:22.255925Z</RequestTimestamp>
-		<RequestorRef>DDIP-in_test</RequestorRef>
+		<RequestTimestamp>2021-04-22T04:58:36.726834Z</RequestTimestamp>
+		<RequestorRef>ddip-in_test</RequestorRef>
 	</CheckStatusRequest>
 </Siri>
 
 <!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
-<!-- TIMESTAMP: 28.02.2021 09:59:22//-->
-<!-- REQUEST-URL: http://10.39.17.234:80/siri/server/736v1//-->
-<!-- REMOTE_END_POINT-URL: http://10.39.17.234:80/siri/server/736v1//-->
+<!-- TIMESTAMP: 22.04.2021 06:58:36//-->
+<!-- REQUEST-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->
+<!-- REMOTE_END_POINT-URL: https://via-vdv736-adapter-dev-int.api.sbb.ch:443/api/v1/situationexchange//-->

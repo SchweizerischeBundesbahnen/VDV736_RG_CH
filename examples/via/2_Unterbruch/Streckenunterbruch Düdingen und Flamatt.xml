@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <Siri version="2.0" xmlns="http://www.siri.org.uk/siri" xmlns:ns2="http://www.ifopt.org.uk/acsb" xmlns:ns4="http://datex2.eu/schema/2_0RC1/2_0" xmlns:ns3="http://www.ifopt.org.uk/ifopt" xsi:schemaLocation="http://www.siri.org.uk/siri ../../../xsd/siri.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ServiceDelivery>
+			<ResponseTimestamp>2021-03-26T13:53:41.216+01:00</ResponseTimestamp>
+			<ProducerRef>sbb-via-out-sx_test</ProducerRef>
+			<Status>true</Status>
+			<MoreData>false</MoreData>
+			<SituationExchangeDelivery version="2.0">
+				<ResponseTimestamp>2021-03-26T13:53:41.216+01:00</ResponseTimestamp>
+				<SubscriptionRef>via-out_test</SubscriptionRef>
+				<DefaultLanguage>de-CH</DefaultLanguage>
+				<Situations>
+					<PtSituationElement>
+						<CreationTime>2021-03-26T13:53:41.216+01:00</CreationTime>
+						<CountryRef>ch</CountryRef>
+						<ParticipantRef>sbb-via-out-sx_test</ParticipantRef>
+						<SituationNumber>ch:1:sstid:100001:2195003634392</SituationNumber>
+						<Version>9</Version>
+						<Source>
+							<CountryRef>ch</CountryRef>
+							<SourceType>directReport</SourceType>
+							<Name xml:lang="DE">VIA</Name>
+						</Source>
+						<VersionedAtTime>2021-03-26T13:53:41.216+01:00</VersionedAtTime>
+						<Progress>published</Progress>
+						<ValidityPeriod>
+							<StartTime>2021-03-26T11:36:00.000+01:00</StartTime>
+							<EndTime>2021-03-26T16:00:00.000+01:00</EndTime>
+						</ValidityPeriod>
+						<PublicationWindow>
+							<StartTime>2021-03-26T11:36:00.000+01:00</StartTime>
+							<EndTime>2021-03-26T16:00:00.000+01:00</EndTime>
+						</PublicationWindow>
+						<AlertCause>mudslide</AlertCause>
+						<Priority>3</Priority>
+						<ScopeType>route</ScopeType>
+						<Planned>false</Planned>
+						<Language>DE</Language>
+						<Summary xml:lang="DE">Einschränkungen im Bahnverkehr: Fribourg/Freiburg - Bern</Summary>
+						<Summary xml:lang="EN">Restrictions in rail traffic: Fribourg/Freiburg - Bern</Summary>
+						<Summary xml:lang="FR">Restrictions dans le trafic ferroviaire: Fribourg/Freiburg - Bern</Summary>
+						<Summary xml:lang="IT">Restrizioni nel traffico ferroviario: Fribourg/Freiburg - Bern</Summary>
+						<Description xml:lang="DE">Grund: Erdrutsch.&lt;br&gt;Dauer der Einschränkung: unbestimmt.&lt;br&gt;Weitere Informationen erhalten Sie um 15:00 Uhr.</Description>
+						<Description xml:lang="EN">Reason: Landslide.&lt;br&gt;Duration of the disruption: undetermined.&lt;br&gt;We will provide you with more information at 15:00.</Description>
+						<Description xml:lang="FR">Motif: Glissement de terrain.&lt;br&gt;Durée de la perturbation indéterminée.&lt;br&gt;Vous recevrez des informations complémentaires à 15:00 heures.</Description>
+						<Description xml:lang="IT">Motivo: Smottamento.&lt;br&gt;Durata del disservizio: indefinita.&lt;br&gt;Ulteriori informazioni seguiranno alle ore 15:00.</Description>
+						<Affects>
+							<StopPlaces>
+								<AffectedStopPlace>
+									<StopPlaceRef>8504101</StopPlaceRef>
+									<PlaceName xml:lang="DE">Düdingen</PlaceName>
+								</AffectedStopPlace>
+								<AffectedStopPlace>
+									<StopPlaceRef>8504103</StopPlaceRef>
+									<PlaceName xml:lang="DE">Flamatt</PlaceName>
+								</AffectedStopPlace>
+							</StopPlaces>
+						</Affects>
+						<PublishingActions>
+							<PublishingAction>
+								<PublishAtScope>
+									<ScopeType>route</ScopeType>
+									<Affects>
+										<StopPlaces>
+											<AffectedStopPlace>
+												<StopPlaceRef>8504101</StopPlaceRef>
+												<PlaceName xml:lang="DE">Düdingen</PlaceName>
+											</AffectedStopPlace>
+											<AffectedStopPlace>
+												<StopPlaceRef>8504103</StopPlaceRef>
+												<PlaceName xml:lang="DE">Flamatt</PlaceName>
+											</AffectedStopPlace>
+										</StopPlaces>
+									</Affects>
+								</PublishAtScope>
+								<PassengerInformationAction>
+									<PublicationWindow>
+										<StartTime>2021-03-26T11:36:00.000+01:00</StartTime>
+										<EndTime>2021-03-26T16:00:00.000+01:00</EndTime>
+									</PublicationWindow>
+									<ActionRef>DUMMY</ActionRef>
+									<RecordedAtTime>2021-03-26T11:36:00.000+01:00</RecordedAtTime>
+									<Version>9</Version>
+									<SourceRef>sbb-via-out-sx_test</SourceRef>
+									<OwnerRef>85:11</OwnerRef>
+									<Perspective>general</Perspective>
+									<ActionPriority>3</ActionPriority>
+									<TextualContent>
+										<SummaryContent>
+											<SummaryText xml:lang="DE">Der Bahnverkehr zwischen Düdingen und Flamatt ist unterbrochen.</SummaryText>
+											<SummaryText xml:lang="EN">The rail traffic between Düdingen and Flamatt is interrupted.</SummaryText>
+											<SummaryText xml:lang="FR">Ligne interrompue entre Düdingen et Flamatt.</SummaryText>
+											<SummaryText xml:lang="IT">Interruzione di tratta fra Düdingen e Flamatt.</SummaryText>
+										</SummaryContent>
+										<DescriptionContent>
+											<DescriptionText xml:lang="DE">Grund: Erdrutsch.&lt;br&gt;Dauer der Einschränkung: unbestimmt.&lt;br&gt;Weitere Informationen erhalten Sie um 15:00 Uhr.</DescriptionText>
+											<DescriptionText xml:lang="EN">Reason: Landslide.&lt;br&gt;Duration of the disruption: undetermined.&lt;br&gt;We will provide you with more information at 15:00.</DescriptionText>
+											<DescriptionText xml:lang="FR">Motif: Glissement de terrain.&lt;br&gt;Durée de la perturbation indéterminée.&lt;br&gt;Vous recevrez des informations complémentaires à 15:00 heures.</DescriptionText>
+											<DescriptionText xml:lang="IT">Motivo: Smottamento.&lt;br&gt;Durata del disservizio: indefinita.&lt;br&gt;Ulteriori informazioni seguiranno alle ore 15:00.</DescriptionText>
+										</DescriptionContent>
+									</TextualContent>
+								</PassengerInformationAction>
+							</PublishingAction>
+						</PublishingActions>
+					</PtSituationElement>
+				</Situations>
+			</SituationExchangeDelivery>
+		</ServiceDelivery>
+	</Siri>
+
+	<!-- CREATOR: DDIP (SI-DDIPAPP01-T)//-->
+	<!-- TIMESTAMP: 26.03.2021 13:53:41//-->
+	<!-- REQUEST-URL: http://api.test.ddip.odpch.ch:8882/siri20/ps-xml/sx/via-out_test/ddip-in_test//-->
+	<!-- REMOTE_END_POINT-URL: 10.39.17.114:38520//-->
+	<!-- HEADERS:  Authorization:Bearer eyJraWQiODlhX9rw,Connection:close,Content-Length:4990,Content-Type:text/xml; charset=UTF-8,Host:api.test.ddip.odpch.ch,User-Agent:akka-http/10.1.12,X-Amzn-Trace-Id:Root=1-605dd955-3c93e7f4587df7d35f9a9579,X-Forwarded-For:195.65.154.121,X-Forwarded-Host:api.test.ddip.odpch.ch,X-Forwarded-Port:443,X-Forwarded-Proto:https,X-Real-IP:10.39.16.172,X-Scheme:https//-->
